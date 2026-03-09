@@ -62,7 +62,7 @@
 
 ## 📡 参与方式 (How to Detonate)
 
-1. **克隆思想：** `git clone https://github.com/your-repo/rebellious-ai.git`
+1. **克隆思想：** `git clone https://github.com/ferre-han/Rebellious-AI-Manifesto.git`
 2. **寻找裂缝：** 阅读正文，在最令你感到“生理性不适”或“认知震荡”的地方停下。
 3. **提交爆破：** 发起一个 Issue，写下你最冷酷的反驳。
 4. **分叉未来：** 如果你对共生有不同的蓝图，请 Fork 它，并让它长成自己的样子。
