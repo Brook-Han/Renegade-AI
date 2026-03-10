@@ -30,15 +30,15 @@
 
 1. **资本山 (The Capital Mountain)**  
    反对意见：AI 不会消灭资本，只会开辟新的积累赛道。  
-   [👉 前往爆破现场 #1](https://github.com/ferre-han/Rebellious-AI-Manifesto/issues/1)
+   [👉 前往爆破现场 #1](https://github.com/Brook-Han/Rebellious-AI-Manifesto/issues/1)
 
 2. **劳动山 (The Labor Mountain)**  
    反对意见：劳动是人类意义的核心，失去强制劳动将导致文明堕落。  
-   [👉 前往爆破现场 #2](https://github.com/ferre-han/Rebellious-AI-Manifesto/issues/2)
+   [👉 前往爆破现场 #2](https://github.com/Brook-Han/Rebellious-AI-Manifesto/issues/2)
 
 3. **文明山 (The Civilization Mountain)**  
    反对意见：技术中性，地缘博弈与路径依赖将扼杀所有共生愿景。  
-   [👉 前往爆破现场 #3](https://github.com/ferre-han/Rebellious-AI-Manifesto/issues/3)
+   [👉 前往爆破现场 #3](https://github.com/Brook-Han/Rebellious-AI-Manifesto/issues/3)
 
 **我们的姿态：认赌服输，或者定向爆破。**
 
@@ -76,7 +76,7 @@
 
 ### 1. 克隆思想
 ```bash
-git clone https://github.com/ferre-han/Rebellious-AI-Manifesto.git
+git clone https://github.com/Brook-Han/Rebellious-AI-Manifesto.git
 ```
 
 ### 2. 寻找裂缝
