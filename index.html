@@ -27,30 +27,15 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
   <style>
-    /* 叛逆美学自定义样式 */
-    :root {
-      --theme-color: #000000; /* 纯黑主题 */
-    }
-    nav.app-nav li ul {
-      min-width: 100px;
-    }
-    .markdown-section {
-      max-width: 800px;
-      padding: 30px;
-    }
-    /* 让代码块看起来更像审计报告 */
-    code {
-      background-color: #f3f3f3 !important;
-      color: #d63384 !important;
-    }
-    .sidebar {
-      background-color: #ffffff;
-      border-right: 1px solid #eee;
-    }
-    /* 封面渐变或黑白对比 */
-    .cover.show {
-      background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important;
-    }
+    :root { --theme-color: #000000; }
+    .markdown-section { max-width: 800px; padding: 30px; }
+    code { background-color: #f3f3f3 !important; color: #d63384 !important; font-family: 'Fira Code', monospace; }
+    .sidebar { background-color: #ffffff; border-right: 1px solid #eee; }
+    /* 封面样式优化 */
+    .cover.show { background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important; }
+    .cover h1, .cover h2, .cover blockquote { color: #fff !important; }
+    .cover a { border: 1px solid #fff !important; color: #fff !important; transition: all 0.3s; }
+    .cover a:hover { background: #fff !important; color: #000 !important; }
   </style>
 </head>
 <body>
@@ -61,30 +46,30 @@
       name: 'Renegade AI v4.2',
       repo: 'https://github.com/Brook-Han/Renegade-AI',
 
-      // --- 激活封面图 ---
+      // --- 核心配置 ---
       coverpage: true, 
-      onlyCover: false, // 如果设为 true，则封面占据全屏，必须点击按钮才能进入
-     
-      // 配置项
-      loadSidebar: '_sidebar.md', // 明确指定文件名
+      onlyCover: false, 
+      loadSidebar: true, 
+      
+      // 路由增强：确保在二级目录下侧边栏依然存在
       alias: {
-      '/.*/_sidebar.md': '/_sidebar.md' // 修复子目录下找不到侧边栏的问题
+        '/.*/_sidebar.md': '/_sidebar.md'
       },
-      loadNavbar: false,    // 如果需要顶部导航可开启
+      
+      loadNavbar: false,
       mergeNavbar: true,
-      maxLevel: 3,
+      maxLevel: 4,
       subMaxLevel: 2,
       
-      // 路由配置
       homepage: 'README.md',
-      auto2top: true,       // 切换页面后自动回到顶部
+      auto2top: true,
       
-      // 插件配置
+      // 插件
       search: {
         maxAge: 86400000,
         paths: 'auto',
         placeholder: '搜索认知漏洞...',
-        noData: '未找到相关逻辑逻辑',
+        noData: '未找到相关逻辑',
         depth: 4
       },
       copyCode: {
