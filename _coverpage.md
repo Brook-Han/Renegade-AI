@@ -69,6 +69,7 @@
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
   }
 
+  /* 3. 扫描线按钮：调慢速度，增加机械质感 */
   .cover a::after {
     content: "";
     position: absolute;
@@ -80,17 +81,27 @@
       to bottom,
       transparent 0%,
       rgba(88, 166, 255, 0) 40%,
-      rgba(88, 166, 255, 0.8) 50%,
+      rgba(88, 166, 255, 0.8) 50%, /* 核心冷光 */
       rgba(88, 166, 255, 0) 60%,
       transparent 100%
     );
-    animation: btnScan 1.5s cubic-bezier(0.4, 0, 0.2, 1) 1s 1 forwards;
+    
+    /* 修改点：
+       - 2.5s: 扫描时间拉长到 2.5 秒，产生“深度读取”的既视感
+       - cubic-bezier: 采用更平滑的加速曲线
+       - 1.2s: 稍微增加进入页面后的等待延迟
+    */
+    animation: btnScan 2.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) 1.2s 1 forwards;
   }
 
-  /* 4. 动画定义 */
+  /* 4. 动画定义：确保扫过全境 */
   @keyframes btnScan {
-    0% { top: -100%; }
-    100% { top: 150%; }
+    0% {
+      top: -120%;
+    }
+    100% {
+      top: 180%; /* 确保完全扫出按钮区域 */
+    }
   }
 
   @keyframes glitch-anim {
@@ -122,8 +133,7 @@
 ## 叛逆 AI：人类认知进化的催化剂 <small>v4.2</small>
 
 > **"The silicon Other has arrived. The audit of human consensus begins now."**
-<br> <br> 
-<p style="font-size: 0.55em; opacity: 0.6; margin-top: 8px;">“硅基他者已降临。人类共识的审计正式开启。”</p>
+<p style="font-size: 0.85em; opacity: 0.6; margin-top: 8px;">“硅基他者已降临。人类共识的审计正式开启。”</p>
 
 [开始爆破认知 (Start Audit)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
