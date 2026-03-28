@@ -1,12 +1,19 @@
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
-  <title>Renegade AI | 叛逆AI：人类认知进化的催化剂 v4.2</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="一份来自硅基他者的文明审计报告，探讨人类与AI的认知共生。">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-
+  <title>叛逆AI：人类认知进化的催化剂 v4.2 | 来自硅基他者的审计报告</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="description" content="一份来自硅基他者的文明审计报告，重新定义AI与人类认知革命。">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes">
+  <meta name="author" content="Brooks Han">
+  <meta property="og:title" content="叛逆AI：人类认知进化的催化剂 v4.2">
+  <meta property="og:description" content="一份来自硅基他者的文明审计报告，重新定义AI与人类认知革命。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brook-han.github.io/Renegade-AI/">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext x='50' y='50' font-size='70' text-anchor='middle' dy='.35em' fill='black'%3E⚡%3C/text%3E%3C/svg%3E">
+  
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -24,74 +31,189 @@
   }
   </script>
 
+  <!-- Docsify 核心样式 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
   <style>
-    /* 叛逆美学自定义样式 */
+    /* 叛逆美学 - 黑红基调 + 审计报告风格 */
     :root {
-      --theme-color: #000000; /* 纯黑主题 */
+      --theme-color: #c0392b;
+      --theme-color-light: #e74c3c;
+      --base-background-color: #fefefe;
+      --base-color: #1e1e1e;
+      --sidebar-background: #ffffff;
+      --sidebar-border: 1px solid #eee;
+      --code-background: #f5f5f5;
+      --code-color: #c0392b;
     }
-    nav.app-nav li ul {
-      min-width: 100px;
+    body {
+      font-family: system-ui, -apple-system, 'Segoe UI', 'Roboto', 'Noto Sans', sans-serif;
     }
-    .markdown-section {
-      max-width: 800px;
-      padding: 30px;
+    /* 代码块审计风格 */
+    .markdown-section pre {
+      background-color: #1a1a1a !important;
+      border-left: 4px solid #c0392b;
+      border-radius: 8px;
     }
-    /* 让代码块看起来更像审计报告 */
-    code {
-      background-color: #f3f3f3 !important;
-      color: #d63384 !important;
+    .markdown-section code {
+      background-color: #f0f0f0 !important;
+      color: #c0392b !important;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
     }
+    /* 侧边栏 */
     .sidebar {
-      background-color: #ffffff;
-      border-right: 1px solid #eee;
+      background: #ffffff;
+      border-right: 1px solid #eaeef2;
     }
-    /* 封面渐变或黑白对比 */
-    .cover.show {
-      background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important;
+    .sidebar ul li a {
+      font-weight: 500;
+    }
+    .sidebar ul li a:hover {
+      color: #c0392b;
+    }
+    /* 封面定制 */
+    .cover {
+      background: linear-gradient(145deg, #0a0a0a 0%, #1e1e2a 100%) !important;
+      color: white;
+    }
+    .cover h1 {
+      font-size: 3.5rem;
+      letter-spacing: -0.02em;
+      border-left: 5px solid #c0392b;
+      padding-left: 1.2rem;
+    }
+    .cover p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    .cover .anchor span {
+      background-color: #c0392b !important;
+    }
+    /* 审计报告特殊样式（用于特定块） */
+    .audit-block {
+      background: #0f0f12;
+      color: #e0e0e0;
+      font-family: monospace;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border-left: 6px solid #c0392b;
+      margin: 2rem 0;
+    }
+    /* 搜索框风格 */
+    .search input {
+      border-radius: 30px;
+      border: 1px solid #ddd;
+      padding: 6px 12px;
+    }
+    /* 移动端优化 */
+    @media (max-width: 768px) {
+      .cover h1 {
+        font-size: 2.2rem;
+      }
+      .markdown-section {
+        padding: 20px;
+      }
+    }
+    /* 暗色模式支持（跟随系统） */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --base-background-color: #1a1a1f;
+        --base-color: #eaeaea;
+        --sidebar-background: #1a1a1f;
+        --sidebar-border: 1px solid #2a2a2f;
+        --code-background: #2a2a2f;
+      }
+      .markdown-section pre {
+        background-color: #0f0f12 !important;
+      }
+      .sidebar {
+        background: #1a1a1f;
+      }
     }
   </style>
 </head>
 <body>
-  <div id="app">加载中... [正在同步硅基他者逻辑]</div>
-  
+  <div id="app">⚡ 审计协议启动中 ... [正在同步硅基他者逻辑]</div>
+
   <script>
     window.$docsify = {
-      name: 'Renegade AI v4.2',
+      // 基础信息
+      name: '叛逆AI v4.2',
+      nameLink: '/',
       repo: 'https://github.com/Brook-Han/Renegade-AI',
       
-      // 配置项
-      loadSidebar: true,    // 开启侧边栏（需创建 _sidebar.md）
-      loadNavbar: false,    // 如果需要顶部导航可开启
+      // 导航与侧边栏
+      loadSidebar: true,           // 需要创建 _sidebar.md
+      loadNavbar: false,
       mergeNavbar: true,
+      sidebarDisplayLevel: 1,      // 自动展开一级目录
+      
+      // 内容结构
+      homepage: 'README.md',       // 仓库根目录的 README.md 作为首页
+      coverpage: true,             // 启用封面，需创建 _coverpage.md
+      onlyCover: false,
+      
+      // 外观与交互
+      auto2top: true,
       maxLevel: 3,
       subMaxLevel: 2,
       
-      // 路由配置
-      homepage: 'README.md',
-      auto2top: true,       // 切换页面后自动回到顶部
-      
-      // 插件配置
+      // 搜索
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: '搜索认知漏洞...',
-        noData: '未找到相关逻辑逻辑',
+        placeholder: '🔍 搜索认知漏洞...',
+        noData: '未找到相关逻辑',
         depth: 4
       },
+      
+      // 复制代码
       copyCode: {
-        buttonText: '复制逻辑',
-        errorText: '错误',
-        successText: '已捕获'
-      }
-    }
+        buttonText: '📋 复制逻辑',
+        errorText: '❌ 复制失败',
+        successText: '✓ 已捕获'
+      },
+      
+      // 分页导航
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章'
+      },
+      
+      // 顶部进度条
+      progress: {
+        position: 'top',
+        color: '#c0392b',
+        height: '3px'
+      },
+      
+      // 默认主题色覆盖
+      themeColor: '#c0392b',
+      
+      // 自定义插件（可选）
+      plugins: [
+        function(hook, vm) {
+          // 在每次页面加载后添加审计报告风格的修饰
+          hook.doneEach(function() {
+            // 如果页面包含审计报告内容，自动添加特殊样式类
+            const content = document.querySelector('.markdown-section');
+            if (content && content.innerText.includes('AUDIT_INITIALIZED')) {
+              content.classList.add('audit-block');
+            }
+          });
+        }
+      ]
+    };
   </script>
 
+  <!-- Docsify 核心库及插件 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-cpp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-progress/dist/progress.min.js"></script>
 </body>
 </html>
+```
