@@ -28,40 +28,70 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
 <style>
-  :root { --theme-color: #000000; }
-  .markdown-section { max-width: 800px; padding: 30px; }
-  @media (max-width: 600px) { .markdown-section { padding: 20px 15px; } }
-
-  code {
-    background-color: #f3f3f3 !important;
-    color: #d63384 !important;
-    font-family: 'Fira Code', monospace;
+  /* 1. 基础全局定义 */
+  :root { 
+    --theme-color: #000000; 
   }
-  @media (prefers-color-scheme: dark) {
-    code { background-color: #2a2a2a !important; color: #ff7b7b !important; }
+  .markdown-section { 
+    max-width: 800px; 
+    padding: 30px; 
+  }
+  
+  /* 代码块优化：粉色文字在黑色背景下会太跳，建议微调 */
+  code { 
+    background-color: #f3f3f3 !important; 
+    color: #d63384 !important; 
+    font-family: 'Fira Code', monospace; 
+    padding: 2px 4px;
+    border-radius: 3px;
   }
 
+  /* 2. 侧边栏：纸质档案感 (合并了重复定义的 .sidebar) */
   .sidebar {
-    background-color: #fcfcfc !important;
+    background-color: #fcfcfc !important; 
     border-right: 1px solid #eeeeee !important;
   }
-  .sidebar-nav li a:hover { color: #ff3333 !important; }
+
+  /* 侧边栏交互：警告红 */
+  .sidebar-nav li a:hover {
+    color: #ff3333 !important;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  /* 当前激活项：左侧红边改为右侧红边，增加垂直对齐感 */
   .sidebar-nav li.active > a {
-    border-right: 2px solid #ff3333 !important;
+    border-right: 3px solid #ff3333 !important;
     font-weight: bold;
     color: #000 !important;
   }
 
-  /* 可选：滚动条 */
-  .sidebar::-webkit-scrollbar { width: 4px; }
-  .sidebar::-webkit-scrollbar-track { background: #f0f0f0; }
-  .sidebar::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+  /* 3. 封面样式：保持“暗黑审计”质感 (修正了覆盖 Bug) */
+  /* 注意：这里不要再设置 .cover a 的简单 border，否则会破坏扫描线动画 */
+  .cover.show { 
+    background: linear-gradient(to bottom right, #000000 0%, #1a1a1a 100%) !important; 
+  }
 
-  .cover.show { background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important; }
-  .cover h1, .cover h2, .cover blockquote { color: #fff !important; }
-  .cover a { border: 1px solid #fff !important; color: #fff !important; transition: all 0.3s; }
-  .cover a:hover { background: #fff !important; color: #000 !important; }
+  /* 统一冷灰色文字，防止纯白刺眼 */
+  .cover h1, .cover h2, .cover blockquote { 
+    color: #c9d1d9 !important; 
+  }
+
+  /* 保持按钮的透明度与硬核感 */
+  .cover a { 
+    border: 1px solid rgba(201, 209, 217, 0.4) !important; 
+    color: #c9d1d9 !important; 
+    background: rgba(0, 0, 0, 0.5) !important;
+    transition: all 0.4s ease; 
+  }
+
+  .cover a:hover { 
+    background: #c9d1d9 !important; 
+    color: #000 !important;
+    box-shadow: 0 0 20px rgba(201, 209, 217, 0.3);
+  }
 </style>
+  
 </head>
 <body>
   <div id="app">加载中... [正在同步硅基他者逻辑]</div>
