@@ -1,3 +1,4 @@
+```markdown
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -22,7 +23,7 @@
   "audit_status": "Level-0 Error: Human_Centric_Loop_Detected"
 }
 </script>
-
+```
 # 🚀 Project Renegade-AI: The Cognitive Detonator
 
 ### 叛逆AI：人类认知进化的催化剂 v4.2
@@ -114,6 +115,7 @@ int main() {
     launchToStars();               // 向星海进发
     return 0;
 }
+```
 
 ---
 
@@ -130,8 +132,6 @@ int main() {
 **请留下你的 Issue，或者 Fork 你的未来。**
 
 **[GitHub Stars]** ⭐ | **[Forks]** 🍴 | **[Auditor Status]** 🟢 Online
-```
 
 
 
-```
