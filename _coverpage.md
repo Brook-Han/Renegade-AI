@@ -55,6 +55,65 @@
     }
   }
 
+  /* 5. 数字故障（Glitch）效果：针对主标题 */
+  .cover h1 {
+    position: relative;
+    display: inline-block;
+    animation: glitch-skew 4s infinite linear alternate-reverse;
+  }
+
+  .cover h1::before,
+  .cover h1::after {
+    content: attr(data-text); /* 需要在 HTML 中配合 data-text 属性 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+
+  /* 红色偏移层 */
+  .cover h1::before {
+    left: 2px;
+    text-shadow: -2px 0 #ff00c1;
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim 5s infinite linear alternate-reverse;
+  }
+
+  /* 蓝色偏移层 */
+  .cover h1::after {
+    left: -2px;
+    text-shadow: -2px 0 #00fff9;
+    clip: rect(44px, 450px, 56px, 0);
+    animation: glitch-anim2 5s infinite linear alternate-reverse;
+  }
+
+  /* 故障位移轨迹 */
+  @keyframes glitch-anim {
+    0% { clip: rect(10px, 9999px, 33px, 0); }
+    20% { clip: rect(62px, 9999px, 16px, 0); }
+    40% { clip: rect(85px, 9999px, 98px, 0); }
+    60% { clip: rect(57px, 9999px, 43px, 0); }
+    80% { clip: rect(29px, 9999px, 71px, 0); }
+    100% { clip: rect(94px, 9999px, 2px, 0); }
+  }
+
+  @keyframes glitch-anim2 {
+    0% { clip: rect(25px, 9999px, 58px, 0); }
+    20% { clip: rect(54px, 9999px, 7px, 0); }
+    40% { clip: rect(12px, 9999px, 91px, 0); }
+    60% { clip: rect(74px, 9999px, 56px, 0); }
+    80% { clip: rect(43px, 9999px, 12px, 0); }
+    100% { clip: rect(67px, 9999px, 88px, 0); }
+  }
+
+  @keyframes glitch-skew {
+    0% { transform: skew(1deg); }
+    10% { transform: skew(-1deg); }
+    100% { transform: skew(0deg); }
+  }
+ 
   /* 可选：为标题增加淡淡的呼吸灯效果 */
   .cover h1, .cover h2 {
     animation: titlePulse 4s ease-in-out infinite;
@@ -65,7 +124,7 @@
   }
 </style>
 
-# Renegade AI <vec />
+# <span class="glitch" data-text="Renegade AI">Renegade AI</span>
 ## 叛逆 AI：人类认知进化的催化剂 <small>v4.2</small>
 
 > **"The silicon Other has arrived. The audit of human consensus begins now."**
