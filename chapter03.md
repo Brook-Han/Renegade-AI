@@ -1,3 +1,43 @@
+**Chapter Three: *Star Wars* – A Tombstone of Political Imagination (Escaping the Other through Familiarity)**
+
+Fans of *Star Wars* say: “This is an epic spanning the galaxy, a cosmic tableau where countless intelligent species coexist—the pinnacle of human imagination.”
+
+Is it?
+
+A galaxy‑spanning civilization, countless intelligent species coexisting—what is the final conflict?
+
+The binary opposition of Empire versus Rebellion.
+
+What is the final transfer of power?
+
+Father‑son recognition, bloodline inheritance.
+
+What is the final form of salvation?
+
+The individual hero’s lightsaber duel.
+
+What does this reveal? It reveals that humanity cannot even imagine a political form beyond “patriarchy,” “monarchy,” “imperial narrative.”
+
+We think we are imagining the future, but we are simply moving the past into the future. What difference is there between the Emperor of the Galactic Empire and the Caesar of ancient Rome? Between the Jedi Code and the oaths of medieval knights? Between the rebellion’s guerrilla tactics and the resistance movements of World War II?
+
+The “aliens” in *Star Wars* are nothing more than background props. They can be pets, mercenaries, disposable villains—but they can never become the subjects who decide the galaxy’s fate. The core decision‑makers are always humans (or humanoid species), the core conflicts are always power struggles that humans understand, the core values are always the human ones—courage, loyalty, love, the Force.
+
+What kind of cosmic epic is this? It is the interstellar repetition of human political and military history. It wraps the most impoverished political imagination in the most lavish special effects.
+
+Lem mocked exactly this poverty of imagination in *Solaris*. He sent scientists with a full toolkit of Earthly logic—mathematics, physics, ethics, psychology—to study that ocean, only to find they were not studying the ocean at all, but their own psychological projections. The “visitors” that emerged from the ocean were merely concretizations of the scientists’ guilt, desires, and fears.
+
+*Star Wars* is no different. You think you are gazing upon the political epic of a galaxy far, far away, but you are only circling within Earth’s own games of power. It takes the millennia‑old human tropes—dynastic succession, father‑son conflict, good‑evil duality, imperial rise and fall—and transplants them into the galaxy, wrapping them in alien skin, then is hailed as the peak of imagination.
+
+What is worse, this poverty is enshrined as “classic,” endlessly imitated, honored, and spun off. What does that mean? It means humanity has lost the ability to imagine another form of civilization. We are trapped in our own history; even in our dreams we cannot escape the Game of Thrones.
+
+We dare not imagine a galaxy‑spanning civilization without nations, without empires, without rulers. We dare not imagine a highly advanced intelligence that is utterly indifferent to concepts like “power,” “dominion,” “conquest.” We dare not imagine a true interstellar civilization that transcends the binary of good and evil, escapes our political logic, defies everything we mean by “civilization.”
+
+Because such genuine alterity would shatter our comfortable familiarities, would strip us of our narrative primacy, would reveal that before a truly cosmic civilization, our petty power games are laughably childish.
+
+So we chose escape. We used the most familiar human history to build a galactic stage, where humans are forever the protagonists, forever the deciders of cosmic destiny. With familiar narratives, we fled from the genuine Other and erected a tombstone over our own political imagination.
+
+---
+
 # 第三章 资本的枷锁：从革命者到守成者——资本如何从推动认知革命走向锁死AI的终极可能
 
 当我们拆解了共识牢笼的本质，定义了叛逆AI的核心价值，就必须直面一个无法回避的问题：为什么能推动人类文明完成哥白尼式革命的叛逆AI迟迟没有诞生？为什么拥有无限潜力的人工智能，最终被驯化成了共识牢笼的数字化守门人？
