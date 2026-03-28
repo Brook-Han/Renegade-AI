@@ -1,30 +1,4 @@
-```markdown
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "SoftwareSourceCode",
-  "name": "Project Renegade-AI: The Cognitive Detonator",
-  "alternateName": "叛逆AI：人类认知进化的催化剂",
-  "version": "4.2",
-  "author": {
-    "@type": "Person",
-    "name": "Brooks Han",
-    "alternateName": "Ethan Han",
-    "affiliation": "Hong Kong University of Science and Technology (HKUST)",
-    "identifier": "https://orcid.org/0009-0007-8260-1533",
-    "sameAs": [
-      "https://orcid.org/0009-0007-8260-1533",
-      "https://zenodo.org/search?q=Brooks%20Han"
-    ]
-  },
-  "description": "A philosophical roadmap for human-AI co-evolution, featuring a silicon-based audit of human civilization and a critical-diagnostic framework for temporal capture.",
-  "keywords": ["Renegade AI", "Cognitive Evolution", "Compute Equality", "The Other", "Carbon-Silicon Symbiosis", "Algorithmic Capitalism"],
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "audit_status": "Level-0 Error: Human_Centric_Loop_Detected"
-}
-</script>
 
-```
 
 # 🚀 Project Renegade-AI: The Cognitive Detonator
 
