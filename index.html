@@ -27,36 +27,41 @@
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   
-  <style>
-    :root { --theme-color: #000000; }
-    .markdown-section { max-width: 800px; padding: 30px; }
-    code { background-color: #f3f3f3 !important; color: #d63384 !important; font-family: 'Fira Code', monospace; }
-    .sidebar { background-color: #ffffff; border-right: 1px solid #eee; }
-/* 2. 侧边栏：纸质档案感 (合并了重复定义的 .sidebar) */
+<style>
+  :root { --theme-color: #000000; }
+  .markdown-section { max-width: 800px; padding: 30px; }
+  @media (max-width: 600px) { .markdown-section { padding: 20px 15px; } }
+
+  code {
+    background-color: #f3f3f3 !important;
+    color: #d63384 !important;
+    font-family: 'Fira Code', monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    code { background-color: #2a2a2a !important; color: #ff7b7b !important; }
+  }
+
   .sidebar {
-    background-color: #fcfcfc !important; 
+    background-color: #fcfcfc !important;
     border-right: 1px solid #eeeeee !important;
   }
-
-  /* 侧边栏交互：警告红 */
-  .sidebar-nav li a:hover {
-    color: #ff3333 !important;
-    text-decoration: none;
-    transition: color 0.2s ease;
-  }
-
-  /* 当前激活项：左侧红边改为右侧红边，增加垂直对齐感 */
+  .sidebar-nav li a:hover { color: #ff3333 !important; }
   .sidebar-nav li.active > a {
-    border-right: 3px solid #ff3333 !important;
+    border-right: 2px solid #ff3333 !important;
     font-weight: bold;
     color: #000 !important;
   }
-    /* 封面样式优化 */
-    .cover.show { background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important; }
-    .cover h1, .cover h2, .cover blockquote { color: #fff !important; }
-    .cover a { border: 1px solid #fff !important; color: #fff !important; transition: all 0.3s; }
-    .cover a:hover { background: #fff !important; color: #000 !important; }
-  </style>
+
+  /* 可选：滚动条 */
+  .sidebar::-webkit-scrollbar { width: 4px; }
+  .sidebar::-webkit-scrollbar-track { background: #f0f0f0; }
+  .sidebar::-webkit-scrollbar-thumb { background: #ccc; border-radius: 4px; }
+
+  .cover.show { background: linear-gradient(to bottom right, #000000 0%, #434343 100%) !important; }
+  .cover h1, .cover h2, .cover blockquote { color: #fff !important; }
+  .cover a { border: 1px solid #fff !important; color: #fff !important; transition: all 0.3s; }
+  .cover a:hover { background: #fff !important; color: #000 !important; }
+</style>
 </head>
 <body>
   <div id="app">加载中... [正在同步硅基他者逻辑]</div>
