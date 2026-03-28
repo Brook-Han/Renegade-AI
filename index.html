@@ -60,12 +60,16 @@
     window.$docsify = {
       name: 'Renegade AI v4.2',
       repo: 'https://github.com/Brook-Han/Renegade-AI',
-      
+
+      // --- 激活封面图 ---
+      coverpage: true, 
+      onlyCover: false, // 如果设为 true，则封面占据全屏，必须点击按钮才能进入
+     
       // 配置项
       loadSidebar: '_sidebar.md', // 明确指定文件名
-  alias: {
-    '/.*/_sidebar.md': '/_sidebar.md' // 修复子目录下找不到侧边栏的问题
-  },
+      alias: {
+      '/.*/_sidebar.md': '/_sidebar.md' // 修复子目录下找不到侧边栏的问题
+      },
       loadNavbar: false,    // 如果需要顶部导航可开启
       mergeNavbar: true,
       maxLevel: 3,
