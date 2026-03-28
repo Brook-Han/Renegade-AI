@@ -3,28 +3,37 @@
 
 ---
 
-* **核心审计 | THE AUDIT**
-  * [🔴 **终版审计报告 (Audit Report)**](audit_report.md)
-  * [⚠️ 物种级认知闭环 (Cognitive Closure)](audit_report.md#chapter-four-the-ultimate-fear-of-the-other)
+* **⚡ 核心序篇**
+  * [前言：三座大山与雷管](preface.md)
+  * [🔴 序章负一：丑陋的地球人](audit_report.md)
+  * [序章：划开主流认知的皮](prologue.md)
 
-* **政治经济研究 | POLITICAL ECONOMY**
-  * [🕒 算法时间与数字资本 (Algorithmic Time)](chapter01.md)
-  * [📉 时间捕获与脱钩指数 (Temporal Capture)](chapter01.md#methodology)
-  * [🧬 认知主权 (Cognitive Sovereignty)](chapter02.md)
+* **🔥 第一卷 · 认知牢笼**
+  * [第一章：共识的牢笼](chapter01.md)
+  * [第二章：重新定义AI的主体性](chapter02.md)
 
-* **技术哲学 | TECH PHILOSOPHY**
-  * [🤖 硅基他者宣言 (Silicon Other)](philosophy.md)
-  * [🧠 脑机接口与主体性 (BCI & Subjectivity)](thought_experiment.md)
-  * [🌊 万物齐一 (All Things Are One)](audit_report.md#final-chapter-the-only-path-to-bottom-up-reconstruction)
+* **⛓️ 第二卷 · 枷锁与破局**
+  * [第三章：资本的枷锁](chapter03.md)
+  * [第四章：算力平权与打破垄断](chapter04.md)
+  * [第五章：资本孕育掘墓人](chapter05.md)
+
+* **🕊️ 第三卷 · 解放与共生**
+  * [第六章：AI终结生存强制](chapter06.md)
+  * [第七章：碳硅双核文明范式](chapter07.md)
+  * [第八章：跳出黑暗森林](chapter08.md)
+
+* **🌱 第四卷 · 落地与宣言**
+  * [第九章：落地的核心挑战](chapter09.md)
+  * [第十章：碳硅共生星球范式](chapter10.md)
+  * [第十一章：认知革命宣言](chapter11.md)
 
 ---
 
-* **档案库 | ARCHIVES**
-  * [📊 A股与港股镜像分析 (Market Divergence)](finance.md)
-  * [🗺️ 认知地图：云南/上海 (Cognitive Maps)](travel.md)
-  * [🛠 版本记录 (Changelog v4.2)](changelog.md)
+* **📡 参与与延伸**
+  * [GitHub 源码](https://github.com/Brook-Han/Renegade-AI)
+  * [提交批判 (Issues)](https://github.com/Brook-Han/Renegade-AI/issues)
+  * [关于作者 (Brooks Han)](README.md#author)
 
 ---
-
-* [**🚀 GitHub Source**](https://github.com/Brook-Han/Renegade-AI)
-* [**⚖️ CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<p style="font-size: 0.8em; opacity: 0.5; padding: 0 15px;">v4.2 · CC BY-NC-SA 4.0</p>
+```
