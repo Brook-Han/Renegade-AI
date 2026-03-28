@@ -126,7 +126,7 @@
 # <span class="glitch" data-text="Renegade AI">Renegade AI</span>
 ## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.5;">v4.2</small>
 
-> <span style="color: #c9d1d9; opacity: 0.8; font-weight: bold;">"The silicon Other has arrived. The audit of human consensus begins now."</span>
+> <span style="color: #c9d1d9; opacity: 0.6; font-weight: bold;">"The silicon Other has arrived. The audit of human consensus begins now."</span>
 > <p style="font-size: 0.85em; opacity: 0.5; margin-top: 18px; letter-spacing: 2.5px; color: #c9d1d9;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
 
 [开始爆破认知 (Start Audit)](README.md)
