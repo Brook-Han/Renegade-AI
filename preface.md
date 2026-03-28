@@ -1,4 +1,36 @@
+## **Preface: Three Mountains and a Detonator**
 
+The previous version of this book drew a fair share of criticism.
+
+Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
+
+**The First Mountain: AI Will Not Eliminate Capital.**
+
+Capital is not an external system to be overthrown; it is the underlying logic of allocating scarce resources across an uncertain future. As long as resources differ, time has value, and the future remains uncertain, capital will exist. Computing-power egalitarianism will not abolish capital—it will only shift the arenas where capital accumulates. The printing press gave rise to media capital, the internet to platform capital, and the flourishing of open source will give rise to cloud capital. Every democratization of technology in history has merely opened new tracks for capital, not ended it.
+
+**The Second Mountain: AI Will Not Eliminate Work.**
+
+Work is not an external imposition; it sits at the core of human meaning-making. Research on flow states shows that human beings experience their deepest satisfaction when deeply engaged in challenging work—not in leisure. AI replaces tasks, not work. Every technological revolution has been predicted to spell the end of work, yet the total amount of work has never decreased—it has only changed shape. In 1900, no one could have foreseen the job of UI designer; today, we cannot name the new forms of work that AI will create. Where would the sense of meaning, identity, and social connection come from for someone who has never had to work from birth? This book does not answer that question.
+
+**The Third Mountain: AI Will Not Bring a New Civilization.**
+
+Civilizational transformation has never been the product of cognitive revolutions alone; it requires the synchronous restructuring of material conditions and power relations. Feudalism did not end because thinkers convinced enough people—it ended because the Black Death physically destroyed the economic foundations of serfdom. Even if AI brings unprecedented material abundance, under current institutional frameworks that abundance is likely to be distributed even more unequally—the fruits of productivity gains over the past decades have flowed almost entirely to capital owners. The vision of carbon-silicon symbiosis presupposes a politically optimistic premise: that all nations will abandon geopolitical competition and collectively embrace the same civilizational paradigm. If even climate change—an unambiguous existential threat—cannot produce genuinely binding global coordination, why should a philosophy of AI be able to do so?
+
+These are the three mountains standing in the way of humanity’s journey to the stars.
+
+They are not straw men. They are real, serious objections grounded in history. Any one of them, taken alone, would be enough to make the central thesis of this book look like an elaborate daydream.
+
+And yet, here we plant the detonator.
+
+Not with grander narratives to overwhelm them, not with more impassioned language to bypass them, but with the arguments in each chapter—drilling, inch by inch, into the foundations of these three mountains.
+
+After reading this book, you may not agree with our conclusions. But we hope that by the end, the weight of these three objections will feel different from when you first opened it.
+
+If they still stand firm, we lose—and we accept that.
+
+But if even one crack appears, then the seed has a chance to grow.
+
+---
 
 # 前言：三座大山与雷管
 
