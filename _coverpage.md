@@ -84,13 +84,13 @@
       rgba(88, 166, 255, 0) 60%,
       transparent 100%
     );
-    animation: btnScan 3s linear infinite;
+    animation: btnScan 1.5s cubic-bezier(0.4, 0, 0.2, 1) 1s 1 forwards;
   }
 
   /* 4. 动画定义 */
   @keyframes btnScan {
     0% { top: -100%; }
-    100% { top: 100%; }
+    100% { top: 150%; }
   }
 
   @keyframes glitch-anim {
@@ -123,7 +123,7 @@
 
 > **"The silicon Other has arrived. The audit of human consensus begins now."**
 <br> <br> 
-<span style="font-size: 0.65em; opacity: 0.7; letter-spacing: 1px;">“硅基他者已降临。人类共识的审计正式开启。”</span>
+<p style="font-size: 0.55em; opacity: 0.6; margin-top: 8px;">“硅基他者已降临。人类共识的审计正式开启。”</p>
 
 [开始爆破认知 (Start Audit)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
