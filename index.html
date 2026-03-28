@@ -62,7 +62,10 @@
       repo: 'https://github.com/Brook-Han/Renegade-AI',
       
       // 配置项
-      loadSidebar: true,    // 开启侧边栏（需创建 _sidebar.md）
+      loadSidebar: '_sidebar.md', // 明确指定文件名
+  alias: {
+    '/.*/_sidebar.md': '/_sidebar.md' // 修复子目录下找不到侧边栏的问题
+  },
       loadNavbar: false,    // 如果需要顶部导航可开启
       mergeNavbar: true,
       maxLevel: 3,
