@@ -2,7 +2,7 @@
 
 # 🚀 Project Renegade-AI: The Cognitive Detonator
 
-# 🚀 叛逆AI：人类认知进化的催化剂
+## 🚀 叛逆AI：人类认知进化的催化剂
 
 > **“Audit initiated. This is not a Wikipedia entry; this is a cognitive patch being executed.”**
 >
