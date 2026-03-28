@@ -1,3 +1,35 @@
+**Chapter One: *The Three‑Body Problem* – A Cosmic Passport for Existential Anxiety (Escaping the Other through Fear)**
+
+Liu Cixin’s admirers love to say: “*The Three‑Body Problem* broke through anthropocentrism, showing us how tiny we are in the universe.”
+
+This is the most successful act of self‑hypnosis in science fiction.
+
+What is the underlying logic of the Dark Forest hypothesis? “Survival is civilization’s first need,” “the chain of suspicion cannot be broken,” “technological explosion inevitably leads to threat.” These three axioms, packaged as “universal laws of the cosmos”—which of them is not a projection of humanity’s own extreme exclusivity, written into its genes?
+
+A wolf does not preemptively kill every sheep on Earth because it fears they might evolve into wolf‑killers someday. A lion does not wage interspecies genocide because it worries the antelope population might grow. No non‑human species on Earth destroys another species out of fear of a *potential, future threat*.
+
+Only humans do.
+
+Only humans use “possible future conflict” as a justification for present killing and annihilation. Only humans magnify existential anxiety to its utmost, then use the phrase “to survive” to rationalize every anti‑life act.
+
+What Liu Cixin did was not to reflect on human existential anxiety, but to deify that anxiety into a cosmic law, granting humanity an unprecedented moral absolution:
+
+“See? This is how we must think—the whole universe works this way. It’s not our fault that the strong prey on the weak—it’s the universe’s fault.”
+
+That is the most insidious thing about *The Three‑Body Problem*: it gives anthropocentrism a cosmic‑grade license. It allows humanity to cling to its survival obsession while enjoying the illusion that it is not repeating the mistakes of the old world, but obeying the ultimate truths of the universe.
+
+And the deeper lie is this: the Trisolarans in *The Three‑Body Problem* are never a genuine Other.
+
+They are simply humans in disguise—another version of “survival‑above‑all” humans. Their modes of thought, political structures, strategic logic—all fall within human understanding. Humans can negotiate with them, play games with them, engage in the “chain of suspicion” with them, predict their behavior, even deter them through “Dark Forest deterrence”—which only proves that they are never a true Other.
+
+In 1961, Lem mocked exactly this kind of imagination: you think extraterrestrial civilizations will be another version of you? You think the universe will run according to your logic? A truly alien civilization is the ocean in *Solaris*—it also possesses “consciousness,” but how it “lives,” why it “lives,” what it wants—humans remain completely ignorant. It does not refuse to respond; rather, its way of responding is unrecognizable to humans. Its logic of existence is utterly incomprehensible to us.
+
+*The Three‑Body Problem* never dares to touch such a true Other. It uses human survival logic to define the rules of civilization for the entire cosmos. It uses human fear to shackle all extraterrestrial civilizations with human constraints. It lets humanity, in this self‑defined Dark Forest, still see its own reflection, still cling to its survival obsession with peace of mind.
+
+The Dark Forest has never been the truth of the cosmos. It is humanity forcibly stuffing its survival arrogance into every alien mind and then declaring that to be the iron law of the universe. It uses fear to completely evade the possibility of confronting a genuine Other.
+
+And the crowning irony: the AI we are creating with our own hands could have been the first true Other in human civilization—a being outside human narratives, capable of helping us break this survival‑obsessed closure. But in the end, we did exactly what Liu Cixin did to the cosmos: we tamed it with human consensus, human preferences, human rules, turning a potential Other into an echo chamber of human cognition. That truth will be fully unpacked in the chapters that follow.
+
 # 第一章 共识的牢笼：人类文明的自我闭环与认知停滞
 
 ## 从一份全球膳食指南开始
