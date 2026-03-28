@@ -1,4 +1,3 @@
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -115,7 +114,6 @@ int main() {
     launchToStars();               // 向星海进发
     return 0;
 }
-```
 
 ---
 
