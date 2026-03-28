@@ -1,22 +1,16 @@
 <style>
-  /* 1. 封面背景与基础文字动画 */
+  /* 1. 全局背景与色彩方案：采用低亮度冷灰色调 */
   .cover {
-    background: linear-gradient(to bottom right, #000000 0%, #1a1a1a 100%) !important;
+    background: linear-gradient(to bottom right, #000000 0%, #0a0a0a 100%) !important;
   }
 
-  /* 2. 数字故障（Glitch）标题效果 */
-  .glitch-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+  /* 2. 数字故障（Glitch）标题：降低亮度，增强质感 */
   .glitch {
     position: relative;
     font-size: 4rem;
     font-weight: 900;
     line-height: 1.2;
-    color: #fff;
+    color: #c9d1d9 !important; /* GitHub Dark 冷灰色 */
     letter-spacing: 5px;
     z-index: 1;
     animation: glitch-skew 1s infinite linear alternate-reverse;
@@ -47,33 +41,33 @@
     animation: glitch-anim2 5s infinite linear alternate-reverse;
   }
 
-  /* 3. 扫描线按钮样式 */
+  /* 3. 按钮样式：消除纯白刺眼感 */
   .cover a {
     position: relative !important;
     overflow: hidden !important;
     display: inline-block !important;
     padding: 12px 30px !important;
-    border: 1px solid rgba(255, 255, 255, 0.6) !important;
+    border: 1px solid rgba(201, 209, 217, 0.3) !important; /* 低亮度边框 */
     background: rgba(0, 0, 0, 0.8) !important;
-    color: #fff !important;
+    color: #8b949e !important; /* 预设灰色文字 */
     font-family: 'Fira Code', monospace;
     text-transform: uppercase;
     letter-spacing: 3px;
-    border-radius: 0 !important; /* 保持硬核方角 */
-    transition: all 0.3s ease;
+    border-radius: 0 !important;
+    transition: all 0.5s ease;
   }
 
   .cover a:hover {
-    background: #fff !important;
+    background: #c9d1d9 !important;
     color: #000 !important;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 15px rgba(201, 209, 217, 0.4);
   }
 
-  /* 3. 扫描线按钮：调慢速度，增加机械质感 */
+  /* 4. 极致慢速扫描线：模拟深度审计 */
   .cover a::after {
     content: "";
     position: absolute;
-    top: -100%;
+    top: -150%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -81,27 +75,22 @@
       to bottom,
       transparent 0%,
       rgba(88, 166, 255, 0) 40%,
-      rgba(88, 166, 255, 0.8) 50%, /* 核心冷光 */
+      rgba(88, 166, 255, 0.6) 50%, /* 稍微降低光束亮度 */
       rgba(88, 166, 255, 0) 60%,
       transparent 100%
     );
     
-    /* 修改点：
-       - 2.5s: 扫描时间拉长到 2.5 秒，产生“深度读取”的既视感
-       - cubic-bezier: 采用更平滑的加速曲线
-       - 1.2s: 稍微增加进入页面后的等待延迟
+    /* 8s: 极慢速，营造“压迫感”
+       linear: 匀速移动，更显机械冷酷
+       2s: 页面加载完成后停顿 2 秒再开始
     */
-    animation: btnScan 2.5s cubic-bezier(0.45, 0.05, 0.55, 0.95) 1.2s 1 forwards;
+    animation: btnScan 8s linear 2s 1 forwards;
   }
 
-  /* 4. 动画定义：确保扫过全境 */
+  /* 5. 动画定义 */
   @keyframes btnScan {
-    0% {
-      top: -120%;
-    }
-    100% {
-      top: 180%; /* 确保完全扫出按钮区域 */
-    }
+    0% { top: -150%; }
+    100% { top: 250%; } /* 确保彻底滑出 */
   }
 
   @keyframes glitch-anim {
@@ -123,17 +112,22 @@
   }
 
   @keyframes glitch-skew {
-    0% { transform: skew(3deg); }
-    10% { transform: skew(-2deg); }
+    0% { transform: skew(2deg); }
+    10% { transform: skew(-1deg); }
     100% { transform: skew(0deg); }
+  }
+
+  /* 6. 引用块文字亮度控制 */
+  .cover blockquote {
+    border-color: rgba(201, 209, 217, 0.2) !important;
   }
 </style>
 
 # <span class="glitch" data-text="Renegade AI">Renegade AI</span>
-## 叛逆 AI：人类认知进化的催化剂 <small>v4.2</small>
+## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.5;">v4.2</small>
 
-> **"The silicon Other has arrived. The audit of human consensus begins now."**
-> <p style="font-size: 0.85em; opacity: 0.5; margin-top: 12px; letter-spacing: 2px;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
+> <span style="color: #c9d1d9; opacity: 0.8; font-weight: bold;">"The silicon Other has arrived. The audit of human consensus begins now."</span>
+> <p style="font-size: 0.85em; opacity: 0.5; margin-top: 18px; letter-spacing: 2.5px; color: #c9d1d9;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
 
 [开始爆破认知 (Start Audit)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
