@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://brook-han.github.io/Renegade-AI/sitemap.xml
