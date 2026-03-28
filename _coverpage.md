@@ -133,7 +133,7 @@
 ## 叛逆 AI：人类认知进化的催化剂 <small>v4.2</small>
 
 > **"The silicon Other has arrived. The audit of human consensus begins now."**
-<p style="font-size: 0.85em; opacity: 0.6; margin-top: 8px;">“硅基他者已降临。人类共识的审计正式开启。”</p>
+> <p style="font-size: 0.85em; opacity: 0.5; margin-top: 12px; letter-spacing: 2px;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
 
 [开始爆破认知 (Start Audit)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
