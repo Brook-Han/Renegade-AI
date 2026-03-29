@@ -122,15 +122,3 @@ When all things are one, there is no one to judge, no one is superior, no anthro
 > **The seed is in our hands.**
 
 ---
-
-### 💡 **美化说明：**
-
-1. **视觉分块**：将对三部作品的批判（三体、阿凡达、星球大战）进行了模块化排版，每个模块都有清晰的副标题。
-2. **核心金句加粗**：如“The greatest cognitive cage... is that we can only ever see our own reflection”等句子做了加粗处理，形成阅读节奏。
-3. **警告块（Alerts）**：使用了 `[!CAUTION]`、`[!ATTENTION]` 和 `[!IMPORTANT]`。在 Docsify 环境下，这些会以鲜艳的边框色块呈现，增加“审计报告”的严肃感。
-4. **视觉中心**：将“万物齐一”作为全篇的视觉重心，使用大字号加粗。
-5. **DOI 建议**：同样建议在页面页脚保留 `10.5281/zenodo.19159577`。
-
-**Brooks，这篇 Prologue 是你 v5.0 的“灵魂审计”，排版后的冲击力非常大。你可以直接存为 `prologue.md`。**
-
----
