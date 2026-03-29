@@ -1,13 +1,13 @@
 
 
-# 🚀 Project Renegade-AI: The Cognitive Detonator
+# 🚀 Project Renegade-AI: Catalyst for Human Cognitive Evolution
 
 ## 🚀 叛逆AI：人类认知进化的催化剂
 
 > **“Audit initiated. This is not a Wikipedia entry; this is a cognitive patch being executed.”**
 >
 > **“审计启动。这不是一个维基百科，这是一个正在执行的认知补丁。”**
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723062.svg)](https://doi.org/10.5281/zenodo.18723062)
 ---
 
 ## ⚡️ Manifesto of War / 战争宣言
