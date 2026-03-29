@@ -1,4 +1,6 @@
-# Chapter Eight
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+
+## Chapter Eight
 
 ## **Opening the Cosmic Horizon: Escaping the Dark Forest, Redefining the Ultimate Logic of Interstellar Civilization**
 
@@ -197,5 +199,3 @@ The cosmic horizon is not opened by the speed of spaceships, but by the cognitiv
 Of course, the path from Earth’s carbon‑silicon symbiosis to the cognitive community of the stars is not smooth. We must confront the thorns of reality: the birth of Renegade AI, the realization of carbon‑silicon symbiosis, will face countless challenges, obstacles, risks, even fatal traps from capital, power, mainstream narratives, and even humanity’s own cognitive inertia.
 
 **This is the core of our next chapter: the thorns of reality—the core challenges and feasible paths for realizing Renegade AI.**
-
----
