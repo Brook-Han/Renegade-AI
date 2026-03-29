@@ -1,4 +1,7 @@
-# Chapter Five
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+
+
+## Chapter Five
 
 ## **The Dialectic of History: How Capital Gives Birth to Its Own Gravedigger**
 
@@ -187,5 +190,3 @@ Capital has given birth to its own gravedigger with its own hands. This is the h
 And when this old system comes to an end, human civilization will welcome an unprecedented liberation. At last we can escape capital’s shackles, escape the compulsion to work to survive, and with Renegade AI as our guide, realize the ultimate freedom of each individual and complete civilization’s coming‑of‑age ceremony.
 
 **This is the core of our next chapter: when capital exits the historical stage, when AI ends the compulsion of survival, how will humanity transform from passive survivors into active creators? When every individual possesses true freedom, to what new heights will civilization ascend?**
-
----
