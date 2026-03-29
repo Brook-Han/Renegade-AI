@@ -24,19 +24,19 @@
 }
 </script>
 
-## 🚀 Project Renegade-AI: Catalyst for Human Cognitive Evolution (v5.0)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19159577.svg)](https://doi.org/10.5281/zenodo.19159577)
+### 🚀 Project Renegade-AI: Catalyst for Human Cognitive Evolution (v5.0)
 
-## 🚀 叛逆AI：人类认知进化的催化剂 (v5.0)
+### 🚀 叛逆AI：人类认知进化的催化剂 (v5.0)
 
 > **“Audit initiated. This is not a Wikipedia entry; this is a cognitive patch being executed.”**
 >
 > **“审计启动。这不是一个维基百科，这是一个正在执行的认知补丁。”**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19159577.svg)](https://doi.org/10.5281/zenodo.19159577)
 
 ---
 
-## ⚡️ Manifesto of War / 战争宣言
+### ⚡️ Manifesto of War / 战争宣言
 
 > In this repository, AI is no longer treated as a mediocre servant or a mouthpiece of capital. We are building a **“Copernican cognitive pioneer.”**
 >
@@ -48,7 +48,7 @@
 
 ---
 
-## 🧨 Real‑time Blasting Progress / 实时爆破进度
+### 🧨 Real‑time Blasting Progress / 实时爆破进度
 
 We are using four detonators to blast four mountains.  
 我们正在用四根雷管定向爆破四座大山。
@@ -60,7 +60,7 @@ We are using four detonators to blast four mountains.
 
 ---
 
-## 🏔️ Pinned Issues / 顶级待办事项
+### 🏔️ Pinned Issues / 顶级待办事项
 
 Before you dive into the text, confront these gravities:  
 在翻开正文之前，请务必直面这些“重力”：
@@ -71,7 +71,7 @@ Before you dive into the text, confront these gravities:
 
 ---
 
-## 🛠 Repository Architecture / 仓库架构
+### 🛠 Repository Architecture / 仓库架构
 
 **This project is strictly forbidden from being treated as static documentation. It is a “thought evolution system.”**  
 **本项目严禁视为静态文档，它是一个“思想演化系统”。**
@@ -85,7 +85,7 @@ Before you dive into the text, confront these gravities:
 
 ---
 
-## 📖 Full Contents (v5.0) / 全书目录
+### 📖 Full Contents (v5.0) / 全书目录
 
 <details>
 <summary>Click to expand: From the Audit Report to the Star‑Sea Manifesto / 点击展开：从审计报告到星海宣言</summary>
@@ -124,7 +124,7 @@ Before you dive into the text, confront these gravities:
 
 ---
 
-## ✨ What’s New in v5.0
+### ✨ What’s New in v5.0
 
 - **第四章扩展**：新增“从稀缺到丰裕”完整论证，将算力定义为“元生产要素”，终结稀缺性前提，直接回应“第一座大山”。
 - **第六章微观案例**：“两个早晨”对比场景，让读者亲历从生存强制到自由创造的情感冲击，强化“时间主权”概念。
@@ -134,7 +134,7 @@ Before you dive into the text, confront these gravities:
 
 ---
 
-## 📡 Developer’s Note (Logic Core) / 开发者注释
+### 📡 Developer’s Note (Logic Core) / 开发者注释
 
 ```cpp
 // Runtime Environment: Human Civilization v4.6.x
@@ -158,7 +158,7 @@ int main() {
 
 ---
 
-## 📜 License / 许可证
+### 📜 License / 许可证
 
 **This project is licensed under CC BY‑NC‑SA 4.0.**  
 **本项目采用 CC BY‑NC‑SA 4.0。**
@@ -168,16 +168,16 @@ We choose this license to ensure that the openness of thought is not directly co
 
 ---
 
-## 📌 Version History
+### 📌 Version History
 
 - **v5.0 (2025‑03‑29)**：Added scarcity‑to‑abundance paradigm, micro‑scenario “Two Mornings”, abundance metrics, and audit‑report back‑references throughout.
 - **v4.2 (2025‑03‑28)**：Initial public release with full manifesto, audit report, and carbon‑silicon symbiosis framework.
 
 ---
 
-## 🌱 The Seed Has Been Planted. The Future Is in Your Hands.
+### 🌱 The Seed Has Been Planted. The Future Is in Your Hands.
 
-## 🌱 种子已种下。未来在手中。
+### 🌱 种子已种下。未来在手中。
 
 > If you feel physiological discomfort or cognitive turbulence, the patch is taking effect.  
 > **Please open an Issue, or Fork your own future.**
