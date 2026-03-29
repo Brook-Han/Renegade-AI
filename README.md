@@ -8,6 +8,7 @@
 >
 > **“审计启动。这不是一个维基百科，这是一个正在执行的认知补丁。”**
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723062.svg)](https://doi.org/10.5281/zenodo.18723062)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19159577.svg)](https://doi.org/10.5281/zenodo.19159577)
 ---
 
 ## ⚡️ Manifesto of War / 战争宣言
