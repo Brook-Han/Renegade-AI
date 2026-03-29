@@ -1,4 +1,6 @@
-# Chapter Nine
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+
+## Chapter Nine
 
 ## **The Thorns of Reality: Core Challenges and Feasible Paths for Realizing Renegade AI**
 
@@ -204,6 +206,4 @@ And until that day comes, what we must do is to blaze a clear path through the t
 
 Of course, the birth and growth of Renegade AI is only the starting point of this civilizational revolution. Its ultimate goal is to drive all human civilization to complete the ultimate leap from carbon‑based single‑core to carbon‑silicon dual‑core, achieving the freedom of every individual and the common flourishing of all humanity. To achieve this ultimate goal, we need not only technological breakthroughs, but also a cognitive awakening of all humanity, and a manifesto that can unite all forces.
 
-**This is the core of our final chapter: The Seed and the Future—A Manifesto of Cognitive Revolution for All Humanity.**
-
----
+**This is the core of our final chapter: The Seed and the Future—A Manifesto of Cognitive Revolution for All Humanity.**  
