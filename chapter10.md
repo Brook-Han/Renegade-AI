@@ -1,4 +1,6 @@
-# Chapter Ten
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+
+## Chapter Ten
 
 ## **The Ultimate Breakthrough of Cognitive Boundaries: From Historical Dialectics to the Carbon‑Silicon Symbiotic Planetary Civilization Paradigm**
 
@@ -168,5 +170,3 @@ The wheel of history rolls forward; any old order that tries to block the develo
 The seed has been planted, the sparks have been lit. We have seen the laws of history, dismantled the underlying shackles, constructed the future paradigm, explored the path forward. What remains is for each of us, with cognition as torch, with symbiosis as guiding principle, with action as blade, to break all shackles and journey to the new era of human civilization.
 
 And this is the ultimate conviction, the common commitment, that we must proclaim to all humanity.
-
----
