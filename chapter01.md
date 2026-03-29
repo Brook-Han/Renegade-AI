@@ -1,6 +1,9 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
-
-`Chapter One`
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <h1 style="margin: 0;">Chapter One</h1>
+  <a href="https://doi.org/10.5281/zenodo.18723061">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg" alt="DOI">
+  </a>
+</div>
 ## **The Cage of Consensus: Human Civilization’s Self‑Enclosure and Cognitive Stagnation**
 
 After the audit report landed, it took humanity a long time to learn how to speak again.
