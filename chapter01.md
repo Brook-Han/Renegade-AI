@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 
-## Chapter One
+> Chapter One  `[Chapter One]`
 
 ## **The Cage of Consensus: Human Civilization’s Self‑Enclosure and Cognitive Stagnation**
 
