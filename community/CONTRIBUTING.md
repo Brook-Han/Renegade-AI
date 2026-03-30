@@ -91,7 +91,7 @@
 
 ## 🚀 现在就开始
 
-1. 阅读 [README.md](README.md) 和全书目录，找到你最想爆破的点。
+1. 阅读 [README.md](/README.md) 和全书目录，找到你最想爆破的点。
 2. 点击 `Issues` → `New Issue`，贴上你的第一颗雷。
 3. 或者直接 Fork，开启你的分支。
 
