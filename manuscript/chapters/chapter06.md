@@ -1,6 +1,10 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <a style="margin: 0;">Chapter Six</a>
+  <a href="https://doi.org/10.5281/zenodo.18723061">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg" alt="DOI">
+  </a>
+</div>
 
-## Chapter Six
 
 ## **From Migration to Flight: How AI Ends the Compulsion of Survival and Realizes the Ultimate Freedom of the Individual**
 

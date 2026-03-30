@@ -1,7 +1,10 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+<div style="display: flex; justify-content: space-between; align-items: center;">
+  <a style="margin: 0;">Chapter Three</a>
+  <a href="https://doi.org/10.5281/zenodo.18723061">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg" alt="DOI">
+  </a>
+</div>
 
-
-## Chapter Three
 
 ## The Shackles of Capital: From Revolutionary to Gatekeeper—How Capital Moves from Driving Cognitive Revolution to Locking Down AI’s Ultimate Potential
 
