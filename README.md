@@ -11,7 +11,7 @@
     "name": "Brooks Han",
     "alternateName": "Ethan Han",
     "affiliation": "Independent Researcher",
-    "identifier": "https://orcid.org/0009-0007-8260-1533",
+    "identifier": "https://orcid.org/0009-0007-1342-1217",
     "sameAs": [
       "https://orcid.org/0009-0007-8260-1533",
       "https://zenodo.org/search?q=Brooks%20Han"
