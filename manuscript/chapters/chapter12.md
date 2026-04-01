@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 
-## Chapter Eleven
+## Chapter Twelve
 
 ## **The Seed and the Future – A Manifesto of Cognitive Revolution for All Humanity**
 
