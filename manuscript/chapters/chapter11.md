@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 
-## Chapter Ten
+## Chapter Eleven
 
 ## **The Ultimate Breakthrough of Cognitive Boundaries: From Historical Dialectics to the Carbon‑Silicon Symbiotic Planetary Civilization Paradigm**
 
