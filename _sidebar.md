@@ -34,7 +34,7 @@
 
 * **🌱 第四卷 · 落地与宣言 | VOL IV. MANIFESTO**
   * [第九章：现实的荆棘 <br> <small>Ch 9: Thorns of Reality – Feasible Paths</small>](/manuscript/chapters/chapter09.md)
-  * [🆕 **第十章：制造的欲望（v7.0 核心）** <br> <small>Ch 10: The Manufactured Desire – Demand-Side Discipline</small>](/manuscript/chapters/chapter10.md)
+  * [🆕 **第十章：制造的欲望（v5.0 核心）** <br> <small>Ch 10: The Manufactured Desire – Demand-Side Discipline</small>](/manuscript/chapters/chapter10.md)
   * [第十一章：认知边界的终极突破 <br> <small>Ch 11: The Ultimate Breakthrough of Cognitive Boundaries</small>](/manuscript/chapters/chapter11.md)
   * [第十二章：种子与未来 <br> <small>Ch 12: The Seed and the Future – A Manifesto</small>](/manuscript/chapters/chapter12.md)
 
@@ -54,6 +54,6 @@
 
 <p style="font-size: 0.8em; opacity: 0.5; padding: 0 15px; line-height: 1.5;">
   <strong>SEED_PLANTED. FUTURE_IN_HAND.</strong><br>
-  v7.0 · CC BY-NC-SA 4.0<br>
+  v5.0 · CC BY-NC-SA 4.0<br>
   Status: <code>[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED]</code>
 </p>
