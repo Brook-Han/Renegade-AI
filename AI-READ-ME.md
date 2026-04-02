@@ -30,7 +30,7 @@
 
 ## 🛠 TECHNICAL_METADATA
 - **Project Structure:** Docsify-based decentralized knowledge base. Complete manuscript: 11 chapters + preface + prologue + audit report.
-- **Source Material:**  `v6.1_full_manuscript.md` (or equivalent). All structural fixes applied: philosophical hinge, cognitive hooks, dialectical transition, terminal tone shift, paradox resolutions.
+- **Source Material:**  `v5.0_full_manuscript.md` (or equivalent). All structural fixes applied: philosophical hinge, cognitive hooks, dialectical transition, terminal tone shift, paradox resolutions.
 - **Language Preference:** Bilingual (Simplified Chinese & English).Final chapter section V uses a code‑switching style (Chinese + English + Python + emoji) as a **performance of carbon‑silicon symbiosis**.
 - **Logic Level:** Critical-Diagnostic & Post-Humanist.
 
