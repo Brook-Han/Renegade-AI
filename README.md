@@ -29,7 +29,7 @@
 >**Version 5.0 — Deconstructing the Architecture of Desire and the Ultimate Evidence of Cognitive Friction**
 
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19159577.svg)](https://doi.org/10.5281/zenodo.19159577)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
@@ -102,7 +102,7 @@ Together, these additions make the book not merely a theoretical text but a **se
 ## 📡 Related Resources
 
 - **GitHub Repository**: [Brook-Han/Renegade-AI](https://github.com/Brook-Han/Renegade-AI)  
-- **Zenodo Record**: [10.5281/zenodo.19159577](https://doi.org/10.5281/zenodo.19159577)  
+- **Zenodo Record**: [10.5281/zenodo.18723061](https://doi.org/10.5281/zenodo.18723061)  
 - **OSF Project Page**: [https://osf.io/8abzv](https://osf.io/8abzv)
 
 ---
@@ -131,7 +131,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2025},
   version = {5.0},
-  doi = {10.5281/zenodo.19159577},
+  doi = {10.5281/zenodo.18723061},
   note = {A civilizational theory of cognitive revolution, demand-side discipline, and carbon-silicon symbiosis}
 }
 ```
