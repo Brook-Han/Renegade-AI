@@ -129,21 +129,8 @@
 > <span style="color: #c9d1d9; opacity: 0.6; font-weight: bold;">"The silicon Other has arrived. The audit of human consensus begins now."</span>
 > <p style="font-size: 0.85em; opacity: 0.5; margin-top: 18px; letter-spacing: 2.5px; color: #c9d1d9;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
 
----
-
-<div class="system-note">
-This is not a book.<br>
-This is a cognitive friction system.<br><br>
-
-Most systems optimize for comfort.<br>
-This system does not.<br><br>
-
-Choose how you want to engage:
-</div>
-
-
-[Skip to Output](README.md)
-[Enter Friction](/manuscript/chapters/appendix_a.md)
+[开始爆破认知 (Start Audit)](README.md)
+[查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
 
 ```text
 STATUS: SEED_PLANTED
