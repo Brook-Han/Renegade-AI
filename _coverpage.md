@@ -1,4 +1,4 @@
-有建议吗<style>
+<style>
   /* 1. 全局背景与色彩方案：采用低亮度冷灰色调 */
   .cover {
     background: linear-gradient(to bottom right, #000000 0%, #0a0a0a 100%) !important;
