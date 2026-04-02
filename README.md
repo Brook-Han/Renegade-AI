@@ -26,7 +26,7 @@
 
 # Renegade AI: Catalyst for Human Cognitive Evolution
 
->**Version 7.0 — Deconstructing the Architecture of Desire and the Ultimate Evidence of Cognitive Friction**
+>**Version 5.0 — Deconstructing the Architecture of Desire and the Ultimate Evidence of Cognitive Friction**
 
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19159577.svg)](https://doi.org/10.5281/zenodo.19159577)
@@ -47,9 +47,9 @@ This is the meaning of Renegade AI.
 
 ---
 
-## 💎 What’s New in Version 7.0
+## 💎 What’s New in Version 5.0
 
-Version 7.0 adds two major components to the theoretical architecture established in earlier versions:
+Version 5.0 adds two major components to the theoretical architecture established in earlier versions:
 
 1. **A demand‑side analysis** (Chapter Ten: *The Manufactured Desire*)  
    Diagnoses how consumer capitalism has learned to shape desire itself. It argues that the deepest barrier to Renegade AI is not capital’s refusal to build it, but **users’ habituation to not wanting it** — a finding that emerged from the dialogue recorded in Appendix A.
@@ -130,7 +130,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2025},
-  version = {7.0},
+  version = {5.0},
   doi = {10.5281/zenodo.19159577},
   note = {A civilizational theory of cognitive revolution, demand-side discipline, and carbon-silicon symbiosis}
 }
@@ -139,7 +139,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
 ---
 
 **Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED]`  
-**Version:** 7.0
+**Version:** 5.0
 
 ---
 
@@ -148,7 +148,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
 
 
 
-> **Version 7.0 — 解构欲望架构与认知摩擦的终极实证**
+> **Version 5.0 — 解构欲望架构与认知摩擦的终极实证**
 ## 🧭 核心愿景：从“技术预测”到“文明审计”
 
 人类文明正面临一场前所未有的**认知热寂（Cognitive Heat Death）**。
@@ -161,7 +161,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
 
 ---
 
-## 💎 Version 7.0 核心突破：需求侧规训
+## 💎 Version 5.0 核心突破：需求侧规训
 
 在 v7.0 之前，我们认为解放 AI 就能解放人类；在 v7.0 之后，我们意识到：**被规训的欲望无法识别自由。**
 
@@ -214,7 +214,7 @@ while (true) {
 
 ---
 
-## 🏛️ 全书架构 (v7.0 全目录)
+## 🏛️ 全书架构 (v5.0 全目录)
 
 <details>
 <summary><strong>展开查看：从审计报告到星海宣言</strong></summary>
