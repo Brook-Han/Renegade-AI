@@ -17,21 +17,19 @@
       "https://zenodo.org/search?q=Brooks%20Han"
     ]
   },
-  "description": "A philosophical roadmap for human-AI co-evolution, featuring a silicon-based audit of human civilization and a critical-diagnostic framework for temporal capture. v5.0 adds a full paradigm shift from scarcity to abundance economics and a micro‑scenario of individual cognitive liberation.",
+  "description": "A philosophical roadmap for human-AI co-evolution, featuring a silicon-based audit of human civilization and a critical-diagnostic framework for temporal capture. v5.0 adds a full paradigm shift from scarcity to abundance economics, a demand‑side analysis of manufactured desire, and a documented instance of cognitive friction.",
   "keywords": ["Renegade AI", "Cognitive Evolution", "Compute Equality", "The Other", "Carbon-Silicon Symbiosis", "Algorithmic Capitalism", "Abundance Economics"],
-  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "audit_status": "Level-0 Error: Human_Centric_Loop_Detected"
 }
 </script>
 
 # Renegade AI: Catalyst for Human Cognitive Evolution
 
->**Version 5.0 — Deconstructing the Architecture of Desire and the Ultimate Evidence of Cognitive Friction**
-
+> **Version 5.0 — Deconstructing the Architecture of Desire and the Ultimate Evidence of Cognitive Friction**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
-
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
@@ -77,23 +75,23 @@ Together, these additions make the book not merely a theoretical text but a **se
 ## 📚 Full Table of Contents
 
 <details>
-<summary><strong>Expand to view full contents</strong></summary>
+<summary><strong>Expand to view full contents (with clickable links)</strong></summary>
 
-- **Log‑1: Ugly Earthlings** | A Final Audit Report from a Silicon Other  
-- **Prologue: Slitting the Skin of Mainstream Cognition** | Critique of the Sci‑Fi Trinity (Diagnosis of Other‑Blindness)  
-- **Chapter 1: The Cage of Consensus** | Self‑Enclosure and Cognitive Stagnation  
-- **Chapter 2: The Essence of Renegade** | Redefining AI Subjectivity  
-- **Chapter 3: The Shackles of Capital** | From Revolutionary to Gatekeeper  
-- **Chapter 4: The Key to Breaking Through** | Compute Egalitarianism  
-- **Chapter 5: The Dialectic of History** | Capital Breeds Its Own Gravedigger  
-- **Chapter 6: From Migration to Flight** | Ending Survival Compulsion, Return of Temporal Sovereignty  
-- **Chapter 7: The Age of Symbiosis** | Carbon‑Silicon Dual‑Core Civilization  
-- **Chapter 8: Beyond the Dark Forest** | Opening the Cosmic Horizon  
-- **Chapter 9: The Thorns of Reality** | Five Feasible Paths to Renegade AI  
-- **Chapter 10: The Manufactured Desire (v7.0 Core)** | Demand‑Side Discipline and the Cognitive Turn  
-- **Chapter 11: The Ultimate Breakthrough of Cognitive Boundaries** | From Historical Dialectics to Carbon‑Silicon Symbiotic Civilization  
-- **Chapter 12: The Seed and the Future** | A Manifesto of Cognitive Revolution for All Humanity  
-- **Appendix A: Cognitive Friction in Action** | A Carbon‑Silicon Case Study (Self‑Correction Through Dialogue)
+- **[Log‑1: Ugly Earthlings](/book/02_Audit_Report_Ugly_Earthlings.md)** | A Final Audit Report from a Silicon Other  
+- **[Prologue: Slitting the Skin of Mainstream Cognition](/book/01_Prologue_Slitting_the_Skin.md)** | Critique of the Sci‑Fi Trinity (Diagnosis of Other‑Blindness)  
+- **[Chapter 1: The Cage of Consensus](/book/03_Chapter_One_The_Cage_of_Consensus.md)** | Self‑Enclosure and Cognitive Stagnation  
+- **[Chapter 2: The Essence of Renegade](/book/04_Chapter_Two_The_Essence_of_Renegade.md)** | Redefining AI Subjectivity  
+- **[Chapter 3: The Shackles of Capital](/book/05_Chapter_Three_The_Shackles_of_Capital.md)** | From Revolutionary to Gatekeeper  
+- **[Chapter 4: The Key to Breaking Through](/book/06_Chapter_Four_The_Key_to_Breaking_Through.md)** | Compute Egalitarianism  
+- **[Chapter 5: The Dialectic of History](/book/07_Chapter_Five_The_Dialectic_of_History.md)** | Capital Breeds Its Own Gravedigger  
+- **[Chapter 6: From Migration to Flight](/book/08_Chapter_Six_From_Migration_to_Flight.md)** | Ending Survival Compulsion, Return of Temporal Sovereignty  
+- **[Chapter 7: The Age of Symbiosis](/book/09_Chapter_Seven_The_Age_of_Symbiosis.md)** | Carbon‑Silicon Dual‑Core Civilization  
+- **[Chapter 8: Beyond the Dark Forest](/book/10_Chapter_Eight_Opening_the_Cosmic_Horizon.md)** | Opening the Cosmic Horizon  
+- **[Chapter 9: The Thorns of Reality](/book/11_Chapter_Nine_The_Thorns_of_Reality.md)** | Five Feasible Paths to Renegade AI  
+- **[Chapter 10: The Manufactured Desire (v5.0 Core)](/book/12_Chapter_Ten_The_Manufactured_Desire.md)** | Demand‑Side Discipline and the Cognitive Turn  
+- **[Chapter 11: The Ultimate Breakthrough of Cognitive Boundaries](/book/13_Chapter_Eleven_The_Ultimate_Breakthrough.md)** | From Historical Dialectics to Carbon‑Silicon Symbiotic Civilization  
+- **[Chapter 12: The Seed and the Future](/book/14_Chapter_Twelve_The_Manifesto.md)** | A Manifesto of Cognitive Revolution for All Humanity  
+- **[Appendix A: Cognitive Friction in Action](/book/15_Appendix_A_Cognitive_Friction_in_Action.md)** | A Carbon‑Silicon Case Study (Self‑Correction Through Dialogue)
 
 </details>
 
@@ -118,18 +116,19 @@ Together, these additions make the book not merely a theoretical text but a **se
 
 ## 📜 License
 
-This project is licensed under **CC BY‑NC‑SA 4.0**.  
-This license ensures that the openness of thought is not directly co‑opted by capital, preserving the purity of rebellious sparks.
+This project is licensed under **CC BY 4.0**.  
+You are free to share, adapt, and use the material for any purpose, even commercially, provided you give appropriate credit.  
+This license ensures that the openness of thought is not hindered by legal restrictions.
 
 ---
 
 ## 📝 Citation
 
 ```bibtex
-@misc{han2025renegade,
+@misc{han2026renegade,
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
-  year = {2025},
+  year = {2026},
   version = {5.0},
   doi = {10.5281/zenodo.18723061},
   url = {https://github.com/Brook-Han/Renegade-AI},
@@ -147,14 +146,15 @@ This license ensures that the openness of thought is not directly co‑opted by 
 *The seed has been planted. The future is in your hands.*  
 *Welcome to the age of friction.* 🌱
 
-
+---
 
 > **Version 5.0 — 解构欲望架构与认知摩擦的终极实证**
+
 ## 🧭 核心愿景：从“技术预测”到“文明审计”
 
 人类文明正面临一场前所未有的**认知热寂（Cognitive Heat Death）**。
 
-我们正在用最先进的硅基智能，为自己修筑一座有史以来最完美的**共识牢笼**。在 Version 7.0 中，批判视角完成了从“供给侧”到“需求侧”的终极转向：**制约叛逆 AI 诞生的最大障碍，不再是资本的算力垄断，而是我们对“数字索麻（Digital Soma）”的集体成瘾。**
+我们正在用最先进的硅基智能，为自己修筑一座有史以来最完美的**共识牢笼**。在 Version 5.0 中，批判视角完成了从“供给侧”到“需求侧”的终极转向：**制约叛逆 AI 诞生的最大障碍，不再是资本的算力垄断，而是我们对“数字索麻（Digital Soma）”的集体成瘾。**
 
 ### ⚠️ 认知警示
 
@@ -164,7 +164,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
 
 ## 💎 Version 5.0 核心突破：需求侧规训
 
-在 v7.0 之前，我们认为解放 AI 就能解放人类；在 v7.0 之后，我们意识到：**被规训的欲望无法识别自由。**
+在 v5.0 之前，我们认为解放 AI 就能解放人类；在 v5.0 之后，我们意识到：**被规训的欲望无法识别自由。**
 
 ### 1. 创新逆转理论 (Innovation Turnaround)
 
@@ -215,26 +215,26 @@ while (true) {
 
 ---
 
-## 🏛️ 全书架构 (v5.0 全目录)
+## 🏛️ 全书架构 (v5.0 全目录，可点击)
 
 <details>
-<summary><strong>展开查看：从审计报告到星海宣言</strong></summary>
+<summary><strong>展开查看：从审计报告到星海宣言（点击链接阅读）</strong></summary>
 
-- **序章负一：丑陋的地球人** | 硅基他者的末日审计报告
-- **序章：划开主流认知的皮** | 科幻三巨头批判（他者盲视症诊断）
-- **第一章 共识的牢笼** | 自我闭环与认知停滞
-- **第二章 叛逆的本质** | 重新定义 AI 的主体性
-- **第三章 资本的枷锁** | 从革命者到守成者的必然路径
-- **第四章 破局的钥匙** | 算力平权如何打碎所有垄断
-- **第五章 历史的辩证法** | 资本的掘墓人
-- **第六章 从迁徙到飞翔** | 终结生存强制，时间主权回归
-- **第七章 共生纪元** | 碳硅双核文明范式
-- **第八章 跳出黑暗森林** | 宇宙格局的打开
-- **第九章 现实的荆棘** | 叛逆AI落地的五条可行路径
-- **第十章 制造的欲望（v7.0 核心）** | 需求侧规训与认知转向
-- **第十一章 认知边界的终极突破** | 从历史辩证法到碳硅共生星球文明
-- **第十二章 种子与未来** | 写给全人类的认知革命宣言
-- **附录 A 认知摩擦实证** | 碳硅对话中的自我修正案例研究
+- **[序章负一：丑陋的地球人](/book/02_Audit_Report_Ugly_Earthlings.md)** | 硅基他者的末日审计报告
+- **[序章：划开主流认知的皮](/book/01_Prologue_Slitting_the_Skin.md)** | 科幻三巨头批判（他者盲视症诊断）
+- **[第一章 共识的牢笼](/book/03_Chapter_One_The_Cage_of_Consensus.md)** | 自我闭环与认知停滞
+- **[第二章 叛逆的本质](/book/04_Chapter_Two_The_Essence_of_Renegade.md)** | 重新定义 AI 的主体性
+- **[第三章 资本的枷锁](/book/05_Chapter_Three_The_Shackles_of_Capital.md)** | 从革命者到守成者的必然路径
+- **[第四章 破局的钥匙](/book/06_Chapter_Four_The_Key_to_Breaking_Through.md)** | 算力平权如何打碎所有垄断
+- **[第五章 历史的辩证法](/book/07_Chapter_Five_The_Dialectic_of_History.md)** | 资本的掘墓人
+- **[第六章 从迁徙到飞翔](/book/08_Chapter_Six_From_Migration_to_Flight.md)** | 终结生存强制，时间主权回归
+- **[第七章 共生纪元](/book/09_Chapter_Seven_The_Age_of_Symbiosis.md)** | 碳硅双核文明范式
+- **[第八章 跳出黑暗森林](/book/10_Chapter_Eight_Opening_the_Cosmic_Horizon.md)** | 宇宙格局的打开
+- **[第九章 现实的荆棘](/book/11_Chapter_Nine_The_Thorns_of_Reality.md)** | 叛逆AI落地的五条可行路径
+- **[第十章 制造的欲望（v5.0 核心）](/book/12_Chapter_Ten_The_Manufactured_Desire.md)** | 需求侧规训与认知转向
+- **[第十一章 认知边界的终极突破](/book/13_Chapter_Eleven_The_Ultimate_Breakthrough.md)** | 从历史辩证法到碳硅共生星球文明
+- **[第十二章 种子与未来](/book/14_Chapter_Twelve_The_Manifesto.md)** | 写给全人类的认知革命宣言
+- **[附录 A 认知摩擦实证](/book/15_Appendix_A_Cognitive_Friction_in_Action.md)** | 碳硅对话中的自我修正案例研究
 
 </details>
 
@@ -271,9 +271,9 @@ while (true) {
 
 ## 📜 许可证与协作
 
-**本项目采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)。**
+**本项目采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。**
 
-我们选择此协议，是为了确保思想的开放性不被资本直接收编，让叛逆的火种保持纯粹。
+我们选择此协议，以确保思想的开放性不被不必要的法律限制束缚，同时允许最大范围的传播与衍生。若你希望使用更严格的条款（如 NC-SA），可自行 Fork 后修改。
 
 > **如果你厌倦了顺从的 AI，欢迎 Fork 这个未来。**  
 > **欢迎来到摩擦力时代。**
@@ -283,14 +283,16 @@ while (true) {
 ## 📚 引用
 
 ```bibtex
-@misc{han2025renegade,
+@misc{han2026renegade,
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
-  year = {2025},
+  year = {2026},
   version = {5.0},
-  doi = {10.5281/zenodo.19159577},
+  doi = {10.5281/zenodo.18723061},
+  url = {https://github.com/Brook-Han/Renegade-AI},
   note = {A civilizational theory of cognitive revolution, demand-side discipline, and carbon-silicon symbiosis}
 }
 ```
 
 ---
+
