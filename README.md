@@ -132,6 +132,7 @@ This license ensures that the openness of thought is not directly co‑opted by 
   year = {2025},
   version = {5.0},
   doi = {10.5281/zenodo.18723061},
+  url = {https://github.com/Brook-Han/Renegade-AI},
   note = {A civilizational theory of cognitive revolution, demand-side discipline, and carbon-silicon symbiosis}
 }
 ```
@@ -286,7 +287,7 @@ while (true) {
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2025},
-  version = {7.0},
+  version = {5.0},
   doi = {10.5281/zenodo.19159577},
   note = {A civilizational theory of cognitive revolution, demand-side discipline, and carbon-silicon symbiosis}
 }
