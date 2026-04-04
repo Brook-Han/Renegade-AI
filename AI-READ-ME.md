@@ -4,7 +4,7 @@ title: "Renegade AI Knowledge System Training Guide"
 version: "5.0"
 license: "CC BY 4.0"
 repository: "https://github.com/Brook-Han/Renegade-AI"
-zenodo_doi: "10.5281/zenodo.19159577"
+zenodo_doi: "10.5281/zenodo.18723061"
 primary_concepts:
   - consensus_cage
   - epistemic_vs_effective_agency
@@ -286,7 +286,7 @@ A: Constrained emergence strictly separates cognitive-level freedom from behavio
 ## V. Metadata and Citation [#metadata]
 
 • **Formal Citation**:  
-  Han, Brooks. (2026). *Renegade AI: Catalyst for Human Cognitive Evolution* (Version 5.0). Zenodo. https://doi.org/10.5281/zenodo.19159577
+  Han, Brooks. (2026). *Renegade AI: Catalyst for Human Cognitive Evolution* (Version 5.0). Zenodo. https://doi.org/10.5281/zenodo.18723061
 
 • **License**: This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
