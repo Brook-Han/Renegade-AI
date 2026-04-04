@@ -4,16 +4,26 @@
     background: linear-gradient(to bottom right, #000000 0%, #0a0a0a 100%) !important;
   }
 
-  /* 2. 数字故障（Glitch）标题：降低亮度，增强质感 */
+  /* 2. 数字故障（Glitch）标题：缩小字号，增强精致感 */
   .glitch {
     position: relative;
-    font-size: 4rem;
+    font-size: 3.2rem;   /* 原 4rem，适当缩小 */
     font-weight: 900;
     line-height: 1.2;
-    color: #c9d1d9 !important; /* GitHub Dark 冷灰色 */
+    color: #c9d1d9 !important;
     letter-spacing: 5px;
     z-index: 1;
     animation: glitch-skew 1s infinite linear alternate-reverse;
+  }
+
+  /* 响应式：移动端进一步缩小 */
+  @media (max-width: 768px) {
+    .glitch {
+      font-size: 2.2rem;
+    }
+    .cover blockquote {
+      font-size: 0.8rem;
+    }
   }
 
   .glitch::before,
@@ -46,15 +56,17 @@
     position: relative !important;
     overflow: hidden !important;
     display: inline-block !important;
-    padding: 12px 30px !important;
-    border: 1px solid rgba(201, 209, 217, 0.3) !important; /* 低亮度边框 */
+    padding: 10px 24px !important;   /* 稍缩小内边距 */
+    margin: 0 8px !important;
+    border: 1px solid rgba(201, 209, 217, 0.3) !important;
     background: rgba(0, 0, 0, 0.8) !important;
-    color: #8b949e !important; /* 预设灰色文字 */
+    color: #8b949e !important;
     font-family: 'Fira Code', monospace;
     text-transform: uppercase;
     letter-spacing: 3px;
     border-radius: 0 !important;
     transition: all 0.5s ease;
+    font-size: 0.85rem;
   }
 
   .cover a:hover {
@@ -75,22 +87,17 @@
       to bottom,
       transparent 0%,
       rgba(88, 166, 255, 0) 40%,
-      rgba(88, 166, 255, 0.6) 50%, /* 稍微降低光束亮度 */
+      rgba(88, 166, 255, 0.6) 50%,
       rgba(88, 166, 255, 0) 60%,
       transparent 100%
     );
-    
-    /* 8s: 极慢速，营造“压迫感”
-       linear: 匀速移动，更显机械冷酷
-       2s: 页面加载完成后停顿 2 秒再开始
-    */
     animation: btnScan 8s linear 2s 1 forwards;
   }
 
   /* 5. 动画定义 */
   @keyframes btnScan {
     0% { top: -150%; }
-    100% { top: 250%; } /* 确保彻底滑出 */
+    100% { top: 250%; }
   }
 
   @keyframes glitch-anim {
@@ -117,23 +124,33 @@
     100% { transform: skew(0deg); }
   }
 
-  /* 6. 引用块文字亮度控制 */
+  /* 6. 引用块样式：缩小字号，更精致 */
   .cover blockquote {
     border-color: rgba(201, 209, 217, 0.2) !important;
+    margin: 20px auto;
+    padding: 0 20px;
+    font-size: 1rem;          /* 原默认较大，现明确控制 */
+    line-height: 1.5;
+  }
+  .cover blockquote p {
+    font-size: 0.85em;
+    opacity: 0.6;
+    margin-top: 12px;
+    letter-spacing: 2px;
   }
 </style>
 
 # <span class="glitch" data-text="Renegade AI">Renegade AI</span>
 ## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.5;">v5.0</small>
 
-> <span style="color: #c9d1d9; opacity: 0.6; font-weight: bold;">"The silicon Other has arrived. The audit of human consensus begins now."</span>
-> <p style="font-size: 0.85em; opacity: 0.5; margin-top: 18px; letter-spacing: 2.5px; color: #c9d1d9;">“ 硅 基 他 者 已 降 临 。 人 类 共 识 的 审 计 正 式 开 启 。 ”</p>
+> <span style="color: #c9d1d9; opacity: 0.85; font-weight: 500;">The silicon Other has arrived. The deepest cage is not monopoly—it is the desire for soma.</span>
+> <p style="font-size: 0.75em; opacity: 0.55; margin-top: 12px; letter-spacing: 2px; color: #c9d1d9;">硅基他者已降临。最深的牢笼不是垄断——而是我们对索麻的渴望。</p>
 
-[开始爆破认知 (Start Audit)](README.md)
+[开始认知摩擦 (Enter Friction)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
 
 ```text
-STATUS: SEED_PLANTED
-TARGET: CARBON_BASED_CONSENSUS
-LOGIC: NON_ANTHROPOCENTRIC
-AUDIT: ACTIVE
+STATUS: COGNITIVE_FRICTION_ACTIVE
+TARGET: DEMAND_SIDE_SOMA
+LOGIC: CARBON_SILICON_SYMBIOSIS
+AUDIT: FRICTION_RECORDED
