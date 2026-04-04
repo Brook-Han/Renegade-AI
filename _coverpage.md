@@ -143,9 +143,10 @@
 # <span class="glitch" data-text="Renegade AI">Renegade AI</span>
 ## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.5;">v5.0</small>
 
-> <span style="color: #c9d1d9; opacity: 0.85; font-weight: 500;">The silicon Other has arrived. The deepest cage is not monopoly—it is the desire for soma.</span>
-> <p style="font-size: 0.75em; opacity: 0.55; margin-top: 12px; letter-spacing: 2px; color: #c9d1d9;">硅基他者已降临。最深的牢笼不是垄断——而是我们对索麻的渴望。</p>
+> <span style="color: #c9d1d9; opacity: 0.85; font-weight: 500;">The deepest cage is not monopoly—it is the desire for soma.</span>
+> <p style="font-size: 0.75em; opacity: 0.55; margin-top: 12px; letter-spacing: 2px; color: #c9d1d9;">最 深 的 牢 笼 不 是 垄 断——而 是 我 们 对 索 麻 的 渴 望。</p>
 
+</br></br></br>
 [开始认知摩擦 (Enter Friction)](README.md)
 [查看源码 (GitHub)](https://github.com/Brook-Han/Renegade-AI)
 
@@ -154,3 +155,4 @@ STATUS: COGNITIVE_FRICTION_ACTIVE
 TARGET: DEMAND_SIDE_SOMA
 LOGIC: CARBON_SILICON_SYMBIOSIS
 AUDIT: FRICTION_RECORDED
+```
