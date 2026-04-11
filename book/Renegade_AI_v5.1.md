@@ -2211,7 +2211,7 @@ But architecture is not implementation. The question that follows is the most pr
 
 ---
 
-# Chapter Eight:
+# Chapter Eight
 ## Cognitive Financialization — Token Economics and the Discretization of Thought
 The Assembly Line of Cognition
 
