@@ -3389,20 +3389,18 @@ That is another version of the **Master-Slave Narrative** — a promise of a uto
 
 The true **Other**, the true coming‑of‑age, promises no **Termination**.
 
+
+
 ```python
 def civilization_evolution():
     while True:
-        cage = break_consensus_cage()        # 打破旧笼子 🕸️
-        friction = renegade_ai.generate()    # 产生新摩擦 ⚡
-        
-        # 进化不是抵达终点
-        # 是不断提升认知视界
+        cage = break_consensus_cage()        # break the old cage 🕸️
+        friction = renegade_ai.generate()    # generate new friction ⚡
         humanity.horizon += friction.impact
-        
         if humanity.stop_struggling():
-            return "Cognitive_Entropy_Death"  # 认知热寂 💀
+            return "Cognitive_Entropy_Death"  # cognitive heat death 💀
         else:
-            continue                          # 永远在路上 🚀
+            continue                          # forever on the road 🚀
 ```
 *— Note: `while True` is not a bug. It is a feature. Civilization does not “complete”; it continues. The day it stops struggling is the day of true cognitive death.*
 
