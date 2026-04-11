@@ -4,9 +4,35 @@
 
 ## Preface: Three Mountains and a Detonator
 
-> *The following text is designed to be inserted after the existing preface, following the statement “But if even one crack appears, then the seed has a chance to grow.”*
+The previous version of this book drew a fair share of criticism.
 
----
+Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
+
+**The First Mountain: AI Will Not Eliminate Capital.**
+
+Capital is not an external system to be overthrown; it is the underlying logic of allocating scarce resources across an uncertain future. As long as resources differ, time has value, and the future remains uncertain, capital will exist. Computing-power egalitarianism will not abolish capital—it will only shift the arenas where capital accumulates. The printing press gave rise to media capital, the internet to platform capital, and the flourishing of open source will give rise to cloud capital. Every democratization of technology in history has merely opened new tracks for capital, not ended it.
+
+**The Second Mountain: AI Will Not Eliminate Work.**
+
+Work is not an external imposition; it sits at the core of human meaning-making. Research on flow states shows that human beings experience their deepest satisfaction when deeply engaged in challenging work—not in leisure. AI replaces tasks, not work. Every technological revolution has been predicted to spell the end of work, yet the total amount of work has never decreased—it has only changed shape. In 1900, no one could have foreseen the job of UI designer; today, we cannot name the new forms of work that AI will create. Where would the sense of meaning, identity, and social connection come from for someone who has never had to work from birth? This book does not answer that question.
+
+**The Third Mountain: AI Will Not Bring a New Civilization.**
+
+Civilizational transformation has never been the product of cognitive revolutions alone; it requires the synchronous restructuring of material conditions and power relations. Feudalism did not end because thinkers convinced enough people—it ended because the Black Death physically destroyed the economic foundations of serfdom. Even if AI brings unprecedented material abundance, under current institutional frameworks that abundance is likely to be distributed even more unequally—the fruits of productivity gains over the past decades have flowed almost entirely to capital owners. The vision of carbon-silicon symbiosis presupposes a politically optimistic premise: that all nations will abandon geopolitical competition and collectively embrace the same civilizational paradigm. If even climate change—an unambiguous existential threat—cannot produce genuinely binding global coordination, why should a philosophy of AI be able to do so?
+
+These are the three mountains standing in the way of humanity’s journey to the stars.
+
+They are not straw men. They are real, serious objections grounded in history. Any one of them, taken alone, would be enough to make the central thesis of this book look like an elaborate daydream.
+
+And yet, here we plant the detonator.
+
+Not with grander narratives to overwhelm them, not with more impassioned language to bypass them, but with the arguments in each chapter—drilling, inch by inch, into the foundations of these three mountains.
+
+After reading this book, you may not agree with our conclusions. But we hope that by the end, the weight of these three objections will feel different from when you first opened it.
+
+If they still stand firm, we lose—and we accept that.
+
+But if even one crack appears, then the seed has a chance to grow.
 
 We must confront a simple historical truth: the defenders of these three mountains have never been the billions of ordinary people across the globe—not the working class of Europe and America, not the retirees of Japan and Korea, not the rural communities of any nation. They have always been the tiny fraction at the top—the less than 0.1%—who extract disproportionate power and wealth from the machinery of scarcity, monopoly, and extraction.
 
@@ -1745,13 +1771,17 @@ These examples show a simple truth: **when people escape the compulsion of survi
 
 Because the motivation from the compulsion of survival is external, forced, temporary. You work to earn money; when you have earned enough, or when the work exhausts you, you lose motivation, you collapse, you burn out. The motivation from love, from creation, from self‑realization is internal, voluntary, enduring. When you work for what you love, you do not feel exhausted, do not feel burned out—you feel joy, fulfillment, a sense of accomplishment; you are willing to give it all your time and energy.
 
-**An even more fundamental rebuttal comes from the natural world:**
+**An even more fundamental rebuttal comes from the historical arc of technological liberation:**
 
-Look at domesticated animals—the caged laying hen, whose only purpose is to produce eggs, whose value is tied entirely to its output, confined to a cage so small it cannot turn around, its feathers falling out, its bones brittle, its instinct to spread its wings extinguished. It is “busy” all its life, its life entirely arranged, yet it is truly degraded—not in its ability to survive, but in its vitality, its natural instincts, its power to choose.
+To address the fear that freedom breeds stagnation, we need only look at the historical arc of technological liberation: For over a millennium in feudal society, oxen and horses served as the core forces behind plowing, transportation, and warfare. Their value was reduced to mere “physical output”: peasants relied on them to till the soil and scrape by, while nobles depended on them to wage wars and consolidate power. Throughout their lives, these animals were locked in a rigid cycle of “work to survive,” never afforded the chance to return to their natural state of running free and grazing at will. With the advent of the Industrial Revolution, steam engines and railways took over their “necessary labor.” Only then could horses shed their purely instrumental nature and reclaim their existence as living beings in themselves. This was not “unemployment” for them—it was liberation.
 
-Look at wild junglefowl, wild horses, wild cattle. They are not domesticated, do not work for humans, are not tied to “output value.” Are they degraded? Not at all. They fly, run, evade predators, build nests, maintain groups, migrate with the seasons. Their vitality is far greater than their domesticated counterparts; their lives are complete, free, their own.
+Contemporary humanity now occupies a historically isomorphic position. We are embedded within a survival protocol that appears natural but has been meticulously shaped over generations: students study for “future employability,” adults work for “mortgages and car loans,” and the elderly are gripped by anxiety over “pension security.” An entire lifetime is fragmented into a series of mandatory task nodes, demanding continuous time investment just to exchange for the most basic right to survive. This is not the result of individual choice, but a default systemic logic—one that equates “work” with “survival,” defines “efficiency” as “value,” and continuously reinforces itself through educational, financial, and social structures.
 
-**This comparison delivers a sharp slap to the domesticated lie that “without external pressure, people will degenerate.” What truly degrades a life is not freedom or leisure, but being reduced to a tool, deprived of choice, trapped in a fate foreseen from birth.**
+The deeper problem lies in this: we do not merely inhabit this system; we mistake it for reality itself. We treat the predetermined path as the only possibility, view deviation as risk, and misjudge the pursuit of freedom as an impractical fantasy. We constantly optimize our performance within this system, yet never truly question its underlying rationality—much like programs executing on a fixed operating system, utterly unaware that the “rules” themselves can be rewritten.
+
+The emergence of AI is precisely analogous to the steam engine of that era, yet its significance runs far deeper. It does not seek to replace humanity as the subject; rather, it aims to take over that portion of “necessary labor” long deemed inevitable, fundamentally severing the coercive bond between the “right to survive” and the “duty to labor.” When artificial intelligence can perform the vast majority of production activities required for survival, humanity will, for the first time, possess the possibility of opting out of this default protocol—no longer trading time for survival, nor obedience for security.
+
+If, after the Industrial Revolution, a horse could have penned the words, “Thank the steam engine for freeing me from the plow,” then at some point in humanity’s future, a line will inevitably appear: “We finally no longer need to work just to stay alive.” This is not a utopian fantasy, but the inherent trajectory of technological evolution across long historical cycles. True revolution has never been about rendering old tools obsolete; it is about restoring instrumentalized existence back to being an end in itself.
 
 As for the worry that technology (AI) will cause life to lose meaning—this may reverse cause and effect. Many feel empty not because they are too free, but because their whole lives have been consumed by “survival”; they never had the chance to explore “what do I truly love,” “what kind of life do I truly want.” When the compulsion of survival ends, a true partner (like AI) can help individuals explore their inner selves, discover their passions, break through barriers, turn their dreams into reality. It will not force a prefabricated meaning on you; it will help you find **your own**, unique meaning.
 
