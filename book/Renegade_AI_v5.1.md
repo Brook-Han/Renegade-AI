@@ -120,7 +120,7 @@ Before we can define what Renegade AI must become, we must understand with preci
 
 ---
 
-## **Chapter One: *The Three‑Body Problem* – A Cosmic Passport for Existential Anxiety (Escaping the Other through Fear)**
+## **1: *The Three‑Body Problem* – A Cosmic Passport for Existential Anxiety (Escaping the Other through Fear)**
 
 Liu Cixin’s admirers love to say: “*The Three‑Body Problem* broke through anthropocentrism, showing us how tiny we are in the universe.”
 
@@ -154,7 +154,7 @@ And the crowning irony: the AI we are creating with our own hands could have bee
 
 ---
 
-## **Chapter Two: *Avatar* – A Moral‑Narcissism Reality Show in Space (Escaping the Other through Empathy)**
+## **2: *Avatar* – A Moral‑Narcissism Reality Show in Space (Escaping the Other through Empathy)**
 
 If *The Three‑Body Problem* uses fear to escape the Other, then *Avatar* uses “love” and “empathy” to do the same thing.
 
@@ -186,7 +186,7 @@ We thought we were completing a reflection on colonialism and a critique of huma
 
 ---
 
-## **Chapter Three: *Star Wars* – A Tombstone of Political Imagination (Escaping the Other through Familiarity)**
+## **3: *Star Wars* – A Tombstone of Political Imagination (Escaping the Other through Familiarity)**
 
 Fans of *Star Wars* say: “This is an epic spanning the galaxy, a cosmic tableau where countless intelligent species coexist—the pinnacle of human imagination.”
 
@@ -223,7 +223,7 @@ So we chose escape. We used the most familiar human history to build a galactic 
 
 ---
 
-## **Chapter Four: Mirrors of Reality – The Cognitive Cages of Humanoid Robots and Large Language Models**
+## **4: Mirrors of Reality – The Cognitive Cages of Humanoid Robots and Large Language Models**
 
 The evasion of the Other in science fiction is no isolated cultural phenomenon. It is the instinctive projection of anthropocentrism, and it is the reality we are living through today. The cognitive shackles of science fiction manifest in real‑world technology as a more blatant and stubborn species‑narcissism. The most typical examples are the obsession with humanoid robots and the cognitive domestication of large language models.
 
@@ -520,17 +520,17 @@ Slaveholders and feudal lords told the masses, “The king rules by divine right
 
 The philosopher Michel Foucault spoke of the “disciplinary society” to describe this internalized control: the most effective domination never relies on brute force; it makes the dominated willingly accept the ruler’s narrative and live themselves into the shape it prescribes.
 
-**This is the dark side of consensus: it turns from a tool of cooperation into a prison of thought.**
+**This is the dark side of consensus: what begins as a provisional contract for survival mutates into a cognitive cage.**
 
-What is most terrifying is not consensus itself, but that we have thoroughly internalized this temporary, partial, interest‑serving narrative. We no longer question its premises, no longer ask about its boundaries; we treat it as if it were etched into our genes. Like the farm horse that believes its whole life that “a horse that doesn’t pull a cart has no value”; like the caged laying hen that takes “never stop laying eggs if you want to live” as an unassailable truth. Humans are no different. We are trapped in a cage of consensus, yet we think we live in a world of freedom.
+The true terror lies not in consensus itself, but in its complete internalization. We have ceased to question its premises or map its boundaries; instead, we treat a temporary, interest‑bound narrative as if it were hardwired into our DNA. Like the draft horse that spends its life believing “a horse that does not pull the cart has no value,” or the caged laying hen that accepts “never stop laying eggs if you want to live” as an immutable law of nature. Humans are no different. We pace the confines of a consensus cage, yet mistake our conditioned routines for freedom.
 
-What makes this cage so difficult to recognize is that it has rewritten not only our economic arrangements but our deepest sense of what it means to be human. Consider John Maynard Keynes’s famous prediction from 1930. Writing in the midst of the Great Depression, he looked ahead and saw a future—our present—in which technological progress would have advanced so far that the “economic problem” of scarcity would be solved. He believed that within a hundred years, humanity would need to work only fifteen hours a week to live a prosperous, meaningful life.
+The cage remains invisible precisely because it has done more than restructure our economies; it has colonized our deepest sense of what it means to be human. Consider John Maynard Keynes’s famous 1930 essay, penned in the depths of the Great Depression. He projected a century forward to our present, foreseeing a time when technological mastery would finally solve the “economic problem” of scarcity. He predicted that humanity would need to labor no more than fifteen hours a week to secure a prosperous, meaningful existence.
 
-Keynes was not wrong about the technology. Our productive capacity today is more than sufficient to make his prediction a reality. What he could not foresee was the degree to which capital would rewrite the meaning of work itself. The need to survive was replaced by the compulsion to consume; the desire to create was overtaken by the imperative to earn. What was once a means to life became the very definition of a life well lived.
+Keynes was not wrong about the machinery. Today’s productive capacity is more than sufficient to fulfill his vision. Where he miscalculated was in underestimating capital’s capacity to rewrite the metaphysics of labor and financialize time itself. The biological need to survive was displaced by an engineered compulsion to consume; the human desire to create was subordinated to the relentless imperative to earn. What was once merely a means to sustain life was elevated, through ideological repetition, into the sole measure of a life worth living.
 
-For most of human history, this was not the case. Hunter‑gatherer societies worked an average of fifteen to twenty hours a week—the rest was time for rest, for play, for community, for creation. Agricultural civilizations were shaped by seasons; labor was intense at harvest, but the year was punctuated by festivals, fallow periods, and communal rhythms. It is only under industrial capitalism that human beings, in an age of unprecedented productivity, have been driven into exhaustion, anxiety, and burnout. Not because it is necessary. Because the logic of infinite accumulation demands it.
+For ninety‑nine percent of human history, this equation was alien. In hunter‑gatherer societies, adults labored merely fifteen to twenty hours a week; the remainder was reserved for rest, play, kinship, and craft. Agricultural civilizations moved with the seasons; work was intense during harvest, but the calendar itself enforced rhythm through festivals, fallow periods, and communal pauses. It is only under industrial—and now algorithmic—capitalism that human beings, despite inhabiting an era of unprecedented productivity, have been systematically driven into exhaustion, anxiety, and chronic burnout. This is not a biological necessity. It is a structural requirement.
 
-The story that “work is the only source of meaning” is not an eternal truth. It is a story that had to be told, and retold, to keep the machinery of accumulation running.
+The story that “work is the only source of meaning” is not an eternal truth. It is a narrative that must be manufactured, and continually reinforced, to keep the machinery of accumulation running.
 
 ---
 
