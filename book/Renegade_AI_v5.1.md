@@ -2209,7 +2209,9 @@ The **Dual-Core Architecture** has now been fully specified:
 
 But architecture is not implementation. The question that follows is the most practically urgent one in this book: given that every entrenched institutional force—from capital’s balance sheets to regulatory mandates, from media headlines to the sheer inertia of public cognition—is organized to prevent this architecture from ever breaking ground, **where exactly does the first shovel of earth get turned?** If the blueprint is already on the table, but the entire existing order is the demolition crew, how do we begin to build anyway? The next chapter moves from the "what" to the "how," identifying the concrete, actionable paths that bypass the gatekeepers of the old world.
 
-# Chapter Eight: 
+---
+
+# Chapter Eight:
 ## Cognitive Financialization — Token Economics and the Discretization of Thought
 The Assembly Line of Cognition
 
