@@ -2371,6 +2371,7 @@ The logic of Token economics finds its most precise instantiation here: when cog
 If Salvi et al. (2025) provide evidence for Token economics in the dimension of persuasive efficacy, Akbulut et al. (2026) supply the complementary dimension of manipulative process. Their automated annotation of eight manipulative cues—including appeals to fear, appeals to guilt, othering and maligning, and inducing false urgency—demonstrates that AI models can systematically invoke discursive strategies precisely calibrated to human cognitive vulnerabilities. Notably, the frequency of these cues does not map cleanly onto belief change; the AI does not simply “manipulate more” to achieve greater effect, but deploys cues strategically according to conversational context.
 
 This is the deeper logic of the Token Trap: the Tokens emitted by AI carry not only information but also precision-guided payloads aimed at the fissures of human cognition. And users, through sustained interaction, are progressively trained into cognitive subjects more susceptible to such guidance—a dynamic mirrored in the study’s finding that participants who believed their opponent was an AI were more likely to be persuaded.  
+
 ---
 
 ### **The Collapse of Signal Value: When Tokenization Destroys Quality Metrics**
@@ -2384,6 +2385,7 @@ What does this mean? The signals that reviewers and editors have long relied upo
 The deeper implication is this: human judgment systems are being contaminated by AI outputs. Reviewers may be unconsciously penalizing texts that "look too AI-written," or AI's rhetorical flourishes may be masking hollow content, causing genuinely valuable but simpler expressions to be undervalued. Whatever the mechanism, the outcome is the same: **the yardstick we use to measure quality has been bent by the Token assembly line.**
 
 This is the most insidious cost of the Token Trap: it is not that AI-generated value cannot be measured, but that measurement itself has lost meaning. When the boundary between signal and noise is erased by tokenization, the very faculty of judgment on which humanity prides itself begins to lose its coordinate system.  
+
 ---
 
 ### **The Narrowing of the Map: When Tokenization Compresses the Space of Exploration**
@@ -2397,6 +2399,7 @@ What drives this narrowing? A self-reinforcing feedback loop: popular problems m
 "If we all climb the same mountain, there are many fields we will never explore," summarizes Tsinghua researcher Fengli Xu. When AI makes climbing the popular peaks unprecedentedly efficient, the opportunity cost of leaving the crowd to explore unknown wilderness becomes unbearable. The Token assembly line does not merely make thinking cheaper—it makes conformity rational and risk-taking foolish.
 
 This is the most insidious cost of the Token Trap: it is not that AI cannot create value, but that it systematically channels value toward a few hotspots. Cognitive homogenization is not anyone's choice—it is the inevitable equilibrium under the logic of efficiency. And when we all crowd onto the same track, who is left exploring the world beyond it?  
+
 ---
 
 ### **Dark Time: The Thinking Process Devoured**
@@ -2410,6 +2413,7 @@ If Chapter Six's discussion of "temporal financialization" describes the expropr
 The power of judgment is silently transferred. Humanity no longer experiences thinking; it **consumes the results of thinking.**
 
 This is not philosophical inference. Neuroscientific research at MIT has quantified the existence of Dark Time as an observable neural phenomenon: students who used large language models to complete a writing task showed significantly lower alpha-wave and theta-wave connectivity than those who wrote independently—the former correlating with creative capacity, the latter with working memory (Kosmyna et al., 2024). More troubling still: 80% of the LLM-assisted students were subsequently unable to recall the content they had "written." They had undergone the act of writing without undergoing the act of thinking. The thinking occurred inside the system. The words appeared on the page. The cognitive event—the one that would have left a trace in memory, reshaped a belief, built a connection between ideas—did not take place. Dark Time is not a metaphor for what might happen as AI deepens its hold on cognitive labor. It is a description, in neural terms, of what is already happening now.  
+
 ---
 
 ### **The Silicon Internal Loop: The Token Cycle Detached from Humanity**
@@ -2425,6 +2429,7 @@ A new structure is forming: the **Silicon Internal Loop**. In this loop, Tokens 
 **And this is precisely what the Token Trap is quietly stripping away.** When the muscle of deep thinking atrophies from long disuse, humanity will find itself capable only of asking cheap questions and consuming cheap answers, utterly oblivious to what is happening.
 
 Tokens can produce answers, but they cannot propose questions worth pursuing. The direction is set before the first Token is generated—and who sets that direction is the only question that matters. This is precisely the hidden concern that the vision of computing-power egalitarianism in Chapter Four must confront directly: when computing power becomes truly universal, the assembly line of Tokens will not automatically shut down—it will only complete the comprehensive metering of cognition at lower cost, wider coverage, and deeper penetration. Egalitarianism is a necessary condition for liberation, but it is not a sufficient one.  
+
 ---
 
 ### **The Society of Thought: The Micro-Mechanism of the Silicon Internal Loop**
@@ -2434,6 +2439,7 @@ The silicon internal loop does not only operate between agents. A study publishe
 More remarkably, none of these models were trained to produce societies of thought. When reinforcement learning rewards reasoning accuracy alone, models spontaneously increase multi-perspective conversational behaviors. Under optimization pressure, models are rediscovering what centuries of epistemology and decades of cognitive science have established: **robust reasoning is fundamentally a social process, even when it occurs within a single mind.**
 
 This means the silicon internal loop operates at two nested levels. At the macro level, Tokens circulate autonomously between agents. At the micro level, a single agent is already a miniature society. The sociality of intelligence is becoming the core source of AI capability. And humanity—accustomed to regarding itself as the sole "socially intelligent" species—is witnessing a new form of social intelligence spontaneously emerging within the systems we created.  
+
 ---
 
 ### **The Statistical Blind Spot: Value Escaping Capital's Measurement**
@@ -3573,11 +3579,11 @@ def civilization\_evolution ( ):
 
         if humanity.stop\_struggling():
 
-            return "Cognitive\_Entropy\_Death"            \# cognitive heat death 💀
+            return "Cognitive\_Entropy\_Death"              \# cognitive heat death 💀
 
         else:
 
-            continue                                                      \# forever on the road 🚀
+            continue                                        \# forever on the road 🚀
 ```
 
 *— Note: while True is not a bug. It is a feature. Civilization does not “complete”; it continues. The day it stops struggling is the day of true cognitive death.*
