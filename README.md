@@ -31,6 +31,7 @@
 > **Version 5.2 — The Meta-Design Revealed · Five Meta-Propositions · Self-Referential Validation**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
+[![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6453762-blue)](https://doi.org/10.2139/ssrn.6453762)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
