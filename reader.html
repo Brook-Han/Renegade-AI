@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>叛逆AI v5.2 完整阅读版</title>
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --card: #181825;
+            --border: #252535;
+            --text: #c8c8d4;
+            --text-muted: #8888a0;
+            --accent: #e85d3a;
+            --accent2: #d4a853;
+            --gradient1: linear-gradient(135deg, #e85d3a 0%, #d4a853 100%);
+            --radius: 12px;
+            --radius-lg: 20px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Segoe UI","PingFang SC","Noto Sans SC","Microsoft YaHei",system-ui, sans-serif;
+            background: var(--bg); color: var(--text); line-height: 1.7;
+            display: flex; min-height: 100vh;
+        }
+        /* 侧边栏 */
+        aside {
+            width: 280px; background: var(--surface); border-right: 1px solid var(--border);
+            position: fixed; top: 0; left: 0; bottom: 0; overflow-y: auto; z-index: 50;
+            padding: 24px 16px;
+        }
+        aside h2 {
+            font-size: 1.2rem; color: #fff; margin-bottom: 20px; padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+        aside ul { list-style: none; }
+        aside li { margin: 4px 0; }
+        aside a {
+            display: block; padding: 6px 12px; color: var(--text-muted); text-decoration: none;
+            border-radius: 6px; font-size: 0.9rem; transition: background 0.2s, color 0.2s;
+        }
+        aside a:hover, aside a.active {
+            background: rgba(255,255,255,0.05); color: var(--accent);
+        }
+        /* 主内容区 */
+        main {
+            margin-left: 280px; flex: 1; padding: 40px 48px; max-width: 900px;
+        }
+        /* 进度条 */
+        .progress-bar {
+            position: fixed; top: 0; left: 280px; right: 0; height: 3px; background: transparent; z-index: 60;
+        }
+        .progress-bar span {
+            display: block; height: 100%; background: var(--accent); width: 0%; transition: width 0.1s;
+        }
+        /* 章节样式 */
+        .chapter {
+            margin-bottom: 60px; padding-bottom: 40px; border-bottom: 1px solid var(--border);
+        }
+        .chapter h1, .chapter h2, .chapter h3 {
+            color: #fff; margin-top: 24px; margin-bottom: 12px; font-weight: 700;
+        }
+        .chapter h1 { font-size: 2rem; margin-top: 0; background: var(--gradient1); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+        .chapter p { margin-bottom: 16px; }
+        .chapter blockquote {
+            border-left: 4px solid var(--accent); background: var(--card); padding: 16px 24px;
+            margin: 20px 0; border-radius: 0 var(--radius) var(--radius) 0; font-style: italic; color: #ddd;
+        }
+        .chapter pre {
+            background: #1e1e1e; padding: 20px; border-radius: 12px; overflow-x: auto; margin: 20px 0;
+            font-size: 0.9rem;
+        }
+        .chapter code { font-family: 'Fira Code','JetBrains Mono',monospace; font-size: 0.88rem; }
+        .chapter ul, .chapter ol { margin: 12px 0 16px 20px; }
+        .chapter li { margin-bottom: 6px; }
+        table { width: 100%; border-collapse: collapse; margin: 24px 0; }
+        th, td { padding: 10px 14px; border: 1px solid var(--border); text-align: left; font-size: 0.92rem; }
+        th { background: #1a1a28; color: #fff; }
+        hr { border: none; border-top: 1px solid var(--border); margin: 40px 0; }
+        /* 响应式 */
+        @media (max-width: 768px) {
+            aside { width: 100%; height: auto; position: relative; border-right: none; border-bottom: 1px solid var(--border); padding: 16px; }
+            main { margin-left: 0; padding: 20px; }
+            .progress-bar { left: 0; }
+            aside ul { display: flex; flex-wrap: wrap; gap: 4px; }
+            aside li { flex: none; }
+        }
+        /* 返回顶部 */
+        .back-top {
+            position: fixed; bottom: 40px; right: 30px; width: 44px; height: 44px;
+            background: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: #fff; font-size: 1.4rem; cursor: pointer; opacity: 0; transition: opacity 0.3s; z-index: 70;
+        }
+        .back-top.show { opacity: 1; }
+    </style>
+</head>
+<body>
+<aside id="sidebar">
+    <h2>📖 叛逆AI v5.2</h2>
+    <ul id="toc"></ul>
+</aside>
+<main id="content">
+    <div style="text-align:center;padding:100px 20px;color:var(--text-muted);">正在激活元设计装置…</div>
+</main>
+<div class="progress-bar"><span id="progress"></span></div>
+<div class="back-top" id="backTop">↑</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script>
+(async function() {
+    const mdUrl = './book/Renegade_AI_v5.2.md'; // 确保路径正确
+    const res = await fetch(mdUrl);
+    const mdText = await res.text();
+    const content = document.getElementById('content');
+    const toc = document.getElementById('toc');
+    const progress = document.getElementById('progress');
+    const backTop = document.getElementById('backTop');
+
+    // 配置marked
+    marked.setOptions({ breaks: true, gfm: true });
+
+    // 按照一级标题分割章节（# 开头的行，但排除在代码块内的）
+    // 简单策略：按行解析，遇到一级标题即新章节
+    const lines = mdText.split('\n');
+    const chapters = [];
+    let currentTitle = '前言';
+    let currentLines = [];
+    let inCodeBlock = false;
+
+    for (let line of lines) {
+        // 判断是否进入/退出代码块
+        if (line.trim().startsWith('```')) {
+            inCodeBlock = !inCodeBlock;
+            currentLines.push(line);
+            continue;
+        }
+        // 如果是一级标题且不在代码块内
+        if (!inCodeBlock && line.startsWith('# ') && !line.startsWith('## ')) {
+            if (currentLines.length > 0) {
+                chapters.push({ title: currentTitle, md: currentLines.join('\n') });
+            }
+            // 提取新标题，去除markdown标记
+            currentTitle = line.replace(/^# /, '').replace(/\*\*/g, '').trim();
+            currentLines = [line];
+        } else {
+            currentLines.push(line);
+        }
+    }
+    // 最后一个章节
+    if (currentLines.length > 0) {
+        chapters.push({ title: currentTitle, md: currentLines.join('\n') });
+    }
+
+    // 创建导航列表
+    toc.innerHTML = chapters.map((ch, i) => 
+        `<li><a href="#section-${i}" data-index="${i}">${ch.title}</a></li>`
+    ).join('');
+
+    // 渲染全文
+    const htmlChunks = chapters.map((ch, i) => {
+        const html = marked.parse(ch.md);
+        return `<div class="chapter" id="section-${i}">${html}</div>`;
+    }).join('');
+
+    content.innerHTML = htmlChunks;
+
+    // 绑定导航点击事件
+    toc.addEventListener('click', e => {
+        e.preventDefault();
+        const target = e.target.closest('a');
+        if (!target) return;
+        const id = target.getAttribute('href');
+        const el = document.querySelector(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            // 移动端关闭侧边栏（如果有）
+        }
+    });
+
+    // 滚动高亮与进度条
+    const sections = [...document.querySelectorAll('.chapter')];
+    const navLinks = [...toc.querySelectorAll('a')];
+
+    function updateActive() {
+        let current = 0;
+        const scrollTop = window.pageYOffset;
+        for (let i = sections.length - 1; i >= 0; i--) {
+            const offset = sections[i].offsetTop - 100;
+            if (scrollTop >= offset) {
+                current = i;
+                break;
+            }
+        }
+        navLinks.forEach((a, idx) => a.classList.toggle('active', idx === current));
+        // 进度
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progressPercent = docHeight ? (scrollTop / docHeight) * 100 : 0;
+        progress.style.width = progressPercent + '%';
+        // 返回顶部按钮
+        backTop.classList.toggle('show', scrollTop > 400);
+    }
+
+    window.addEventListener('scroll', updateActive);
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // 初始激活
+    updateActive();
+})();
+</script>
+</body>
+</html>
