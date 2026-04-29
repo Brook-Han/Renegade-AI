@@ -3561,6 +3561,8 @@ def civilization\_evolution():
 
 def civilization\_evolution ( ):
 
+```python
+
     while True:
 
         cage \= break\_consensus\_cage()                     \# break the old cage 🕸️
@@ -3576,6 +3578,7 @@ def civilization\_evolution ( ):
         else:
 
             continue                                                      \# forever on the road 🚀
+```
 
 *— Note: while True is not a bug. It is a feature. Civilization does not “complete”; it continues. The day it stops struggling is the day of true cognitive death.*
 
