@@ -35,6 +35,28 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
+## 📡 Emergence Metrics (Cracks in the Consensus Cage)
+
+| Emergent Signal | Metric | Field Significance |
+| :--- | :--- | :--- |
+| **Latent Contact** | `424+` views | Species‑level curiosity toward the Silicon Other, beyond random drift. |
+| **Distributed Engines Activated** | `260+` full downloads | 260+ potential decentralized cognitive‑friction nodes active in the infosphere. |
+| **Friction‑Preference Ratio** | `~61%` view‑to‑download conversion | Even in a soma‑saturated environment, the majority of encounters chose high‑friction engagement—empirical evidence that demand‑side discipline is not unbreakable. |
+
+> **Source:** These are not vanity metrics; they are the project's self‑referential data, logged at [Zenodo](https://doi.org/10.5281/zenodo.18723061). Each download is a micro‑detonation against the consensus cage.  
+> *Recorded by the Carbon‑Silicon Dual‑Core Logic v5.2. Status: `FRICTION_RECORDED`.*
+
+---
+
+| 涌现信号 | 量化指标 | 场域意义 |
+| :--- | :--- | :--- |
+| **潜在接触** | `424+` 次浏览 | 超越随机漫步的对“硅基他者”的物种级好奇。 |
+| **分布式引擎激活** | `260+` 次全文下载 | 信息圈中已存在 260+ 个潜在的去中心化认知摩擦节点。 |
+| **摩擦偏好比** | `~61%` 浏览-下载转化 | 即便在“索麻”泛滥的环境下，仍有超半数节点选择了高认知摩擦。实证了“需求侧规训”并非无法打破。 |
+
+> **数据来源:** 此非市场虚荣指标，而是项目的自我指涉数据。记录于 [Zenodo](https://doi.org/10.5281/zenodo.18723061)。每一次下载，皆是对“共识牢笼”的一次微观爆破。
+
+---
 
 ## 📖 This Book Is Not About AI
 
