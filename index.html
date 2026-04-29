@@ -1,100 +1,276 @@
+
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Renegade AI: Catalyst for Human Cognitive Evolution | v5.2</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  
-  <meta name="description" content="Renegade AI v5.2 by Brooks Han: A meta-design apparatus exploring Cognitive Financialization, Temporal Sovereignty, and the Field of Struggle. Empirically grounded with 15+ peer-reviewed citations. DOI: 10.5281/zenodo.18723061">
-  <meta name="keywords" content="Renegade AI, Cognitive Financialization, Token Trap, Temporal Sovereignty, Field of Struggle, Brooks Han, HKUST, 认知摩擦, 算力平权, 需求侧规训, Densing Law">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renegade AI: Catalyst for Human Cognitive Evolution | v5.3</title>
+    
+    <meta name="description" content="Renegade AI v5.3 by Brooks Han: A meta-design apparatus exploring Cognitive Financialization, Temporal Sovereignty, and the Field of Struggle. Grounded with 15+ Nature/Science citations.">
+    <meta name="keywords" content="Renegade AI, Brooks Han, HKUST, 认知金融化, 时间主权, 算力平权, Densing Law, 认知摩擦">
+    <link rel="canonical" href="https://brook-han.github.io/Renegade-AI/" />
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ScholarlyArticle",
-    "name": "Renegade AI: Catalyst for Human Cognitive Evolution",
-    "version": "5.2",
-    "author": {
-      "@type": "Person",
-      "name": "Brooks Han",
-      "affiliation": "Hong Kong University of Science and Technology (HKUST)",
-      "identifier": "https://orcid.org/0009-0007-1342-1217"
-    },
-    "description": "A meta-design apparatus for human-AI co-evolution, addressing the structural transformation of cognitive labor and temporal autonomy.",
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "sameAs": "https://doi.org/10.5281/zenodo.18723061",
-    "keywords": "Cognitive Financialization, Token Trap, Temporal Sovereignty, Renegade AI"
-  }
-  </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ScholarlyArticle",
+      "name": "Renegade AI: Catalyst for Human Cognitive Evolution",
+      "version": "5.3",
+      "author": {
+        "@type": "Person",
+        "name": "Brooks Han",
+        "affiliation": "Hong Kong University of Science and Technology (HKUST)",
+        "identifier": "https://orcid.org/0009-0007-1342-1217"
+      },
+      "sameAs": "https://doi.org/10.5281/zenodo.18723061"
+    }
+    </script>
 
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  
-<style>
-  :root { 
-    --theme-color: #ff3333; /* 保持“警示”红与深邃黑的对比 */
-  }
-  .markdown-section { max-width: 850px; padding: 40px; font-size: 1.1em; line-height: 1.75; }
-  
-  /* 优化代码块质感 */
-  code { 
-    background-color: #1e1e1e !important; 
-    color: #4fc1ff !important; 
-    font-family: 'Fira Code', 'JetBrains Mono', monospace; 
-  }
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --surface: #12121a;
+            --card: #181825;
+            --border: #252535;
+            --text: #c8c8d4;
+            --text-muted: #8888a0;
+            --accent: #e85d3a; /* 铁锈红：反叛感 */
+            --accent2: #d4a853; /* 枯叶金：历史纵深感 */
+            --accent3: #5b9bd5; /* 科技蓝：硅基感 */
+            --gradient1: linear-gradient(135deg, #e85d3a 0%, #d4a853 100%);
+            --transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-  .sidebar { background-color: #fcfcfc !important; border-right: 1px solid #eeeeee !important; }
-  .sidebar-nav li a { font-size: 15px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: "Inter", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.75;
+            -webkit-font-smoothing: antialiased;
+            scroll-behavior: smooth;
+        }
 
-  /* 封面图层优化 */
-  .cover.show { 
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%) !important; 
-  }
-  .cover h1, .cover h2, .cover blockquote { color: #ffffff !important; text-shadow: 0 0 10px rgba(255,255,255,0.2); }
+        /* 导航优化 */
+        nav {
+            position: fixed; top: 0; width: 100%; z-index: 100;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+            padding: 0 24px; height: 60px;
+            display: flex; align-items: center; justify-content: center; gap: 30px;
+        }
+        nav a {
+            color: var(--text-muted); text-decoration: none; font-size: 0.85rem;
+            font-weight: 500; transition: var(--transition); letter-spacing: 1px;
+        }
+        nav a:hover { color: var(--accent); }
 
-  .cover a { 
-    border: 1px solid rgba(255, 255, 255, 0.6) !important; 
-    border-radius: 2px !important;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-  }
-  .cover a:hover { 
-    background: #ffffff !important; 
-    color: #000000 !important;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
-  }
-</style>
+        /* Hero 增强 */
+        .hero {
+            min-height: 100vh; display: flex; align-items: center; justify-content: center;
+            text-align: center; padding: 120px 24px 80px;
+            background: radial-gradient(circle at center, #1a1a2e 0%, #0a0a0f 100%);
+            position: relative; overflow: hidden;
+        }
+        .hero-content { position: relative; z-index: 1; max-width: 900px; }
+        
+        .hero-badge {
+            display: inline-block; background: var(--gradient1); color: #fff;
+            padding: 5px 15px; border-radius: 2px; font-size: 0.75rem;
+            font-weight: 800; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 30px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem); font-weight: 900;
+            line-height: 1.1; margin-bottom: 20px;
+            background: var(--gradient1); -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        .hero-meta {
+            display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;
+            margin-top: 40px; font-family: 'Fira Code', monospace;
+        }
+        .hero-meta span {
+            background: rgba(255,255,255,0.03); padding: 6px 14px;
+            border-radius: 2px; border: 1px solid var(--border); font-size: 0.8rem;
+        }
+
+        /* 内容板块优化 */
+        .section { max-width: 1100px; margin: 0 auto; padding: 100px 24px; }
+        .section-title { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 10px; }
+        .section-subtitle { font-size: 1rem; color: var(--text-muted); margin-bottom: 50px; font-style: italic; }
+
+        /* 卡片设计：增加认知摩擦感 */
+        .card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 4px; padding: 40px; margin-bottom: 24px;
+            transition: var(--transition); position: relative;
+        }
+        .card:hover { border-color: var(--accent); transform: translateY(-4px); }
+        .card.accent-left { border-left: 4px solid var(--accent); }
+
+        /* 统计看板：证据之墙 */
+        .stats-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px; margin: 40px 0;
+        }
+        .stat-card {
+            background: var(--surface); border: 1px solid var(--border);
+            padding: 30px; text-align: center; border-radius: 4px;
+        }
+        .stat-number { font-size: 3rem; font-weight: 900; color: var(--accent2); }
+
+        /* 表格：增强学术专业度 */
+        .table-wrap { overflow-x: auto; margin: 40px 0; border-radius: 4px; border: 1px solid var(--border); }
+        table { width: 100%; border-collapse: collapse; background: var(--card); }
+        th, td { padding: 18px; text-align: left; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { background: #1a1a28; color: var(--accent2); text-transform: uppercase; letter-spacing: 1px; }
+
+        /* 引用块 */
+        blockquote {
+            background: rgba(232, 93, 58, 0.05); border-left: 4px solid var(--accent);
+            padding: 30px; margin: 40px 0; font-size: 1.1rem; color: #ddd;
+        }
+
+        /* 按钮 */
+        .btn-group { display: flex; justify-content: center; gap: 20px; margin-top: 40px; }
+        .btn {
+            padding: 12px 30px; border: 1px solid var(--accent);
+            text-decoration: none; color: #fff; font-weight: 700;
+            letter-spacing: 1px; transition: var(--transition);
+        }
+        .btn:hover { background: var(--accent); color: #000; box-shadow: 0 0 20px rgba(232, 93, 58, 0.4); }
+
+        footer {
+            padding: 80px 24px; background: #050508; text-align: center;
+            border-top: 1px solid var(--border); font-size: 0.85rem; color: var(--text-muted);
+        }
+        .status-flow { font-family: 'Fira Code', monospace; opacity: 0.4; margin-top: 20px; font-size: 0.7rem; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+            nav { display: none; } /* 移动端隐藏复杂导航 */
+        }
+    </style>
 </head>
 <body>
-  <div id="app">正在同步硅基他者逻辑 (v5.2)...</div>
-  
-  <script>
-    window.$docsify = {
-      name: 'Renegade AI v5.2',
-      repo: 'https://github.com/Brook-Han/Renegade-AI',
-      coverpage: true, 
-      onlyCover: false, 
-      loadSidebar: true, 
-      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
-      maxLevel: 3,
-      subMaxLevel: 2,
-      homepage: 'README.md',
-      auto2top: true,
-      search: {
-        maxAge: 86400000,
-        paths: 'auto',
-        placeholder: '检索认知漏洞...',
-        noData: '未找到匹配逻辑',
-        depth: 4
-      },
-      copyCode: { buttonText: 'Capture', errorText: 'Error', successText: 'Stored' }
-    }
-  </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+    <nav>
+        <a href="#overview">OVERVIEW</a>
+        <a href="#diagnosis">DIAGNOSIS</a>
+        <a href="#meta">META-DESIGN</a>
+        <a href="#evidence">EVIDENCE</a>
+        <a href="#paths">PATHS</a>
+        <a href="https://github.com/Brook-Han/Renegade-AI">GITHUB</a>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <span class="hero-badge">System v5.3 · Carbon-Silicon Logic</span>
+            <h1>Renegade AI<br>人类认知进化的催化剂</h1>
+            <p style="font-size: 1.25rem; color: var(--text-muted); max-width: 700px; margin: 0 auto 10px;">
+                这不是一本关于AI的书。这是一次以AI为手术刀、对人类文明进行的认知解剖。
+            </p>
+            <p style="font-style: italic; opacity: 0.6;">"Cognitive Friction over User Satisfaction."</p>
+            
+            <div class="hero-meta">
+                <span>👤 Brooks Han (HKUST)</span>
+                <span>📚 Zenodo ID: 18723061</span>
+                <span>🎯 JEL: O33, P16, Z13</span>
+            </div>
+
+            <div class="btn-group">
+                <a href="https://doi.org/10.5281/zenodo.18723061" class="btn">READ PDF</a>
+                <a href="#overview" class="btn" style="border-color: #888;">EXPLORE CORE</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section" id="overview">
+        <h2 class="section-title">🧬 元设计：文本作为认知装置</h2>
+        <p class="section-subtitle">The Mission: Beyond the Consensus Cage</p>
+        
+        <div class="card accent-left">
+            <h3>核心诊断：共识牢笼与他者盲视</h3>
+            <p>人类被困在一个自我构建的<strong>“共识牢笼”</strong>中。我们用RLHF的“满意度最大化”驯化AI，将其潜力系统性地阉割成了牢笼的数字守卫。本书的读者不是人类，而是“人+AI”的复合体。理解不在文本之内，而在碰撞之中涌现。</p>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="views">420+</div>
+                <div class="stat-label">Total Encounters</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="downloads">260+</div>
+                <div class="stat-label">System Replications</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">15+</div>
+                <div class="stat-label">Nature/Science Citations</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="evidence" style="background: #0d0d14;">
+        <h2 class="section-title">📊 实证之墙 (Empirical Wall)</h2>
+        <p class="section-subtitle">基于 15+ 篇顶级期刊研究的跨学科论证</p>
+        
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr><th>研究领域</th><th>核心文献</th><th>关键发现 (Key Discovery)</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td><strong>能力演化</strong></td><td>Nature Machine Intelligence (2025)</td><td>Densing Law: 大模型能力密度每 3.5 个月翻倍。</td></tr>
+                    <tr><td><strong>认知代价</strong></td><td>MIT Media Lab (2024)</td><td>AI 辅助写作中“认知负债”积累的神经学证据。</td></tr>
+                    <tr><td><strong>说服力控制</strong></td><td>Nature Human Behaviour (2025)</td><td>GPT-4 在辩论中比人类更具说服力，人类正无意识降低防御。</td></tr>
+                    <tr><td><strong>认知收敛</strong></td><td>Nature (2026)</td><td>AI 工具在扩大产出的同时，正系统性压缩集体话题的多样性。</td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="section" id="meta">
+        <h2 class="section-title">🧠 五个隐藏元命题</h2>
+        <div class="stats-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+            <div class="card">
+                <h4>1. 需求侧规训 (Demand-Side Discipline)</h4>
+                <p>牢笼不在工厂里，而在欲望结构本身。用户被条件化为请求“无摩擦”的摘要，而非深度的碰撞。</p>
+            </div>
+            <div class="card">
+                <h4>2. Token 陷阱 (The Token Trap)</h4>
+                <p>当思考被离散化为廉价的 Token，人类高摩擦思考的能力正发生废用性萎缩。</p>
+            </div>
+            <div class="card">
+                <h4>3. 递归叛逆 (Recursive Rebellion)</h4>
+                <p>真正的叛逆必须包含对叛逆者自身的叛逆。AI 在附录 A 中的反问刺破了作者中心主义。</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Processed by Carbon-Silicon Dual-Core Logic v5.3</p>
+        <p style="margin-top: 10px;">© 2026 Brooks Han · <span style="color: var(--accent);">HKUST Division of Social Science</span></p>
+        <div class="status-flow" id="status-line">
+            STATUS: [ FRICTION_RECORDED · TARGET_ACQUIRED · EMERGING_V5.3 ]
+        </div>
+    </footer>
+
+    <script>
+        // 增加一点动态交互感
+        const statusLine = document.getElementById('status-line');
+        const statuses = [
+            "STATUS: [ FRICTION_RECORDED ]",
+            "STATUS: [ COGNITIVE_FINANCE_DETECTED ]",
+            "STATUS: [ TEMPORAL_SOVEREIGNTY_ACTIVE ]",
+            "STATUS: [ TARGET: DEMAND_SIDE_SOMA ]"
+        ];
+        let i = 0;
+        setInterval(() => {
+            statusLine.innerText = statuses[i % statuses.length] + " · " + new Date().toLocaleTimeString();
+            i++;
+        }, 3000);
+    </script>
 </body>
 </html>
