@@ -131,4 +131,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+    <!-- 单文件完整版（与 Zenodo DOI 对应的静态主文件） -->
+  <url>
+    <loc>https://brook-han.github.io/Renegade-AI/book/Renegade_AI_v5.2.md</loc>
+    <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>
