@@ -4099,6 +4099,8 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Horowitz, M. C., & Kahn, L. (2024).** Automation bias in high-stakes decision-making: Evidence from a nine-country study. *International Organization*, 78(1), 1–34.
 
+**Hoberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. DOI: 10.3389/fpsyg.2025.1734048
+
 **Jussupow, E., Benbasat, I., & Heinzl, A. (2024).** A meta-analysis of automation bias: Trends and moderators. *Journal of the Association for Information Systems*, 25(3), 567–596.
 
 **Kosmyna, N., et al. (2024).** Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks. *MIT Media Lab Working Paper*.
