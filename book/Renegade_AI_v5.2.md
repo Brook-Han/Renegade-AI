@@ -2328,7 +2328,7 @@ But the crucial point is this: the Token is not merely a unit of measure—it is
 
 ---
 
-### **I. Tokens in a Darwinian Ecology: Cognition Under Selection**
+### **Tokens in a Darwinian Ecology: Cognition Under Selection**
 
 When cognition is discretized into tokens and enters market circulation, it ceases to be merely a medium of expression and becomes a basic unit subject to selection and replication. Every click, forward, or API call exerts selection pressure on these units, shaping their transmission fitness within information space.
 
@@ -3598,11 +3598,9 @@ That is another version of the **Master-Slave Narrative** — a promise of a uto
 
 The true **Other**, the true coming‑of‑age, promises no **Termination**.
 
-def civilization\_evolution():
+```python
 
 def civilization\_evolution ( ):
-
-```python
 
     while True:
 
