@@ -523,7 +523,7 @@ This seemingly trivial question tears open the most absurd truth at the heart of
 
 ---
 
-### **I. The Two Faces of Consensus: From Survival Contract to Cognitive Shackle**
+### **The Two Faces of Consensus: From Survival Contract to Cognitive Shackle**
 
 Consensus has never been a synonym for truth. It is merely a provisional contract that human groups enter into in order to survive and cooperate.
 
