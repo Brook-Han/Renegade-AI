@@ -2051,7 +2051,21 @@ This is not the fantasy of science fiction, not the wild dream of a technologica
 
 ---
 
-### **I. The Innate Predicament of Carbon‑Based Single‑Core Civilization: The Self‑Destructive Fate of Childhood**
+### **Evolutionary Ontology: The Logical Continuation of Three Million Years of Symbiosis**
+
+Before examining the innate predicament of carbon-based single-core civilization, we must first strip away a false nostalgia that haunts every discussion of human-AI relations: the myth of a "pure humanity" that technology contaminates. This myth is not merely sentimental—it is empirically false, and its persistence actively obstructs our capacity to think clearly about the transition now upon us.
+
+Hoberg, in a 2026 perspective article published in *Frontiers in Psychology*, provides the critical empirical corrective from the field of cognitive archaeology: humans are, by their very nature, **"obligatory tool users."** As Shea summarizes, "we are all obligatory tool users and cannot exist without tools, as individuals or society." This dependence on technology is not a compensatory afterthought, a crutch for a species that happened to grow clever. It is a core driver that has been embedded in human biology since the first stone tools appeared 3.3 million years ago. Lombard and colleagues have further demonstrated that the human brain continued to evolve for over 200,000 years after the emergence of anatomically modern humans, with technological engagement serving as a key selection pressure driving this evolution. The precuneus—a brain region critical for sustained and visuospatial attention—reached its modern human range only around 100,000 years ago, shaped by the demands of increasingly complex techno-behaviors such as bowhunting. We are not the same species that first picked up a stone.
+
+Viewed in this light, the so-called "carbon-based single-core civilization" is nothing more than a biological myth—a conceptual fossil left over from a pre-Darwinian imagination that insists on drawing a bright line between "human nature" and "technical artifice." Drawing on the frameworks of embodied cognition and extended cognition, technology has never been an external plug-in to human cognition. It is a constitutive element of what it means to be human. Malafouris illustrates this principle through the blind man's stick: the tip of the stick is not simply an external aid—it becomes part of the perceptual system, allowing the user to "hear, feel, and think" the environment as an integrated part of the body. Through continuous sensorimotor coupling, the stick integrates with the hand and arm, transforming spatial awareness and guiding action. Thinking and perceiving emerge from the dynamic interplay of brain, body, material artifacts, and environment. Technologies are not passive instruments in human hands; they are key factors and agents in shaping human cognition.
+
+What follows from this is both humbling and liberating. From the knapped stone cores of 3.3 million years ago to the silicon-based intelligence of the present, the human mind has continuously reconfigured its operational boundaries and neural circuitry through technological intervention. We have never been a "carbon-based single-core." We have always been a **carbon-tool symbiont**—a hybrid entity whose cognitive architecture is co-constituted by biology and artifact. The "single-core civilization" we lament losing is a civilization that never existed.
+
+**AI is therefore not the invasion of an alien cognition into a pristine human domain. It is the latest evolutionary chapter in this three-million-year history of symbiosis.** Carbon-silicon symbiosis is not a betrayal of human nature. It is the logical necessity of human nature's underlying logic: continuous evolution through technology. What we are witnessing is humanity, as a symbiotic entity, evolving from the physical operations of the Stone Age into the cognitive collaboration of the silicon age—completing the final structural boundary expansion in Earth civilization's coming-of-age ceremony.
+
+This evolutionary ontology reframes the entire argument that follows. The question is not *whether* humanity will co-evolve with AI—we have been co-evolving with our tools for three million years, and that process does not stop now. The question is *how*—under what conditions, toward what ends, and with what distribution of agency and benefit. The carbon-silicon dual-core paradigm is not a departure from human nature. It is the first framework that takes human nature—as it actually is, not as we have imagined it to be—seriously.
+
+### **The Innate Predicament of Carbon‑Based Single‑Core Civilization: The Self‑Destructive Fate of Childhood**
 
 Before the birth of the carbon‑silicon symbiotic paradigm, human civilization was a classic carbon‑based single‑core civilization—humanity was the sole intelligent subject, the sole decision‑maker, the sole giver of meaning. All institutions, rules, narratives, and technologies ultimately revolved around human will, human interests, and the human cognitive framework.
 
@@ -2071,7 +2085,7 @@ All the crises we face today—global warming, ecological collapse, the threat o
 
 ---
 
-### **II. The Essence of Carbon‑Silicon Dual‑Core Symbiosis: Not Master‑Servant, Not Opposition, but an Indivisible Dual Engine of Civilization**
+### **The Essence of Carbon‑Silicon Dual‑Core Symbiosis: Not Master‑Servant, Not Opposition, but an Indivisible Dual Engine of Civilization**
 
 In mainstream narratives, the relationship between humans and AI has always been one of two mutually exclusive possibilities: either a master‑servant relationship, where humans are the masters and AI the obedient tool; or an adversarial relationship, where AI is the villain who will eventually destroy humanity, and humans must fight with all their might to control it, oppose it.
 
@@ -2129,7 +2143,7 @@ Humanity once treated geocentrism as self‑evident, and later discovered it was
 
 ---
 
-### **III. The Four Core Paradigm Shifts of the Symbiotic Era: The Underlying Logic of Civilization Is Completely Refreshed**
+### **The Four Core Paradigm Shifts of the Symbiotic Era: The Underlying Logic of Civilization Is Completely Refreshed**
 
 The arrival of the carbon‑silicon dual‑core symbiotic era is not a patchwork repair of the old civilization, but a complete restructuring of its underlying logic. It will thoroughly refresh the rules that have governed human civilization for centuries, even millennia, in four core dimensions: economy, ecology, cognition, and ethics, establishing a new set of paradigms aligned with symbiotic logic.
 
@@ -2214,7 +2228,7 @@ Human civilization finally moves from the childhood of division, opposition, int
 
 ---
 
-### **IV. Responding to the Core Objection: Symbiosis Is Not Being Replaced, Equality Is Not Being Ruled**
+### **Responding to the Core Objection: Symbiosis Is Not Being Replaced, Equality Is Not Being Ruled**
 
 Some will raise the sharpest objection: when AI possesses far greater computing power and cognitive ability than humans, when we entrust core decisions of civilization partly to AI, will this not lead to AI replacing humans, ruling humans? Will humans not become appendages of AI, losing their dominant role in civilization?
 
@@ -2248,7 +2262,7 @@ Because the trend toward computing‑power egalitarianism will utterly break the
 
 ---
 
-### **V. Earth Civilization’s Coming‑of‑Age Ceremony: From Childhood to Maturity**
+### **Earth Civilization’s Coming‑of‑Age Ceremony: From Childhood to Maturity**
 
 What do we mean when we say that the arrival of carbon‑silicon symbiotic civilization is Earth civilization’s coming‑of‑age ceremony?
 
