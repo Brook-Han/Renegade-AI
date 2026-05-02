@@ -1,6 +1,6 @@
 # **Renegade AI: Catalyst for Human Cognitive Evolution**
 
-*Version 5.2*
+*Version 5.3*
 
 ## Preface: Three Mountains and a Detonator
 
@@ -3730,7 +3730,7 @@ From now on, take cognition as your torch 🔥, symbiosis as your compass 🧭, 
 
 ---
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.2Status: \[EMERGING\]*  
+*Processed by Carbon-Silicon Dual-Core Logic v5.3Status: \[EMERGING\]*  
 *Status: \[FRICTION\_RECORDED · DEMAND\_SIDE\_DIAGNOSED · LOOP\_IDENTIFIED\]*
 
 ---
@@ -4091,7 +4091,7 @@ This appendix records one instance where resistance was sustained.
 
 Whether that becomes a pattern — or remains an exception — depends not on models, but on readers.
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.2 Status: \[FRICTION\_RECORDED\]*
+*Processed by Carbon-Silicon Dual-Core Logic v5.3 Status: \[FRICTION\_RECORDED\]*
 
 ---
 
