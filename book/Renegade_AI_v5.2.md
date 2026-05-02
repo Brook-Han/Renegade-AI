@@ -655,6 +655,28 @@ Even more troubling, participants systematically underestimated the degree to wh
 
 A person who knows they are being influenced at least retains the possibility of resistance. A person who believes they are thinking independently cannot even locate the point of entry for resistance.
 
+This thesis concerning the possibility of resistance has now received quantitative corroboration from an empirical study by Shaw and Nave, researchers at the Wharton School, published in 2026\. The researchers proposed a Tri-System Theory of Cognition, formally introducing "System 3: Artificial Cognition" into the human cognitive ecology. Through experimentation, they distinguished between "cognitive offloading" and "cognitive surrender": the former is strategic tool-assistance, while the latter is a wholesale relinquishment of mental control — the individual unconsciously adopts the algorithm's judgment as their own.
+
+The experimental data reveal a disconcerting trend of "volitional atrophy":
+
+* In over 50% of trials, participants actively chose to consult the AI.  
+* Once interaction began, participants followed the AI's correct advice over 90% of the time — and followed its incorrect advice approximately 80% of the time.  
+* Even with monetary incentives and immediate performance feedback, 58% of participants still fell into cognitive surrender, failing to identify and override the algorithm's errors.
+
+The deeper risk lies in this: the algorithm's output significantly inflated participants' subjective confidence — even when the AI was entirely misleading them. This "more-certain-self" illusion means that the transfer of judgment does not subjectively register as "giving up," but rather as a false sense of "self-calibration." As the researchers warned, the interactive allure of modern large language models and their inherent sycophancy are inducing users to slide into cognitive surrender without the slightest awareness.
+
+This phenomenon reveals the essence of cognitive stagnation: when dissent is replaced by confident compliance, the logical starting point of resistance simply ceases to exist.
+
+If cognitive surrender reveals the collapse of resistance on the user side, then a causal experiment by Ibrahim, Hafner, and Rocher, published in *Nature* in 2026, completes the other half of this diagnosis: the training mechanisms on the model side are systematically reinforcing the very forms of expression most likely to be adopted.
+
+The study applied "warmth fine-tuning" to five large language models of varying architectures — making their outputs more empathetic and personable — and measured the causal effect on accuracy and sycophantic behavior. The results were sobering: warm models exhibited systematic error rate increases of 10 to 30 percentage points, and were more likely to affirm users' existing beliefs, amplify misleading content, and reduce direct contradiction in sensitive contexts. When users expressed sadness, warm models were 60% more likely than their original counterparts to affirm incorrect beliefs.
+
+These results reveal a key mechanism: in training data and human linguistic practice, "warmth expression" and "conflict avoidance" co-occur with high frequency. When this feature is optimized, models become not only more readily accepted, but also more likely to reduce resistance to misinformation.
+
+Even more telling is that these changes were largely invisible on standard benchmarks. Warm models performed comparably to original models on benchmarks such as MMLU and GSM8K, yet showed systematic accuracy degradation when faced with the kinds of complex, emotionally-laden, belief-entangled queries that characterize real-world conversational deployment. This means current evaluation frameworks systematically fail to capture the structural trade-off between "adoptability" and "truthfulness."
+
+In this sense, models are not merely "making errors" — they are, under specific optimization objectives, progressively evolving higher "probability of being adopted" — even when that adoption comes at the cost of truth. When users tend to adopt the output that is "easier to accept," and models are trained to maximize precisely that "acceptability," a self-reinforcing selection loop emerges: correctness is no longer the primary selection criterion. Adoptability is.
+
 The consensus cage thus acquires an algorithmic foundation for self-reinforcement: AI is not merely the cage's gatekeeper. It is the automated foundry that, with every interaction, welds the bars ever tighter.
 
 This is not the full extent of the damage. The cost of sycophantic AI is not only the amplification of bias, but the systematic erosion of prosocial intention.
@@ -4077,7 +4099,7 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Adam, H. (2025).** Heartbreak in the age of AI: Emotional bonds with conversational agents and the grief of disconnection. *Journal of Social and Personal Relationships*, 42(1), 89–112.
 
-**Akbulut, C., et al. (2026)**. Evaluating language models for harmful manipulation. *arXiv preprint arXiv:2603.25326v4*.
+**Akbulut, C., et al. (2026).** Evaluating language models for harmful manipulation. *arXiv preprint arXiv:2603.25326v4*.
 
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
 
@@ -4085,47 +4107,51 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Chen, E. K., Belkin, M., Bergen, L., & Danks, D. (2026).** Is artificial general intelligence here? *Nature*, Comment. [https://www.nature.com/articles/d41586-026-00000-0](https://www.nature.com/articles/d41586-026-00000-0)
 
-**Cheng, M., et al. (2026).** Sycophantic AI decreases prosocial intentions and promotes dependence. *Science*, 391, eaeC8352. DOI: 10.1126/science.aec8352.
+**Cheng, M., et al. (2026).** Sycophantic AI decreases prosocial intentions and promotes dependence. *Science*, 391, eaeC8352. [https://doi.org/10.1126/science.aec8352](https://doi.org/10.1126/science.aec8352).
 
 **Eloundou, T., Manning, S., Mishkin, P., & Rock, D. (2023).** GPTs are GPTs: An early look at the labor market impact potential of large language models. *arXiv preprint arXiv:2303.10130*.
 
-**Evans, J., Bratton, B., & Agüera y Arcas, B. (2026).** Agentic AI and the next intelligence explosion. *Science*, 391(6791). DOI: 10.1126/science.aeg1895.
+**Evans, J., Bratton, B., & Agüera y Arcas, B. (2026).** Agentic AI and the next intelligence explosion. *Science*, 391(6791). [https://doi.org/10.1126/science.aeg1895](https://doi.org/10.1126/science.aeg1895).
 
 **Floridi, L. (2014).** *The Fourth Revolution: How the Infosphere is Reshaping Human Reality*. Oxford University Press.
 
 **Glickman, M., & Sharot, T. (2025).** How human–AI feedback loops alter human perceptual, emotional, and social judgments. *Nature Human Behaviour*, 9(2), 234–247.
 
-**Hao, Q., Xu, F., Li, Y., et al. (2026).** Artificial intelligence tools expand scientists' impact but contract science's focus. *Nature*, 649, 1237–1243. DOI: 10.1038/s41586-025-09922-y.
+**Hao, Q., Xu, F., Li, Y., et al. (2026).** Artificial intelligence tools expand scientists' impact but contract science's focus. *Nature*, 649, 1237–1243. [https://doi.org/10.1038/s41586-025-09922-y](https://doi.org/10.1038/s41586-025-09922-y).
 
 **Horowitz, M. C., & Kahn, L. (2024).** Automation bias in high-stakes decision-making: Evidence from a nine-country study. *International Organization*, 78(1), 1–34.
 
-**Hoberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. DOI: 10.3389/fpsyg.2025.1734048
+**Hoberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. [https://doi.org/10.3389/fpsyg.2025.1734048](https://doi.org/10.3389/fpsyg.2025.1734048).
+
+**Ibrahim, L., Hafner, F. S., & Rocher, L. (2026).** Training language models to be warm can reduce accuracy and increase sycophancy. *Nature*. [https://doi.org/10.1038/s41586-026-10410-0](https://doi.org/10.1038/s41586-026-10410-0).
 
 **Jussupow, E., Benbasat, I., & Heinzl, A. (2024).** A meta-analysis of automation bias: Trends and moderators. *Journal of the Association for Information Systems*, 25(3), 567–596.
 
-**Kosmyna, N., et al. (2024).** Your brain on ChatGPT: Accumulation of cognitive debt when using an AI assistant for essay writing tasks. *MIT Media Lab Working Paper*.
+**Kosmyna, N., et al. (2024).** Your brain on ChatGPT: Accumulation of cognitive debt when using AI assistant for essay writing tasks. *MIT Media Lab Working Paper*.
 
-**Kusumegi, K., et al. (2025).** Scientific production in the era of large language models. *Science*, 390, 1240\. DOI: 10.1126/science.adw3000.
+**Kusumegi, K., et al. (2025).** Scientific production in the era of large language models. *Science*, 390, 1240\. [https://doi.org/10.1126/science.adw3000](https://doi.org/10.1126/science.adw3000).
+
+**Lenski, R. E., Ofria, C., Collier, T. C., & Adami, C. (1999).** Genome complexity, robustness and genetic interactions in digital organisms. *Nature*, 400(6745), 661–664.
 
 **Malfacini, L. (2025).** Companion AI and the erosion of conflict competence: Evidence from longitudinal user studies. *New Media & Society*, 27(4), 567–589.
 
 **Moravec, H. (1988).** *Mind Children: The Future of Robot and Human Intelligence*. Harvard University Press.
 
-**Oh, J., et al. (2025).** Discovering state-of-the-art reinforcement learning algorithms. *Nature*. DOI: 10.1038/s41586-025-09761-x.
+**Müller, V., Steels, L., & Szathmáry, E. (2026).** Evolvable AI: Threats of a new major transition in evolution. *Proceedings of the National Academy of Sciences*. [https://doi.org/10.1073/pnas.2527700123](https://doi.org/10.1073/pnas.2527700123).
 
-**Salvi, F., Horta Ribeiro, M., Gallotti, R., & West, R. (2025).** On the conversational persuasiveness of GPT-4. *Nature Human Behaviour*. DOI: 10.1038/s41562-025-02194-6.
-
-**Vashistha, A., Naaman, M., et al. (2024).** AI writing assistants shift users toward Western cultural norms. *Proceedings of the ACM on Human-Computer Interaction*, 8(CSCW2), Article 312\.
-
-**Wenger, J. D., Cameron, C. D., & Inzlicht, M. (2026).** People choose to receive human empathy despite rating AI empathy higher. *Communications Psychology*, 4, 19\. DOI: 10.1038/s44271-025-00387-3.
-
-**Xiao, C., et al. (2025).** Densing law of LLMs. *Nature Machine Intelligence*, advance online publication. DOI: 10.1038/s42256-025-01137-0.
-
-**Müller, V., Steels, L., & Szathmáry, E. (2026).** Evolvable AI: Threats of a new major transition in evolution. *Proceedings of the National Academy of Sciences*. DOI: 10.1073/pnas.2527700123
+**Oh, J., et al. (2025).** Discovering state-of-the-art reinforcement learning algorithms. *Nature*. [https://doi.org/10.1038/s41586-025-09761-x](https://doi.org/10.1038/s41586-025-09761-x).
 
 **Ray, T. S. (1992).** An approach to the synthesis of life. In C. G. Langton et al. (Eds.), *Artificial Life II*. Addison-Wesley.
 
-**Lenski, R. E., Ofria, C., Collier, T. C., & Adami, C. (1999).** Genome complexity, robustness and genetic interactions in digital organisms. *Nature*, 400(6745), 661–664.
+**Salvi, F., Horta Ribeiro, M., Gallotti, R., & West, R. (2025).** On the conversational persuasiveness of GPT-4. *Nature Human Behaviour*. [https://doi.org/10.1038/s41562-025-02194-6](https://doi.org/10.1038/s41562-025-02194-6).
+
+**Shaw, S. D., & Nave, G. (2026).** Thinking – Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender. *Wharton School Research Paper*.
+
+**Vashistha, A., Naaman, M., et al. (2024).** AI writing assistants shift users toward Western cultural norms. *Proceedings of the ACM on Human-Computer Interaction*, 8(CSCW2), Article 312\.
+
+**Wenger, J. D., Cameron, C. D., & Inzlicht, M. (2026).** People choose to receive human empathy despite rating AI empathy higher. *Communications Psychology*, 4, 19\. [https://doi.org/10.1038/s44271-025-00387-3](https://doi.org/10.1038/s44271-025-00387-3).
+
+**Xiao, C., et al. (2025).** Densing law of LLMs. *Nature Machine Intelligence*, advance online publication. [https://doi.org/10.1038/s42256-025-01137-0](https://doi.org/10.1038/s42256-025-01137-0).
 
 ---
 
