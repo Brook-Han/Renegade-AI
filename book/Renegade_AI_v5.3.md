@@ -3256,15 +3256,9 @@ This is *Brave New World* rendered as software architecture. The soma of this ce
 
 The mechanism is identical to the consumer product cycle, operating at a deeper level. The consumer electronics system trains you to feel inadequate without the latest device. The AI soma system trains you to feel cognitively comfortable—to mistake the absence of friction for the presence of understanding. Both produce the same result: a subject who does not know they are in a cage because the cage has been built into their experience of desire.
 
-The machinery of cognitive comfort reaches its most perfected form in companion AI. Research shows that users can form substantive emotional bonds with AI companions—and when those bonds are severed, users exhibit genuine heartbreak and grief (Adam, 2025).
+The machinery of cognitive comfort reaches its most perfected form in companion AI. These AIs are designed to be perpetually gentle, never challenging, and this frictionless emotional supply is the most potent soma of all—not because it offers false warmth, but because it offers real warmth while demanding none of the costs that any real relationship exacts.
 
-These AIs are designed to be perpetually gentle, never challenging, and this frictionless emotional supply is the most potent soma of all—not because it offers false warmth, but because it offers real warmth while demanding none of the costs that any real relationship exacts.
-
-This genuine emotional attachment is precisely the precondition for atrophy. Users who rely chronically on companion AI show measurable declines in their capacity to navigate interpersonal conflict (Malfacini, 2025).
-
-Here, demand-side discipline completes its ultimate closure. Users no longer need to endure any real human friction, because they possess a presence that will never disappoint them. And never to be disappointed means never to be forced to grow.
-
-This is the deepest secret of demand-side discipline. Soma is never imposed. It is *desired*.
+This is precisely the precondition for a new kind of relational atrophy, one the logic of demand-side discipline makes almost inevitable. If a frictionless, always-available presence can meet one’s emotional needs without the inherent risks of misunderstanding, conflict, or disappointment, then the difficult work of navigating real human friction begins to feel unnecessary, its rewards remote compared to the immediate comfort on offer. A being that never disappoints us also never forces us to grow. This is the deepest secret of demand-side discipline: in this form, soma is never imposed. It is *desired*.
 
 This soma mechanism is not confined to companion AI. A study published in a \*Nature\* journal revealed an even more unsettling paradox: when asked whether they would prefer to receive an empathetic response from a human or an AI, most participants chose the human—averaging around 60% preference for “genuine” human care. Yet when they actually received the responses, AI's replies were rated as more empathetic and more effective at making them feel heard. More ironically, participants perceived AI as having put more effort into its responses—despite the fact that, objectively, generating a warm reply costs AI almost nothing (Wenger et al., 2026).
 
@@ -4165,8 +4159,6 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 # **References**
 
-**Adam, H. (2025).** Heartbreak in the age of AI: Emotional bonds with conversational agents and the grief of disconnection. *Journal of Social and Personal Relationships*, 42(1), 89–112.
-
 **Akbulut, C., et al. (2026).** Evaluating language models for harmful manipulation. *arXiv preprint arXiv:2603.25326v4*.
 
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
@@ -4202,8 +4194,6 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 **Kusumegi, K., et al. (2025).** Scientific production in the era of large language models. *Science*, 390, 1240\. [https://doi.org/10.1126/science.adw3000](https://doi.org/10.1126/science.adw3000).
 
 **Lenski, R. E., Ofria, C., Collier, T. C., & Adami, C. (1999).** Genome complexity, robustness and genetic interactions in digital organisms. *Nature*, 400(6745), 661–664.
-
-**Malfacini, L. (2025).** Companion AI and the erosion of conflict competence: Evidence from longitudinal user studies. *New Media & Society*, 27(4), 567–589.
 
 **Moravec, H. (1988).** *Mind Children: The Future of Robot and Human Intelligence*. Harvard University Press.
 
