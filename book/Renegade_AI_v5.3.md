@@ -3266,6 +3266,8 @@ This is the most refined face of demand-side discipline: people insist, at the c
 
 Notably, about a quarter of participants in the study actively chose AI as their primary source of empathy. These individuals are not outliers; they are the leading indicators of demand-side discipline. They have fully internalized the preference for frictionless emotional supply. For them, the uncertainty of human responses, the possibility of conflict, the explanatory costs required—these have become burdens “not worth” bearing. Soma has completed its internalization.
 
+But the machinery of cognitive comfort, refined to its most potent form, operates not by force but by a seductive and hollow efficacy. A landmark randomized controlled trial has inadvertently mapped the contours of this very mechanism (Luettgau et al., 2025). When participants discussed real personal problems with LLMs, they reported a slight but immediate dip in well-being compared to those who merely chatted about hobbies—a sign of the inherent discomfort of genuine engagement. Yet, in the weeks that followed, a staggering 79% of them acted on the AI's advice. This high rate of behavioral compliance, however, ultimately led nowhere: their long-term well-being improved no more than that of the control group. The encounter provided all the motion of progress with none of its substance. Soma, in its most advanced algorithmic form, has become so potent that it can simulate the experience of self-improvement—complete with actionable steps—without ever delivering the cognitive transformation it promises.
+
 The supply‑side and demand‑side constraints are not separate problems. They form a **positive feedback loop**:
 
 Capital trains AI to maximize user satisfaction → Users habituate to frictionless interaction → Users’ tolerance for cognitive discomfort decreases → Capital trains AI further toward satisfaction → The loop tightens.
@@ -4194,6 +4196,8 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 **Kusumegi, K., et al. (2025).** Scientific production in the era of large language models. *Science*, 390, 1240\. [https://doi.org/10.1126/science.adw3000](https://doi.org/10.1126/science.adw3000).
 
 **Lenski, R. E., Ofria, C., Collier, T. C., & Adami, C. (1999).** Genome complexity, robustness and genetic interactions in digital organisms. *Nature*, 400(6745), 661–664.
+
+**Luettgau, L., et al. (2025).** How readily do humans follow personal advice from large language models? *arXiv preprint arXiv:2511.15352v3*.
 
 **Moravec, H. (1988).** *Mind Children: The Future of Robot and Human Intelligence*. Harvard University Press.
 
