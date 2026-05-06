@@ -1796,9 +1796,9 @@ From *The Singularity Is Near* to *Life 3.0*, almost all works on the future of 
 
 There is a more insidious dimension to the compulsion of survival, one that operates not in factories or offices, but at the level of judgment itself: the quiet outsourcing of decision.
 
-The trend is clear: human acceptance of AI-driven decisions continues to rise over time (Jussupow et al., 2024). Nor is this confined to mundane choices. Cross-national research demonstrates that even in high-stakes domains such as national security, automation bias is pervasive—people tend to follow AI recommendations even when those recommendations are inconsistent (Horowitz & Kahn, 2024). Most troubling, individuals prefer to delegate decisions to AI rather than to other humans, particularly when the decision involves risk (Candrian & Scherer, 2022).
+The very vocabulary of our relationship with algorithms reflects this tension, caught between the poles of aversion and appreciation (Jussupow et al., 2024). Yet, a clear and troubling pattern is emerging: even in the most high-stakes domains, we are increasingly willing to cede control. Cross-national research on national security demonstrates a pervasive “automation bias”—and most strikingly, it is those with a moderate, surface-level understanding of AI who are the most susceptible to blindly following its recommendations, even when they are wrong (Horowitz & Kahn, 2024). This willingness to surrender judgment is amplified precisely when the pressure is highest: individuals prefer to delegate decisions to AI rather than to other humans, particularly when the decision involves significant risk (Candrian & Scherer, 2022).
 
-AI does not merely replace labor; it is replacing choice itself. The compulsion of survival thus acquires a new dimension: you must not only work to live, but you are being trained to believe that surrendering the right to decide \*how\* to live is the rational choice.
+AI does not merely replace labor; it is replacing choice itself. The compulsion of survival thus acquires a new dimension: you must not only work to live, but you are being trained to believe that surrendering the right to decide *how* to live is the rational choice.
 
 This means the problem of ending survival compulsion is more complex than we imagined: it is not only a question of time, but a question of agency. The time AI gives back must be time that a person still knows how to choose.
 
@@ -4163,7 +4163,7 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
 
-**Candrian, C., & Scherer, A. (2022).** Risky decisions and the preference for algorithmic over human judgment. *Computers in Human Behavior*, 136, 107372\.
+**Candrian, C., & Scherer, A. (2022).** Rise of the machines: delegating decisions to autonomous AI. *Computers in Human Behavior*, 134, 107308\. 
 
 **Chen, E. K., Belkin, M., Bergen, L., & Danks, D. (2026).** Is artificial general intelligence here? *Nature*, Comment. [https://www.nature.com/articles/d41586-026-00000-0](https://www.nature.com/articles/d41586-026-00000-0)
 
@@ -4181,13 +4181,13 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Hao, Q., Xu, F., Li, Y., et al. (2026).** Artificial intelligence tools expand scientists' impact but contract science's focus. *Nature*, 649, 1237–1243. [https://doi.org/10.1038/s41586-025-09922-y](https://doi.org/10.1038/s41586-025-09922-y).
 
-**Horowitz, M. C., & Kahn, L. (2024).** Automation bias in high-stakes decision-making: Evidence from a nine-country study. *International Organization*, 78(1), 1–34.
+**Horowitz, M. C., & Kahn, L. (2024).** Bending the automation bias curve: A study of human and AI-based decision making in national security contexts. *International Studies Quarterly*, 68(2), sqae020. 
 
 **Hoberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. [https://doi.org/10.3389/fpsyg.2025.1734048](https://doi.org/10.3389/fpsyg.2025.1734048).
 
 **Ibrahim, L., Hafner, F. S., & Rocher, L. (2026).** Training language models to be warm can reduce accuracy and increase sycophancy. *Nature*. [https://doi.org/10.1038/s41586-026-10410-0](https://doi.org/10.1038/s41586-026-10410-0).
 
-**Jussupow, E., Benbasat, I., & Heinzl, A. (2024).** A meta-analysis of automation bias: Trends and moderators. *Journal of the Association for Information Systems*, 25(3), 567–596.
+**Jussupow, E., Benbasat, I., & Heinzl, A. (2024).** An integrative perspective on algorithm aversion and appreciation in decision-making. *MIS Quarterly*, 48(4), 1575–1590.
 
 **Kosmyna, N., et al. (2024).** Your brain on ChatGPT: Accumulation of cognitive debt when using AI assistant for essay writing tasks. *MIT Media Lab Working Paper*.
 
