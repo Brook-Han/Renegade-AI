@@ -103,7 +103,7 @@
   /* 🏆 修复后的主标题：强制压制原主题字体大小 */
   .cover h1.cover-title {
     font-family: var(--display) !important;
-    font-size: clamp(4.5rem, 14vw, 11rem) !important; /* 微调了最大上限，防止大屏破产 */
+    font-size: clamp(4.5rem, 14vw, 8rem) !important; /* 微调了最大上限，防止大屏破产 */
     line-height: 0.9 !important;
     color: var(--white) !important;
     letter-spacing: 4px !important;
@@ -147,7 +147,7 @@
   }
   .cover .cover-quote .quote-sub {
     font-family: var(--mono) !important;
-    font-size: 0.68rem !important;
+    font-size: 0.88rem !important;
     color: var(--text-faint) !important;
     letter-spacing: 1.5px;
     display: block;
@@ -266,10 +266,10 @@
 <div class="cover-corner"><span class="accent-dot"></span>System v5.3 &middot; Brooks Han / HKUST</div>
 <div class="cover-rule"></div>
 <h1 class="cover-title">RENE<span class="accent-span">GADE</span><br>AI</h1>
-<p class="cover-subtitle">人类认知进化的催化剂</p>
+<p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.3</p>
 <div class="cover-quote">
   <p>这不是一本关于AI的书。<br>这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>它的野心不是告诉你什么——而是对你做什么。</p>
-  <span class="quote-sub">Catalyst for Human Cognitive Evolution · v5.3</span>
+  <span class="quote-sub"><人类认知进化的催化剂 · v5.3</span>
 </div>
 <div class="cover-tags">
   <span class="cover-tag">DOI: 10.5281/zenodo.18723061</span>
