@@ -100,7 +100,7 @@
   /* --- Main Title --- */
   .cover-title {
     font-family: var(--display);
-    font-size: clamp(8.8rem, 10vw, 9rem);
+    font-size: clamp(18.8rem, 10vw, 9rem);
     line-height: 0.88;
     color: var(--white);
     letter-spacing: 3px;
@@ -116,7 +116,7 @@
     font-size: clamp(1.0rem, 2.5vw, 1.6rem);
     color: var(--text-muted);
     letter-spacing: 3px;
-    margin: 0 0 36px 0;
+    margin: 0 0 96px 0;
     opacity: 0;
     animation: fadeUp 0.7s var(--ease) 0.25s forwards;
   }
@@ -124,7 +124,7 @@
   /* --- Quote --- */
   .cover-quote {
     max-width: 620px;
-    margin: 0 auto 36px auto;
+    margin: 0 auto 66px auto;
     padding: 0 0 0 22px;
     border-left: 3px solid var(--accent);
     text-align: left;
