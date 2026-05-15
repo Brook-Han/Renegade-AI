@@ -53,7 +53,7 @@
   }
 
   .cover .cover-main {
-    max-width: 680px !important;
+    max-width: 880px !important;
     margin: 0 auto !important;
     position: relative !important;
     z-index: 1 !important;
@@ -100,7 +100,7 @@
   /* --- Main Title --- */
   .cover-title {
     font-family: var(--display);
-    font-size: clamp(4.8rem, 10vw, 9rem);
+    font-size: clamp(8.8rem, 10vw, 9rem);
     line-height: 0.88;
     color: var(--white);
     letter-spacing: 3px;
@@ -113,7 +113,7 @@
   /* --- Subtitle --- */
   .cover-subtitle {
     font-family: var(--display);
-    font-size: clamp(1.3rem, 2.5vw, 2.1rem);
+    font-size: clamp(1.0rem, 2.5vw, 1.6rem);
     color: var(--text-muted);
     letter-spacing: 3px;
     margin: 0 0 36px 0;
@@ -123,7 +123,7 @@
 
   /* --- Quote --- */
   .cover-quote {
-    max-width: 520px;
+    max-width: 620px;
     margin: 0 auto 36px auto;
     padding: 0 0 0 22px;
     border-left: 3px solid var(--accent);
@@ -133,7 +133,7 @@
   }
   .cover-quote p {
     font-family: var(--serif);
-    font-size: 1.05rem;
+    font-size: 0.85rem;
     font-style: italic;
     color: var(--text);
     line-height: 1.85;
@@ -142,7 +142,7 @@
   }
   .cover-quote .quote-sub {
     font-family: var(--mono);
-    font-size: 0.58rem;
+    font-size: 0.68rem;
     color: var(--text-faint);
     letter-spacing: 1.5px;
     display: block;
@@ -277,11 +277,11 @@
 
 <!-- Title -->
 <h1 class="cover-title">
-  RENE<span class="accent-span">GADE</span><br>AI
+  RENE<span class="accent-span">GADE</span>AI
 </h1>
 
 <!-- Subtitle -->
-<p class="cover-subtitle">人类认知进化的催化剂</p>
+<p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.3</p>
 
 <!-- Quote -->
 <div class="cover-quote">
@@ -290,7 +290,7 @@
     这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>
     它的野心不是告诉你什么——而是对你做什么。
   </p>
-  <span class="quote-sub">Catalyst for Human Cognitive Evolution · v5.3</span>
+  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span>
 </div>
 
 <!-- Tags -->
