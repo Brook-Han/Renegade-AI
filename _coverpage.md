@@ -67,7 +67,7 @@
   }
 
   /* =============================================
-     HERO STRIP — radar-inspired split layout
+     HERO STRIP
      Left: title block  |  Right: stat blocks
      ============================================= */
   .cover-hero {
@@ -95,7 +95,6 @@
     min-width: 140px;
   }
 
-  /* Stat blocks (radar-style) */
   .cover-stat { text-align: center; }
   .cover-stat .n {
     font-family: var(--display);
@@ -119,7 +118,6 @@
     background: var(--border);
   }
 
-  /* --- Eyebrow --- */
   .cover-eyebrow {
     font-family: var(--mono);
     font-size: 0.62rem;
@@ -140,7 +138,6 @@
     background: var(--accent);
   }
 
-  /* --- Main Title: RENEGADE AI — single line, very large --- */
   .cover-title {
     font-family: var(--display);
     font-size: clamp(5.5rem, 13vw, 11rem);
@@ -154,7 +151,6 @@
   }
   .cover-title .accent-span { color: var(--accent); }
 
-  /* --- Subtitle --- */
   .cover-subtitle {
     font-family: var(--display);
     font-size: clamp(1.5rem, 3vw, 2.4rem);
@@ -165,7 +161,6 @@
     animation: fadeUp 0.7s var(--ease) 0.3s forwards;
   }
 
-  /* --- Version --- */
   .cover-version {
     font-family: var(--mono);
     font-size: 0.62rem;
@@ -176,7 +171,7 @@
   }
 
   /* =============================================
-     BELOW HERO — centered, full-width
+     BELOW HERO
      ============================================= */
 
   .cover-body {
@@ -185,7 +180,6 @@
     text-align: left;
   }
 
-  /* --- Quote (pull-quote style) --- */
   .cover-quote {
     margin: 0 0 32px 0;
     padding: 18px 20px 18px 24px;
@@ -199,8 +193,8 @@
     font-style: italic;
     color: var(--text);
     line-height: 1.8;
-    margin: 0 0 6px 0 !important;
-    text-shadow: none !important;
+    margin: 0 0 6px 0;
+    text-shadow: none;
   }
   .cover-quote .quote-sub {
     font-family: var(--mono);
@@ -212,7 +206,6 @@
     margin-top: 6px;
   }
 
-  /* --- Meta Tags Row --- */
   .cover-meta-row {
     display: flex;
     gap: 6px;
@@ -230,9 +223,9 @@
     border: 1px solid var(--border);
     padding: 5px 12px;
     text-transform: uppercase;
+    display: inline-block;
   }
 
-  /* --- Buttons --- */
   .cover-buttons {
     display: flex;
     gap: 10px;
@@ -242,35 +235,31 @@
     animation: fadeUp 0.7s var(--ease) 0.5s forwards;
   }
 
-  .cover a {
-    position: relative !important;
-    overflow: hidden !important;
-    display: inline-flex !important;
-    align-items: center !important;
-    gap: 8px !important;
-    padding: 11px 22px !important;
-    margin: 0 !important;
-    font-family: var(--mono) !important;
-    font-size: 0.62rem !important;
-    letter-spacing: 2px !important;
-    text-transform: uppercase !important;
-    text-decoration: none !important;
-    border: 1px solid var(--border-bright) !important;
-    background: transparent !important;
-    color: var(--text-muted) !important;
-    border-radius: 0 !important;
-    transition: all 0.25s var(--ease) !important;
-    text-shadow: none !important;
-    box-shadow: none !important;
+  /* Style override for anchor tags inside cover-buttons */
+  .cover-btn {
+    position: relative;
+    overflow: hidden;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 11px 22px;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid var(--border-bright);
+    background: transparent;
+    color: var(--text-muted);
+    border-radius: 0;
+    transition: all 0.25s var(--ease);
   }
-  .cover a:hover {
-    border-color: var(--accent) !important;
-    color: var(--accent) !important;
-    background: var(--accent-dim) !important;
-    box-shadow: none !important;
+  .cover-btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-dim);
   }
 
-  /* --- Status Bar --- */
   .cover-status {
     font-family: var(--mono);
     font-size: 0.58rem;
@@ -291,7 +280,6 @@
     animation: pulse-dot 2s infinite;
   }
 
-  /* --- Animations --- */
   @keyframes fadeUp {
     from { opacity: 0; transform: translateY(20px); }
     to { opacity: 1; transform: translateY(0); }
@@ -301,7 +289,6 @@
     50% { opacity: 0.2; }
   }
 
-  /* --- Responsive --- */
   @media (max-width: 860px) {
     .cover { padding: 48px 28px !important; }
     .cover-hero {
@@ -333,14 +320,13 @@
     .cover-buttons { flex-direction: column; align-items: flex-start; }
   }
 
-  /* --- Hide default Docsify conflicts --- */
   .cover .mask { display: none !important; }
   .cover.has-mask .mask { display: none !important; }
   .cover h1, .cover h2, .cover blockquote { color: inherit !important; text-shadow: none !important; }
 </style>
 
 <!-- =============================================
-     HERO STRIP — title + stats (radar layout)
+     HERO STRIP
      ============================================= -->
 
 <div class="cover-hero">
@@ -375,7 +361,7 @@
 </div>
 
 <!-- =============================================
-     BELOW — quote · tags · buttons · status
+     BELOW
      ============================================= -->
 
 <div class="cover-body">
@@ -392,9 +378,9 @@
   </div>
 
   <div class="cover-buttons">
-    [← 进入认知摩擦 · Enter Friction](README.md)
-    [↗ Zenodo](https://doi.org/10.5281/zenodo.18723061)
-    [⌥ GitHub](https://github.com/Brook-Han/Renegade-AI)
+    <a class="cover-btn" href="README.md">← 进入认知摩擦 · Enter Friction</a>
+    <a class="cover-btn" href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ Zenodo</a>
+    <a class="cover-btn" href="https://github.com/Brook-Han/Renegade-AI" target="_blank">⌥ GitHub</a>
   </div>
 
   <div class="cover-status">
