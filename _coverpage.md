@@ -1,53 +1,314 @@
-<!-- 背景层 -->
-<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: #08080e; z-index: -1;"></div>
+<style>
+  /* ===================================================
+     RENEGADE AI v5.3 · Cover Page
+     Light theme · Clean centered layout
+     =================================================== */
 
-<!-- 右上角版本信息 -->
-<div style="position: absolute; top: 2rem; right: 2rem; font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 4px; color: #e8503a; text-transform: uppercase;">
-  System v5.3 · Meta-Design Apparatus · Brooks Han
+  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap');
+
+  :root {
+    --bg:           #f8f9fc;
+    --bg2:          #ffffff;
+    --surface:      #f0f2f8;
+    --card:         #ffffff;
+    --border:       #e0e2ec;
+    --border-bright:#c0c2d0;
+    --text:         #2a2a40;
+    --text-muted:   #6a6a80;
+    --text-faint:   #a0a0b8;
+    --accent:       #e8503a;
+    --accent-dim:   rgba(232,80,58,0.08);
+    --accent2:      #b88c2a;
+    --accent3:      #3a7fbf;
+    --accent3-dim:  rgba(74,143,207,0.08);
+    --white:        #2a2a40;
+    --mono:         'Space Mono', monospace;
+    --serif:        'Crimson Pro', Georgia, serif;
+    --display:      'Bebas Neue', sans-serif;
+    --ease:         cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* --- Global Cover Override --- */
+  .cover {
+    background: var(--bg) !important;
+    background-image: none !important;
+    min-height: 100vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    position: relative !important;
+    overflow: hidden !important;
+  }
+
+  /* Subtle noise overlay */
+  .cover::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.04;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='512' height='512' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+  }
+
+  .cover .cover-main {
+    max-width: 680px !important;
+    margin: 0 auto !important;
+    position: relative !important;
+    z-index: 1 !important;
+    background: transparent !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding: 80px 40px !important;
+  }
+
+  /* --- Top-right corner: system info --- */
+  .cover-corner {
+    position: absolute;
+    top: 28px;
+    right: 40px;
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    letter-spacing: 3px;
+    color: var(--text-faint);
+    text-transform: uppercase;
+    z-index: 2;
+    text-align: right;
+    line-height: 1.8;
+  }
+  .cover-corner .accent-dot {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background: var(--accent);
+    border-radius: 50%;
+    margin-right: 6px;
+    animation: pulse-dot 2s infinite;
+  }
+
+  /* --- Decorative top line --- */
+  .cover-rule {
+    width: 48px;
+    height: 2px;
+    background: var(--accent);
+    margin: 0 auto 36px auto;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.1s forwards;
+  }
+
+  /* --- Main Title --- */
+  .cover-title {
+    font-family: var(--display);
+    font-size: clamp(4.8rem, 10vw, 9rem);
+    line-height: 0.88;
+    color: var(--white);
+    letter-spacing: 3px;
+    margin: 0 0 10px 0;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.15s forwards;
+  }
+  .cover-title .accent-span { color: var(--accent); }
+
+  /* --- Subtitle --- */
+  .cover-subtitle {
+    font-family: var(--display);
+    font-size: clamp(1.3rem, 2.5vw, 2.1rem);
+    color: var(--text-muted);
+    letter-spacing: 3px;
+    margin: 0 0 36px 0;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.25s forwards;
+  }
+
+  /* --- Quote --- */
+  .cover-quote {
+    max-width: 520px;
+    margin: 0 auto 36px auto;
+    padding: 0 0 0 22px;
+    border-left: 3px solid var(--accent);
+    text-align: left;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.35s forwards;
+  }
+  .cover-quote p {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    font-style: italic;
+    color: var(--text);
+    line-height: 1.85;
+    margin: 0 0 6px 0;
+    text-shadow: none;
+  }
+  .cover-quote .quote-sub {
+    font-family: var(--mono);
+    font-size: 0.58rem;
+    color: var(--text-faint);
+    letter-spacing: 1.5px;
+    display: block;
+    margin-top: 6px;
+  }
+
+  /* --- Meta Tags --- */
+  .cover-tags {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 34px;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.45s forwards;
+  }
+  .cover-tag {
+    font-family: var(--mono);
+    font-size: 0.56rem;
+    letter-spacing: 1.5px;
+    color: var(--text-muted);
+    background: var(--surface);
+    border: 1px solid var(--border);
+    padding: 4px 11px;
+    text-transform: uppercase;
+  }
+
+  /* --- Buttons --- */
+  .cover-buttons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 48px;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.55s forwards;
+  }
+
+  .cover-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 0;
+    transition: all 0.25s var(--ease);
+    cursor: pointer;
+  }
+  .cover-btn.primary {
+    background: var(--accent);
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid var(--accent);
+  }
+  .cover-btn.primary:hover {
+    background: #d63d28;
+    box-shadow: 0 0 24px rgba(232,80,58,0.25);
+  }
+  .cover-btn.ghost {
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-bright);
+  }
+  .cover-btn.ghost:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-dim);
+  }
+
+  /* --- Bottom warning bar --- */
+  .cover-warning {
+    font-family: var(--mono);
+    font-size: 0.62rem;
+    color: var(--accent2);
+    letter-spacing: 1.5px;
+    text-align: center;
+    line-height: 1.9;
+    padding: 14px 24px;
+    background: rgba(184,140,42,0.06);
+    border-top: 1px solid rgba(184,140,42,0.15);
+    max-width: 580px;
+    margin: 0 auto;
+    opacity: 0;
+    animation: fadeUp 0.7s var(--ease) 0.65s forwards;
+  }
+
+  /* --- Animations --- */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  @keyframes pulse-dot {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.2; }
+  }
+
+  /* --- Responsive --- */
+  @media (max-width: 768px) {
+    .cover .cover-main { padding: 60px 24px !important; }
+    .cover-corner {
+      top: 16px;
+      right: 20px;
+      font-size: 0.5rem;
+    }
+    .cover-title { font-size: clamp(3rem, 11vw, 5rem); }
+    .cover-quote { padding-left: 16px; }
+    .cover-quote p { font-size: 0.92rem; }
+    .cover-buttons { flex-direction: column; align-items: center; }
+  }
+
+  /* --- Hide Docsify defaults --- */
+  .cover .mask { display: none !important; }
+  .cover.has-mask .mask { display: none !important; }
+  .cover h1, .cover h2, .cover blockquote { color: inherit !important; text-shadow: none !important; }
+</style>
+
+<!-- =============================================
+     COVER CONTENT
+     ============================================= -->
+
+<!-- Top-right corner -->
+<div class="cover-corner">
+  <span class="accent-dot"></span>System v5.3 &middot; Brooks Han / HKUST
 </div>
 
-<!-- 主内容区 -->
-<div style="text-align: center; padding-top: 15vh;">
-  <!-- 主标题 -->
-  <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(5rem, 9vw, 10rem); line-height: 0.9; color: #f0f0f8; letter-spacing: 2px; margin-bottom: 1rem;">
-    RENE<span style="color: #e8503a;">GADE</span><br>AI
-  </h1>
+<!-- Decorative rule -->
+<div class="cover-rule"></div>
 
-  <!-- 副标题 -->
-  <h2 style="font-family: 'Bebas Neue', sans-serif; font-size: clamp(1.4rem, 2.5vw, 2.2rem); color: #6868a0; letter-spacing: 3px; margin-bottom: 2rem;">
-    人类认知进化的催化剂
-  </h2>
+<!-- Title -->
+<h1 class="cover-title">
+  RENE<span class="accent-span">GADE</span><br>AI
+</h1>
 
-  <!-- 核心描述 -->
-  <blockquote style="max-width: 520px; margin: 0 auto 2rem; font-size: 1.18rem; color: #cccce0; font-style: italic; line-height: 1.9; border-left: 3px solid #e8503a; padding-left: 20px; text-align: left;">
+<!-- Subtitle -->
+<p class="cover-subtitle">人类认知进化的催化剂</p>
+
+<!-- Quote -->
+<div class="cover-quote">
+  <p>
     这不是一本关于AI的书。<br>
     这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>
     它的野心不是告诉你什么——而是对你做什么。
-  </blockquote>
-
-  <!-- 元数据标签 -->
-  <div style="margin-bottom: 2rem; display: flex; gap: 6px; flex-wrap: wrap; justify-content: center;">
-    <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 1.5px; color: #6868a0; background: #111120; border: 1px solid #1e1e30; padding: 5px 12px; text-transform: uppercase;">DOI: 10.5281/zenodo.18723061</span>
-    <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 1.5px; color: #6868a0; background: #111120; border: 1px solid #1e1e30; padding: 5px 12px; text-transform: uppercase;">CC BY 4.0</span>
-    <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 1.5px; color: #6868a0; background: #111120; border: 1px solid #1e1e30; padding: 5px 12px; text-transform: uppercase;">2026-05-15</span>
-    <span style="font-family: 'Space Mono', monospace; font-size: 0.62rem; letter-spacing: 1.5px; color: #6868a0; background: #111120; border: 1px solid #1e1e30; padding: 5px 12px; text-transform: uppercase;">29+ Peer-Reviewed Sources</span>
-  </div>
-
-  <!-- 行动按钮 -->
-  <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: center;">
-    <a href="https://doi.org/10.5281/zenodo.18723061" target="_blank" style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; padding: 12px 22px; background: #e8503a; color: #000; font-weight: 700; transition: all 0.25s ease;">
-      ↗ Zenodo 下载
-    </a>
-    <a href="reader.html" style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; padding: 12px 22px; border: 1px solid #2e2e50; color: #6868a0; transition: all 0.25s ease;">
-      ◎ 在线全文阅读
-    </a>
-    <a href="https://github.com/Brook-Han/Renegade-AI" target="_blank" style="font-family: 'Space Mono', monospace; font-size: 0.65rem; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; padding: 12px 22px; border: 1px solid #2e2e50; color: #6868a0; transition: all 0.25s ease;">
-      ⌥ GitHub
-    </a>
-  </div>
+  </p>
+  <span class="quote-sub">Catalyst for Human Cognitive Evolution · v5.3</span>
 </div>
 
-<!-- 底部警告（可选） -->
-<div style="position: absolute; bottom: 2rem; left: 0; width: 100%; padding: 0 2rem; font-family: 'Space Mono', monospace; font-size: 0.72rem; color: #c9a040; letter-spacing: 1.5px; text-align: center; line-height: 2;">
-  ⚠ 你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。这本身就是它最冰冷的物证。本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。
+<!-- Tags -->
+<div class="cover-tags">
+  <span class="cover-tag">DOI: 10.5281/zenodo.18723061</span>
+  <span class="cover-tag">CC BY 4.0</span>
+  <span class="cover-tag">29+ Peer-Reviewed</span>
+  <span class="cover-tag">Meta-Design Apparatus</span>
+</div>
+
+<!-- Buttons -->
+<div class="cover-buttons">
+  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ Zenodo 下载</a>
+  <a class="cover-btn ghost" href="reader.html">◎ 在线全文阅读</a>
+  <a class="cover-btn ghost" href="https://github.com/Brook-Han/Renegade-AI" target="_blank">⌥ GitHub</a>
+</div>
+
+<!-- Warning -->
+<div class="cover-warning">
+  ⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。&nbsp;这本身就是它最冰冷的物证。&nbsp;本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。
 </div>
