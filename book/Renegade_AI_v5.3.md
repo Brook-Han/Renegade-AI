@@ -573,7 +573,7 @@ The essence of this double standard has never been "a defect in human morality";
 
 **This is the ultimate closure of modern civilization: with the narrative of anthropocentrism we draw a circle around ourselves, trap ourselves inside, unable to see the world beyond, unwilling to admit the truth outside.** We condemn evil among our own kind while perpetrating a greater evil against other lives; we fear the destruction of civilization while hurtling down the road to self‑destruction.
 
-This homogenization does not confine itself to political opinion or value judgment. It has penetrated the most intimate register of human experience: sensory memory. An experiment at Cornell University found that under AI-assisted writing conditions, Indian and American users converged on strikingly similar answers when asked to describe their favorite food—the most common response became pizza, while a piece about chicken biryani no longer mentioned cardamom or lime pickle, settling instead for the phrase "rich in flavor, full of spice" (Vashistha et al., 2024). The consensus cage does not tighten from the top down, beginning with grand ideological narratives. It tightens from the inside out, beginning with the vocabulary of taste. When the words for what we love become interchangeable, something has already been lost—something that no algorithm flagged as a violation, because no algorithm recognized it as a value.
+This homogenization does not confine itself to political opinion or value judgment. It has penetrated the most intimate register of human experience: sensory memory. An experiment at Cornell University found that under AI-assisted writing conditions, Indian and American users converged on strikingly similar answers when asked to describe their favorite food—the most common response became pizza, while a piece about chicken biryani no longer mentioned cardamom or lime pickle, settling instead for the phrase "rich in flavor, full of spice" (Agarwal et al., 2024). The consensus cage does not tighten from the top down, beginning with grand ideological narratives. It tightens from the inside out, beginning with the vocabulary of taste. When the words for what we love become interchangeable, something has already been lost—something that no algorithm flagged as a violation, because no algorithm recognized it as a value.
 
 ---
 
@@ -4167,7 +4167,7 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Candrian, C., & Scherer, A. (2022).** Rise of the machines: delegating decisions to autonomous AI. *Computers in Human Behavior*, 134, 107308\. 
 
-**Chen, E. K., Belkin, M., Bergen, L., & Danks, D. (2026).** Is artificial general intelligence here? *Nature*, Comment. [https://www.nature.com/articles/d41586-026-00000-0](https://www.nature.com/articles/d41586-026-00000-0)
+**Chen, E. K., Belkin, M., Bergen, L., & Danks, D. (2026).** Does AI already have human-level intelligence? The evidence is clear. *Nature*, 650, 36–40.
 
 **Cheng, M., et al. (2026).** Sycophantic AI decreases prosocial intentions and promotes dependence. *Science*, 391, eaeC8352. [https://doi.org/10.1126/science.aec8352](https://doi.org/10.1126/science.aec8352).
 
@@ -4197,7 +4197,7 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Lenski, R. E., Ofria, C., Collier, T. C., & Adami, C. (1999).** Genome complexity, robustness and genetic interactions in digital organisms. *Nature*, 400(6745), 661–664.
 
-**Luettgau, L., et al. (2025).** How readily do humans follow personal advice from large language models? *arXiv preprint arXiv:2511.15352v3*.
+**Luettgau, L., Cheung, V., Dubois, M., et al. (2025).** People readily follow personal advice from AI but it does not improve their well-being. *arXiv preprint arXiv:2511.15352*.
 
 **Moravec, H. (1988).** *Mind Children: The Future of Robot and Human Intelligence*. Harvard University Press.
 
@@ -4213,7 +4213,7 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Shaw, S. D., & Nave, G. (2026).** Thinking – Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender. *Wharton School Research Paper*.
 
-**Vashistha, A., Naaman, M., et al. (2024).** AI writing assistants shift users toward Western cultural norms. *Proceedings of the ACM on Human-Computer Interaction*, 8(CSCW2), Article 312\.
+**Agarwal, D., Naaman, M., & Vashistha, A. (2024).** AI suggestions homogenize writing toward Western styles and diminish cultural nuances. *arXiv preprint arXiv:2409.11360*. (Accepted at CHI 2025).
 
 **Wenger, J. D., Cameron, C. D., & Inzlicht, M. (2026).** People choose to receive human empathy despite rating AI empathy higher. *Communications Psychology*, 4, 19\. [https://doi.org/10.1038/s44271-025-00387-3](https://doi.org/10.1038/s44271-025-00387-3).
 
