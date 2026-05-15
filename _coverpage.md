@@ -255,3 +255,53 @@
   .cover.has-mask .mask { display: none !important; }
   .cover h1, .cover h2, .cover blockquote { color: inherit !important; text-shadow: none !important; }
 </style>
+
+<!-- =============================================
+     COVER CONTENT
+     ============================================= -->
+
+<!-- Top-right corner -->
+<div class="cover-corner">
+  <span class="accent-dot"></span>System v5.3 &middot; Brooks Han / HKUST
+</div>
+
+<!-- Decorative rule -->
+<div class="cover-rule"></div>
+
+<!-- Title -->
+<h1 class="cover-title">
+  RENE<span class="accent-span">GADE</span>AI
+</h1>
+
+<!-- Subtitle -->
+<p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.3</p>
+
+<!-- Quote -->
+<div class="cover-quote">
+  <p>
+    这不是一本关于AI的书。<br>
+    这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>
+    它的野心不是告诉你什么——而是对你做什么。
+  </p>
+  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span>
+</div>
+
+<!-- Tags -->
+<div class="cover-tags">
+  <span class="cover-tag">DOI: 10.5281/zenodo.18723061</span>
+  <span class="cover-tag">CC BY 4.0</span>
+  <span class="cover-tag">29+ Peer-Reviewed</span>
+  <span class="cover-tag">Meta-Design Apparatus</span>
+</div>
+
+<!-- Buttons -->
+<div class="cover-buttons">
+  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ Zenodo 下载</a>
+  <a class="cover-btn ghost" href="reader.html">◎ 在线全文阅读</a>
+  <a class="cover-btn ghost" href="https://github.com/Brook-Han/Renegade-AI" target="_blank">⌥ GitHub</a>
+</div>
+
+<!-- Warning -->
+<div class="cover-warning">
+  ⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。&nbsp;这本身就是它最冰冷的物证。&nbsp;本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。
+</div>
