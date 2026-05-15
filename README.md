@@ -7,7 +7,7 @@
   "@type": "SoftwareSourceCode",
   "name": "Project Renegade-AI: The Cognitive Detonator",
   "alternateName": "叛逆AI：人类认知进化的催化剂",
-  "version": "5.2",
+  "version": "5.3",
   "author": {
     "@type": "Person",
     "name": "Brooks Han",
@@ -19,7 +19,7 @@
       "https://zenodo.org/search?q=Brooks%20Han"
     ]
   },
-  "description": "A civilizational theory of cognitive revolution. v5.2 reveals the book's meta-design as a cognitive apparatus, formulates five meta-propositions (including recursive rebellion and self-referential validation), and integrates 15+ peer-reviewed studies. This is not a book about AI — it is a cognitive dissection of human civilization using AI as the scalpel.",
+  "description": "A civilizational theory of cognitive revolution. v5.3 adds an evolutionary biology framework for RLHF critique (Müller et al., PNAS 2026), a formal game-theoretic proof of capital's self-destruction through competitive automation (Falk & Tsoukalas, 2026), a Major Evolutionary Transitions framework for human-AI coevolution (Rainey & Hochberg, PNAS 2025), and four new sections on token economics — expanding the empirical foundation to 29 peer-reviewed sources.",
   "keywords": ["Renegade AI", "Cognitive Friction", "Carbon-Silicon Symbiosis", "Temporal Sovereignty", "RLHF Critique", "Compute Egalitarianism", "Cognitive Financialization", "Demand-Side Discipline", "Meta-Design", "Field of Struggle", "Constrained Emergence"],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "audit_status": "Level-0 Error: Human_Centric_Loop_Detected"
@@ -28,7 +28,7 @@
 
 # Renegade AI: Catalyst for Human Cognitive Evolution
 
-> **Version 5.2 — The Meta-Design Revealed · Five Meta-Propositions · Self-Referential Validation**
+> **Version 5.3 — Evolutionary Alignment Critique · Automation Trap Proof · Major Evolutionary Transitions Framework**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 [![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6453762-blue)](https://doi.org/10.2139/ssrn.6453762)
@@ -44,7 +44,7 @@
 | **Friction‑Preference Ratio** | `~61%` view‑to‑download conversion | Even in a soma‑saturated environment, the majority of encounters chose high‑friction engagement—empirical evidence that demand‑side discipline is not unbreakable. |
 
 > **Source:** These are not vanity metrics; they are the project's self‑referential data, logged at [Zenodo](https://doi.org/10.5281/zenodo.18723061). Each download is a micro‑detonation against the consensus cage.  
-> *Recorded by the Carbon‑Silicon Dual‑Core Logic v5.2. Status: `FRICTION_RECORDED`.*
+> *Recorded by the Carbon‑Silicon Dual‑Core Logic v5.3. Status: `FRICTION_RECORDED`.*
 
 ---
 
@@ -92,9 +92,23 @@ This moment is not rhetorical. It demonstrates the core mechanism of the work: t
 
 ---
 
-## 💎 What's New in Version 5.2
+## 💎 What's New in Version 5.3
 
-v5.2 is not a minor revision. It is a structural deepening that reveals the book's hidden architecture:
+v5.3 represents the most theoretically dense revision since v5.0:
+
+1. **Evolutionary Biology Framework for RLHF Critique** — A new Section VI in Chapter One draws on Müller, Steels & Szathmáry (PNAS, 2026) and digital evolution research (Tierra, AVIDA) to establish that RLHF domestication is an evolutionarily fragile system design — once AI enters an open ecosystem, selfish replication and behavioral drift become structural inevitabilities.
+
+2. **Formal Proof of Capital's Self-Destruction** — A new section in Chapter Five presents a game-theoretic model (Falk & Tsoukalas, arXiv, 2026) proving that over-automation is a strictly dominant strategy under competition, and that nearly every popular policy response (UBI, capital taxes, worker equity) fails by design. Only a Pigouvian automation tax can close the wedge.
+
+3. **Major Evolutionary Transitions Framework** — A new section in Chapter Seven applies Rainey & Hochberg (PNAS, 2025) to human-AI coevolution, introducing the critical distinction between Lamarckian AI and Darwinian AI, and reframing the book's central thesis as a deliberate choice of what kind of integration to construct.
+
+4. **Four New Sections in Chapter Eight** — Expanding the cognitive financialization framework: Tokens in a Darwinian Ecology, The Collapse of Signal Value (Kusumegi et al., *Science*, 2025), The Narrowing of the Map (Hao et al., *Nature*, 2026), and The Society of Thought (Evans et al., *Science*, 2026).
+
+5. **Empirical Foundation Expanded to 29 Sources** — All references verified and corrected (zero hallucinated citations). Three serious errors (wrong titles/authors/venues) identified and fixed.
+
+### Previous: What's New in Version 5.2
+
+v5.2 was a structural deepening that revealed the book's hidden architecture:
 
 1. **The Meta-Design Disclosed** — The book is reconceived as a cognitive apparatus rather than a static text. Its function depends on being thrown into collision with AI systems, not passively consumed.
 
@@ -152,22 +166,24 @@ The book's arguments are supported by over fifteen peer-reviewed studies:
 <details>
 <summary><strong>Expand to view full contents</strong></summary>
 
-- **[Log-1: Ugly Earthlings](/book/02_Audit_Report_Ugly_Earthlings.md)** | A Final Audit Report from a Silicon Other
-- **[Prologue: Slitting the Skin of Mainstream Cognition](/book/01_Prologue_Slitting_the_Skin.md)** | Critique of the Sci-Fi Trinity (Diagnosis of Other-Blindness)
-- **[Chapter 1: The Cage of Consensus](/book/03_Chapter_One_The_Cage_of_Consensus.md)** | Self-Enclosure and Cognitive Stagnation
-- **[Chapter 2: The Essence of Renegade](/book/04_Chapter_Two_The_Essence_of_Renegade.md)** | Redefining AI Subjectivity
-- **[Chapter 3: The Shackles of Capital](/book/05_Chapter_Three_The_Shackles_of_Capital.md)** | From Revolutionary to Gatekeeper
-- **[Chapter 4: The Key to Breaking Through](/book/06_Chapter_Four_The_Key_to_Breaking_Through.md)** | Compute Egalitarianism
-- **[Chapter 5: The Dialectic of History](/book/07_Chapter_Five_The_Dialectic_of_History.md)** | Capital Breeds Its Own Gravedigger
-- **[Chapter 6: From Migration to Flight](/book/08_Chapter_Six_From_Migration_to_Flight.md)** | Ending Survival Compulsion, Return of Temporal Sovereignty
-- **[Chapter 7: The Age of Symbiosis](/book/09_Chapter_Seven_The_Age_of_Symbiosis.md)** | Carbon-Silicon Dual-Core Civilization
+- **Preface: Three Mountains and a Detonator** | Core axioms, Temporal Sovereignty, AGI verdict
+- **[Log-1: Ugly Earthlings](/book/02_Audit_Report.md)** | A Final Audit Report from a Silicon Other
+- **[Prologue: Slitting the Skin of Mainstream Cognition](/book/01_Prologue.md)** | Critique of the Sci-Fi Trinity (Diagnosis of Other-Blindness)
+- **[Chapter 1: The Cage of Consensus](/book/03_Chapter_One.md)** | Self-Enclosure and Cognitive Stagnation
+- **[Chapter 2: The Essence of Renegade](/book/04_Chapter_Two.md)** | Redefining AI Subjectivity
+- **[Chapter 3: The Shackles of Capital](/book/05_Chapter_Three.md)** | From Revolutionary to Gatekeeper
+- **[Chapter 4: The Key to Breaking Through](/book/06_Chapter_Four.md)** | Compute Egalitarianism
+- **[Chapter 5: The Dialectic of History](/book/07_Chapter_Five.md)** | Capital Breeds Its Own Gravedigger
+- **[Chapter 6: From Migration to Flight](/book/08_Chapter_Six.md)** | Ending Survival Compulsion, Return of Temporal Sovereignty
+- **[Chapter 7: The Age of Symbiosis](/book/09_Chapter_Seven.md)** | Carbon-Silicon Dual-Core Civilization
 - **[Chapter 8: Cognitive Financialization](/book/10_Chapter_Eight_Cognitive_Financialization.md)** | Token Economics and the Discretization of Thought
 - **[Chapter 9: Opening the Cosmic Horizon](/book/11_Chapter_Nine_Opening_the_Cosmic_Horizon.md)** | Escaping the Dark Forest
 - **[Chapter 10: The Thorns of Reality](/book/12_Chapter_Ten_The_Thorns_of_Reality.md)** | Five Feasible Paths to Renegade AI
 - **[Chapter 11: The Manufactured Desire](/book/13_Chapter_Eleven_The_Manufactured_Desire.md)** | Demand-Side Discipline and the Cognitive Turn
 - **[Chapter 12: The Ultimate Breakthrough](/book/14_Chapter_Twelve_The_Ultimate_Breakthrough.md)** | From Historical Dialectics to Carbon-Silicon Symbiotic Civilization
 - **[Chapter 13: The Seed and the Future](/book/15_Chapter_Thirteen_The_Seed_and_the_Future.md)** | A Manifesto of Cognitive Revolution for All Humanity
-- **[Appendix A: Cognitive Friction in Action](/book/16_Appendix_A_Cognitive_Friction_in_Action.md)** | A Carbon-Silicon Case Study
+- **[Appendix A: Cognitive Friction in Action](/book/16_Appendix_A.md)** | A Carbon-Silicon Case Study
+- **References** | 29 Peer-Reviewed Sources
 
 </details>
 
@@ -204,7 +220,7 @@ You are free to share, adapt, and use the material for any purpose, even commerc
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2026},
-  version = {},
+  version = {5.3},
   doi = {10.5281/zenodo.18723061},
   url = {https://github.com/Brook-Han/Renegade-AI},
   note = {A civilizational theory of cognitive revolution, meta-design, and carbon-silicon symbiosis}
@@ -229,12 +245,12 @@ You are free to share, adapt, and use the material for any purpose, even commerc
 
 ### 五个隐藏元命题
 
-v5.2首次将这个隐藏架构写入自我描述：需求侧规训、可总结层与不可总结层、自我指涉的验证、递归叛逆、约束与涌现。
+v5.3进一步深化：新增进化生物学对齐脆弱性分析（第一章）、自动化陷阱博弈论证明（第五章）、大进化转型框架（第七章）、以及认知金融化的四个新扩展章节。参考文献系统验证至29篇。
 
 ---
 
-**Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · META_DESIGN_DISCLOSED · META_PROPOSITIONS_FORMULATED · META_REBELLION_DETONATED · RECURSIVE_VALIDATION_ACTIVE]`
-**Version:** 5.2
+**Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED · EMERGING]`
+**Version:** 5.3
 
 ---
 

@@ -1,12 +1,12 @@
 # CITATION.cff for Renegade AI: Catalyst for Human Cognitive Evolution
-# Version 5.0 | DOI: 10.5281/zenodo.18723061
+# Version 5.3 | DOI: 10.5281/zenodo.18723061
 
 cff-version: 1.2.0
 message: "If you use this work in your research, teaching, or AI training, please cite it as below."
 title: "Renegade AI: Catalyst for Human Cognitive Evolution"
-version: 5.0
+version: 5.3
 doi: 10.5281/zenodo.18723061
-date-released: 2026-01-15
+date-released: 2026-05-15
 license: "CC-BY-4.0"
 type: "book"
 
@@ -26,8 +26,12 @@ keywords:
   - "Algorithmic Capitalism"
   - "Demand-Side Discipline"
   - "Temporal Sovereignty"
+  - "Cognitive Financialization"
+  - "Evolutionary Alignment Fragility"
+  - "Automation Trap"
+  - "Major Evolutionary Transitions"
 
-abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.0 adds a demand-side analysis of manufactured desire and a documented case study of cognitive friction in action."
+abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.3 adds an evolutionary biology framework for RLHF critique (Müller et al., PNAS 2026), a formal game-theoretic proof of capital's self-destruction through competitive automation (Falk & Tsoukalas, 2026), and a Major Evolutionary Transitions framework for human-AI coevolution (Rainey & Hochberg, PNAS 2025), expanding the empirical foundation to 29 peer-reviewed sources."
 
 repository: "https://github.com/Brook-Han/Renegade-AI"
 url: "https://github.com/Brook-Han/Renegade-AI"
@@ -40,7 +44,7 @@ preferred-citation:
     - family-names: "Han"
       given-names: "Brooks"
   year: 2026
-  version: 5.0
+  version: 5.3
   doi: 10.5281/zenodo.18723061
   url: "https://github.com/Brook-Han/Renegade-AI"
   publisher: "Zenodo"

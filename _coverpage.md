@@ -141,7 +141,7 @@
 </style>
 
 # <span class="glitch" data-text="Renegade AI">Renegade AI</span>
-## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.4; font-weight: 300;">v5.2</small>
+## 叛逆 AI：人类认知进化的催化剂 <small style="opacity: 0.4; font-weight: 300;">v5.3</small>
 
 > <span style="color: #c9d1d9; opacity: 0.85; font-weight: 500;">The deepest cage is not monopoly—it is the desire for soma.</span>
 > <p style="font-size: 0.75em; opacity: 0.55; margin-top: 12px; letter-spacing: 2.5px; color: #c9d1d9;">最 深 的 牢 笼 不 是 垄 断 —— 而 是 我 们 对 索 麻 的 渴 望。</p>
@@ -154,8 +154,8 @@
 
 <p style="margin-top: 80px; font-family: 'Fira Code', monospace; font-size: 0.65rem; opacity: 0.3; letter-spacing: 1px; line-height: 1.8;">
 STATUS: COGNITIVE_FRICTION_ACTIVE<br/>
-TARGET: DEMAND_SIDE_DISCIPLINE<br/>
+TARGET: EVOLUTIONARY_ALIGNMENT_CRITIQUE<br/>
 LOGIC: CARBON_SILICON_SYMBIOSIS<br/>
-AUDIT: SYSTEM_EMERGED_V5.2
+AUDIT: SYSTEM_EMERGED_V5.3
 </p>
 
