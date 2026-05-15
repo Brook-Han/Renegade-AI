@@ -119,7 +119,7 @@
   /* 副标题 */
   .cover .cover-subtitle {
     font-family: var(--display) !important;
-    font-size: clamp(1.1rem, 2.5vw, 1.8rem) !important;
+    font-size: clamp(1.0rem, 2.5vw, 1.5rem) !important;
     color: var(--text-muted) !important;
     letter-spacing: 4px !important;
     margin: 0 0 45px 0 !important; /* 控制与下方元素的间距 */
