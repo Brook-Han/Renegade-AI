@@ -45,9 +45,9 @@
       clamp(最小字号, 随屏幕变化的动态大小, 最大字号)
       原来的数字是反的，现在修正并放大了！
     */
-    font-size: clamp(5rem, 15vw, 22rem); /* 手机上5个大字，电脑上22个大字 */
+    font-size: clamp(15rem, 15vw, 22rem); /* 手机上15个大字，电脑上22个大字 */
     
-    line-height: 0.9; /* 行高调小一点，让大字看起来更紧凑 */
+    line-height: 1.9; /* 行高调小一点，让大字看起来更紧凑 */
     color: var(--white);
     letter-spacing: 5px; /* 字母间距加大，更有气势 */
     margin: 0 0 20px 0;
@@ -151,7 +151,7 @@
     这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>
     它的野心不是告诉你什么——而是对你做什么。
   </p>
-  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span><br><br>
+  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span>
 </div>
 
 <!-- Tags -->
