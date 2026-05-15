@@ -100,7 +100,7 @@
   /* --- Main Title --- */
   .cover-title {
     font-family: var(--display);
-    font-size: clamp(18.8rem, 10vw, 9rem);
+    font-size: clamp(58.8rem, 10vw, 9rem);
     line-height: 0.88;
     color: var(--white);
     letter-spacing: 3px;
@@ -277,7 +277,7 @@
 
 <!-- Title -->
 <h1 class="cover-title">
-  RENE<span class="accent-span">GADE</span>AI
+  RENE<span class="accent-span">GADE</span>- AI
 </h1>
 
 <!-- Subtitle -->
