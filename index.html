@@ -29,40 +29,73 @@
   </script>
 
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
 <style>
-  :root { 
-    --theme-color: #ff3333; /* 保持“警示”红与深邃黑的对比 */
-  }
-  .markdown-section { max-width: 850px; padding: 40px; font-size: 1.1em; line-height: 1.75; }
-  
-  /* 优化代码块质感 */
-  code { 
-    background-color: #1e1e1e !important; 
-    color: #4fc1ff !important; 
-    font-family: 'Fira Code', 'JetBrains Mono', monospace; 
+  /* === Design Tokens (sync with _coverpage.md light theme) === */
+  :root {
+    --theme-color: #e8503a;
+    --accent: #e8503a;
+    --text: #2a2a40;
+    --text-muted: #6a6a80;
+    --bg: #f8f9fc;
+    --surface: #f0f2f8;
+    --border: #e0e2ec;
+    --mono: 'Space Mono', monospace;
+    --serif: 'Crimson Pro', Georgia, serif;
+    --display: 'Bebas Neue', sans-serif;
   }
 
-  .sidebar { background-color: #fcfcfc !important; border-right: 1px solid #eeeeee !important; }
-  .sidebar-nav li a { font-size: 15px; }
-
-  /* 封面图层优化 */
-  .cover.show { 
-    background: linear-gradient(135deg, #000000 0%, #1a1a1a 100%) !important; 
+  /* === Content Area === */
+  .markdown-section {
+    max-width: 850px;
+    padding: 40px;
+    font-size: 1.05em;
+    line-height: 1.8;
+    color: var(--text);
   }
-  .cover h1, .cover h2, .cover blockquote { color: #ffffff !important; text-shadow: 0 0 10px rgba(255,255,255,0.2); }
+  .markdown-section h1,
+  .markdown-section h2,
+  .markdown-section h3,
+  .markdown-section h4 {
+    font-family: var(--display);
+    letter-spacing: 1.5px;
+    color: var(--text);
+  }
+  .markdown-section h1 { color: var(--accent); }
+  .markdown-section h2 { border-bottom-color: var(--border); }
+  .markdown-section p,
+  .markdown-section li { color: var(--text); }
 
-  .cover a { 
-    border: 1px solid rgba(255, 255, 255, 0.6) !important; 
+  /* === Code Blocks === */
+  code {
+    background-color: var(--surface) !important;
+    color: var(--accent) !important;
+    font-family: 'Fira Code', 'JetBrains Mono', var(--mono) !important;
     border-radius: 2px !important;
-    text-transform: uppercase;
-    letter-spacing: 2px;
   }
-  .cover a:hover { 
-    background: #ffffff !important; 
-    color: #000000 !important;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 0.4);
+  pre code {
+    background-color: var(--surface) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--border);
   }
+
+  /* === Sidebar === */
+  .sidebar {
+    background-color: #ffffff !important;
+    border-right: 1px solid var(--border) !important;
+  }
+  .sidebar-nav li a {
+    font-size: 14px;
+    color: var(--text-muted);
+    border-top-color: var(--border);
+  }
+  .sidebar-nav li a:hover { color: var(--accent); }
+  .sidebar-nav li.active a { color: var(--accent); }
+
+  /* === Cover (delegated to _coverpage.md — minimal safety only) === */
+  .cover.show { background: var(--bg) !important; }
+  .cover h1, .cover h2, .cover blockquote { color: inherit !important; text-shadow: none !important; }
+  .cover .mask { display: none !important; }
 </style>
 </head>
 <body>
