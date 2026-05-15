@@ -67,15 +67,18 @@
   .cover .cover-corner {
     position: absolute;
     top: 28px;
-    right: 40px;
+    left: 50%;                  /* 先将左边缘移动到屏幕中间 */
+    transform: translateX(-50%); /* 向左反向平移自身宽度的 50%，实现完美居中 */
     font-family: var(--mono) !important;
     font-size: 0.58rem !important;
     letter-spacing: 3px !important;
     color: var(--text-faint) !important;
     text-transform: uppercase;
     z-index: 2;
-    text-align: right;
+    text-align: center;         /* 文字对齐改为居中 */
     line-height: 1.8;
+    width: 100%;                /* 给定宽度防止文字换行折叠 */
+    white-space: nowrap;        /* 强制不换行 */
   }
   .cover .cover-corner .accent-dot {
     display: inline-block;
