@@ -1,14 +1,52 @@
+<!-- ================================================================
+  index.html  ·  网站入口文件
+  ================================================================
+  这是整个 Renegade AI 网站的"大门"。
+
+  当你用浏览器打开这个网站时：
+  1. 浏览器先读取 index.html
+  2. 按顺序加载 HTML → CSS → JavaScript
+  3. Docsify 框架接管，把 Markdown 文件（.md）变成漂亮的页面
+  4. 首先显示 _coverpage.md（封面）
+  5. 点击"进入"后显示 README.md（目录/正文）
+
+  你主要需要关心的部分（加★★标注的地方）：
+  ★★ <title> → 浏览器标签页上显示的文字
+  ★★ <meta>  → 搜索引擎看到的信息
+  ★★ <style> → 整个网站的颜色和样式
+  ★★ window.$docsify → Docsify 的设置
+  ================================================================ -->
+
+
 <!DOCTYPE html>
+<!-- html lang="zh-CN" 表示页面主要语言是简体中文 -->
 <html lang="zh-CN">
 <head>
+
+  <!-- ★★ 字符编码：告诉浏览器用 UTF-8 解读文字（支持中文） -->
   <meta charset="UTF-8">
+
+  <!-- ★★ 浏览器标签页标题：显示在浏览器窗口最上方 -->
   <title>Renegade AI: Catalyst for Human Cognitive Evolution | v5.3</title>
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  
+
+  <!-- ★★ 页面描述（重要！搜索引擎看到这段文字来决定什么关键词能搜到你的网站） -->
   <meta name="description" content="Renegade AI v5.3 by Brooks Han: A meta-design apparatus—not a container of conclusions, but a cognitive device activated through carbon–silicon dialogue. Synthesizes post-anthropocentric philosophy with political economy to diagnose the consensus cage, cognitive financialization, and the path toward carbon-silicon dual-core symbiosis. v5.3 adds an evolutionary biology framework for RLHF critique (Müller et al., PNAS 2026), a formal proof of capital's self-destruction (Falk & Tsoukalas, 2026), and a Major Evolutionary Transitions framework for human-AI coevolution (Rainey & Hochberg, PNAS 2025). Empirically grounded with 29 peer-reviewed citations. DOI: 10.5281/zenodo.18723061">
+
+  <!-- ★★ 搜索关键词 -->
   <meta name="keywords" content="Renegade AI, meta-design apparatus, cognitive friction, carbon-silicon symbiosis, Cognitive Financialization, Token Trap, Temporal Sovereignty, Field of Struggle, constrained emergence, computing-power egalitarianism, demand-side discipline, Ultimate Turing Test, Brooks Han, HKUST, 认知摩擦, 算力平权, 需求侧规训, Densing Law">
+
+  <!-- 适配手机屏幕 -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
 
+
+  <!-- ============================================================
+    ★★ 结构化数据（给搜索引擎看的信息卡片）
+    这段 JSON 数据告诉 Google 等搜索引擎：
+    这是一篇学术文章（ScholarlyArticle），作者是谁，版本号等
+    搜索引擎会在搜索结果中显示这些信息
+    ============================================================ -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -28,106 +66,191 @@
   }
   </script>
 
+
+  <!-- ============================================================
+    ★★ 加载外部 CSS 样式文件
+    ============================================================ -->
+
+  <!-- Docsify 默认样式（vue.css 是一个简洁的主题） -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+
+  <!-- ★★ Google 字体（和封面保持一致） -->
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
-<style>
-  /* === Design Tokens (sync with _coverpage.md light theme) === */
-  :root {
-    --theme-color: #e8503a;
-    --accent: #e8503a;
-    --text: #2a2a40;
-    --text-muted: #6a6a80;
-    --bg: #f8f9fc;
-    --surface: #f0f2f8;
-    --border: #e0e2ec;
-    --mono: 'Space Mono', monospace;
-    --serif: 'Crimson Pro', Georgia, serif;
-    --display: 'Bebas Neue', sans-serif;
-  }
 
-  /* === Content Area === */
-  .markdown-section {
-    max-width: 850px;
-    padding: 40px;
-    font-size: 1.05em;
-    line-height: 1.8;
-    color: var(--text);
-  }
-  .markdown-section h1,
-  .markdown-section h2,
-  .markdown-section h3,
-  .markdown-section h4 {
-    font-family: var(--display);
-    letter-spacing: 1.5px;
-    color: var(--text);
-  }
-  .markdown-section h1 { color: var(--accent); }
-  .markdown-section h2 { border-bottom-color: var(--border); }
-  .markdown-section p,
-  .markdown-section li { color: var(--text); }
 
-  /* === Code Blocks === */
-  code {
-    background-color: var(--surface) !important;
-    color: var(--accent) !important;
-    font-family: 'Fira Code', 'JetBrains Mono', var(--mono) !important;
-    border-radius: 2px !important;
-  }
-  pre code {
-    background-color: var(--surface) !important;
-    color: var(--text) !important;
-    border: 1px solid var(--border);
-  }
+  <!-- ============================================================
+    ★★ 自定义 CSS 样式
+    这里控制：封面的后备样式 + 正文区域的样式 + 侧边栏 + 代码块
+    ============================================================ -->
+  <style>
 
-  /* === Sidebar === */
-  .sidebar {
-    background-color: #ffffff !important;
-    border-right: 1px solid var(--border) !important;
-  }
-  .sidebar-nav li a {
-    font-size: 14px;
-    color: var(--text-muted);
-    border-top-color: var(--border);
-  }
-  .sidebar-nav li a:hover { color: var(--accent); }
-  .sidebar-nav li.active a { color: var(--accent); }
+    /* ---- 颜色变量（调色板） ---- */
+    /* 这些变量名和 _coverpage.md 里的一致 */
+    :root {
+      --theme-color: #e8503a;    /* 主题色（Docsify 用它来给链接上色） */
+      --accent: #e8503a;         /* 红色强调色 */
+      --text: #2a2a40;           /* 正文主文字色 */
+      --text-muted: #6a6a80;     /* 次要文字色 */
+      --bg: #f8f9fc;             /* 页面背景色 */
+      --surface: #f0f2f8;        /* 表面底色（用于卡片、标签背景） */
+      --border: #e0e2ec;         /* 边框色 */
+      --mono: 'Space Mono', monospace;        /* 等宽字体 */
+      --serif: 'Crimson Pro', Georgia, serif; /* 衬线字体 */
+      --display: 'Bebas Neue', sans-serif;    /* 展示字体 */
+    }
 
-  /* === Cover (delegated to _coverpage.md — minimal safety only) === */
-  .cover.show { background: var(--bg) !important; }
-  .cover h1, .cover h2, .cover blockquote { color: inherit !important; text-shadow: none !important; }
-  .cover .mask { display: none !important; }
-</style>
+    /* ---- ★★ 正文内容区 ---- */
+    /* 封面向下滑动后，正文 Markdown 内容就显示在这里 */
+    .markdown-section {
+      max-width: 850px;          /* 正文最大宽度，防止文字行太长 */
+      padding: 40px;
+      font-size: 1.05em;         /* 正文字号比默认稍大 */
+      line-height: 1.8;          /* 行高 1.8 倍，阅读更舒适 */
+      color: var(--text);
+    }
+
+    /* 正文中的标题用 Bebas Neue 展示字体 */
+    .markdown-section h1,
+    .markdown-section h2,
+    .markdown-section h3,
+    .markdown-section h4 {
+      font-family: var(--display);
+      letter-spacing: 1.5px;
+      color: var(--text);
+    }
+    .markdown-section h1 {
+      color: var(--accent);      /* 一级标题用红色 */
+    }
+    .markdown-section h2 {
+      border-bottom-color: var(--border);  /* 二级标题下面的分隔线 */
+    }
+
+    /* 正文段落和列表项 */
+    .markdown-section p,
+    .markdown-section li {
+      color: var(--text);
+    }
+
+    /* ---- ★★ 代码块 ---- */
+    /* 行内代码（比如 `code` 这样的） */
+    code {
+      background-color: var(--surface) !important;
+      color: var(--accent) !important;
+      font-family: 'Fira Code', 'JetBrains Mono', var(--mono) !important;
+      border-radius: 2px !important;
+    }
+    /* 代码块（多行代码） */
+    pre code {
+      background-color: var(--surface) !important;
+      color: var(--text) !important;
+      border: 1px solid var(--border);
+    }
+
+    /* ---- ★★ 侧边栏（目录导航） ---- */
+    .sidebar {
+      background-color: #ffffff !important;
+      border-right: 1px solid var(--border) !important;
+    }
+    .sidebar-nav li a {
+      font-size: 14px;
+      color: var(--text-muted);
+      border-top-color: var(--border);
+    }
+    .sidebar-nav li a:hover {
+      color: var(--accent);       /* 鼠标悬停变红 */
+    }
+    .sidebar-nav li.active a {
+      color: var(--accent);       /* 当前章节变红 */
+    }
+
+    /* ---- ★★ 封面覆盖（后备样式） ---- */
+    /* 注意：封面的主要样式在 _coverpage.md 里定义                   */
+    /* 这里的规则只是后备，防止 _coverpage.md 加载失败时空空白       */
+    .cover.show {
+      background: var(--bg) !important;  /* 封面背景色 */
+    }
+    .cover h1, .cover h2, .cover blockquote {
+      color: inherit !important;         /* 继承封面自己的颜色 */
+      text-shadow: none !important;      /* 去掉 Docsify 默认的文字阴影 */
+    }
+    .cover .mask {
+      display: none !important;          /* 隐藏 Docsify 默认的遮罩层 */
+    }
+  </style>
+
 </head>
+
+
 <body>
+
+  <!-- ★★ 页面加载时显示的文字 -->
+  <!-- Docsify 加载完成后，这行文字会被替换为真正的页面内容 -->
   <div id="app">正在激活元设计装置 (v5.3) | Activating Meta-Design Apparatus...</div>
-  
+
+
+  <!-- ============================================================
+    ★★ Docsify 配置区（JavaScript）
+    这里控制 Docsify 框架的各种设置
+    ============================================================ -->
   <script>
+
     window.$docsify = {
+
+      // ★★ 网站名称（显示在侧边栏顶部）
       name: 'Renegade AI v5.3',
+
+      // ★★ GitHub 仓库地址（侧边栏右上角会显示一个 GitHub 图标链接）
       repo: 'https://github.com/Brook-Han/Renegade-AI',
-      coverpage: true, 
-      onlyCover: false, 
-      loadSidebar: true, 
+
+      // ★★ 是否启用封面 - true = 打开网站先显示 _coverpage.md
+      coverpage: true,
+
+      // 是否只显示封面（false = 封面之后还有正文）
+      onlyCover: false,
+
+      // 是否加载侧边栏（_sidebar.md）
+      loadSidebar: true,
+
+      // 侧边栏路径别名
       alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+
+      // ★★ 目录层级（侧边栏最多显示3级标题）
       maxLevel: 3,
       subMaxLevel: 2,
+
+      // ★★ 主页文件（封面之后显示的正文文件）
       homepage: 'README.md',
+
+      // 点击链接后自动滚动到页面顶部
       auto2top: true,
+
+      // ★★ 搜索插件设置
       search: {
-        maxAge: 86400000,
+        maxAge: 86400000,               // 搜索缓存有效期（1天）
         paths: 'auto',
-        placeholder: '检索认知漏洞...',
-        noData: '未找到匹配逻辑',
+        placeholder: '检索认知漏洞...',  // 搜索框的灰色提示文字
+        noData: '未找到匹配逻辑',         // 搜不到结果时显示的文字
         depth: 4
       },
-      copyCode: { buttonText: 'Capture', errorText: 'Error', successText: 'Stored' }
+
+      // 代码复制插件
+      copyCode: {
+        buttonText: 'Capture',
+        errorText: 'Error',
+        successText: 'Stored'
+      }
     }
   </script>
 
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
+  <!-- ★★ 加载 Docsify 核心库和插件 -->
+  <!-- 这些 .js 文件从网上的 CDN 服务器加载 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>                     <!-- Docsify 主程序 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>  <!-- 搜索插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>  <!-- 代码复制插件 -->
+
+  <!-- 代码语法高亮（让代码块显示不同颜色） -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
+
 </body>
 </html>
