@@ -151,7 +151,7 @@
     这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>
     它的野心不是告诉你什么——而是对你做什么。
   </p>
-  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span>
+  <span class="quote-sub">叛逆AI 人类认知进化的催化剂 · v5.3</span><br><br>
 </div>
 
 <!-- Tags -->
