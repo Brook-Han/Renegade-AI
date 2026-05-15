@@ -106,7 +106,7 @@
     font-size: clamp(4.5rem, 14vw, 6.8rem) !important; /* 微调了最大上限，防止大屏破产 */
     line-height: 0.9 !important;
     color: var(--white) !important;
-    letter-spacing: 4px !important;
+    letter-spacing: 8px !important;
     margin: 0 0 20px 0 !important;
     font-weight: 900 !important;
     background: transparent !important;
@@ -139,7 +139,7 @@
   }
   .cover .cover-quote p {
     font-family: var(--serif) !important;
-    font-size: 0.95rem !important;
+    font-size: 0.88rem !important;
     font-style: italic !important;
     color: var(--text) !important;
     line-height: 1.8 !important;
