@@ -211,8 +211,13 @@
       // 是否加载侧边栏（_sidebar.md）
       loadSidebar: true,
 
-      // 侧边栏路径别名
-      alias: { '/.*/_sidebar.md': '/_sidebar.md' },
+      // 是否合并导航栏到侧边栏
+      mergeNavbar: false,
+
+      // 侧边栏路径别名（核心修复：确保子目录下 sidebar 也从根目录加载）
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+      },
 
       // ★★ 目录层级（侧边栏最多显示3级标题）
       maxLevel: 3,
