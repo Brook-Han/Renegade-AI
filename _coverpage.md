@@ -63,7 +63,7 @@
     align-items: center !important;
   }
 
-  /* 右上角系统信息 */
+  /* 系统信息 */
   .cover .cover-corner {
     position: absolute;
     top: 28px;
@@ -103,10 +103,10 @@
   /* 🏆 修复后的主标题：强制压制原主题字体大小 */
   .cover h1.cover-title {
     font-family: var(--display) !important;
-    font-size: clamp(4.5rem, 14vw, 6.8rem) !important; /* 微调了最大上限，防止大屏破产 */
-    line-height: 0.9 !important;
+    font-size: clamp(4.5rem, 12vw, 5.8rem) !important; /* 微调了最大上限，防止大屏破产 */
+    line-height: 1.5 !important;
     color: var(--white) !important;
-    letter-spacing: 8px !important;
+    letter-spacing: 10px !important;
     margin: 0 0 20px 0 !important;
     font-weight: 900 !important;
     background: transparent !important;
@@ -119,9 +119,9 @@
   /* 副标题 */
   .cover .cover-subtitle {
     font-family: var(--display) !important;
-    font-size: clamp(1.0rem, 2.5vw, 1.5rem) !important;
+    font-size: clamp(1.0rem, 2.0vw, 1.5rem) !important;
     color: var(--text-muted) !important;
-    letter-spacing: 4px !important;
+    letter-spacing: 2px !important;
     margin: 0 0 45px 0 !important; /* 控制与下方元素的间距 */
     opacity: 0;
     animation: fadeUp 0.7s var(--ease) 0.25s forwards;
