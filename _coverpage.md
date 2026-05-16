@@ -265,7 +265,7 @@
 
 <div class="cover-corner"><span class="accent-dot"></span>System v5.3 &middot; Brooks Han / HKUST</div>
 <div class="cover-rule"></div>
-<h1 class="cover-title">RENE<span class="accent-span">GADE</span><br>AI</h1>
+<h1 class="cover-title">RENE<span class="accent-span">GADE </span> AI</h1>
 <p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.3</p>
 <div class="cover-quote">
   <p>这不是一本关于AI的书。<br>这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>它的野心不是告诉你什么——而是对你做什么。</p>
