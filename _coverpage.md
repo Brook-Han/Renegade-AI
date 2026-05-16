@@ -280,6 +280,6 @@
 <div class="cover-buttons">
   <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ Zenodo 下载</a>
   <a class="cover-btn ghost" href="#/README">◎ 在线全文阅读</a>
-  <a class="cover-btn ghost" href="https://github.com/Brook-Han/Renegade-AI" target="_blank">⌥ GitHub</a>
+  <a class="cover-btn ghost" href="https://brook-han.github.io/renegade-ai-Updater/" target="_blank">⌥ Radar Archive</a>
 </div>
 <div class="cover-warning">⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。这本身就是它最冰冷的物证。本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。</div>
