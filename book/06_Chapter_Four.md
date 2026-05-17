@@ -282,6 +282,8 @@ This is precisely why **compute egalitarianism** must be more than a technologic
 
 If compute is monopolized, it becomes the new oil – a source of even more extreme inequality. If compute is democratized, it becomes the new air – a background condition of freedom. The argument of this chapter is not a prediction of inevitability; it is a roadmap for a choice that must be made. The technical feasibility exists. What remains is the political will to resist the new enclosure.
 
+This concentration of power is not merely a theoretical deduction. Field, Douglas, and Krueger (2026) interviewed twenty-five leading AI researchers across frontier laboratories and academia—and found that seventeen of them, more than two-thirds, expected advanced AI R&D capabilities to be kept internal to institutions, invisible to the public. When the very people building these systems anticipate, by a supermajority, that the fruits of their labor will be walled off from public view, the case for decentralized compute networks ceases to be an idealistic preference. It becomes the only structural counterweight to the privatization of humanity's cognitive infrastructure.
+
 #### **F. A New Measure of Progress: From GDP to Temporal Sovereignty**
 
 If the old economics measures progress by GDP – the velocity of material throughput – what measures progress in an age of abundance?
