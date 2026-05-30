@@ -20,13 +20,13 @@ npx docsify serve . --port 3000
 
 # 提交并推送更新（v5.x）
 git add -A
-git commit -m "v5.3 update: [brief description]"
+git commit -m "v5.4 update: [brief description]"
 git push
 ```
 
 ## 版本约定
-- book/Renegade_AI_v5.3.md = 当前完整版
-- book/00_*.md ~ 17_*.md = 分章节版本（与 v5.3 对齐）
+- book/Renegade_AI_v5.4.md = 当前完整版
+- book/00_*.md ~ 17_*.md = 分章节版本（与 v5.4 对齐）
 - book/Renegade_AI_v5.2.md / v5.0.md = 历史版本
 - manuscript/ = 更早的草稿，不用于当前版本
 

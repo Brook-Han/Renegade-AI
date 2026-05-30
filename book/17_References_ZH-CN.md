@@ -4,6 +4,10 @@
 
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
 
+**Bostrom, N. (2014).** *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
+
+**Bostrom, N. (2024).** *Deep Utopia: Life and Meaning in a Solved World*. Ideapress Publishing.
+
 **Candrian, C., & Scherer, A. (2022).** Rise of the machines: delegating decisions to autonomous AI. *Computers in Human Behavior*, 134, 107308.
 
 **Chen, E. K., Belkin, M., Bergen, L., & Danks, D. (2026).** Does AI already have human-level intelligence? The evidence is clear. *Nature*, 650, 36–40.

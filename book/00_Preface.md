@@ -1,6 +1,6 @@
 # **Renegade AI: Catalyst for Human Cognitive Evolution**
 
-*Version 5.3*
+*Version 5.4*
 
 ## Preface: Three Mountains and a Detonator
 

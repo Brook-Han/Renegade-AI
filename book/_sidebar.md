@@ -54,6 +54,6 @@
 
 <p style="font-size: 0.8em; opacity: 0.5; padding: 0 15px; line-height: 1.5;">
   <strong>SEED_PLANTED. FUTURE_IN_HAND.</strong><br>
-  v5.3 · CC BY 4.0<br>
+  v5.4 · CC BY 4.0<br>
   Status: <code>[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED]</code>
 </p>
