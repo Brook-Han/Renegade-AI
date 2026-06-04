@@ -4259,6 +4259,9 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 
 **Shaw, S. D., & Nave, G. (2026).** Thinking – Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender. *Wharton School Research Paper*.
 
+**Stanford Institute for Human-Centered Artificial Intelligence (HAI). (2024).** *Artificial Intelligence Index Report 2024*. Stanford University. 
+https://hai.stanford.edu/assets/files/hai_ai-index-report-2024-smaller2.pdf
+
 **Spittler, M., & Patel, D. (2026).** *AI dark output: The visible cost of invisible output*. SemiAnalysis Newsletter. Retrieved from https://newsletter.semianalysis.com
 
 **Agarwal, D., Naaman, M., & Vashistha, A. (2024).** AI suggestions homogenize writing toward Western styles and diminish cultural nuances. *arXiv preprint arXiv:2409.11360*. (Accepted at CHI 2025).
