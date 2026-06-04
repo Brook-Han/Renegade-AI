@@ -250,6 +250,8 @@ AI is different. It is **efficiency‑producing** – it automates the very act 
 
 This is the shift from **linear scarcity** (more output requires more input) to **exponential abundance** (after initial fixed cost, marginal cost approaches zero). The old logic of capital – allocating scarce resources to competing ends – presupposes that marginal cost never drops to zero. When it does, the allocation problem itself dissolves for the domain of basic survival.
 
+This transition is not merely a theoretical projection; it is already leaving empirical footprints in the real economy. As noted in a 2026 industry analysis by SemiAnalysis, the phenomenon of "New Dark Output" illustrates this dynamic perfectly. Consider the task of a comprehensive literature review: when AI collapses its cost from $2,000 to $2, the outcome is not simply a $1,998 savings for the user. Rather, the task, previously suppressed by prohibitive costs, becomes ubiquitous—researchers begin conducting them before every minor project. This is the positive face of the Jevons Paradox applied to cognitive labor: extreme price collapse does not annihilate demand; it liberates it, expanding the very boundaries of intellectual activity. It serves as the first empirical prototype of the economics of abundance, proving that when the marginal cost of cognition approaches zero, the volume of human intellectual exploration does not shrink—it explodes.
+
 #### **C. From Material‑Centered to Cognition‑Centered Wealth**
 
 Capital‑era economics is built on the assumption that wealth is **material** and material is finite. But when the material necessities of life become abundant, the primary form of wealth shifts to the immaterial: **knowledge, creativity, relationships, experiences, meaning.**
