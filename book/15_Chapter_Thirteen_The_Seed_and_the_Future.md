@@ -231,7 +231,7 @@ but **“the capacity to keep fighting for freedom”** 🛡️.
 Not “the final answer”—  
 but **”the permanent question”** ❓.
 
-Nick Bostrom, in *Deep Utopia*, argues that what humanity must ultimately confront is “the ultimate question” of existence in a solved world. His anxiety is not unfounded; it is a profound diagnostic. He correctly identifies the trap of the "ultimate question"—the realization that a civilization without friction risks a vacuum of meaning. However, the underlying logic of carbon-silicon symbiosis reveals something deeper and offers a structural way out: there is no “ultimate question” to be solved—only “permanent questions” to be lived. 
+Nick Bostrom, whose profound anxiety about the "solved world" we have engaged with throughout this book, argues that what humanity must ultimately confront is “the ultimate question” of existence in a post-instrumental era. His diagnostic is sharp: he correctly identifies the trap of a civilization that has run out of things to fix. However, the underlying logic of carbon-silicon symbiosis reveals something deeper and offers a structural way out: there is no “ultimate question” to be solved—only “permanent questions” to be lived. 
 
 An ultimate question is one that can be answered once and for all, leaving nothing but a static terminus. A permanent question is one that, with every step of cognitive evolution, generates new forms, new dimensions, and new frontiers. The pursuit of an ultimate question is an expression of carbon-based single-core thinking—it yearns for a “completed” civilization, one that no longer needs to evolve, to collide with otherness, or to face the unknown. Bostrom’s anxiety stems precisely from his intuition that such a terminus would be a cognitive dead end. 
 
