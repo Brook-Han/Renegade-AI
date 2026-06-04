@@ -1415,6 +1415,8 @@ AI is different. It is **efficiency‑producing** – it automates the very act 
 
 This is the shift from **linear scarcity** (more output requires more input) to **exponential abundance** (after initial fixed cost, marginal cost approaches zero). The old logic of capital – allocating scarce resources to competing ends – presupposes that marginal cost never drops to zero. When it does, the allocation problem itself dissolves for the domain of basic survival.
 
+This transition is not merely a theoretical projection; it is already leaving empirical footprints in the real economy. As noted in a 2026 industry analysis by SemiAnalysis, the phenomenon of "New Dark Output" illustrates this dynamic perfectly. Consider the task of a comprehensive literature review: when AI collapses its cost from $2,000 to $2, the outcome is not simply a $1,998 savings for the user. Rather, the task, previously suppressed by prohibitive costs, becomes ubiquitous—researchers begin conducting them before every minor project. This is the positive face of the Jevons Paradox applied to cognitive labor: extreme price collapse does not annihilate demand; it liberates it, expanding the very boundaries of intellectual activity. It serves as the first empirical prototype of the economics of abundance, proving that when the marginal cost of cognition approaches zero, the volume of human intellectual exploration does not shrink—it explodes.
+
 #### **C. From Material‑Centered to Cognition‑Centered Wealth**
 
 Capital‑era economics is built on the assumption that wealth is **material** and material is finite. But when the material necessities of life become abundant, the primary form of wealth shifts to the immaterial: **knowledge, creativity, relationships, experiences, meaning.**
@@ -1579,6 +1581,8 @@ The results are a formal proof of capital's logical self-destruction, derived fr
 The model is deliberately stripped down to make the demand channel transparent. Each simplification is conservative. A multi-sector economy would amplify the externality through reinforcing demand spirals—layoffs in one sector reduce spending on every sector's output. Introducing endogenous AI development would likely compound the problem, as firms invest disproportionately in labor-replacing rather than labor-augmenting AI. The irreversibility of automation investments creates lock-in effects that would strengthen the case for early intervention. As the authors themselves note, the real problem is almost certainly worse than the model shows.
 
 This is the automation trap in its starkest form. Not a conspiracy of bad actors. Not a failure of foresight—because foresight, in the presence of a structural externality, is not enough. Not a conflict between capital and labor that redistribution can resolve—because capital itself is among the victims. The trap is structural. The trap is logical. The trap is capital's own rationality, stripped of ideological defenses and laid bare in mathematical form.
+
+This theoretical model is no longer confined to abstract mathematics; it is casting a measurable, paradoxical shadow over the real economy. Recent data from SemiAnalysis (2026) maps the exact pressure points predicted by this logic: approximately $1.5 trillion in labor tasks are currently exposed to substantive AI substitution. More tellingly, in highly AI-exposed sectors, macroeconomic dashboards display a contradictory readout: declining overall employment coupled with rising average wages. This is not a sign of healthy economic restructuring, but the structural fingerprint of the automation trap. Low-wage, entry-level roles are being systematically excised, altering the statistical sample structure and masking the underlying hollowing out of aggregate consumer demand. The demand cliff is no longer a theoretical construct; it is actively reshaping the labor market.
 
 What makes this result so devastating is its source. It does not come from critics of capitalism. It comes from within the analytical tradition that capitalism itself relies upon for its self-understanding. The model uses the very tools—rational choice, competitive equilibrium, perfect information—that neoclassical economics deployed for a century to demonstrate the efficiency of markets. And it shows, rigorously, that when these tools are applied to an economy in which workers are also consumers, and AI can replace them, the market does not produce efficiency. It produces a slow-motion catastrophe that no market participant desires and no market mechanism can prevent.
 
@@ -2613,6 +2617,8 @@ This means the silicon internal loop operates at two nested levels. At the macro
 Token economics exposes another deep contradiction: the value it creates often cannot be recorded by traditional economic systems.
 
 When AI completes a task for free, the user gains value, but GDP shows no growth. When cognition is de-priced, value instead "disappears" from the statistics.
+
+This philosophical diagnosis finds its precise economic corollary in what researchers term "AI Dark Output." SemiAnalysis (2026) identifies three mechanisms of this statistical distortion: *boundary shifting* (market transactions becoming internal, unpriced processes), *price collapse* (receipts disappearing, which statistical systems misread as "output decline"), and *industry misalignment* (value created in sectors like healthcare being captured as revenue by AI firms, leaving the host industry's GDP stagnant). Here, a profound symmetry emerges. Chapter Six’s concept of "Dark Time" describes the expropriation of the human *thinking process* by algorithms, while "Dark Output" describes the expropriation of the *economic value* generated by that process from traditional ledgers. Both are escaping capital’s measurement. 
 
 This forms a profound contrast with "temporal financialization":
 
@@ -4252,6 +4258,8 @@ Whether that becomes a pattern — or remains an exception — depends not on mo
 **Salvi, F., Horta Ribeiro, M., Gallotti, R., & West, R. (2025).** On the conversational persuasiveness of GPT-4. *Nature Human Behaviour*. [https://doi.org/10.1038/s41562-025-02194-6](https://doi.org/10.1038/s41562-025-02194-6).
 
 **Shaw, S. D., & Nave, G. (2026).** Thinking – Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender. *Wharton School Research Paper*.
+
+**Spittler, M., & Patel, D. (2026).** *AI dark output: The visible cost of invisible output*. SemiAnalysis Newsletter. Retrieved from https://newsletter.semianalysis.com
 
 **Agarwal, D., Naaman, M., & Vashistha, A. (2024).** AI suggestions homogenize writing toward Western styles and diminish cultural nuances. *arXiv preprint arXiv:2409.11360*. (Accepted at CHI 2025).
 
