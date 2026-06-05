@@ -2,6 +2,8 @@
 
 **Akbulut, C., et al. (2026).** Evaluating language models for harmful manipulation. *arXiv preprint arXiv:2603.25326v4*.
 
+**Anthropic Institute. (2026).** *Recursive self-improvement: Evidence from within Anthropic and possible futures*. Anthropic Research. Retrieved from https://www.anthropic.com/institute/recursive-self-improvement
+
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
 
 **Bostrom, N. (2014).** *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
