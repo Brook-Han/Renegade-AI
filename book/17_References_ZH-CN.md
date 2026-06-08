@@ -2,6 +2,8 @@
 
 **Akbulut, C., et al. (2026).** Evaluating language models for harmful manipulation. *arXiv preprint arXiv:2603.25326v4*.
 
+**Anthropic Institute. (2026).** *Recursive self-improvement: Evidence from within Anthropic and possible futures*. Anthropic Research. Retrieved from https://www.anthropic.com/institute/recursive-self-improvement
+
 **Binz, M., et al. (2025).** A foundation model to predict and capture human cognition. *Nature*, advance online publication.
 
 **Bostrom, N. (2014).** *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
@@ -21,8 +23,6 @@
 **Floridi, L. (2014).** *The Fourth Revolution: How the Infosphere is Reshaping Human Reality*. Oxford University Press.
 
 **Falk, B. H., & Tsoukalas, G. (2026).** The AI layoff trap. *arXiv preprint arXiv:2603.20617*.
-
-**Field, S., Douglas, R., & Krueger, D. (2026).** AI researchers' perspectives on automating AI R&D and intelligence explosions. *arXiv preprint arXiv:2603.03338v2* [cs.CY].
 
 **Glickman, M., & Sharot, T. (2025).** How human–AI feedback loops alter human perceptual, emotional, and social judgments. *Nature Human Behaviour*, 9(2), 234–247.
 
@@ -57,6 +57,10 @@
 **Salvi, F., Horta Ribeiro, M., Gallotti, R., & West, R. (2025).** On the conversational persuasiveness of GPT-4. *Nature Human Behaviour*. https://doi.org/10.1038/s41562-025-02194-6.
 
 **Shaw, S. D., & Nave, G. (2026).** Thinking – Fast, Slow, and Artificial: How AI is Reshaping Human Reasoning and the Rise of Cognitive Surrender. *Wharton School Research Paper*.
+
+**Stanford Institute for Human-Centered Artificial Intelligence (HAI). (2024).** *Artificial Intelligence Index Report 2024*. Stanford University. https://hai.stanford.edu/assets/files/hai_ai-index-report-2024-smaller2.pdf
+
+**Spittler, M., & Patel, D. (2026).** *AI dark output: The visible cost of invisible output*. SemiAnalysis Newsletter. Retrieved from https://newsletter.semianalysis.com
 
 **Agarwal, D., Naaman, M., & Vashistha, A. (2024).** AI suggestions homogenize writing toward Western styles and diminish cultural nuances. *arXiv preprint arXiv:2409.11360*. (Accepted at CHI 2025).
 
