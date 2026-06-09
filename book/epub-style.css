@@ -1,0 +1,247 @@
+/* Renegade AI v5.4 EPUB 中文排版样式 */
+
+@namespace epub "http://www.idpf.org/2007/ops";
+
+/* 基础字体设置 */
+body {
+  font-family: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #2a2a40;
+  text-align: justify;
+  word-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 标题层级 */
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  page-break-before: always;
+  text-align: left;
+  border-bottom: 2px solid #e8503a;
+  padding-bottom: 0.3em;
+}
+
+h2 {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #2a2a40;
+  margin-top: 1.6em;
+  margin-bottom: 0.6em;
+  text-align: left;
+  border-left: 4px solid #e8503a;
+  padding-left: 0.5em;
+}
+
+h3 {
+  font-size: 1.15em;
+  font-weight: 600;
+  color: #3a3a50;
+  margin-top: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+h4, h5, h6 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #4a4a60;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+}
+
+/* 段落 */
+p {
+  margin: 0.8em 0;
+  text-indent: 2em;
+}
+
+/* 无缩进段落（用于标题后的第一段） */
+h1 + p, h2 + p, h3 + p, h4 + p {
+  text-indent: 0;
+}
+
+/* 引用块 */
+blockquote {
+  margin: 1.2em 1em;
+  padding: 0.8em 1em;
+  border-left: 4px solid #e8503a;
+  background: #fafafa;
+  font-style: italic;
+  color: #4a4a60;
+}
+
+blockquote p {
+  text-indent: 0;
+  margin: 0.4em 0;
+}
+
+/* 代码 */
+code {
+  font-family: "SF Mono", "Fira Code", "JetBrains Mono", monospace;
+  font-size: 0.9em;
+  background: #f4f4f8;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+  color: #d63d28;
+}
+
+pre {
+  font-family: "SF Mono", "Fira Code", "JetBrains Mono", monospace;
+  font-size: 0.85em;
+  background: #1e1e2e;
+  color: #e8e8f0;
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  line-height: 1.5;
+}
+
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* 列表 */
+ul, ol {
+  margin: 0.8em 0;
+  padding-left: 2em;
+}
+
+li {
+  margin: 0.3em 0;
+}
+
+/* 表格 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-size: 0.95em;
+}
+
+th, td {
+  padding: 0.6em 0.8em;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background: #f0f0f8;
+  font-weight: 600;
+}
+
+/* 分隔线 */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2em 0;
+}
+
+/* 链接 */
+a {
+  color: #3a7fbf;
+  text-decoration: none;
+}
+
+/* 脚注 */
+.footnote-ref {
+  font-size: 0.75em;
+  vertical-align: super;
+}
+
+.footnotes {
+  font-size: 0.9em;
+  color: #666;
+  border-top: 1px solid #ddd;
+  margin-top: 2em;
+  padding-top: 1em;
+}
+
+/* 强调 */
+strong {
+  font-weight: 700;
+  color: #1a1a2e;
+}
+
+em {
+  font-style: italic;
+}
+
+/* 图片 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1em auto;
+}
+
+/* 标题页 */
+#title-page {
+  text-align: center;
+  padding-top: 30%;
+}
+
+#title-page h1 {
+  font-size: 2.2em;
+  border: none;
+  text-align: center;
+  page-break-before: auto;
+}
+
+#title-page .author {
+  font-size: 1.1em;
+  color: #666;
+  margin-top: 1em;
+}
+
+#title-page .version {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 0.5em;
+}
+
+/* 目录 */
+#toc {
+  page-break-before: always;
+}
+
+#toc h2 {
+  text-align: center;
+  border: none;
+  padding-left: 0;
+}
+
+#toc ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#toc li {
+  margin: 0.4em 0;
+  padding-left: 1em;
+}
+
+#toc a {
+  color: #2a2a40;
+}
+
+/* 分页控制 */
+.chapter {
+  page-break-before: always;
+}
+
+/* 避免在元素中间分页 */
+h1, h2, h3, h4, h5, h6 {
+  page-break-after: avoid;
+}
+
+blockquote, table, pre, figure {
+  page-break-inside: avoid;
+}
