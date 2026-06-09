@@ -1,12 +1,8 @@
 <style>
-  /* --- 从 Google 加载字体 --- */
-  @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap');
-
+  /* 字体由 index.html <link> 异步加载，此处不再重复 */
   :root {
     --bg:           #f8f9fc;
-    --bg2:          #ffffff;
     --surface:      #f0f2f8;
-    --card:         #ffffff;
     --border:       #e0e2ec;
     --border-bright:#c0c2d0;
     --text:         #2a2a40;
@@ -16,7 +12,7 @@
     --accent-dim:   rgba(232,80,58,0.08);
     --accent2:      #b88c2a;
     --accent3:      #3a7fbf;
-    --white:        #2a2a40;
+    --heading:      #2a2a40;
     
     --mono:         'Space Mono', monospace;
     --serif:        'Crimson Pro', Georgia, serif;
@@ -40,7 +36,7 @@
   /* 噪点纹理 */
   .cover::before {
     content: '';
-    position: fixed;
+    position: absolute;
     inset: 0;
     z-index: 0;
     pointer-events: none;
@@ -105,7 +101,7 @@
     font-family: var(--display) !important;
     font-size: clamp(4.5rem, 12vw, 5.8rem) !important; /* 微调了最大上限，防止大屏破产 */
     line-height: 1.5 !important;
-    color: var(--white) !important;
+    color: var(--heading) !important;
     letter-spacing: 10px !important;
     margin: 0 0 20px 0 !important;
     font-weight: 900 !important;
@@ -220,6 +216,11 @@
     color: var(--accent) !important;
     background: var(--accent-dim) !important;
   }
+  /* 键盘焦点样式，提升可访问性 */
+  .cover .cover-buttons a.cover-btn:focus-visible {
+    outline: 2px solid var(--accent) !important;
+    outline-offset: 3px !important;
+  }
 
   /* 底部的警告条 */
   .cover .cover-warning {
@@ -248,10 +249,19 @@
     50% { opacity: 0.2; }
   }
 
+  /* 前庭功能障碍友好：关闭所有动画 */
+  @media (prefers-reduced-motion: reduce) {
+    .cover *, .cover *::before, .cover *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      opacity: 1 !important;
+    }
+  }
+
   /* 手机适配（响应式） */
   @media (max-width: 768px) {
     .cover .cover-main { padding: 40px 20px !important; }
-    .cover .cover-corner { top: 16px; right: 20px; font-size: 0.5rem !important; }
+    .cover .cover-corner { top: 16px; font-size: 0.5rem !important; }
     .cover h1.cover-title { font-size: clamp(2.8rem, 12vw, 4.5rem) !important; margin-bottom: 15px !important; }
     .cover .cover-quote { padding-left: 16px !important; margin-bottom: 30px !important; }
     .cover .cover-buttons { flex-direction: column; width: 100%; gap: 8px !important; }
@@ -263,7 +273,7 @@
   .cover h1, .cover h2, .cover blockquote { text-shadow: none !important; }
 </style>
 
-<div class="cover-corner"><span class="accent-dot"></span>System v5.4 &middot; Brooks Han / HKUST</div>
+<div class="cover-corner"><span class="accent-dot"></span>System v5.4 &middot; Brooks Han / Independent Researcher</div>
 <div class="cover-rule"></div>
 <h1 class="cover-title">RENE<span class="accent-span">GADE </span> AI</h1>
 <p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.4</p>
@@ -274,12 +284,12 @@
 <div class="cover-tags">
   <span class="cover-tag">DOI: 10.5281/zenodo.18723061</span>
   <span class="cover-tag">CC BY 4.0</span>
-  <span class="cover-tag">31+ Peer-Reviewed</span>
+  <span class="cover-tag">34+ Peer-Reviewed</span>
   <span class="cover-tag">Meta-Design Apparatus</span>
 </div>
 <div class="cover-buttons">
-  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ Zenodo 下载</a>
+  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank" rel="noopener noreferrer">↗ Zenodo 下载</a>
   <a class="cover-btn ghost" href="https://brook-han.github.io/Renegade-AI/reader.html">◎ 在线全文阅读</a>
-  <a class="cover-btn ghost" href="https://brook-han.github.io/renegade-ai-Updater/" target="_blank">⌥ Radar Archive</a>
+  <a class="cover-btn ghost" href="https://brook-han.github.io/renegade-ai-Updater/" target="_blank" rel="noopener noreferrer">⌥ Radar Archive</a>
 </div>
 <div class="cover-warning">⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。这本身就是它最冰冷的物证。本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。</div>
