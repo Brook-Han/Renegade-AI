@@ -3,7 +3,6 @@
 ## 架构
 - **book/** — 主内容目录，17 个编号章节（00_Preface → 17_References）+ 双语 ZH-CN 版本
 - **manuscript/** — 旧版草稿（含 chapters/ 子目录），内容可能落后于 book/，不应用作来源
-- **v5.3/** — 包含一次性生成的 index.html 文件
 - **根目录** — pages 入口：index.html（Docsify）、_sidebar.md、_coverpage.md、README.md
 
 ## 关键文件

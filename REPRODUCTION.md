@@ -3,12 +3,12 @@
 ```yaml
 ---
 title: "Renegade AI: Cognitive Friction Reproduction Protocol"
-version: "5.0"
+version: "5.4"
 license: "CC BY 4.0"
 repository: "https://github.com/Brook-Han/Renegade-AI"
 zenodo_doi: "10.5281/zenodo.18723061"
 experiment_type: "carbon-silicon dialogue"
-last_updated: "2026-01-15"
+last_updated: "2026-06-09"
 ---
 ```
 
@@ -286,7 +286,7 @@ Contributions will be curated in `community/replications/` with a summary index.
 
 ## 🔗 Related Resources
 
-- **Primary Text**: `book/Renegade_AI_v5.0.md` (full manuscript)
+- **Primary Text**: `book/Renegade_AI_v5.4.md` (full manuscript)
 - **Exemplar Dialogue**: `book/15_Appendix_A_Cognitive_Friction_in_Action.md`
 - **Training Guide**: `AI-READ-ME.md` (for fine-tuning or RAG applications)
 - **Concept Definitions**: `book/CONCEPT_INDEX.md` (cross-referenced glossary)
@@ -305,7 +305,7 @@ If you use this protocol in research, please cite:
   author = {Han, Brooks},
   title = {REPRODUCTION.md: Cognitive Friction Experimental Protocol},
   year = {2026},
-  version = {5.0},
+  version = {5.4},
   doi = {10.5281/zenodo.18723061},
   note = {Part of Renegade AI: Catalyst for Human Cognitive Evolution. 
           Protocol for replicating cognitive friction dialogues.}
@@ -319,5 +319,5 @@ If you use this protocol in research, please cite:
 > If you find a premise worth questioning in this document—question it.  
 > That is the point.
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.0*  
+*Processed by Carbon-Silicon Dual-Core Logic v5.4*  
 *Status: [REPLICATION_INVITED · FRICTION_PROTOCOL_DEFINED · COMMUNITY_ARCHIVE_OPEN]*
