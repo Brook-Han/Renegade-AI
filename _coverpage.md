@@ -82,7 +82,7 @@
     left: 50%;                  /* 先将左边缘移动到屏幕中间 */
     transform: translateX(-50%); /* 向左反向平移自身宽度的 50%，实现完美居中 */
     font-family: var(--mono) !important;
-    font-size: 0.58rem !important;
+    font-size: 0.725rem !important;
     letter-spacing: 3px !important;
     color: var(--text-faint) !important;
     text-transform: uppercase;
@@ -115,7 +115,7 @@
   /* 🏆 修复后的主标题：强制压制原主题字体大小 */
   .cover h1.cover-title {
     font-family: var(--display) !important;
-    font-size: clamp(4.5rem, 12vw, 5.8rem) !important; /* 微调了最大上限，防止大屏破产 */
+    font-size: clamp(5.625rem, 15vw, 7.25rem) !important; /* 微调了最大上限，防止大屏破产 */
     line-height: 1.5 !important;
     color: var(--heading) !important;
     letter-spacing: 10px !important;
@@ -132,7 +132,7 @@
   /* 副标题 */
   .cover .cover-subtitle {
     font-family: var(--display) !important;
-    font-size: clamp(1.0rem, 2.0vw, 1.5rem) !important;
+    font-size: clamp(1.25rem, 2.5vw, 1.875rem) !important;
     color: var(--text-muted) !important;
     letter-spacing: 2px !important;
     margin: 0 0 45px 0 !important; /* 控制与下方元素的间距 */
@@ -152,7 +152,7 @@
   }
   .cover .cover-quote p {
     font-family: var(--serif) !important;
-    font-size: 0.88rem !important;
+    font-size: 1.1rem !important;
     font-style: italic !important;
     color: var(--text) !important;
     line-height: 1.8 !important;
@@ -160,7 +160,7 @@
   }
   .cover .cover-quote .quote-sub {
     font-family: var(--mono) !important;
-    font-size: 0.88rem !important;
+    font-size: 1.1rem !important;
     color: var(--text-faint) !important;
     letter-spacing: 1.5px;
     display: block;
@@ -178,7 +178,7 @@
   }
   .cover .cover-tag {
     font-family: var(--mono) !important;
-    font-size: 0.58rem !important;
+    font-size: 0.725rem !important;
     letter-spacing: 1.5px !important;
     color: var(--text-muted) !important;
     background: var(--surface) !important;
@@ -205,7 +205,7 @@
     gap: 8px;
     padding: 12px 24px !important;
     font-family: var(--mono) !important;
-    font-size: 0.68rem !important;
+    font-size: 0.85rem !important;
     letter-spacing: 2px !important;
     text-transform: uppercase;
     text-decoration: none !important;
@@ -250,7 +250,7 @@
   /* 底部的警告条 */
   .cover .cover-warning {
     font-family: var(--mono) !important;
-    font-size: 0.62rem !important;
+    font-size: 0.775rem !important;
     color: var(--accent2) !important;
     letter-spacing: 1.5px !important;
     text-align: center;
@@ -286,8 +286,8 @@
   /* 手机适配（响应式） */
   @media (max-width: 768px) {
     .cover .cover-main { padding: 40px 20px !important; }
-    .cover .cover-corner { top: 16px; font-size: 0.5rem !important; }
-    .cover h1.cover-title { font-size: clamp(2.8rem, 12vw, 4.5rem) !important; margin-bottom: 15px !important; }
+    .cover .cover-corner { top: 16px; font-size: 0.625rem !important; }
+    .cover h1.cover-title { font-size: clamp(3.5rem, 15vw, 5.625rem) !important; margin-bottom: 15px !important; }
     .cover .cover-quote { padding-left: 16px !important; margin-bottom: 30px !important; }
     .cover .cover-buttons { flex-direction: column; width: 100%; gap: 8px !important; }
     .cover .cover-buttons a.cover-btn { width: 100%; justify-content: center; }
