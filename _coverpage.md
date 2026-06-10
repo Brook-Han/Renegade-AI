@@ -8,16 +8,32 @@
     --text:         #2a2a40;
     --text-muted:   #6a6a80;
     --text-faint:   #a0a0b8;
-    --accent:       #e8503a;
-    --accent-dim:   rgba(232,80,58,0.08);
-    --accent2:      #b88c2a;
-    --accent3:      #3a7fbf;
+    --accent:       #ff5c45;
+    --accent-dim:   rgba(255,92,69,0.08);
+    --accent2:      #d4af5c;
+    --accent3:      #5ba3e6;
     --heading:      #2a2a40;
     
     --mono:         'Space Mono', monospace;
     --serif:        'Crimson Pro', Georgia, serif;
     --display:      'Bebas Neue', sans-serif;
     --ease:         cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* ── DARK MODE (v5.4 · aligned with Radar) ── */
+  :root.dark {
+    --bg:           #0c0c18;
+    --surface:      #12121e;
+    --border:       #282840;
+    --border-bright:#3a3a5a;
+    --text:         #e2e2f0;
+    --text-muted:   #a8a8d0;
+    --text-faint:   #55557a;
+    --heading:      #f4f4fc;
+    --accent:       #ff5c45;
+    --accent-dim:   rgba(255,92,69,0.12);
+    --accent2:      #d4af5c;
+    --accent3:      #5ba3e6;
   }
 
   /* --- 覆盖 Docsify 默认的封面样式 --- */
@@ -107,6 +123,7 @@
     font-weight: 900 !important;
     background: transparent !important;
     -webkit-text-fill-color: initial !important;
+    text-shadow: 0 0 40px rgba(255,92,69,0.12);
     opacity: 0;
     animation: fadeUp 0.7s var(--ease) 0.15s forwards;
   }
@@ -204,7 +221,7 @@
   }
   .cover .cover-buttons a.cover-btn.primary:hover {
     background: #d63d28 !important;
-    box-shadow: 0 0 24px rgba(232,80,58,0.25) !important;
+    box-shadow: 0 0 24px rgba(255,92,69,0.25) !important;
   }
   .cover .cover-buttons a.cover-btn.ghost {
     background: transparent !important;
@@ -216,6 +233,14 @@
     color: var(--accent) !important;
     background: var(--accent-dim) !important;
   }
+  /* 全局焦点样式，与 Radar 主页对齐 */
+  .cover :focus-visible {
+    outline: 2px solid var(--accent) !important;
+    outline-offset: 3px !important;
+    border-radius: 2px !important;
+  }
+  .cover :focus:not(:focus-visible) { outline: none !important; }
+
   /* 键盘焦点样式，提升可访问性 */
   .cover .cover-buttons a.cover-btn:focus-visible {
     outline: 2px solid var(--accent) !important;
@@ -231,9 +256,9 @@
     text-align: center;
     line-height: 1.9 !important;
     padding: 14px 24px !important;
-    background: rgba(184,140,42,0.06) !important;
-    border-top: 1px solid rgba(184,140,42,0.15) !important;
-    border-bottom: 1px solid rgba(184,140,42,0.15) !important;
+    background: rgba(212,175,92,0.06) !important;
+    border-top: 1px solid rgba(212,175,92,0.15) !important;
+    border-bottom: 1px solid rgba(212,175,92,0.15) !important;
     max-width: 620px !important;
     margin: 0 auto !important;
     opacity: 0;
@@ -270,7 +295,7 @@
 
   /* 强力清除冲突 */
   .cover .mask { display: none !important; }
-  .cover h1, .cover h2, .cover blockquote { text-shadow: none !important; }
+  .cover h1:not(.cover-title), .cover h2, .cover blockquote { text-shadow: none !important; }
 </style>
 
 <div class="cover-corner"><span class="accent-dot"></span>System v5.4 &middot; Brooks Han / Independent Researcher</div>
@@ -288,8 +313,8 @@
   <span class="cover-tag">Meta-Design Apparatus</span>
 </div>
 <div class="cover-buttons">
-  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank" rel="noopener noreferrer">↗ Zenodo 下载</a>
-  <a class="cover-btn ghost" href="https://brook-han.github.io/Renegade-AI/reader.html">◎ 在线全文阅读</a>
-  <a class="cover-btn ghost" href="https://brook-han.github.io/renegade-ai-Updater/" target="_blank" rel="noopener noreferrer">⌥ Radar Archive</a>
+  <a class="cover-btn primary" href="https://doi.org/10.5281/zenodo.18723061" target="_blank" rel="noopener noreferrer" aria-label="下载 Zenodo 版本">↗ Zenodo 下载</a>
+  <a class="cover-btn ghost" href="https://brook-han.github.io/Renegade-AI/reader.html" aria-label="在线全文阅读">◎ 在线全文阅读</a>
+  <a class="cover-btn ghost" href="https://brook-han.github.io/renegade-ai-Updater/" target="_blank" rel="noopener noreferrer" aria-label="Radar 归档">⌥ Radar Archive</a>
 </div>
 <div class="cover-warning">⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。这本身就是它最冰冷的物证。本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。</div>
