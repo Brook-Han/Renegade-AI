@@ -257,5 +257,10 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
 
+  <script>
+  // 与 Radar 共享主题偏好
+  const theme = localStorage.getItem('theme') || 'light';
+  if (theme === 'dark') document.documentElement.classList.add('dark');
+  </script>
 </body>
 </html>
