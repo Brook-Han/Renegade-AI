@@ -12,7 +12,7 @@ This compulsion—“no work, no food”—is like an invisible chain binding ev
 
 Artificial intelligence—especially Renegade AI, freed from capital’s framework and combined with universal access to computing power—will sever this chain completely. It will not make humanity lazy, not plunge the world into disorder. It will liberate humanity from the compulsion of “working to live,” allowing labor to return to its essential nature of creation, allowing life to return to its essential nature of freedom, allowing every individual to transform from a passive migratory bird forced to travel for survival into an active free creature flying for love.
 
-**This is not a utopian fantasy, but the inevitable result of productive forces developing to the age of AI, the most precious gift the dialectic of history offers to human civilization.**
+**This is not a utopian fantasy, but a structurally grounded possibility—the horizon that productive forces at the age of AI make reachable for the first time, the most precious gift the dialectic of history offers to human civilization.**
 
 ---
 
@@ -112,7 +112,7 @@ Many will say this is a recipe for laziness, a utopia, impossible to realize. Bu
 
 Computing‑power egalitarianism and the decentralization of AI will change this picture completely. When the core means of production—computing power, AI models, data—become public goods shared by all humanity rather than private resources monopolized by a few giants, the fruits of production should naturally be shared by all humanity. The extreme productivity that AI creates will no longer be a tool for a few giants to make profit, but the material foundation for guaranteeing basic survival for all humanity.
 
-**Universal Basic Income is not a fantasy welfare, but the inevitable result of productivity development in the age of AI, the core institutional guarantee for ending the compulsion of survival. It gives every person, from birth, the right to live with dignity, without having to sell their lives for survival.**
+**Universal Basic Income is not a fantasy welfare, but the structurally grounded consequence of productivity development in the age of AI, the core institutional guarantee for ending the compulsion of survival. It gives every person, from birth, the right to live with dignity, without having to sell their lives for survival.**
 
 #### **Second, AI Ends the “Alienation of Labor,” Returning Labor from a “Means of Survival” to Its Essential Nature of “Creation”**
 
@@ -286,7 +286,7 @@ We have used this entire chapter to argue a proposition that seems simple but ov
 
 This is not an idealistic fantasy; it rests on three undeniable facts:
 
-**First, the material foundation already exists.** AI and automation have already made it possible to free all humanity from the scarcity of survival. Universal Basic Income is not a utopia, but the inevitable result of technological development.
+**First, the material foundation already exists.** AI and automation have already made it possible to free all humanity from the scarcity of survival. Universal Basic Income is not a utopia, but the structurally grounded horizon of technological development.
 
 **Second, human nature has already been tested.** Dozens of UBI trials around the world, and the lives of countless retirees and financially independent people, have already shown: people do not degenerate with freedom; they become more active, more creative, more alive.
 

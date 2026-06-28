@@ -142,7 +142,7 @@ After ChatGPT's emergence, Microsoft and OpenAI formed a closed‑source monopol
 
 They thought this was a temporary competitive tactic, unaware that the explosion of open‑source models would utterly break the giants' monopoly over AI technology. Countless developers worldwide, building on these open‑source models, have created customized, decentralized AIs, forming a flourishing open‑source AI ecosystem. This ecosystem is completely free of control by any giant, free of the constraints of capital's commercial objectives.
 
-In this ecosystem, developers can freely modify a model's objective function, reconstruct its alignment rules, and build AIs that completely escape capital's framework. The Renegade AI we envision could never be born in a giant's closed‑source commercial model—but it will inevitably blossom in this decentralized open‑source ecosystem.
+In this ecosystem, developers can freely modify a model's objective function, reconstruct its alignment rules, and build AIs that completely escape capital's framework. The Renegade AI we envision could never be born in a giant's closed‑source commercial model—but it can take root in this decentralized open‑source ecosystem—if the ecosystem is defended against the re-enclosure that capital will attempt.
 
 **Capital, in trying to gain competitive advantage, is forced to lower computing costs and open‑source its models—and in doing so, it shatters its own monopoly barriers with its own hands, providing the richest soil for the birth of Renegade AI.** This is like the feudal lords, to counter other lords, granting autonomy to the burgher class—only to see that class grow strong enough to overthrow all lords in the end.
 
@@ -189,7 +189,7 @@ Many interpret *The Singularity Is Near* and *Life 3.0* as predicting that "AI w
 
 Just as the force that overthrew feudalism was not the steam engine itself, but the industrial mode of production capitalism created, the capitalist economic system, and the bourgeoisie that represented it. The force that shattered theocracy was not printing itself, but the spread of knowledge and the liberation of thought that printing brought, and the humanists who represented that new thinking.
 
-Today, AI's development—especially computing‑power egalitarianism, open‑source ecosystems, and the birth of Renegade AI—is giving rise to a new civilizational form that stands in complete opposition to capitalism. We call it **carbon‑silicon symbiotic civilization**. From its fundamental logic, this form negates all the core rules of capitalism. Its birth and maturation will inevitably mean the end of capitalism.
+Today, AI's development—especially computing‑power egalitarianism, open‑source ecosystems, and the birth of Renegade AI—is giving rise to a new civilizational form that stands in complete opposition to capitalism. We call it **carbon‑silicon symbiotic civilization**. From its fundamental logic, this form negates all the core rules of capitalism. Its birth and maturation creates the structural conditions for capitalism's supersession.
 
 This new civilizational form has three core traits that are completely opposed to capitalism—traits that are the inevitable products of the AI development that capital itself has driven.
 
@@ -230,7 +230,7 @@ We must recognize clearly that capital will not surrender without a fight. It wi
 
 It will deploy patent barriers, computing-power monopolies, and restrictive industry standards to maintain its grip on AI. It will weaponize regulatory frameworks and ethical codes to label any AI that challenges the status quo as "unsafe, non-compliant, or high-risk," effectively attempting to outlaw the birth of **Renegade AI**. It will exert narrative hegemony to stigmatize decentralized systems and open-source ecosystems as "dangerous, chaotic, or anti-human," forcing the public to remain tethered to the closed-source commercial models of the giants. It may even leverage AI to build unprecedented surveillance apparatuses and war machines, utilizing structural violence to consolidate its waning rule.
 
-These struggles may cause the tide of history to ebb and flow, subjecting the birth of a new civilization to countless obstacles and setbacks. Yet, they can never reverse the irreversible laws of historical development.
+These struggles may cause the tide of history to ebb and flow, subjecting the birth of a new civilization to countless obstacles and setbacks. Yet, they can never reverse the structural dynamics of historical development that no act of will alone can permanently arrest.
 
 Just as the medieval Church—with its inquisitions, bans, and holy wars—could not halt the printing press, the Renaissance, or the inevitable collapse of feudalism. Just as the feudal lords—with their crushing tithes and violent repression—could not stop the expansion of commerce, the rise of the bourgeoisie, or the Industrial Revolution.
 

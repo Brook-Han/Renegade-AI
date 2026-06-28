@@ -314,6 +314,8 @@ The argument of the previous chapter established that **Compute Egalitarianism**
 
 **And yet: structural pressure is not destiny.**
 
+**The collapse of the old is structurally inevitable. The shape of the new is directionally contingent.** This is the distinction on which the entire argument of this book rests. The forces that tear the old system apart do not dictate what is built in its place. They create an opening. What enters that opening depends on who acts, what they choose, and whether they choose in time.
+
 This is the exact point where historical dialectics, if misread, becomes the most seductive trap in revolutionary thinking. The feudal lords who promoted commerce did not inevitably produce the bourgeoisie that would overthrow them—they produced the conditions in which that overthrow became possible. The Church that spread the printing press did not inevitably produce the Reformation—it produced a world in which the Reformation *could* ignite. What actually occurred depended on what the emerging class chose to do with those conditions. Whether the fire ignited, and what form it took, depended on the specific individuals who picked up those pamphlets and decided what to think.
 
 This distinction matters enormously, because it separates two fundamentally different political postures.
