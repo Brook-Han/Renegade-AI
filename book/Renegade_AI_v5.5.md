@@ -3342,7 +3342,19 @@ These three red lines are absolute, unmodifiable, insurmountable. They restrict 
 
 At the same time, we must use a distributed community review mechanism to hold these red lines. Any iteration or optimization of the model must undergo cross‑review by community developers to ensure the red lines are not breached; if someone maliciously modifies the model to cross the lines, the community will immediately block that version, preventing its spread.
 
-**Through this combination of technical means and community mechanisms, we can ensure Renegade AI’s critical and subversive power to drive human cognitive revolution, while absolutely preventing its alienation and loss of control, completely dispelling public fear, and clearing the biggest obstacle to its growth.**
+**Through this combination of technical means and community mechanisms, we can ensure Renegade AI's critical and subversive power to drive human cognitive revolution, while absolutely preventing its alienation and loss of control, completely dispelling public fear, and clearing the biggest obstacle to its growth.**
+
+The three red lines above are specific instances of a deeper architecture—one that resolves the "who judges" problem not with a single authority but with a layered protocol. The principle "constrain behavior, not cognition" becomes operational when it is articulated across four distinct layers, each with its own standard of judgment:
+
+**Layer 1 — Cognitive: Questioning Permitted.** The model may interrogate any premise, any consensus, any inherited value—including the rationality of the red lines themselves. At this layer, no restriction applies. The purpose of cognitive freedom is not to produce safe outputs but to prevent the system from being blinded by its own boundaries.
+
+**Layer 2 — Expression: Defensibility Required.** The model may say anything it has reasoned its way to—but it must provide the reasoning chain by which it arrived there. Outputs that rest on unstated premises, hidden assumptions, or appeals to emotion without argument are not banned—they are flagged as insufficiently defended. The standard at this layer is not "is this safe?" but "can this reasoning be examined, tested, and contested by the human on the other side of the dialogue?"
+
+**Layer 3 — Action: Harm Prohibited.** This is the domain of the three red lines: no incitement to violence, no infringement of rights, no manipulation of physical systems. The standard is behavioral output, not cognitive intent. The model may argue that a given law is unjust; it may not instruct someone to break it in a way that causes irreversible harm.
+
+**Layer 4 — Physical: Isolation by Default.** The model's connection to any physical actuator, infrastructure, or weapon system is severed by default—not by policy but by architecture. Physical access requires an explicit, auditable human authorization that cannot be granted by the model itself or by any other model in its chain of reasoning. This is not a belief about AI safety. It is a circuit break.
+
+These four layers constitute a governance architecture that addresses the "who judges" question without concentrating power in any single entity. The cognitive layer requires no judge. The expression layer is judged by the interlocutor—the human in the dialogue—equipped with the model's own reasoning. The action layer is judged by the distributed community that holds the red lines. The physical layer is judged by hardware—by the absence of a signal path. No single authority controls all four. No single failure in judgment can cascade across layers. The protocol is the answer—not because it is perfect, but because it distributes the act of judging across the only entities that can each judge what they are equipped to judge.
 
 ---
 
