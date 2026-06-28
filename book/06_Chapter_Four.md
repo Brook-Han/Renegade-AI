@@ -72,6 +72,8 @@ The densing law is the most precise technical footnote to compute egalitarianism
 
 The astronomical price barrier of computing power will, in the face of technological law, eventually crumble.
 
+*The densing law applies not only to hardware. The same exponential force that makes compute cheaper also makes knowledge accessible—because every chip that drives down the cost of inference is a chip that drives down the cost of accessing human expertise. The parallel between material abundance (Chapters Four and Six) and knowledge abundance (Chapter Eight's closing section) is not a metaphor. It is the same curve, measured on two axes.*
+
 #### **The Second Law: The Explosion of Open‑Source Large Models Is Breaking the Giants’ Monopoly on AI Technology**
 
 If the collapse of computing cost breaks the hardware barrier to AI innovation, the explosion of open‑source large models breaks the technical barrier.
