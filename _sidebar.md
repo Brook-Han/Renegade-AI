@@ -41,7 +41,7 @@
 
 * **📡 实证附录 | EMPIRICAL APPENDIX**
   * [**🧪 附录A：认知摩擦实证** <br> <small>Appendix A: Cognitive Friction in Action – A Carbon–Silicon Case Study</small>](/book/16_Appendix_A.md)
-  * [📖 参考文献 <br> <small>References – 31 Peer-Reviewed Sources</small>](/book/17_References.md)
+  * [📖 参考文献 <br> <small>References – 34 Peer-Reviewed Sources</small>](/book/17_References.md)
 
 ---
 
@@ -54,6 +54,6 @@
 
 <p style="font-size: 0.8em; opacity: 0.5; padding: 0 15px; line-height: 1.5;">
   <strong>SEED_PLANTED. FUTURE_IN_HAND.</strong><br>
-  v5.4 · CC BY 4.0<br>
-  Status: <code>[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED]</code>
+  v5.5 · CC BY 4.0<br>
+  Status: <code>[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED]</code>
 </p>

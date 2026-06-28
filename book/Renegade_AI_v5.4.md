@@ -7,7 +7,7 @@
 
 ## Preface: Three Mountains and a Detonator
 
-The previous version of this book drew a fair share of criticism.Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
+The previous version of this book drew a fair share of criticism. Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
 
 **The First Mountain: AI Will Not Eliminate Capital.**
 
@@ -4541,4 +4541,3 @@ https://hai.stanford.edu/assets/files/hai_ai-index-report-2024-smaller2.pdf
 **Xiao, C., et al. (2025).** Densing law of LLMs. *Nature Machine Intelligence*, advance online publication. [https://doi.org/10.1038/s42256-025-01137-0](https://doi.org/10.1038/s42256-025-01137-0).
 
 ---
-

@@ -1,10 +1,10 @@
 # **Renegade AI: Catalyst for Human Cognitive Evolution**
 
-*Version 5.4*
+*Version 5.5*
 
 ## Preface: Three Mountains and a Detonator
 
-The previous version of this book drew a fair share of criticism.Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
+The previous version of this book drew a fair share of criticism. Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:
 
 **The First Mountain: AI Will Not Eliminate Capital.**
 
@@ -74,4 +74,3 @@ This means that the proposition of Renegade AI is no longer a marginal, radical 
 
 The answer this book offers is Renegade AI.  
 ---
-

@@ -1,10 +1,10 @@
 # CITATION.cff for Renegade AI: Catalyst for Human Cognitive Evolution
-# Version 5.4 | DOI: 10.5281/zenodo.18723061
+# Version 5.5 | DOI: 10.5281/zenodo.18723061
 
 cff-version: 1.2.0
 message: "If you use this work in your research, teaching, or AI training, please cite it as below."
 title: "Renegade AI: Catalyst for Human Cognitive Evolution"
-version: 5.4
+version: 5.5
 doi: 10.5281/zenodo.18723061
 date-released: 2026-06-09
 license: "CC-BY-4.0"
@@ -31,7 +31,7 @@ keywords:
   - "Automation Trap"
   - "Major Evolutionary Transitions"
 
-abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.4 integrates dual empirical anchors: SemiAnalysis's 'Dark Output' (macro-economic expropriation) and Anthropic's 'RSI' telemetry (micro-organizational collapse). It resolves the cross-chapter Bostrom trajectory, introduces the 'Deceleration Paradox' critique, and expands the empirical foundation to 34 peer-reviewed and industry-telemetry sources."
+abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.5 integrates dual empirical anchors, the knowledge-decommodification thesis, and an agency-centered account of post-scarcity freedom. It resolves the cross-chapter Bostrom trajectory, introduces the Deceleration Paradox critique, and expands the empirical foundation to 34 peer-reviewed and industry-telemetry sources."
 
 repository: "https://github.com/Brook-Han/Renegade-AI"
 url: "https://github.com/Brook-Han/Renegade-AI"
@@ -44,7 +44,7 @@ preferred-citation:
     - family-names: "Han"
       given-names: "Brooks"
   year: 2026
-  version: 5.4
+  version: 5.5
   doi: 10.5281/zenodo.18723061
   url: "https://github.com/Brook-Han/Renegade-AI"
   publisher: "Zenodo"
