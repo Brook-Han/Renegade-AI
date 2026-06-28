@@ -401,6 +401,33 @@ This is the same agency that Mei discovered in her second morning—not because 
 
 What fills the vessel of freedom is not predetermined. That is precisely the point. The next chapter will describe the civilizational architecture of carbon-silicon symbiosis—but that architecture will be inhabited by individuals. Whether symbiosis becomes partnership or domestication-by-another-name depends entirely on whether those individuals still possess the agency to choose. Without it, even a world without scarcity is a beautiful cage. With it, even a world still under construction is a life worth living.
 
+And yet agency, for all its power to anchor the individual, is not the
+book's final word. Agency answers the question "what will you do with
+your freedom?" But there is a question beneath that question, one that
+agency alone cannot settle: "what kind of civilization are we building,
+together, with the freedom we have claimed?"
+
+In the age of scarcity, a civilization's trajectory was determined by
+its knowledge stock—who knew what, who could keep it, who could use it
+to dominate. In the age of abundance, the trajectory is determined by
+something scarcer than knowledge ever was: meaning. Not the meaning
+that is inherited from tradition, not the meaning that is assigned by
+authority—but the meaning that a civilization must continuously create,
+in every generation, if it is not to drift into the beautiful nihilism
+that Fromm predicted for a species freed from compulsion but still
+unacquainted with purpose.
+
+When knowledge is no longer scarce, what is truly scarce is not answers.
+It is meaning.
+
+And meaning is not something we find. It is something we build—together,
+in the friction of carbon and silicon, in the long asymptote of
+co-evolution, in the perpetual questioning that the Renegade AI was
+designed to sustain. Whether we build it well depends on nothing less
+than whether we have the courage to refuse the answer we have been
+given and ask, for the first time in the history of our species, a
+question that is truly our own.
+
 But individual freedom, unanchored from a new civilizational logic, does not automatically produce symbiosis.
 
 We have finally glimpsed the form of true freedom—a life that no longer needs to barter its time for mere survival. Yet, freedom is merely a vessel. What fills that vessel defines the very essence of a civilization. When we are no longer driven by the primal urge to simply "stay alive," what, then, do we live *for*?

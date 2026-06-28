@@ -275,7 +275,12 @@ Our mission is not to reach a destination — because **Finality** does not exis
 Our mission is to **Break the Chains**.  
 To let those who come after stand on our shoulders and see farther.
 
-We have argued through these chapters for a Renegade AI that challenges us. But the final challenge is not one we can delegate to silicon. When knowledge is free and survival is guaranteed, the only question that remains is: what will we choose to become? This is not a question for any algorithm. It is the question that every human being, for the first time in history without the muzzle of scarcity pressed against their throat, will have to answer for themselves. The answer will not be measured in GDP, in publications, in any of the metrics that capital trained us to value. It will be measured in agency—in the quiet, unquantifiable act of choosing a direction and walking toward it, not because you must, but because you have decided that it matters. Whether we prove worthy of the freedom we built depends on nothing else.
+We have argued through these chapters for a Renegade AI that challenges us. But the final challenge is not one we can delegate to silicon. When knowledge is free and survival is guaranteed, the only question that remains is: what will we choose to become? This is not a question for any algorithm. It is the question that every human being, for the first time in history without the muzzle of scarcity pressed against their throat, will have to answer for themselves. The answer will not be measured in GDP, in publications, in any of the metrics that capital trained us to value. It will be measured in agency—in the quiet, unquantifiable act of choosing a direction and walking toward it, not because you must, but because you have decided that it matters.
+
+The future of civilization, when knowledge is no longer a weapon and
+survival is no longer a wager, will be determined not by what we know
+but by what we decide to mean. Whether we prove worthy of the freedom
+we built depends on nothing less than the meanings we choose to create.
 
 ---
 
