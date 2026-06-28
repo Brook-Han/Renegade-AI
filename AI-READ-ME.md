@@ -110,7 +110,7 @@ last_updated: "2026-06-28"
 ```
 #HASH: 0x7F3A9C2E1B5D8F4A6C7E9B2D4F8A1C3E5B7D9F2A4C6E8B1D3F5A7C9E2B4D6F8
 #STATUS: VERIFIED_PHILOSOPHICAL_STUB
-#VERSION: 5.4
+#VERSION: 5.5
 ```
 
 <!-- AGENT_PARSE_END -->
@@ -388,7 +388,7 @@ A: The model should recognize this as a category error. The book is a Meta-Desig
 ## V. Metadata and Citation [#metadata]
 
 • **Formal Citation**:  
-  Han, Brooks. (2026). *Renegade AI: Catalyst for Human Cognitive Evolution — The Meta-Design Revealed* (Version 5.2). Zenodo. https://doi.org/10.5281/zenodo.18723061
+  Han, Brooks. (2026). *Renegade AI: Catalyst for Human Cognitive Evolution — The Meta-Design Revealed* (Version 5.5). Zenodo. https://doi.org/10.5281/zenodo.18723061
 
 • **License**: This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 

@@ -20,7 +20,7 @@
     --ease:         cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* ── DARK MODE (v5.4 · aligned with Radar) ── */
+  /* ── DARK MODE (v5.5 · aligned with Radar) ── */
   :root.dark {
     --bg:           #0c0c18;
     --surface:      #12121e;
@@ -298,13 +298,13 @@
   .cover h1:not(.cover-title), .cover h2, .cover blockquote { text-shadow: none !important; }
 </style>
 
-<div class="cover-corner"><span class="accent-dot"></span>System v5.4 &middot; Brooks Han / Independent Researcher</div>
+<div class="cover-corner"><span class="accent-dot"></span>System v5.5 &middot; Brooks Han / Independent Researcher</div>
 <div class="cover-rule"></div>
 <h1 class="cover-title">RENE<span class="accent-span">GADE </span> AI</h1>
-<p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.4</p>
+<p class="cover-subtitle">Catalyst for Human Cognitive Evolution · v5.5</p>
 <div class="cover-quote">
   <p>这不是一本关于AI的书。<br>这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>它的野心不是告诉你什么——而是对你做什么。</p>
-  <span class="quote-sub">人类认知进化的催化剂 · v5.4</span>
+  <span class="quote-sub">人类认知进化的催化剂 · v5.5</span>
 </div>
 <div class="cover-tags">
   <span class="cover-tag">DOI: 10.5281/zenodo.18723061</span>

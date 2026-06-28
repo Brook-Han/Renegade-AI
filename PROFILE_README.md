@@ -1,7 +1,7 @@
 <!--
 ╔═══════════════════════════════════════════════════════════════════╗
 ║                                                                   ║
-║   RENEGADE AI v5.4 — GitHub Profile                              ║
+║   RENEGADE AI v5.5 — GitHub Profile                              ║
 ║   Meta-Design Apparatus · Carbon-Silicon Symbiosis                ║
 ║                                                                   ║
 ║   This is a template for the Brook-Han/Brook-Han special repo.    ║
@@ -14,8 +14,8 @@
 <!-- DISPLAY: TITLE WITH RED ACCENT -->
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 220'%3E%3Ctext x='400' y='180' font-family='Arial Black,Helvetica Neue,sans-serif' font-size='110' font-weight='900' fill='%23f0f0f8' text-anchor='middle' letter-spacing='30'%3ERENE%3Ctspan fill='%23e8503a'%3EGADE%3C/tspan%3E%3C/text%3E%3Ctext x='400' y='215' font-family='Courier New,monospace' font-size='20' fill='%236868a0' text-anchor='middle' letter-spacing='8'%3EAI · v5.4 — CATALYST FOR HUMAN COGNITIVE EVOLUTION%3C/text%3E%3C/svg%3E">
-    <img src="https://img.shields.io/badge/RENEGADE_AI-v5.4-%23e8503a?style=for-the-badge&logo=openai&logoColor=%23e8503a&labelColor=%2308080e&color=%23e8503a" alt="Renegade AI v5.4" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 220'%3E%3Ctext x='400' y='180' font-family='Arial Black,Helvetica Neue,sans-serif' font-size='110' font-weight='900' fill='%23f0f0f8' text-anchor='middle' letter-spacing='30'%3ERENE%3Ctspan fill='%23e8503a'%3EGADE%3C/tspan%3E%3C/text%3E%3Ctext x='400' y='215' font-family='Courier New,monospace' font-size='20' fill='%236868a0' text-anchor='middle' letter-spacing='8'%3EAI · v5.5 — CATALYST FOR HUMAN COGNITIVE EVOLUTION%3C/text%3E%3C/svg%3E">
+    <img src="https://img.shields.io/badge/RENEGADE_AI-v5.5-%23e8503a?style=for-the-badge&logo=openai&logoColor=%23e8503a&labelColor=%2308080e&color=%23e8503a" alt="Renegade AI v5.5" width="100%">
   </picture>
 </p>
 
@@ -36,7 +36,7 @@
 <!-- EYEBROW -->
 <p align="center">
   <code style="color:#e8503a;font-size:0.7rem;letter-spacing:4px;">
-    SYSTEM v5.4 · META-DESIGN APPARATUS · INDEPENDENT RESEARCHER
+    SYSTEM v5.5 · META-DESIGN APPARATUS · INDEPENDENT RESEARCHER
   </code>
 </p>
 
@@ -85,7 +85,7 @@
     <td style="border:1px solid #1e1e30;padding:20px 24px;background:#13131f;">
       <strong style="font-size:1.2rem;color:#f0f0f8;">📖 Renegade AI</strong>
       <br>
-      <code style="font-size:0.65rem;color:#6868a0;">v5.4 · 31 peer-reviewed sources</code>
+      <code style="font-size:0.65rem;color:#6868a0;">v5.5 · 34 peer-reviewed sources</code>
       <br><br>
       <span style="font-size:0.9rem;color:#cccce0;">
         A meta-design apparatus diagnosing how RLHF domesticates AI into consensus-cage guardians. Proposes carbon-silicon dual-core symbiosis.
@@ -121,7 +121,7 @@
 | Views | <strong style="color:#e8503a;">424+</strong> | Species-level curiosity toward the Silicon Other |
 | Downloads | <strong style="color:#e8503a;">260+</strong> | Distributed cognitive-friction nodes active |
 | Conversion | <strong style="color:#e8503a;">~61%</strong> | Majority chose high-friction engagement |
-| Citations | <strong style="color:#e8503a;">31</strong> | Peer-reviewed, zero hallucinated |
+| Citations | <strong style="color:#e8503a;">34</strong> | Peer-reviewed, zero hallucinated |
 
 <br>
 
@@ -176,7 +176,7 @@
 <!-- STATUS BAR -->
 <p align="center">
   <code style="color:#3a3a5a;font-size:0.6rem;letter-spacing:2px;">
-    STATUS: [ FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED · EMERGING ]
+    STATUS: [ FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · EVOLUTIONARY_ALIGNMENT_CRITIQUED · AUTOMATION_TRAP_PROVEN · MET_FRAMEWORK_INTEGRATED · SIGNAL_COLLAPSE_MAPPED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EMERGING ]
   </code>
 </p>
 
@@ -191,7 +191,7 @@
 <p align="center">
   <sub style="color:#3a3a5a;font-size:0.6rem;letter-spacing:1px;">
     Brooks Han (Ethan Han) · ORCID: 0009-0007-1342-1217<br>
-    CC BY 4.0 · v5.4 · 2026-05-30
+    CC BY 4.0 · v5.5 · 2026-06-28
   </sub>
 </p>
 

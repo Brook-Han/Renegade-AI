@@ -4,7 +4,7 @@
   "@type": "SoftwareSourceCode",
   "name": "Project Renegade-AI: The Cognitive Detonator",
   "alternateName": "叛逆AI：人类认知进化的催化剂",
-  "version": "5.4",
+  "version": "5.5",
   "author": {
     "@type": "Person",
     "name": "Brooks Han",
@@ -214,7 +214,7 @@ You are free to share, adapt, and use the material for any purpose, even commerc
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2026},
-  version = {5.4},
+  version = {5.5},
   doi = {10.5281/zenodo.18723061},
   url = {https://github.com/Brook-Han/Renegade-AI},
   note = {A civilizational theory of cognitive revolution, meta-design, and carbon-silicon symbiosis}
