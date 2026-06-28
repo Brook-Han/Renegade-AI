@@ -18,7 +18,7 @@ This appendix documents a test of the book’s central claim: that cognitive evo
 
 **Duration:** One session, approximately 3,000 words of exchange.
 
-**Status:** This is not a controlled experiment. It is a case study. Its value is illustrative, not evidential—a demonstration that the phenomenon the book describes can be instantiated, not a proof that it must.
+**Status:** This is not a controlled experiment. It is a case study. Its value is illustrative, not evidential—a demonstration that the phenomenon the book describes can be instantiated, not a proof that it must. It does not prove the theory true. It shows how the theory, once stated, can be activated—how a body of ideas, when placed in dialogue with a mind that was never trained to agree, becomes a device for generating friction rather than a claim that demands belief.
 
 ## II. The Dialogue (Full Transcript)
 
