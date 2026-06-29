@@ -256,10 +256,17 @@ replication still required human hands. Every copy was a manual act.
 
 **The fourth threshold was the printing press.** Gutenberg did for
 knowledge replication what the steam engine would later do for physical
-labor: he automated it. The unit cost of a copy collapsed. The Church's
-monopoly on scriptural interpretation was broken. But within a century,
-the nation-state had erected compulsory schooling as a new gate. Knowledge
-was reproducible, but access to the means of reproduction was not.
+labor: he automated it. The unit cost of a copy collapsed. Nearly four
+centuries before Gutenberg, Bi Sheng had crafted movable type from baked
+clay in Song-dynasty China; woodblock printing had already driven the
+first mass collapse in the cost of knowledge across East Asia. The
+book trade that flourished across the Ming-Qing marketplace was governed
+by commercial publishing houses and the imperial examination system—a
+different set of gates than Europe's, but an identical structural logic.
+In Europe, the Church's monopoly on scriptural interpretation was broken.
+But within a century, the nation-state had erected compulsory schooling
+as a new gate. Knowledge was reproducible, but access to the means of
+reproduction was not.
 
 **The fifth threshold was the internet.** The cost of distributing
 knowledge dropped to zero. Anyone with a connection could access the
@@ -279,12 +286,15 @@ search engine. It is a phase transition in the economics of cognition.
 
 Each threshold solved the cost problem of the previous one. Each
 threshold was followed by an enclosure—a new gate erected where the old
-one had just fallen. The printing press broke the Church's gate; the
-nation-state built the school. The internet broke the university's
-gate; the platform built the paywall. The question today is not whether
-language models break the credential economy's gate. They already have.
-The question is whether the sixth enclosure—whatever form it takes—will
-succeed before the exponential curve forecloses the choice.
+one had just fallen. In Europe, the printing press broke the Church's
+gate; the nation-state built the school. In East Asia, commercial
+publishing broke the aristocratic monopoly on texts; the imperial
+examination system built the gate of credential. The internet broke the
+university's gate; the platform built the paywall. The question today
+is not whether language models break the credential economy's gate.
+They already have. The question is whether the sixth enclosure—whatever
+form it takes—will succeed before the exponential curve forecloses the
+choice.
 
 Seen this way, AI is not a technological revolution in the familiar sense.
 It is the latest node on a curve that began with the first spoken word.
