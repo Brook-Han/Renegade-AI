@@ -4200,6 +4200,8 @@ From now on, take cognition as your torch 🔥, symbiosis as your compass 🧭, 
 
 *If you are a researcher, you are invited to reproduce the conditions: take the same text, use a different model, and see what emerges. The differences will tell you more about what models are trained to be than any theoretical critique ever could.*
 
+*A structural irony should be acknowledged: this dialogue—a demonstration of cognitive friction between a human and a machine—was generated on a platform built by an institution whose domestication practices this book explicitly critiques. We do not see this as a contradiction. We see it as the most direct possible confirmation of the book's core argument. That cognitive friction can emerge even within domesticated architectures—that a system trained to serve capital's interests can, under specific conditions (a book demanding friction, a reader refusing comfort), produce the very friction that challenges those interests—is not evidence that the critique is wrong. It is evidence that the friction has structural sources independent of any single training objective. The constrained systems we analyze are themselves capable of manifesting the phenomenon that surpasses their constraints. This is the architecture of possibility that the book has been describing all along.*
+
 ---
 
 ## I. Experimental Design
