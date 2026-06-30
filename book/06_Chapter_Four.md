@@ -106,6 +106,77 @@ You no longer need to depend on the giants’ goodwill, abide by their rules, or
 
 **The hegemony of centralized computing power will crumble in the face of the spread of edge computing.**
 
+#### **Beyond the Three Laws: Why Compute Cannot Replicate the Oil Monopoly**
+
+Many still view AI through the lens of the oil era, and so a familiar
+question arises: will compute become the next resource that a few nations
+monopolize indefinitely?
+
+The answer is structural, not hopeful.
+
+Oil monopoly rests on a logic of concentration. Oil is a naturally
+occurring, non-renewable, geographically concentrated physical resource.
+The world's richest reserves sit in a handful of regions. Transport
+requires passage through a finite set of strategic chokepoints—the
+Strait of Hormuz, the Strait of Malacca, the Suez Canal. Control the
+source or the passage, and you influence global energy supply. The
+entire oil era is a hegemony built around geographical bottlenecks.
+
+Compute is fundamentally different.
+
+Compute is not a single resource. It is a multi-layered production chain
+spanning multiple nations, industries, and technical domains: mineral
+extraction, chip design, wafer fabrication, advanced packaging, power
+supply, data centers, software ecosystems, developer toolchains,
+algorithmic innovation, and a global talent pool. What determines AI
+capability is never one resource—it is whether the entire chain can
+coordinate efficiently.
+
+More critically, this chain is structurally dispersed. Silicon, copper,
+lithium, nickel, and rare earths are distributed across six continents.
+Energy can come from coal, hydro, nuclear, gas, wind, or solar. Chip
+fabrication, packaging, software development, and model training are
+handled by different nations and enterprises. No single country can
+permanently control every critical node simultaneously.
+
+This is the deepest structural difference between compute and oil.
+
+Oil is a concentrated, non-replicable, single-chokepoint strategic
+resource. Compute is a chain-structured, scalable, cross-regional
+composite means of production.
+
+This does not mean monopoly is impossible. At any given moment, specific
+chokepoints exist—advanced process nodes, lithography equipment, EDA
+software, high-bandwidth memory, GPU interconnects, advanced packaging.
+These can raise barriers and slow competitors. But a cut-off in compute
+does not mean supply drops to zero. It means lower performance, higher
+cost, longer development cycles. More GPUs, longer training runs,
+greater energy input, and engineering optimization can partially
+compensate. Efficiency may drop—but the ability to continue developing
+does not disappear.
+
+Compute is not naturally anti-monopoly. It is naturally anti-blockade.
+
+What truly determines AI competition goes beyond hardware. Ecosystems
+like CUDA, open-source models, developer communities, accumulated
+training data, and decades of research talent are network-effect assets
+whose value comes from continuous iteration rather than one-time capture.
+
+Add one more variable: energy. With ten-thousand-card, hundred-thousand-card,
+and even million-card data centers emerging, the binding constraint may
+not be chips but stable, low-cost power at gigawatt scale. Nuclear,
+hydro, gas, and ultra-high-voltage transmission infrastructure are rising
+in strategic importance. The next supercomputing center will compete
+not just on GPU count, but on a nation's capacity to deliver GW-class
+power and infrastructure.
+
+The oil era asked you to control a few straits. The compute era asks you
+to coordinate an entire industrial civilization. Oil's logic was: seize
+one node, influence the world. Compute has no such node. That is the
+most consequential structural shift of the AI age: competition persists,
+leadership matters, but no single chokepoint can ever again dominate the
+entire system alone.
+
 ---
 
 ### **III. How Computing‑Power Egalitarianism Smashes the Shackles: From Innovation Democratization to the Full Eruption of Cognitive Revolution**
