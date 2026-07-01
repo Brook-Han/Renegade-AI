@@ -1,0 +1,22 @@
+# Temporary / scratch files
+*_微信发布版.md
+*_封面.md
+投稿邮件_*.md
+INET_Cover_Letter.md
+*.html.tmp
+
+# Generated assets (images, PDFs from build)
+assets/
+*.pdf
+
+# OS junk
+.DS_Store
+*.swp
+*.swo
+~$*
+
+# WorkBuddy memory (keep the dir but .md files are local)
+# .workbuddy/memory/ is tracked, individual files are fine
+
+# Dependencies
+node_modules/
