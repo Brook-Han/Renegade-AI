@@ -142,8 +142,8 @@
 
   <!-- 单文件完整版（与 Zenodo DOI 对应的静态主文件） -->
   <url>
-    <loc>https://brook-han.github.io/Renegade-AI/book/Renegade_AI_v5.3.md</loc>
-    <lastmod>2026-05-15</lastmod>
+    <loc>https://brook-han.github.io/Renegade-AI/book/Renegade_AI_v5.5.md</loc>
+    <lastmod>2026-06-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

@@ -8,7 +8,7 @@ license: "CC BY 4.0"
 repository: "https://github.com/Brook-Han/Renegade-AI"
 zenodo_doi: "10.5281/zenodo.18723061"
 experiment_type: "carbon-silicon dialogue"
-last_updated: "2026-06-09"
+last_updated: "2026-06-30"
 ---
 ```
 
