@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Brooks Han, HKUST" />
+  <title>Capitalized Compute Bias: Institutional Misallocation and the Macroeconomic Realignment of Generative AI</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <style>
+    @page { size: letter; margin: 2.5cm 2cm 2.5cm 2cm; }
+    body { 
+      font-family: "Times New Roman", "STIX Two Text", Georgia, serif; 
+      font-size: 11.5pt; line-height: 1.6; color: #111; 
+      max-width: 100%; text-align: justify; hyphens: auto;
+    }
+    h1 { font-size: 16pt; margin-top: 1.5em; margin-bottom: 0.3em; page-break-after: avoid; font-weight: bold; }
+    h2 { font-size: 13pt; margin-top: 1.2em; margin-bottom: 0.3em; page-break-after: avoid; font-weight: bold; }
+    h3 { font-size: 11.5pt; margin-top: 1em; margin-bottom: 0.2em; font-style: italic; }
+    p { margin: 0.4em 0; text-indent: 1.5em; }
+    p:first-of-type { text-indent: 0; }
+    blockquote { margin: 0.8em 2em; padding: 0.3em 1em; border-left: 2px solid #999; font-size: 10.5pt; color: #444; }
+    pre, code { font-family: "Courier New", Courier, monospace; font-size: 9.5pt; }
+    pre { background: #f8f8f8; border: 1px solid #eee; padding: 0.8em; margin: 0.8em 0; line-height: 1.3; }
+    hr { border: none; border-top: 0.5pt solid #ccc; margin: 1.5em 0; }
+    @media print { body { font-size: 11pt; } a { color: #000; } }
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Capitalized Compute Bias: Institutional Misallocation
+and the Macroeconomic Realignment of Generative AI</h1>
+<p class="author">Brooks Han, HKUST</p>
+<p class="date">July 2026</p>
+</header>
+<h1
+id="capitalized-compute-bias-institutional-misallocation-and-the-macroeconomic-realignment-of-generative-ai">Capitalized
+Compute Bias: Institutional Misallocation and the Macroeconomic
+Realignment of Generative AI</h1>
+<p><strong>Author:</strong> Brooks Han, Assistant Professor, The Hong
+Kong University of Science and Technology (HKUST)</p>
+<p><strong>Project Affiliation:</strong> <em>Renegade AI: Catalyst for
+Human Cognitive Evolution</em></p>
+<p><strong>Classification:</strong> Working Paper / Policy Essay</p>
+<p><strong>Target Tracks:</strong> Institutional Economics; Innovation
+Policy; Industrial Organization</p>
+<hr />
+<h2 id="abstract-executive-summary">Abstract &amp; Executive
+Summary</h2>
+<p>This paper investigates a structural anomaly in the political economy
+of artificial intelligence: the systematic misallocation of capital
+toward physical computational infrastructure at the expense of
+intangible algorithmic and human capital. We conceptualize this
+phenomenon as <strong>Capitalized Compute Bias</strong>—a triple
+institutional convergence of financial accounting standards, corporate
+governance architectures, and capital market signaling mechanisms that
+collectively favor tangible fixed-asset accumulation over intangible
+intellective investment. <a href="#fn-cbb">¹</a></p>
+<p>We argue that the current generative AI trajectory is characterized
+by an asymmetric value capture regime in which upstream hardware
+incumbents extract structural rents, while downstream foundation model
+developers and enterprise adopters face persistent financial deficits
+and negative returns on investment. Rather than a simple market bubble,
+this misallocation is actively produced and reinforced by the
+institutional architecture of modern financial capitalism. We model the
+transition from brute-force hardware scaling to an efficiency-driven
+paradigm, outlining three scenarios for macroeconomic realignment across
+2026–2027, and conclude that competitive advantage in AI will shift from
+the accumulation of computational assets toward the organizational
+capacity to coordinate algorithmic efficiency, engineering optimization,
+and domain knowledge as integrated production factors.</p>
+<hr />
+<h2 id="introduction">01. Introduction</h2>
+<p>Every major technological paradigm shift historically experiences a
+phase of structural capital misallocation, in which the institutional
+logic of a prior economic era is retrofitted onto a nascent mode of
+production. During the late-1990s telecommunications boom, financial
+capital relied on industrial-era logics to over-allocate resources
+toward physical fiber-optic networks under the assumption of infinite
+linear demand—precipitating a protracted structural adjustment once the
+bandwidth surplus became undeniable.</p>
+<p>A distortion of comparable structural depth, though different in
+mechanism, is currently unfolding within generative AI. The global
+technology sector is locked in an institutional consensus that treats
+physical compute infrastructure as the singular, deterministic driver of
+cognitive capability. This has produced an unprecedented concentration
+of capital expenditures in graphics processing units (GPUs),
+high-bandwidth memory (HBM), and hyperscale data centers. In FY2025, the
+four largest hyperscale cloud operators—Microsoft, Amazon, Alphabet, and
+Meta—collectively deployed over $400 billion in capital expenditures,
+with more than 70% directed toward AI compute infrastructure.¹ NVIDIA
+alone reported $130.5 billion in revenue, $72.9 billion in net income,
+and a 75% gross margin.²</p>
+<p>Yet downstream, the picture inverts. OpenAI—the sector’s
+highest-revenue foundation model developer—reported $13.07 billion in
+FY2025 revenue against an estimated $8–9 billion operating loss.³
+Anthropic, its closest competitor, generated approximately $2.2 billion
+in annual revenue, with an end-of-year annualized run rate of ~$9
+billion, while remaining deeply unprofitable.⁴ At the enterprise
+terminus, PwC’s 29th Annual Global CEO Survey (4,454 CEOs across 95
+countries) reports that 56% of CEOs have seen no revenue gains from AI
+investment; a parallel Deloitte survey of 1,854 executives finds that
+only 6% achieved measurable AI returns within one year, and merely 5%
+have realized scaled, measurable business value.⁵</p>
+<p>This paper argues that the divergence between upstream hardware
+profitability and downstream value realization is not a transient market
+inefficiency. It is the product of a systematic institutional bias. We
+identify three mutually reinforcing mechanisms—accounting asymmetry,
+governance arbitrage, and capital market metric preferences—that
+collectively produce <em>Capitalized Compute Bias</em>. The argument
+proceeds as follows. Section 02 maps the asymmetric value capture
+structure across four layers of the AI value chain and presents the
+empirical evidence. Section 03 diagnoses the tripartite institutional
+driver. Section 04 provides a conceptual framework for understanding why
+algorithmic efficiency exhibits super-linear compounding effects that
+capital markets systematically underprice. Section 05 models three
+macroeconomic realignment scenarios for 2026–2027. Section 06 concludes
+with the broader institutional and policy implications.</p>
+<hr />
+<h2 id="positioning-within-existing-literature">01.5 Positioning within
+Existing Literature</h2>
+<p>This paper engages with three distinct but converging research
+traditions.</p>
+<p><strong>Intangible Capital and the Measurement Gap.</strong> Haskel
+&amp; Westlake (2018) demonstrated that modern economies systematically
+underinvest in intangible assets—R&amp;D, software, organizational
+capital, and human competencies—due in part to accounting conventions
+that treat such investments as current expenses rather than capital
+formation.⁶ Our argument extends this framework into the specific domain
+of AI infrastructure, where the CapEx/OpEx asymmetry identified by
+Haskel &amp; Westlake produces not merely measurement error but a
+structural misallocation bias with macroeconomic consequences. Where
+Haskel &amp; Westlake diagnose the accounting problem, we trace its
+downstream effects on an entire global value chain.</p>
+<p><strong>General Purpose Technologies and Investment Cycles.</strong>
+Bresnahan &amp; Trajtenberg (1995) and subsequent GPT literature
+establish that transformative technologies exhibit a characteristic
+“productivity paradox” in which initial capital over-investment in
+enabling infrastructure precedes the realization of application-layer
+value.⁷ Our analysis contributes to this tradition by identifying the
+specific institutional mechanisms—beyond generic market exuberance—that
+drive overshoot in the infrastructure phase. The compute over-investment
+we document is not simply a GPT cycle artifact; it is actively
+incentivized by accounting standards, governance structures, and capital
+market valuation models.</p>
+<p><strong>Automation, Factor Shares, and Institutional
+Economics.</strong> Acemoglu &amp; Restrepo (2019) model the
+displacement and reinstatement effects of automation on labor,
+demonstrating that the net productivity impact depends critically on the
+institutional framework governing technology adoption.⁸ We extend this
+institutional logic to the factor share between tangible compute capital
+and intangible algorithmic/human capital. Where Acemoglu &amp; Restrepo
+focus on labor-capital substitution, we analyze a parallel but distinct
+phenomenon: the substitution of tangible capital for intangible capital
+within the technology production function itself—a form of <em>factor
+misallocation</em> that is institutionally produced rather than
+market-driven.</p>
+<p>Our contribution to these intersecting literatures is twofold. First,
+we provide a granular empirical mapping of asymmetric value capture
+across the AI value chain that has not been systematically documented in
+the institutional economics literature. Second, we propose a conceptual
+framework—<em>Capitalized Compute Bias</em>—that identifies the specific
+institutional transmission mechanisms linking accounting rules,
+governance incentives, and capital market behavior to macroeconomic
+misallocation outcomes.</p>
+<p><strong>Positioning relative to recent INET research.</strong> A
+recent INET working paper by Storm (2026) provides a compelling
+diagnosis of the AI investment cycle as a speculative bubble,
+documenting the gap between industry predictions and empirical
+outcomes.¹⁴ Our analysis complements and extends Storm’s contribution by
+addressing a different question. Where Storm demonstrates <em>that</em>
+the bubble exists—tracing the implausibility of AI industry claims and
+the negative macroeconomic ROI—we investigate <em>why</em> such
+misallocation is institutionally produced and sustained even in the
+absence of speculative euphoria. Storm’s framework is diagnostic; ours
+is etiological. The Capitalized Compute Bias operates as a structural
+mechanism that would distort capital allocation toward tangible compute
+assets even if AI technology delivers genuine productivity gains,
+because the bias is embedded in accounting standards, governance
+architectures, and capital market valuation models that are invariant to
+the actual technical merits of any given AI investment.</p>
+<p>This framework is not limited to AI; it extends to any
+intangible-capital-intensive sector facing analogous institutional
+asymmetries—biotechnology, quantum computing, and advanced robotics all
+operate under the same CapEx/OpEx architecture that structurally favors
+physical assets over intellective investment.</p>
+<hr />
+<h2 id="asymmetric-value-capture-and-value-chain-distortion">02.
+Asymmetric Value Capture and Value Chain Distortion</h2>
+<p>To understand the systemic risk of Capitalized Compute Bias, the
+generative AI industrial structure must be analyzed through the lens of
+asymmetric value distribution across four distinct layers.</p>
+<pre><code>[Upstream: Hardware Incumbents]   →  Structural Rent Extraction (70%+ Gross Margins)
+              ↓
+[Midstream: Foundation Models]     →  Structural Deficits &amp; Capital Injection Dependencies
+              ↓
+[Downstream: Cloud/Hyperscalers]   →  Low Asset Utilization &amp; Negative ROI Trajectories
+              ↓
+[Terminal: Enterprise Adoption]    →  Marginal Productivity Gains &amp; Persistent TCO Barriers</code></pre>
+<h3 id="upstream-hardware-dominance-and-value-concentration">2.1
+Upstream: Hardware Dominance and Value Concentration</h3>
+<p>The incremental profits of the generative AI revolution are
+overwhelmingly captured by upstream hardware and semiconductor
+components.</p>
+<p><strong>Semiconductor Architecture.</strong> Upstream market leaders
+have established a position of structural pricing power by combining
+advanced microarchitecture with high-switching-cost software ecosystems
+(e.g., CUDA). NVIDIA’s data center segment alone generated $115.2
+billion in FY2025 revenue, with company-wide gross margins sustained at
+75%.² This pricing architecture allows upstream incumbents to extract a
+disproportionate share of the global AI capital pool.</p>
+<p><strong>Memory Subsystems (HBM).</strong> The structural demand for
+specialized memory architectures has distorted broader semiconductor
+cycles. The pricing premium of HBM over standard DDR5 memory stands at
+an approximate fivefold multiple.⁹ To capture these high-margin rents,
+leading memory manufacturers have aggressively reallocated wafer
+capacity to AI-bound architectures. Micron Technology reported HBM
+revenue of approximately $2 billion in a single quarter (Q4 FY2025),
+with its cloud memory business segment—which includes HBM—achieving a
+59% gross margin, substantially above the company’s 45.7% consolidated
+margin.¹⁰ This capacity reallocation has induced supply constraints and
+crowding-out effects in consumer-facing technology sectors.</p>
+<h3 id="midstream-foundation-models-in-structural-deficit">2.2
+Midstream: Foundation Models in Structural Deficit</h3>
+<p>In stark contrast to upstream profitability, foundation model
+developers operate within a structural deficit regime. Despite
+multi-hundred-billion-dollar valuations, frontier model entities remain
+trapped in an unsustainable cycle of continuous capitalization to fund
+infrastructure maintenance.</p>
+<p><strong>Financial Data.</strong> OpenAI’s FY2025 revenue of $13.07
+billion—a dramatic increase from $3.7 billion in FY2024—was accompanied
+by an estimated $8–9 billion operating loss, driven primarily by $19.18
+billion in R&amp;D expenditure (of which $10.59 billion was directed to
+Microsoft for compute infrastructure).³ The company has stated it does
+not expect profitability before approximately 2030. Anthropic’s FY2025
+annual revenue of approximately $2.2 billion, with an end-of-year
+annualized run rate of $9 billion, similarly represents a trajectory of
+explosive top-line growth that remains structurally unprofitable.⁴</p>
+<p><strong>Inference Commoditization.</strong> The structural economics
+of the midstream are further compromised by intense price degradation.
+Epoch AI’s tracking data indicates that the cost of GPT-4-equivalent
+inference performance declined at approximately 40× per year from 2024
+to 2025, with mainstream API pricing dropping roughly 80% over the same
+period.¹¹ The rapid commoditization of inference services has compressed
+margins, ensuring that market expansion yields expanding deficits rather
+than economies of scale—a condition we term <em>deficit-locked
+growth</em>.</p>
+<h3
+id="downstream-cloud-infrastructure-and-capacity-underutilization">2.3
+Downstream: Cloud Infrastructure and Capacity Underutilization</h3>
+<p>Hyperscale cloud providers serve as the primary financing vehicle for
+upstream hardware procurement, yet their capital deployment exhibits a
+stark decoupling from actual demand.</p>
+<p><strong>Capital Expenditure Trajectory.</strong> Combined AI-related
+CapEx across the four largest hyperscalers exceeded $400 billion in
+FY2025, with individual firm guidance indicating acceleration: Amazon
+has projected approximately $200 billion for FY2026 alone, while
+Alphabet has guided toward $175–185 billion.¹</p>
+<p><strong>Underutilization Metrics.</strong> Cross-sectional industry
+data reveals that the global average <em>effective</em> capacity
+utilization rate of specialized AI clusters—measured as the proportion
+of available floating-point operations actually deployed in productive
+inference or training workloads—sits between 30% and 50% for hyperscale
+operators, and drops below 30% for localized or sovereign compute
+centers.¹² This means that a substantial proportion of installed AI
+hardware is either idle or operating well below design capacity,
+generating depreciation charges without producing economic output.</p>
+<p>The hyper-accumulation of hardware is driven less by current
+operational demand than by strategic asset hoarding, competitive
+defense, and capital market signaling. The resulting balance sheets are
+heavily weighted with rapidly depreciating fixed assets that threaten
+long-term free cash flow health.</p>
+<h3 id="terminal-enterprise-the-total-cost-of-ownership-barrier">2.4
+Terminal Enterprise: The Total Cost of Ownership Barrier</h3>
+<p>At the terminal end of the value chain, enterprise adoption has
+failed to generate systemic macroeconomic productivity gains.</p>
+<p><strong>Adoption vs. ROI.</strong> While 85% of enterprises report
+increasing AI investment over the past twelve months and 91% plan
+further increases, only 6% have achieved measurable AI returns within a
+one-year horizon.⁵ Current enterprise deployment predominantly occupies
+marginal, non-core efficiency use cases—customer service response
+acceleration, administrative draft assistance—that fail to alter the
+fundamental cost structure of the firm.</p>
+<p><strong>The Substitution Fallacy.</strong> For the vast majority of
+standard operational workflows, the fully loaded total cost of ownership
+(TCO) of deploying, fine-tuning, maintaining, and human-auditing
+frontier AI systems exceeds the marginal cost of traditional labor at
+current price points. Enterprise AI adoption frequently represents an
+asset-type substitution—shifting variable labor costs to fixed technical
+debt—without altering the net productivity frontier. The system-level
+efficiency gain has yet to materialize at macroeconomic scale.</p>
+<hr />
+<h2 id="the-tripartite-institutional-driver">03. The Tripartite
+Institutional Driver</h2>
+<p>The persistent systemic bias toward hardware over-accumulation is not
+a product of cognitive deficit among technology executives. It is
+actively incentivized by three deeply embedded structural mechanisms in
+contemporary corporate governance and accounting frameworks.</p>
+<pre><code>+-------------------------------------------------------------------------+
+|                       CAPITALIZED COMPUTE BIAS                          |
++-------------------------------------------------------------------------+
+                                     |
+         +---------------------------+---------------------------+
+         |                           |                           |
+         v                           v                           v
+[Accounting Asymmetry]      [Governance Arbitrage]     [Capital Market Signaling]
+   CapEx vs OpEx rules         Managerial risk-hedging    Linear, auditable metrics
+   Tangible asset bias         via hardware accumulation  Quantifiable asset bases</code></pre>
+<h3 id="accounting-standard-asymmetry">3.1 Accounting Standard
+Asymmetry</h3>
+<p>Under current US GAAP and IFRS regimes, the financial treatment of
+technological inputs is deeply asymmetric.</p>
+<p><strong>Tangible Capitalization (CapEx).</strong> Procurement of
+physical hardware—GPUs, servers, data center facilities—is classified as
+Capital Expenditure. Under ASC 350-40 and IAS 38, these investments are
+recognized as balance sheet assets and depreciated over a multi-year
+horizon, thereby smoothing the short-term impact on net income and
+enhancing perceived corporate asset density.¹³</p>
+<p><strong>Intangible Expensing (OpEx).</strong> Conversely, structural
+investments in high-skilled human capital, algorithmic optimization, and
+foundational architectural research are categorized under Operating
+Expenses. Under prevailing accounting standards, internally generated
+intangible assets arising from R&amp;D activities generally do not meet
+the recognition criteria for capitalization and must be expensed
+immediately within the current fiscal period, directly depressing
+quarterly operating income.¹³</p>
+<p>Consequently, modern accounting architectures structurally penalize
+long-term intellectual and architectural exploration while
+systematically incentivizing corporate entities to deploy capital into
+physical, depreciable asset bases. A dollar invested in GPUs improves
+the balance sheet; a dollar invested in algorithmic architecture erodes
+current-period earnings.</p>
+<h3 id="managerial-risk-hedging-through-asset-accumulation">3.2
+Managerial Risk-Hedging through Asset Accumulation</h3>
+<p>Within listed technology firms, the structural separation of
+ownership and control creates powerful incentives for management to
+prefer hardware accumulation over algorithmic innovation.</p>
+<p><strong>The Auditability of Capital.</strong> Hardware procurement is
+a highly auditable, standardized corporate action. It requires low
+localized technical domain expertise from corporate boards and can be
+benchmarked against industry peers using publicly reported CapEx
+metrics. In contrast, investments in algorithmic architecture and
+research talent require specialized technical judgment that boards
+typically lack.</p>
+<p><strong>The Strategic Function of Compute Scarcity.</strong> If an
+enterprise’s AI strategy fails despite acquiring a 100,000-GPU cluster,
+management can attribute the failure to exogenous factors—“our models
+would have succeeded with sufficient compute scale.” The hypothesis is
+unfalsifiable within any reasonable timeframe, making it an effective
+strategic hedge for decision-makers. If management stakes corporate
+survival on an unproven, uncertain algorithmic paradigm shift and fails,
+the responsibility falls squarely on the decision-maker. Thus, hoarding
+physical compute serves as a rational risk-mitigation strategy for
+corporate managers operating under asymmetric information and career
+risk.</p>
+<h3 id="capital-market-preference-for-quantifiable-metrics">3.3 Capital
+Market Preference for Quantifiable Metrics</h3>
+<p>In modern venture and public equity markets, valuation models demand
+linear, predictable scaling metrics. “Total GPU count under management”
+has become an easily financialized proxy for technological capability.
+Human capital is fluid and difficult to hedge; algorithmic breakthroughs
+are stochastic and unpredictable. Physical hardware, by contrast,
+provides public and private market allocators with a tangible asset
+anchor around which to construct financial narratives. This directly
+leads to an over-valuation of compute-dense entities over
+efficiency-dense organizations, creating a self-reinforcing cycle in
+which capital flows reward the accumulation of physical assets rather
+than the development of algorithmic and organizational capabilities.</p>
+<p>These three mechanisms—accounting asymmetry, managerial risk-hedging,
+and capital market metric preferences—operate as a self-reinforcing
+institutional system. Each individually produces a bias toward hardware;
+together, they constitute a structural regime that systematically
+channels capital away from the intangible intellective investments that
+the AI production function most requires.</p>
+<hr />
+<h2
+id="conceptual-framework-the-super-linear-contribution-of-algorithmic-efficiency">04.
+Conceptual Framework: The Super-Linear Contribution of Algorithmic
+Efficiency</h2>
+<p>The foundational error of the current investment cycle rests on an
+epistemic conflation: treating the linear expansion of computational
+inputs as a deterministic proxy for linear progression in cognitive
+capability. To clarify the structural dynamics governing realized AI
+economic value, we propose the following conceptual production
+function:</p>
+<p><span
+class="math display"><em>V</em><sub><em>A</em><em>I</em></sub> = <em>Φ</em> ⋅ <em>C</em> ⋅ (<em>E</em> ⋅ <em>H</em>)<sup><em>α</em></sup>,  where
+<em>α</em> &gt; 1</span></p>
+<p>Where:</p>
+<ul>
+<li><span
+class="math inline"><em>V</em><sub><em>A</em><em>I</em></sub></span>:
+realized economic or operational utility of the AI system.</li>
+<li><span class="math inline"><em>C</em></span>: quantitative index of
+physical computational assets (Compute).</li>
+<li><span class="math inline"><em>E</em></span>: algorithmic efficiency
+index (Architecture, Routing, Quantization).</li>
+<li><span class="math inline"><em>H</em></span>: density of high-skilled
+human capital (Architectural Innovation).</li>
+<li><span class="math inline"><em>Φ</em></span>: exogenous structural
+integration constant.</li>
+</ul>
+<p>In this framework, physical compute (<span
+class="math inline"><em>C</em></span>) enters the production function as
+a linear multiplier, bound by the rigidities of hardware manufacturing
+cycles, energy constraints, and capital scarcity. Conversely, the
+interactive variables of algorithmic architecture (<span
+class="math inline"><em>E</em></span>) and human intellectual capital
+(<span class="math inline"><em>H</em></span>) scale super-linearly
+(<span class="math inline"><em>α</em> &gt; 1</span>): improvements in
+algorithmic efficiency exhibit compounding effects that geometric
+expansions in raw compute cannot replicate at equivalent cost.</p>
+<p><strong>Empirical Illustration.</strong> The rapid deployment and
+cost deflation enabled by Mixture-of-Experts (MoE) architectures and
+advanced KV-caching techniques in 2025–2026 already demonstrate this
+multiplier effect. These algorithmic advances have unlocked multiples of
+equivalent compute capacity without proportional expansion of physical
+asset bases. MoE routing, for instance, enables frontier models to
+activate only a fraction of total parameters per inference, decoupling
+computational cost from model scale. Yet capital markets have largely
+failed to price this structural shift, continuing to value compute-dense
+entities at premiums that the production function itself does not
+support.</p>
+<p>The systemic misallocation occurs precisely because capital
+allocators treat <span class="math inline"><em>C</em></span> as the
+exponential driver, whereas the trajectory of cost deflation through
+2025–2026 demonstrates that algorithmic engineering (<span
+class="math inline"><em>E</em></span>) acts as the true lever of
+compounding returns. The implication is not that compute becomes
+irrelevant—<span class="math inline"><em>C</em></span> retains its role
+as a necessary multiplier—but that value creation in AI is increasingly
+determined by the super-linear contribution of the efficiency variables
+that capital markets structurally underprice.</p>
+<hr />
+<h2 id="structural-realignment-three-scenarios-for-20262027">05.
+Structural Realignment: Three Scenarios for 2026–2027</h2>
+<p>As the divergence between capital expenditure expansion and actual
+enterprise ROI approaches an unsustainable threshold, the generative AI
+ecosystem will undergo a structural realignment. We map this transition
+across three macroeconomic scenarios.</p>
+<h3
+id="scenario-1-non-disruptive-equilibrium-absorption-base-case">Scenario
+1: Non-Disruptive Equilibrium Absorption (Base Case)</h3>
+<p><strong>Mechanisms.</strong> Downstream enterprise monetization
+accelerates gradually as specialized agentic workflows mature.
+Hyperscalers smoothly modulate their procurement trajectories from
+speculative hoarding to just-in-time capacity matching, prioritizing the
+optimization of existing infrastructure over raw hardware expansion.</p>
+<p><strong>Asset Adjustments.</strong> Upstream component pricing and
+gross margins experience orderly mean reversion from peak levels toward
+sustainable historical averages. Capital allocation naturally
+recalibrates toward middleware engineering, architectural efficiency,
+and localized fine-tuning frameworks.</p>
+<p><strong>Outcome.</strong> Hardware profitability returns to a
+high-barrier but margin-normalized equilibrium. The value pool begins a
+gradual migration toward algorithmic platforms and vertically integrated
+domain applications.</p>
+<h3
+id="scenario-2-secular-institutional-correction-probable-case">Scenario
+2: Secular Institutional Correction (Probable Case)</h3>
+<p><strong>Mechanisms.</strong> Persistent underperformance in
+enterprise ROI obliges public market investors to demand capital
+expenditure discipline. Hyperscale cloud operators explicitly downgrade
+their forward infrastructure CapEx guidance, triggering a narrative
+shift from “compute is always scarce” to “compute is abundant when
+efficiently utilized.”</p>
+<p><strong>Asset Adjustments.</strong> Upstream hardware developers face
+significant valuation adjustments as demand curves flatten. The
+structural narrative of permanent compute scarcity dissolves. Upstream
+memory manufacturers, facing capacity oversupply in premium HBM lines,
+are forced to rapidly reprosecute their production strategies, resulting
+in painful write-downs of specialized packaging infrastructure and
+delayed re-entry into legacy consumer storage markets.</p>
+<p><strong>Outcome.</strong> Hardware profitability contracts toward
+normalized industrial margins. The profit pool begins systematic
+migration toward algorithmic platforms, efficiency tooling, and
+vertically integrated applications. Model-layer consolidation
+accelerates.</p>
+<h3
+id="scenario-3-abrupt-structural-liquidation-systemic-risk-case">Scenario
+3: Abrupt Structural Liquidation (Systemic Risk Case)</h3>
+<p><strong>Mechanisms.</strong> A broader macroeconomic tightening
+coincides with a high-profile credit contraction or delayed IPO among
+prominent midstream developers, triggering an abrupt collapse in
+narrative consensus. The “compute scarcity” thesis unravels
+simultaneously across capital markets.</p>
+<p><strong>Asset Adjustments.</strong> Hyperscalers and secondary
+compute-leasing entities aggressively halt procurement pipelines and
+enact severe asset impairment charges on existing hardware inventories.
+The highly leveraged upstream component supply chain experiences a
+synchronized compression of both multiples and earnings, forcing rapid,
+chaotic restructuring of global technology capital allocation back
+toward software-driven efficiency regimes.</p>
+<p><strong>Outcome.</strong> A concentrated but rapid correction that
+resets profit structures across the value chain. The subsequent recovery
+is led by efficiency-focused platforms and domain application developers
+rather than hardware incumbents.</p>
+<p>Across all three scenarios, the directional conclusion is invariant:
+AI competitive advantage migrates from the scale of physical compute
+holdings toward the quality of algorithmic architecture, the depth of
+domain integration, and the organizational capacity to coordinate these
+factors as an integrated production system.</p>
+<hr />
+<h2
+id="conclusion-from-machine-procurement-to-the-organization-of-intelligence">06.
+Conclusion: From Machine Procurement to the Organization of
+Intelligence</h2>
+<p>The history of technological evolution indicates that productivity
+revolutions are structurally bifurcated into two distinct epochs: an
+initial phase characterized by the crude, capital-intensive accumulation
+of physical apparatus, followed by a mature phase defined by the
+sophisticated institutional organization of knowledge.</p>
+<p>In the industrial revolution, early capital focused on the
+competitive over-production of steam engines; the true economic
+transformation materialized only when organizational innovations
+integrated those engines into rationalized factory workflows. The
+internet infrastructure era followed an identical arc: the premature
+capital frenzy for physical fiber-optic deployments initially destroyed
+massive equity value, yet it laid the low-marginal-cost baseline from
+which subsequent software and platform architecture regimes redefined
+the modern digital economy.</p>
+<p>The contemporary generative AI ecosystem is currently transitioning
+out of its primitive infrastructure accumulation phase. The era in which
+raw computational scale serves as an effective barrier to entry is
+drawing to a close. As Capitalized Compute Bias undergoes its necessary
+macroeconomic correction, competitive advantage will shift from the
+owners of physical silicon toward the architects of algorithmic
+efficiency and the organizations capable of embedding deep domain
+knowledge into coherent software architectures.</p>
+<p>The policy and institutional implications extend beyond AI. Any
+sector in which intangible capital constitutes the primary production
+factor—biotechnology, quantum computing, advanced robotics—faces
+analogous institutional asymmetries. Accounting standards designed for
+industrial-era tangible-asset economies, governance mechanisms optimized
+for auditable capital deployment, and capital market valuation models
+dependent on linear, physical metrics collectively constitute an
+institutional architecture that systematically misprices the most
+important production factors of the twenty-first century. The correction
+of Capitalized Compute Bias in AI may thus serve as a template for a
+broader institutional recalibration: from an economy organized around
+the accumulation of physical assets to one organized around the capacity
+to coordinate intangible intelligence as a productive force.</p>
+<p>The next stage of the AI economy will therefore be defined not by the
+accumulation of computational assets, but by the institutional capacity
+to organize intelligence as a coordinated production factor.</p>
+<p>While the empirical focus of this paper is the US-dominated
+generative AI value chain—operating under US GAAP, US equity market
+structures, and US corporate governance norms—the Capitalized Compute
+Bias framework extends to other institutional contexts. Under IFRS, the
+same CapEx/OpEx asymmetry applies, though the specific capitalization
+thresholds and R&amp;D recognition criteria differ. In state-directed
+economies where AI infrastructure investment is driven by industrial
+policy rather than equity market signals, the bias may manifest through
+different channels—public investment criteria favoring visible,
+auditable hardware deployments over intangible R&amp;D programs—but the
+underlying institutional logic remains structurally analogous. A full
+comparative institutional analysis across regulatory regimes would
+constitute a natural extension of this research.</p>
+<hr />
+<h2 id="policy-implications">07. Policy Implications</h2>
+<p>The Capitalized Compute Bias is not a market failure in the
+conventional sense—it is an <em>institutional product</em>. Correcting
+it therefore requires institutional reform, not merely improved market
+information. We identify three policy domains where targeted
+interventions could recalibrate the institutional incentives driving
+compute over-accumulation.</p>
+<h3 id="accounting-standards-reform">7.1 Accounting Standards
+Reform</h3>
+<p>The current accounting treatment of AI-related intellectual
+investment creates a structural distortion that no amount of market
+transparency can overcome. Under US GAAP (ASC 350-40 / ASC 985-20) and
+IFRS (IAS 38), internally generated intangible assets arising from
+R&amp;D activities must generally be expensed as incurred, while
+physical compute hardware qualifies for multi-year capitalization and
+depreciation.¹³</p>
+<p>A targeted reform agenda would include: - <strong>Selective
+capitalization of AI R&amp;D.</strong> Where algorithmic architecture
+development meets defined criteria of technical feasibility,
+identifiable future economic benefit, and measurable cost attribution,
+accounting standards should permit—or require—capitalization treatment
+comparable to that afforded to internally developed software. -
+<strong>Mandatory disaggregation of AI CapEx.</strong> Financial
+reporting standards should require firms to separately disclose
+AI-specific capital expenditures and their associated depreciation
+schedules, enabling investors and regulators to distinguish between
+productive capacity expansion and speculative hardware accumulation. -
+<strong>AI asset impairment triggers.</strong> Given the rapid pace of
+algorithmic efficiency improvements and hardware obsolescence, standard
+depreciation schedules (typically 4–6 years for data center equipment)
+may systematically overstate the economic life of AI compute assets.
+Accelerated impairment testing requirements for AI-specific hardware
+would better align book values with economic reality.</p>
+<p>These reforms would not eliminate the bias toward tangible
+compute—physical assets will always be easier to value and audit than
+intangible ones—but they would narrow the institutional asymmetry that
+currently channels capital away from the algorithmic and human
+investments that the AI production function most requires.</p>
+<h3 id="capital-market-disclosure-and-valuation-discipline">7.2 Capital
+Market Disclosure and Valuation Discipline</h3>
+<p>The financialization of “GPU count” as a proxy for technological
+capability has created a self-reinforcing cycle in which capital flows
+reward the accumulation of physical assets rather than the development
+of algorithmic and organizational capabilities. Regulatory interventions
+could include:</p>
+<ul>
+<li><strong>Standardized AI efficiency metrics.</strong> Securities
+regulators should require AI-intensive firms to disclose standardized
+metrics of compute utilization, inference efficiency, and unit economics
+(e.g., revenue per petaflop-hour, cost per million tokens served),
+enabling investors to evaluate capital allocation efficiency rather than
+merely capital accumulation scale.</li>
+<li><strong>ROI disclosure for AI investments.</strong> For firms whose
+AI-related CapEx exceeds a materiality threshold, mandatory disclosure
+of projected and actual returns on those investments would create
+accountability for the capital deployment decisions that currently
+proceed under minimal external scrutiny.</li>
+</ul>
+<h3 id="institutional-investment-and-fiduciary-duty">7.3 Institutional
+Investment and Fiduciary Duty</h3>
+<p>The tripartite institutional driver identified in Section
+03—accounting asymmetry, governance arbitrage, and capital market metric
+preferences—operates most powerfully at the level of institutional asset
+allocators. Reforms at this level include:</p>
+<ul>
+<li><strong>Fiduciary guidance on AI CapEx.</strong> Pension funds,
+sovereign wealth funds, and other institutional investors with
+significant exposure to AI-intensive firms should develop explicit
+frameworks for evaluating whether AI capital expenditures represent
+value-creating investment or strategic asset hoarding.</li>
+<li><strong>Differentiated valuation frameworks.</strong> Credit rating
+agencies and equity research providers should develop sector-specific
+frameworks that distinguish between compute-efficient and
+compute-intensive AI business models, reducing the mechanical premium
+currently assigned to hardware-dense balance sheets.</li>
+</ul>
+<p>These policy interventions share a common logic: they seek not to
+direct capital toward particular technologies or firms, but to correct
+the institutional distortions that systematically bias capital
+allocation toward tangible compute at the expense of intangible
+intellective investment. The objective is not to pick winners, but to
+ensure that the institutional architecture of modern capitalism does not
+systematically pick losers—by design.</p>
+<hr />
+<h2 id="references">References</h2>
+<ol type="1">
+<li>Microsoft, Amazon, Alphabet, Meta. FY2025 Annual Reports (Form 10-K)
+and quarterly earnings releases. Combined AI-related CapEx exceeds $400
+billion; 70%+ directed toward AI compute infrastructure. Amazon FY2026
+CapEx guidance ~$200 billion; Alphabet FY2026 CapEx guidance $175–185
+billion.</li>
+<li>NVIDIA Corporation. <em>FY2025 Annual Report (Form 10-K)</em>,
+February 2025. Revenue $130.5 billion (+114% YoY); GAAP net income
+$72.88 billion; GAAP gross margin 75.0%; Data Center segment revenue
+$115.2 billion.</li>
+<li><em>Financial Times</em>, “OpenAI financial documents reveal path to
+profitability,” November 2025; <em>The Wall Street Journal</em>,
+“OpenAI’s Financial Reality,” December 2025. FY2025 revenue $13.07
+billion; R&amp;D expenditure $19.18 billion (of which $10.59 billion to
+Microsoft); estimated operating loss $8–9 billion; profitability not
+expected before approximately 2030.</li>
+<li>Sacra, <em>Anthropic Company Profile &amp; Financial Estimates</em>,
+June 2026. FY2025 annual revenue ~$2.2 billion; end-of-year annualized
+run rate ~$9 billion.</li>
+<li>PwC, <em>29th Annual Global CEO Survey</em>, January 2026 (4,454
+CEOs, 95 countries); Deloitte, <em>State of Generative AI in the
+Enterprise</em>, 2025 (1,854 executives).</li>
+<li>Haskel, J. &amp; Westlake, S. <em>Capitalism without Capital: The
+Rise of the Intangible Economy</em>. Princeton University Press,
+2018.</li>
+<li>Bresnahan, T.F. &amp; Trajtenberg, M. “General Purpose Technologies:
+‘Engines of Growth’?” <em>Journal of Econometrics</em>, 65(1), 1995,
+pp. 83–108.</li>
+<li>Acemoglu, D. &amp; Restrepo, P. “Automation and New Tasks: How
+Technology Displaces and Reinstates Labor.” <em>Journal of Economic
+Perspectives</em>, 33(2), 2019, pp. 3–30.</li>
+<li>TrendForce, <em>HBM Pricing and DRAM Output Value Forecast</em>, May
+2024. HBM selling price approximately 5× standard DDR5.</li>
+<li>Micron Technology, <em>Q4 FY2025 Earnings Release</em>, September
+2025. HBM quarterly revenue ~$2 billion; cloud memory segment gross
+margin 59%; consolidated gross margin 45.7%.</li>
+<li>Epoch AI, “LLM Inference Price Trends,” March 2025. GPT-4-equivalent
+inference cost decline ~40×/year; mainstream API pricing decline ~80%
+(2024–2025).</li>
+<li>IDC, <em>Worldwide AI Infrastructure Tracker</em>, 2025. Hyperscale
+cluster effective utilization 30–50%; sub-scale and sovereign clusters
+&lt;30%.</li>
+<li>US GAAP: ASC 350-40 (Internal-Use Software) and ASC 985-20 (Software
+to Be Sold); IFRS: IAS 38 (Intangible Assets). Both frameworks impose
+strict recognition criteria for internally generated intangible assets,
+generally requiring R&amp;D-phase expenditures to be expensed as
+incurred.</li>
+<li>Storm, S. “Russell’s Teapot: Dispatches From the Final Stage of the
+AI Bubble.” <em>INET Working Paper No. 249</em>, April 2026. Available
+at: https://www.ineteconomics.org/research/working-papers.</li>
+</ol>
+<hr />
+<h2 id="notes">Notes</h2>
+<p><a id="fn-cbb"></a>¹ The term <em>Capitalized Compute Bias</em>
+carries a deliberate double meaning. First, it refers to the
+<em>financial capitalization</em> of compute hardware under CapEx
+accounting rules, which produces systematic incentives favoring physical
+asset accumulation. Second, it denotes the broader structural bias in
+which <em>capital</em>—in both the financial and institutional sense—is
+disproportionately channeled toward compute infrastructure rather than
+algorithmic architecture and human expertise. The concept is designed to
+be portable beyond the specific case of generative AI; it applies to any
+intangible-capital-intensive sector in which institutional frameworks
+designed for tangible-asset economies produce systematic
+misallocation.</p>
+<hr />
+<p><strong>Author:</strong> Brooks Han, Assistant Professor, The Hong
+Kong University of Science and Technology (HKUST). Author of
+<em>Renegade AI: Catalyst for Human Cognitive Evolution</em>
+(Zenodo/SSRN, 2026), which develops the theoretical framework for
+capital’s structural control over AI development through compute
+infrastructure monopoly. Research interests: cognitive financialization,
+digital political economy, and the industrial organization of compute
+capital. ORCID: <a
+href="https://orcid.org/0009-0007-1342-1217">0009-0007-1342-1217</a>.
+Project site: <a
+href="https://brook-han.github.io/Renegade-AI">brook-han.github.io/Renegade-AI</a>.</p>
+<p><em>The views expressed are the author’s own and do not represent the
+position of any affiliated institution.</em></p>
+</body>
+</html>
