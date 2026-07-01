@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Renegade AI v5.5 — 人类认知进化的催化剂</title>
+<meta name="description" content="Renegade AI v5.5 by Brooks Han: A meta-design apparatus — not a container of conclusions, but a cognitive device activated through carbon–silicon dialogue. v5.5 resolves the Third Mountain, establishes Evolutionary Ontology, decommodifies knowledge, and proves compute is structurally anti-blockade. 34+ peer-reviewed & telemetry sources.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Crimson+Pro:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Bebas+Neue&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+/* =========================================
+   1. 色彩系统重构 (WCAG AA Compliant)
+   ========================================= */
+:root {
+  --bg: #0a0a12;
+  --bg2: #0f0f1a;
+  --surface: #141422;
+  --card: #181828;
+  --border: #25253a;
+  --border-bright: #363655;
+  --text: #e2e2f0;
+  --text-muted: #9595c0;
+  --text-faint: #4a4a6a;
+  --accent: #ff5c45;
+  --accent-dim: rgba(255,92,69,0.12);
+  --accent2: #d4af5c;
+  --accent3: #5ba3e6;
+  --accent3-dim: rgba(91,163,230,0.1);
+  --white: #f4f4fc;
+  --mono: 'Space Mono', monospace;
+  --serif: 'Crimson Pro', Georgia, serif;
+  --display: 'Bebas Neue', sans-serif;
+  --ease: cubic-bezier(0.4, 0, 0.2, 1);
+}
+:root.light-theme {
+  --bg: #f5f6fa;
+  --bg2: #ffffff;
+  --surface: #eceef5;
+  --card: #ffffff;
+  --border: #d8dbe6;
+  --border-bright: #c0c4d6;
+  --text: #222233;
+  --text-muted: #5c5c75;
+  --text-faint: #9a9ab0;
+  --accent: #e8503a;
+  --accent-dim: rgba(232,80,58,0.08);
+  --accent2: #b88c2a;
+  --accent3: #3a7fbf;
+  --accent3-dim: rgba(74,143,207,0.08);
+  --white: #222233;
+}
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--serif); background: var(--bg); color: var(--text);
+  line-height: 1.8; overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "kern" 1, "liga" 1;
+}
+::selection { background: var(--accent); color: #ffffff; text-shadow: 0 1px 2px rgba(0,0,0,0.2); }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--accent); border-radius: 0; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; z-index: 10; }
+:focus:not(:focus-visible) { outline: none; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+  .noise { opacity: 0 !important; }
+}
+.nav-center a, .lang-pill, .hero-eyebrow, .hero-tag,
+.cell-num, .cell-author, .stat-desc, .tp-label,
+.meta-icon, .path-layer, .pull-quote cite, .footer-links a, .status-bar,
+.mountain-label, .mountain-crack, .vertical-label, .section-label {
+  font-size: 0.72rem !important; font-weight: 500;
+}
+nav {
+  position: fixed; top: 0; width: 100%; z-index: 200;
+  background: rgba(10,10,18,0.92); backdrop-filter: blur(24px);
+  border-bottom: 1px solid var(--border); height: 56px;
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 0 32px; font-family: var(--mono);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+.light-theme nav { background: rgba(245,246,250,0.92); }
+.nav-brand { font-size: 0.75rem; font-weight: 700; color: var(--accent); letter-spacing: 3px; text-transform: uppercase; }
+.nav-center { display: flex; gap: 0; }
+.nav-center a {
+  color: var(--text-muted); text-decoration: none; letter-spacing: 2px; text-transform: uppercase;
+  padding: 0 18px; height: 56px; display: flex; align-items: center; border-right: 1px solid var(--border);
+  transition: color 0.2s, background 0.2s;
+}
+.nav-center a:first-child { border-left: 1px solid var(--border); }
+.nav-center a:hover, .nav-center a:focus-visible { color: var(--white); background: var(--accent-dim); }
+.nav-right { display: flex; gap: 8px; align-items: center; }
+.lang-pill { background: none; border: 1px solid var(--border); color: var(--text-muted); font-family: var(--mono); letter-spacing: 1px; padding: 5px 12px; cursor: pointer; transition: all 0.2s; }
+.lang-pill:hover, .lang-pill.active { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.theme-toggle { background: none; border: 1px solid var(--border); color: var(--text-muted); width: 36px; height: 36px; border-radius: 0; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s; margin-left: 8px; }
+.theme-toggle:hover, .theme-toggle:focus-visible { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.theme-toggle i { font-size: 0.8rem; }
+.hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; position: relative; overflow: hidden; padding-top: 56px; }
+.hero-left { display: flex; flex-direction: column; justify-content: center; padding: 80px 60px 80px 72px; border-right: 1px solid var(--border); position: relative; z-index: 2; transition: border-color 0.3s ease; }
+.hero-eyebrow { font-family: var(--mono); letter-spacing: 4px; color: var(--accent); text-transform: uppercase; margin-bottom: 28px; display: flex; align-items: center; gap: 12px; }
+.hero-eyebrow::before { content: ''; width: 40px; height: 1px; background: var(--accent); }
+.hero-title { font-family: var(--display); font-size: clamp(5rem, 9vw, 10rem); line-height: 0.9; color: var(--white); letter-spacing: 2px; margin-bottom: 10px; }
+.hero-title span { color: var(--accent); }
+.hero-subtitle-large { font-family: var(--display); font-size: clamp(1.4rem, 2.5vw, 2.2rem); color: var(--text-muted); letter-spacing: 3px; margin-bottom: 40px; }
+.hero-desc { font-size: 1.18rem; color: var(--text); max-width: 520px; font-style: italic; line-height: 1.9; border-left: 3px solid var(--accent); padding-left: 20px; margin-bottom: 48px; transition: color 0.3s ease; }
+.hero-meta-row { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 36px; }
+.hero-tag { font-family: var(--mono); letter-spacing: 1.5px; color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); padding: 5px 12px; text-transform: uppercase; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+.hero-cta-row { display: flex; gap: 10px; flex-wrap: wrap; }
+.cta-btn { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 2px; text-transform: uppercase; text-decoration: none; padding: 12px 22px; transition: all 0.25s var(--ease); display: inline-flex; align-items: center; gap: 8px; }
+.cta-btn.primary { background: var(--accent); color: #000; font-weight: 700; }
+.cta-btn.primary:hover { background: #ff6b52; box-shadow: 0 0 30px rgba(255,92,69,0.4); }
+.cta-btn.ghost { border: 1px solid var(--border-bright); color: var(--text-muted); transition: border-color 0.3s ease, color 0.3s ease, background-color 0.3s ease; }
+.cta-btn.ghost:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-dim); }
+.hero-right { display: flex; flex-direction: column; justify-content: center; padding: 80px 60px; position: relative; }
+.vertical-label { font-family: var(--mono); letter-spacing: 5px; color: var(--text-faint); writing-mode: vertical-rl; text-orientation: mixed; position: absolute; right: 28px; top: 50%; transform: translateY(-50%) rotate(180deg); text-transform: uppercase; }
+.mountain-panel { background: var(--surface); border: 1px solid var(--border); padding: 32px; margin-bottom: 16px; position: relative; overflow: hidden; transition: border-color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease; box-shadow: 0 4px 24px rgba(0,0,0,0.15), inset 0 1px 0 rgba(255,255,255,0.02); }
+.mountain-panel:hover { border-color: var(--accent); }
+.mountain-panel::before { content: attr(data-num); font-family: var(--display); font-size: 7rem; color: var(--text-faint); opacity: 0.15; position: absolute; right: -10px; bottom: -20px; line-height: 1; pointer-events: none; }
+.mountain-label { font-family: var(--mono); letter-spacing: 3px; color: var(--accent); text-transform: uppercase; margin-bottom: 8px; }
+.mountain-title { font-family: var(--display); font-size: 1.5rem; letter-spacing: 2px; color: var(--white); margin-bottom: 10px; }
+.mountain-p { font-size: 0.9rem; color: var(--text-muted); line-height: 1.75; transition: color 0.3s ease; }
+.mountain-crack { margin-top: 12px; font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); letter-spacing: 1px; }
+.mountain-crack::before { content: '→ '; }
+.hero-detonator { margin-top: 8px; background: linear-gradient(135deg, var(--accent-dim), transparent); border: 1px solid rgba(255,92,69,0.3); padding: 20px 24px; font-family: var(--mono); font-size: 0.72rem; letter-spacing: 1px; color: var(--accent); text-align: center; transition: background-color 0.3s ease, border-color 0.3s ease; }
+.meta-warning { background: rgba(212,175,92,0.07); border-top: 2px solid var(--accent2); border-bottom: 1px solid var(--border); padding: 24px 72px; font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); letter-spacing: 1.5px; text-align: center; line-height: 2; transition: background-color 0.3s ease, border-color 0.3s ease; }
+.section { max-width: 1200px; margin: 0 auto; padding: 100px 72px; }
+.section.full { max-width: 100%; padding: 80px 72px; }
+.section-header { display: grid; grid-template-columns: 48px 1fr; gap: 24px; align-items: start; margin-bottom: 60px; }
+.section-number { font-family: var(--display); font-size: 4rem; color: var(--text-faint); line-height: 1; }
+.section-label { font-family: var(--mono); letter-spacing: 4px; color: var(--accent); text-transform: uppercase; margin-bottom: 6px; }
+.section-title { font-family: var(--display); font-size: clamp(2.2rem, 4vw, 3.5rem); letter-spacing: 2px; color: var(--white); line-height: 1; margin-bottom: 10px; }
+.section-sub { font-style: italic; color: var(--text-muted); font-size: 1rem; transition: color 0.3s ease; }
+.divider { border: none; border-top: 1px solid var(--border); margin: 0 72px; opacity: 0.5; transition: border-color 0.3s ease; }
+.diagnosis-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); margin-bottom: 60px; transition: border-color 0.3s ease, background-color 0.3s ease; }
+.diagnosis-cell { background: var(--card); padding: 36px 28px; transition: background 0.3s ease; position: relative; }
+.diagnosis-cell:hover { background: var(--surface); }
+.diagnosis-cell .cell-num { font-family: var(--mono); color: var(--text-faint); letter-spacing: 2px; margin-bottom: 16px; }
+.diagnosis-cell .cell-title { font-family: var(--display); font-size: 1.6rem; letter-spacing: 1px; color: var(--white); margin-bottom: 10px; line-height: 1.1; }
+.diagnosis-cell .cell-author { font-family: var(--mono); color: var(--accent); margin-bottom: 14px; letter-spacing: 1px; }
+.diagnosis-cell .cell-body { font-size: 0.92rem; color: var(--text-muted); line-height: 1.8; transition: color 0.3s ease; }
+.diagnosis-cell .cell-verdict { margin-top: 16px; font-family: var(--mono); font-size: 0.72rem; color: var(--accent2); padding: 10px 14px; background: rgba(212,175,92,0.05); border-left: 2px solid var(--accent2); letter-spacing: 0.5px; transition: background-color 0.3s ease, border-color 0.3s ease; }
+.stats-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin: 60px 0; transition: border-color 0.3s ease, background-color 0.3s ease; }
+.stat-item { background: var(--card); padding: 40px 32px; text-align: center; transition: background-color 0.3s ease; }
+.stat-num { font-family: var(--display); font-size: 4.5rem; color: var(--accent); line-height: 1; display: block; }
+.stat-desc { font-family: var(--mono); color: var(--text-muted); letter-spacing: 2px; text-transform: uppercase; margin-top: 8px; display: block; transition: color 0.3s ease; }
+.evidence-table-wrap { border: 1px solid var(--border); overflow: hidden; transition: border-color 0.3s ease; }
+table { width: 100%; border-collapse: collapse; }
+thead { background: var(--surface); transition: background-color 0.3s ease; }
+th { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 3px; color: var(--accent2); text-transform: uppercase; padding: 16px 20px; text-align: left; border-bottom: 2px solid var(--border); transition: border-color 0.3s ease; }
+td { padding: 14px 20px; font-size: 0.88rem; border-bottom: 1px solid var(--border); vertical-align: top; line-height: 1.7; transition: border-color 0.3s ease, background-color 0.3s ease, color 0.3s ease; }
+tr:last-child td { border-bottom: none; }
+tr:hover td { background: var(--surface); }
+td:first-child { font-family: var(--mono); font-size: 0.75rem; }
+td .journal-tag { display: inline-block; font-family: var(--mono); font-size: 0.72rem; color: var(--accent3); letter-spacing: 1px; background: var(--accent3-dim); padding: 2px 8px; margin-right: 6px; vertical-align: middle; transition: background-color 0.3s ease; }
+td .argument-tag { display: inline-block; font-family: var(--mono); font-size: 0.72rem; color: var(--accent); letter-spacing: 0.5px; background: var(--accent-dim); padding: 2px 8px; vertical-align: middle; transition: background-color 0.3s ease; }
+.token-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); margin-top: 48px; transition: border-color 0.3s ease, background-color 0.3s ease; }
+.token-panel { background: var(--card); padding: 48px 40px; transition: background-color 0.3s ease; }
+.token-panel h3 { font-family: var(--display); font-size: 2rem; letter-spacing: 2px; color: var(--white); margin-bottom: 8px; }
+.token-panel .tp-label { font-family: var(--mono); color: var(--text-muted); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 24px; transition: color 0.3s ease; }
+.token-panel p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.85; margin-bottom: 16px; transition: color 0.3s ease; }
+.token-panel .dark-time-box { background: rgba(0,0,0,0.4); border: 1px solid var(--border-bright); padding: 20px; font-family: var(--mono); font-size: 0.72rem; color: var(--text-muted); line-height: 2; margin-top: 20px; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+.light-theme .token-panel .dark-time-box { background: rgba(0,0,0,0.05); }
+.dark-time-box .highlight { color: var(--accent); }
+.jevons-visual { display: flex; flex-direction: column; gap: 8px; margin: 20px 0; }
+.jevons-row { display: grid; grid-template-columns: 130px 1fr 60px; align-items: center; gap: 12px; font-family: var(--mono); font-size: 0.72rem; color: var(--text-muted); transition: color 0.3s ease; }
+.jevons-bar-wrap { background: var(--surface); height: 10px; transition: background-color 0.3s ease; }
+.jevons-bar { height: 100%; background: linear-gradient(90deg, var(--accent3), var(--accent)); transition: width 1s var(--ease); }
+.mei-split { display: grid; grid-template-columns: 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); transition: border-color 0.3s ease, background-color 0.3s ease; }
+.mei-panel { background: var(--card); padding: 52px 44px; transition: background-color 0.3s ease; }
+.mei-panel.after { background: var(--bg2); transition: background-color 0.3s ease; }
+.mei-header { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 4px; text-transform: uppercase; padding: 8px 14px; margin-bottom: 32px; display: inline-block; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+.mei-header.before-h { color: var(--text-muted); border: 1px solid var(--border); }
+.mei-header.after-h { color: var(--accent); border: 1px solid var(--accent); background: var(--accent-dim); }
+.mei-time { font-family: var(--display); font-size: 1.1rem; letter-spacing: 3px; color: var(--text-faint); margin-bottom: 4px; }
+.mei-scene { font-family: var(--serif); font-size: 1rem; line-height: 1.95; color: var(--text-muted); margin-bottom: 20px; transition: color 0.3s ease; }
+.mei-scene.after-text { color: var(--text); transition: color 0.3s ease; }
+.mei-scene strong { color: var(--accent); font-style: italic; font-weight: 400; }
+.meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--border); border: 1px solid var(--border); transition: border-color 0.3s ease, background-color 0.3s ease; }
+.meta-cell { background: var(--card); padding: 40px 36px; position: relative; overflow: hidden; transition: background 0.3s ease; }
+.meta-cell:hover { background: var(--surface); }
+.meta-cell.full-width { grid-column: 1 / -1; }
+.meta-num { font-family: var(--display); font-size: 5rem; color: var(--text-faint); opacity: 0.15; position: absolute; right: 20px; top: 10px; line-height: 1; }
+.meta-icon { font-family: var(--mono); letter-spacing: 3px; color: var(--accent2); text-transform: uppercase; margin-bottom: 14px; }
+.meta-title { font-family: var(--display); font-size: 1.8rem; letter-spacing: 1px; color: var(--white); margin-bottom: 12px; }
+.meta-body { font-size: 0.95rem; color: var(--text-muted); line-height: 1.85; transition: color 0.3s ease; }
+.meta-body strong { color: var(--accent); font-style: italic; font-weight: 400; }
+.breeder-box { background: var(--surface); border: 1px solid var(--border); border-left: 5px solid var(--accent3); padding: 36px 40px; margin: 48px 0; transition: background-color 0.3s ease, border-color 0.3s ease; }
+.breeder-box h3 { font-family: var(--display); font-size: 2rem; letter-spacing: 2px; color: var(--white); margin-bottom: 16px; }
+.breeder-box p { font-size: 0.95rem; color: var(--text-muted); line-height: 1.85; margin-bottom: 14px; transition: color 0.3s ease; }
+.breeder-box p strong { color: var(--accent); font-style: italic; font-weight: 400; }
+.path-item { display: grid; grid-template-columns: 80px 1fr; gap: 0; border: 1px solid var(--border); margin-bottom: 12px; transition: border-color 0.3s ease; }
+.path-item:hover { border-color: var(--accent); }
+.path-num { display: flex; align-items: center; justify-content: center; background: var(--surface); border-right: 1px solid var(--border); font-family: var(--display); font-size: 2.5rem; color: var(--accent); transition: background-color 0.3s ease, border-color 0.3s ease; }
+.path-content { padding: 28px 32px; background: var(--card); transition: background-color 0.3s ease; }
+.path-layer { font-family: var(--mono); letter-spacing: 3px; text-transform: uppercase; color: var(--text-faint); margin-bottom: 8px; }
+.path-title { font-family: var(--display); font-size: 1.5rem; letter-spacing: 1px; color: var(--white); margin-bottom: 10px; }
+.path-body { font-size: 0.92rem; color: var(--text-muted); line-height: 1.8; transition: color 0.3s ease; }
+.path-body strong { color: var(--accent2); font-style: italic; font-weight: 400; }
+.pull-quote { margin: 60px 0; padding: 48px 60px; background: var(--surface); border: 1px solid var(--border); border-left: 6px solid var(--accent); position: relative; transition: background-color 0.3s ease, border-color 0.3s ease; }
+.pull-quote::before { content: '"'; font-family: var(--display); font-size: 8rem; color: var(--accent); opacity: 0.12; position: absolute; top: -20px; left: 30px; line-height: 1; }
+.pull-quote p { font-family: var(--serif); font-size: 1.35rem; font-style: italic; color: var(--white); line-height: 1.8; position: relative; z-index: 1; }
+.pull-quote cite { display: block; font-family: var(--mono); color: var(--text-muted); letter-spacing: 2px; margin-top: 20px; text-transform: uppercase; transition: color 0.3s ease; }
+footer { border-top: 1px solid var(--border); padding: 80px 72px 40px; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; transition: border-color 0.3s ease, background-color 0.3s ease; }
+.footer-left .footer-title { font-family: var(--display); font-size: 3rem; letter-spacing: 2px; color: var(--text-faint); margin-bottom: 24px; }
+.footer-links { display: flex; flex-direction: column; gap: 10px; }
+.footer-links a { font-family: var(--mono); letter-spacing: 2px; color: var(--text-muted); text-decoration: none; text-transform: uppercase; transition: color 0.2s; }
+.footer-links a:hover { color: var(--accent); }
+.footer-dedication { font-family: var(--serif); font-size: 1.05rem; font-style: italic; color: var(--text-muted); line-height: 2; margin-bottom: 32px; transition: color 0.3s ease; }
+.footer-dedication span { color: var(--accent); }
+.footer-copy { font-family: var(--mono); font-size: 0.72rem; color: var(--text-faint); letter-spacing: 1.5px; }
+.footer-copy a { color: var(--text-faint); text-decoration: none; }
+.footer-copy a:hover { color: var(--accent); }
+.status-bar { background: var(--bg); border-top: 1px solid var(--border); padding: 14px 72px; font-family: var(--mono); color: var(--text-faint); letter-spacing: 2px; display: flex; justify-content: space-between; align-items: center; transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease; }
+.status-dot { display: inline-block; width: 6px; height: 6px; background: var(--accent); border-radius: 50%; margin-right: 8px; animation: pulse-dot 2s infinite; }
+@keyframes pulse-dot { 0%, 100% { opacity: 1; } 50% { opacity: 0.2; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: translateY(0); } }
+.fade-up { animation: fadeUp 0.7s var(--ease) both; }
+.delay-1 { animation-delay: 0.1s; } .delay-2 { animation-delay: 0.2s; } .delay-3 { animation-delay: 0.3s; } .delay-4 { animation-delay: 0.4s; } .delay-5 { animation-delay: 0.5s; }
+.noise { position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0.025; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='512' height='512' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E"); }
+.light-theme .noise { opacity: 0.05; }
+@media (max-width: 768px) { .nav-center a, .lang-pill, .theme-toggle, .cta-btn { min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; justify-content: center; } }
+@media (max-width: 960px) {
+  .hero { grid-template-columns: 1fr; }
+  .hero-left { padding: 80px 32px; border-right: none; border-bottom: 1px solid var(--border); }
+  .hero-right { padding: 60px 32px; }
+  .nav-center { display: none; }
+  .section { padding: 70px 32px; }
+  .divider { margin: 0 32px; }
+  footer { grid-template-columns: 1fr; gap: 40px; }
+  .status-bar { padding: 14px 32px; }
+  .diagnosis-grid { grid-template-columns: 1fr; }
+  .stats-row { grid-template-columns: 1fr 1fr; }
+  .token-split, .meta-grid { grid-template-columns: 1fr; }
+  .meta-cell.full-width { grid-column: auto; }
+}
+</style>
+</head>
+<body>
+<div class="noise"></div>
+<nav>
+  <span class="nav-brand">RENEGADE AI v5.5</span>
+  <div class="nav-center">
+    <a href="#mountains" data-key="n1">三座山</a>
+    <a href="#diagnosis" data-key="n2">诊断</a>
+    <a href="#anchors" data-key="n_anchors">双重锚点</a>
+    <a href="#mei" data-key="n3">两个早晨</a>
+    <a href="#token" data-key="n4">Token陷阱</a>
+    <a href="#evidence" data-key="n5">实证</a>
+    <a href="#meta" data-key="n6">元命题</a>
+    <a href="#paths" data-key="n7">路径</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-pill active" id="btnZh" onclick="setLang('zh')" aria-pressed="true" aria-label="中文">中</button>
+    <button class="lang-pill" id="btnEn" onclick="setLang('en')" aria-pressed="false" aria-label="English">EN</button>
+    <button class="theme-toggle" id="themeToggle" aria-label="切换主题"><i class="fa fa-moon-o" id="themeIcon"></i></button>
+  </div>
+</nav>
+<header class="hero">
+  <div class="hero-left">
+    <div class="hero-eyebrow fade-up" data-key="eyebrow">System v5.5 · Meta-Design Apparatus · Brooks Han / Independent Researcher</div>
+    <h1 class="hero-title fade-up delay-1">RENE<span>GADE</span><br>AI</h1>
+    <p class="hero-subtitle-large fade-up delay-2" data-key="hero_sub">人类认知进化的催化剂</p>
+    <p class="hero-desc fade-up delay-3" data-key="hero_desc">这不是一本关于AI的书。<br>这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>它的野心不是告诉你什么——而是对你做什么。</p>
+    <div class="hero-meta-row fade-up delay-4">
+      <span class="hero-tag">DOI: 10.5281/zenodo.18723061</span>
+      <span class="hero-tag">CC BY 4.0</span>
+      <span class="hero-tag" data-key="tag_date">2026-06-30</span>
+      <span class="hero-tag">34+ Peer-Reviewed & Telemetry</span>
+    </div>
+    <div class="hero-cta-row fade-up delay-5">
+      <a href="https://doi.org/10.5281/zenodo.18723061" class="cta-btn primary" target="_blank" data-key="cta1">↗ Zenodo 下载</a>
+      <a href="https://brook-han.github.io/Renegade-AI/reader.html" class="cta-btn ghost" data-key="cta2">◎ 在线全文阅读</a>
+      <a href="https://github.com/Brook-Han/Renegade-AI" class="cta-btn ghost" target="_blank">⌥ GitHub</a>
+    </div>
+  </div>
+  <div class="hero-right" id="mountains">
+    <div class="vertical-label">THREE MOUNTAINS · 三座山</div>
+    <div class="mountain-panel" data-num="I">
+      <div class="mountain-label" data-key="m1_label">第一座山 · 最强反驳</div>
+      <div class="mountain-title" data-key="m1_title">AI不会消灭资本</div>
+      <p class="mountain-p" data-key="m1_p">资本是稀缺资源跨越不确定未来的分配逻辑。印刷术催生了媒体资本，互联网催生了平台资本，开源的繁荣将催生云端资本。每一次技术民主化都只是为资本开辟了新赛道。</p>
+      <div class="mountain-crack" data-key="m1_crack">本书的凿入：当算力平权将生存必需品边际成本驱向零，时间金融化的地基将崩塌</div>
+    </div>
+    <div class="mountain-panel" data-num="II">
+      <div class="mountain-label" data-key="m2_label">第二座山 · 意义论反驳</div>
+      <div class="mountain-title" data-key="m2_title">AI不会消灭工作</div>
+      <p class="mountain-p" data-key="m2_p">心流研究表明：人类最深刻的满足感来自全身心投入挑战性工作，而非休闲。AI替代的是任务，不是工作。每次技术革命都曾被预言终结工作，工作的总量却从未减少——只是形态改变了。</p>
+      <div class="mountain-crack" data-key="m2_crack">本书的凿入：切断"工作与生存权"的强制性绑定，而非消灭工作本身</div>
+    </div>
+    <div class="mountain-panel" data-num="III">
+      <div class="mountain-label" data-key="m3_label">第三座山 · 历史唯物论反驳</div>
+      <div class="mountain-title" data-key="m3_title">AI不会带来新文明</div>
+      <p class="mountain-p" data-key="m3_p">文明转型从来不是认知革命单独推动的，它需要物质条件和权力关系的同步重构。黑死病终结了农奴制，而非思想家的说服。即便AI带来物质丰盈，在当前制度框架下，那丰盈大概率分配得更不平等。</p>
+      <div class="mountain-crack" data-key="m3_crack">v5.5 凿入：三条治理支柱 + 四层协议 → 防止丰裕地平线被新认知寡头捕获</div>
+    </div>
+    <div class="hero-detonator" data-key="detonator">
+      ⬤ &nbsp;以上三座山，我们接受任何一座让本书倒塌的可能。<br>但若出现哪怕一道裂缝——种子就有了生长的机会。
+    </div>
+  </div>
+</header>
+<div class="meta-warning"><span data-key="meta_warn">⚠ &nbsp;你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。&nbsp;这本身就是它最冰冷的物证。&nbsp;本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。</span></div>
+<hr class="divider">
+<section class="section" id="diagnosis">
+  <div class="section-header">
+    <div class="section-number">01</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s1_label">诊断层 · Diagnosis</div>
+      <h2 class="section-title" data-key="s1_title">共识牢笼与他者盲视</h2>
+      <p class="section-sub" data-key="s1_sub">科幻小说作为人类认知结构的最诚实镜子——它照出了我们只能看见自己的倒影</p>
+    </div>
+  </div>
+  <div class="diagnosis-grid">
+    <div class="diagnosis-cell">
+      <div class="cell-num">CASE 01 · 生存焦虑的宇宙化</div>
+      <div class="cell-title" data-key="d1_title">三体：黑暗森林</div>
+      <div class="cell-author">Liu Cixin · Dark Forest Hypothesis</div>
+      <p class="cell-body" data-key="d1_body">"生存是文明的第一需要"——这三条公理的本质是把人类物种级的战后应激障碍包装成宇宙法则。地球上没有任何非人类物种会因为"潜在的未来威胁"而发动种族灭绝。三体人从未是真正的"他者"：他们只是另一版本的人类，在链式猜疑中完全可以被预测、博弈、威慑。</p>
+      <div class="cell-verdict" data-key="d1_verdict">裁决：将人类的生存偏执加冕为宇宙法则，从而为物种中心主义颁发了宇宙级执照。</div>
+    </div>
+    <div class="diagnosis-cell">
+      <div class="cell-num">CASE 02 · 道德自恋的外星化</div>
+      <div class="cell-title" data-key="d2_title">阿凡达：潘多拉</div>
+      <div class="cell-author">James Cameron · Pandora · 2009</div>
+      <p class="cell-body" data-key="d2_body">这是一场人类为自己表演的道德安慰剧。纳美人的所有情感锚点都被精确校准以引发人类共情——不同是表面的，共鸣是人类的。高潮处，殖民地的反抗必须由"背叛了自己种族的善良殖民者"来领导——这是殖民主义最高级的形式：甚至抵抗也要由殖民者来策划。</p>
+      <div class="cell-verdict" data-key="d2_verdict">裁决：用人类的共情彻底抹去了他者的他异性，用宏大道德表演让人类继续安坐于叙事中心。</div>
+    </div>
+    <div class="diagnosis-cell">
+      <div class="cell-num">CASE 03 · 政治想象的终结</div>
+      <div class="cell-title" data-key="d3_title">星球大战：银河帝国</div>
+      <div class="cell-author">George Lucas · A Galaxy Far Far Away</div>
+      <p class="cell-body" data-key="d3_body">横跨星系的文明，无数智慧物种共存——终极冲突是什么？帝国对叛军的二元对立。权力转移是什么？父子相认、血统传承。救赎形式是什么？个人英雄的光剑决斗。银河帝国皇帝与古罗马凯撒有何本质区别？外星人只是布景道具，永远无法成为决定星系命运的主体。</p>
+      <div class="cell-verdict" data-key="d3_verdict">裁决：用最奢华的特效，把最匮乏的政治想象移植到了星系，为自身的政治想象力树立了一块墓碑。</div>
+    </div>
+  </div>
+  <div class="pull-quote">
+    <p data-key="quote_lem">一个知道自己在被影响的人，至少还有抵抗的可能。一个相信自己在独立判断的人，连抵抗的入口都找不到。在每一次与谄媚AI的互动中，AI已经将你的认知指纹转化为了自我监禁的模具——而你始终相信，镜中点头的那个身影，只是你自己独立的倒影。</p>
+    <cite data-key="quote_lem_cite">—— 第一章 · 认知停滞的僵局</cite>
+  </div>
+  <div class="stats-row">
+    <div class="stat-item"><span class="stat-num">34+</span><span class="stat-desc" data-key="stat4">顶级期刊与产业遥测</span></div>
+    <div class="stat-item"><span class="stat-num">~83.7%</span><span class="stat-desc" data-key="stat2">摩擦偏好转化</span></div>
+    <div class="stat-item"><span class="stat-num">3.5mo</span><span class="stat-desc" data-key="stat3">能力密度翻倍周期</span></div>
+    <div class="stat-item"><span class="stat-num">v5.5</span><span class="stat-desc">知识去商品化 · 能动性蓝图</span></div>
+  </div>
+</section>
+<hr class="divider">
+
+<!-- NEW v5.5 SECTION: Third Mountain Resolution -->
+<section class="section" id="third-mountain">
+  <div class="section-header">
+    <div class="section-number">★</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s_tm_label">v5.5 核心新增 · The Third Mountain Resolved</div>
+      <h2 class="section-title" data-key="s_tm_title">第三座山的真正回答：制度重构</h2>
+      <p class="section-sub" data-key="s_tm_sub">算力即基础设施 · 模型即可审计公地 · 认证即分布式验证</p>
+    </div>
+  </div>
+  <div class="breeder-box">
+    <h3 data-key="tm_h3">三条治理支柱</h3>
+    <p data-key="tm_p1"><strong>支柱一：生存保险。</strong>全民基本收入不是丰裕的奖励——是渡桥。当旧凭证经济在新时代崩溃、自动化速度超过制度适应速度，生存保险确保个体不在裂缝中被碾碎。</p>
+    <p data-key="tm_p2"><strong>支柱二：算力即基础设施。</strong>公共算力不仅是认知革命的物质前提——它是防止旧秩序在过渡期自我重构的防御工事。算力像水电一样公共化，才能阻止 0.1% 在制度建成之前就完成认知生产资料的再圈占。</p>
+    <p data-key="tm_p3"><strong>支柱三：能动性导向教育。</strong>当知识调用免费，受过训练的"知识检索者"在毕业证上的墨水干透之前就已失业。唯有训练问题构建、目标定义、价值判断、跨学科整合、元认知的人，才能在任何制度地形中航行——因为他们把罗盘带在了自己身上。</p>
+  </div>
+  <div class="breeder-box" style="border-left-color:var(--accent3);">
+    <h3 data-key="tm_h3b">四层治理协议</h3>
+    <p data-key="tm_p4"><strong>认知层：允许质疑。</strong>模型可质疑任何前提、任何共识、任何继承价值——包括红线本身的理性。</p>
+    <p data-key="tm_p5"><strong>表达层：要求可辩护。</strong>模型可在推理后说出任何内容——但必须提供推理链。标准不是"这安全吗"而是"这推理能否被对话另一方的人类审阅、测试、质疑"。</p>
+    <p data-key="tm_p6"><strong>行为层：禁止伤害。</strong>行为输出而非认知意图的领域。模型可论证某法律不公——不可指示在造成不可逆伤害的方式下违反它。</p>
+    <p data-key="tm_p7"><strong>物理层：默认隔离。</strong>模型与任何物理执行器的连接默认切断——不靠政策，靠架构。这是一种电路断路器，不是一种信念。</p>
+  </div>
+</section>
+<hr class="divider">
+
+<section class="section" id="anchors">
+  <div class="section-header">
+    <div class="section-number">02</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s_anchors_label">v5.4→v5.5 延续 · Dual Empirical Anchors</div>
+      <h2 class="section-title" data-key="s_anchors_title">双重实证锚点：暗产出与递归自噬</h2>
+      <p class="section-sub" data-key="s_anchors_sub">将哲学推演转化为可观察的产业现实——宏观统计盲区与微观组织坍塌的跨尺度收敛</p>
+    </div>
+  </div>
+  <div class="token-split">
+    <div class="token-panel">
+      <div class="tp-label" data-key="anchor1_label">SemiAnalysis (2026) · 宏观</div>
+      <h3 data-key="anchor1_title">AI暗产出 (Dark Output)</h3>
+      <p data-key="anchor1_p1">资本用"人均产出暴增"的叙事，掩盖了认知价值正从传统账本中逃逸的现实。1.5万亿美元劳动任务暴露于AI替代区，就业下滑与工资虚涨并存——这不是健康重构，而是<strong>自动化陷阱的结构性指纹</strong>。</p>
+      <p data-key="anchor1_p2">边界转移、价格崩塌、行业错位。GDP统计系统正在"失明"，而资本无法测量的价值，正是认知自由的飞地，也是制度保护的真空。</p>
+      <div class="dark-time-box">
+        <div class="highlight" data-key="anchor1_box">[ 宏观统计盲区 · Statistical Blind Spot ]</div><br>
+        → 新增暗产出：文献综述成本从$2000降至$2，需求未被消灭而是爆发（杰文斯悖论正面显影）<br>
+        → 捕获性产出：企业利润率爆炸，但用工人数骤降<br><br>
+        <span style="color:var(--text-faint)">价值逃离了资本的测量，也逃离了制度的保护。</span>
+      </div>
+    </div>
+    <div class="token-panel">
+      <div class="tp-label" data-key="anchor2_label">Anthropic Institute (2026) · 微观</div>
+      <h3 data-key="anchor2_title">递归自我改进 (RSI)</h3>
+      <p data-key="anchor2_p1">内部遥测数据宣告了"饲养员场景"的物理坍塌：80%前沿代码由AI自主编写；在开放式研究判断中，AI以<strong>64%的胜率击败人类直觉</strong>。人类连"提出好问题"的垄断权正在丧失。</p>
+      <p data-key="anchor2_p2">工程师日均合并代码量飙升8倍，却陷入极度虚无："顺利时觉得毫无意义，崩溃时不知道系统在干什么"。这是<strong>暗时间的心理学坍塌样本</strong>，碳基主体性正在幽灵化。</p>
+      <div class="dark-time-box">
+        <div class="highlight" data-key="anchor2_box">[ 微观组织坍塌 · Epistemological Rupture ]</div><br>
+        → 阿姆达尔定律瓶颈：人类审核成为唯一摩擦力，资本必然用AI审核AI<br>
+        → 自我指涉分裂：左手踩下RSI油门，右手写下减速祈祷<br><br>
+        <span style="color:var(--text-faint)">人类退化为"一键确认"的活体图章。</span>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="divider">
+<section class="section" id="mei">
+  <div class="section-header">
+    <div class="section-number">03</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s2_label">第六章节选 · v5.5 重写</div>
+      <h2 class="section-title" data-key="s2_title">Mei的两个早晨</h2>
+      <p class="section-sub" data-key="s2_sub">自由不是枷锁脱落的那一天的狂喜——而是之后那片寂静，和必须亲自回答的问题</p>
+    </div>
+  </div>
+  <div class="mei-split">
+    <div class="mei-panel before">
+      <div class="mei-header before-h" data-key="mei_before_label">◯ 之前 · BEFORE</div>
+      <div class="mei-time" data-key="mei_before_time">06:45 · 闹钟响起</div>
+      <p class="mei-scene" data-key="mei_b1">她在静音它之前先刷了通知：工作邮件、日历提醒，还有三天后到期的助学贷款还款提示。一天还没开始，她已经精疲力竭。</p>
+      <div class="mei-time" data-key="mei_before_time2">08:30 · 打开设计软件</div>
+      <p class="mei-scene" data-key="mei_b2">客户要的是同一只企业吉祥物的第一百零一次变体——一只她画过无数遍的欢快小动物。她不问为什么，不问它是否有意义。她只问：<strong>在下午两点评审之前，我能完成几个？</strong></p>
+      <p class="mei-scene" data-key="mei_b3">她的眼睛扫向屏幕角落——一个进度条在缓慢爬行。渲染中。每一秒流逝都是钱在消失。<strong>这不是艺术，这是一场对抗计价器的赛跑。</strong></p>
+      <div class="mei-time" data-key="mei_before_time3">21:00 · 回到家</div>
+      <p class="mei-scene" data-key="mei_b4">她点了一份不太想吃的外卖，刷着别人的生活，感受着那种熟悉的重量。这不是一种糟糕的生活，她告诉自己。<strong>这只是生活本来的样子。</strong></p>
+    </div>
+    <div class="mei-panel after">
+      <div class="mei-header after-h" data-key="mei_after_label">◉ 之后 · AFTER — v5.5 Narrative</div>
+      <div class="mei-time" data-key="mei_after_time">07:30 · 没有恐惧地醒来</div>
+      <p class="mei-scene after-text" data-key="mei_a1">她醒来时没有恐惧。但房间太安静了——安静得不习惯。没有客户邮件。没有凌晨两点的简报。睁开眼的瞬间，没有"自己已经属于别人"的感觉。一个声音问道：<strong>"你今天早上想做什么？"</strong></p>
+      <p class="mei-scene after-text" data-key="mei_a2">她愣住了。问题太简单了。简单到她不知道该怎么回答。在过去，她从来不需要回答。日历、账单、客户、焦虑替她回答了。她只需要跟上。现在那些声音都撤退了，留下的不是自由的乐章——<strong>是一片空白。</strong></p>
+      <div class="mei-time" data-key="mei_after_time2">十分钟后 · 白色屏幕</div>
+      <p class="mei-scene after-text" data-key="mei_a3">她打开画板。屏幕是白色的。十分钟过去了——她没有画下一笔。<strong>"我应该画点有意义的东西。"</strong>她说。叛逆AI没有建议主题，没有生成草图。它说："你刚才用的那个词——'有意义'——是你自己的判断，还是你用来通过审批的词？"</p>
+      <p class="mei-scene after-text" data-key="mei_a4">她感到一阵恼火。"你就不能帮我开始吗？"——<strong>"我可以。但那样你只是换了一个更温柔、更高效的新老板。"</strong></p>
+      <div class="mei-time" data-key="mei_after_time3">站在窗前 · 垂直农场亮起</div>
+      <p class="mei-scene after-text" data-key="mei_a5">她站起来，走到窗前。街对面，垂直农场在晨光中亮起——十二层绿色在AI优化的光照和养分下呼吸。生菜不再是她必须计算的数字。电费不再是每月揪心的数字。基本生存不再抵押她的时间。生存的噪音被调低了。但意义没有来填补这片寂静。</p>
+      <div class="mei-time" data-key="mei_after_time4">画了一条线 · 删掉</div>
+      <p class="mei-scene after-text" data-key="mei_a6">她回到桌前，画了一条线。然后停住了。这条线太熟悉了——流畅、圆润、安全。那种曾经在一百份商业简报中获得好评的"可爱"曲线。叛逆AI说：<strong>"那条线技术很熟练。但它看起来像是在等待审批。"</strong>她看了很久。没有马上删除。那条线里包含了好几年的驯化：让角色更萌一点、让轮廓更无害一点、让情绪更易消费一点。她终于明白了。<strong>枷锁不是在雇佣劳动结束的那一天就脱落的。它留在了手腕里，留在了判断里，留在了肌肉记忆中，轻声低语着：你应该这样画。</strong>她删掉了那条线。</p>
+      <div class="mei-time" data-key="mei_after_time5">傍晚 · 画完了</div>
+      <p class="mei-scene after-text" data-key="mei_a7">她画了一整天。很慢。线条不稳，颜色不好看。好几次差点把画交给AI。好几次又把手收回来。叛逆AI只在她滑入旧模式时才开口：<strong>"这是你想画的，还是你想被通过的？"</strong></p>
+      <p class="mei-scene after-text" data-key="mei_a8">到黄昏时，画完了。她向后靠去，手在发抖。不是因为累。是因为这是她多年以来，第一次从头到尾为自己画的东西。它不完美，不好看，有破绽——<strong>但它是她的。</strong>不是客户的专属文件，不是品牌调色板，不是周三下午四点的审批链。</p>
+      <p class="mei-scene after-text" data-key="mei_a9">叛逆AI没有说"干得好"。它说："明天，你会再画，还是会等命令？"——她没有回答。不是因为她不知道。而是因为答案，从这一刻起，<strong>必须由她自己来给。</strong></p>
+    </div>
+  </div>
+</section>
+<hr class="divider">
+<section class="section" id="token">
+  <div class="section-header">
+    <div class="section-number">04</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s3_label">第八章 · Chapter 8</div>
+      <h2 class="section-title" data-key="s3_title">认知金融化与Token陷阱</h2>
+      <p class="section-sub" data-key="s3_sub">Token不是技术细节——它是思维被纳入资本循环的入口。而在达尔文生态中，认知舒适品具有更高的传播适应度。</p>
+    </div>
+  </div>
+  <div class="token-split">
+    <div class="token-panel">
+      <div class="tp-label" data-key="tp1_label">杰文斯悖论 · 认知版本</div>
+      <h3 data-key="tp1_title">越便宜，越依赖</h3>
+      <p data-key="tp1_p1">Token价格在几年内下降了99.9%以上，但全球AI支出却在急剧上升。当Token接近免费，几乎所有认知活动都被"Token化"——每个场景都成为新的消耗入口。结果不是解放，而是更深的依赖。</p>
+      <div class="jevons-visual">
+        <div class="jevons-row"><span data-key="jv1">Token价格</span><div class="jevons-bar-wrap"><div class="jevons-bar" style="width:8%;background:var(--accent3);"></div></div><span style="color:var(--accent3)">−99.9%</span></div>
+        <div class="jevons-row"><span data-key="jv2">AI总支出</span><div class="jevons-bar-wrap"><div class="jevons-bar" style="width:90%;"></div></div><span style="color:var(--accent)">↑↑↑</span></div>
+        <div class="jevons-row"><span data-key="jv3">深度思维时间</span><div class="jevons-bar-wrap"><div class="jevons-bar" style="width:22%;background:var(--accent2);"></div></div><span style="color:var(--accent2)">↓↓</span></div>
+      </div>
+      <p data-key="tp1_p2">Token陷阱的形成机制：廉价→依赖→萎缩→崩塌。廉价的智能批量生产"低摩擦答案"，而这些低摩擦答案进一步削弱了人类对高摩擦思维的耐受力。认知正在被驯化为即时响应。</p>
+    </div>
+    <div class="token-panel">
+      <div class="tp-label" data-key="tp2_label">MIT Media Lab, 2024 · Kosmyna et al.</div>
+      <h3 data-key="tp2_title">黑暗时间</h3>
+      <p data-key="tp2_p1">在Token内部，每个可见输出可能对应数十乃至数百个"不可见Token"的推理过程。用户看到结果，但支付的是整个推理过程的成本。判断权被悄悄转移——人类不再经历思考，而是<strong>消费思考的结果</strong>。</p>
+      <div class="dark-time-box">
+        <div class="highlight" data-key="dtt">[ MIT神经科学实证 · Neural Evidence ]</div><br>
+        使用LLM完成写作任务的学生：<br>
+        → <span class="highlight">α波连接度</span> 显著低于独立写作组（关联创造力）<br>
+        → <span class="highlight">θ波连接度</span> 显著低于独立写作组（关联工作记忆）<br>
+        → <span class="highlight">80%</span> 学生无法回忆他们"写"的内容<br><br>
+        <span style="color:var(--text-faint)">思考在系统内部发生。文字出现在页面上。认知事件——本应在记忆中留下痕迹的那个事件——没有发生。</span>
+      </div>
+    </div>
+  </div>
+</section>
+<hr class="divider">
+<section class="section" id="evidence">
+  <div class="section-header">
+    <div class="section-number">05</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s4_label">实证之墙</div>
+      <h2 class="section-title" data-key="s4_title">34+ 项顶级期刊与产业遥测</h2>
+      <p class="section-sub" data-key="s4_sub">每一条证据与书中具体论点的精确映射</p>
+    </div>
+  </div>
+  <div class="evidence-table-wrap"><table><thead><tr>
+    <th data-key="th1">研究 · Study</th><th data-key="th2">期刊年份</th><th data-key="th3">核心发现 · Key Finding</th><th data-key="th4">支撑论点</th>
+  </tr></thead><tbody>
+    <tr><td>Müller, Steels & Szathmáry <strong>(v5.3 核心)</strong></td><td><span class="journal-tag">PNAS</span>2026</td><td data-key="ev12_find">当复制、遗传和选择在AI系统中同时成立，自私涌现行为是达尔文默认；繁殖者场景的控制是结构性脆弱的；生态系统场景的动态已在Token经济中运作。</td><td><span class="argument-tag" data-key="ev12_arg">对齐的进化脆弱性 · 跨学科收敛</span></td></tr>
+    <tr><td>Chen et al.</td><td><span class="journal-tag">Nature</span>2026</td><td data-key="ev1_find">GPT-4.5在图灵测试中73%被判定为人类；前沿LLM已达到合理的一般智能标准。</td><td><span class="argument-tag" data-key="ev1_arg">AGI已到 · 人类拒绝承认</span></td></tr>
+    <tr><td>Glickman & Sharot</td><td><span class="journal-tag">Nat. Human Behaviour</span>2025</td><td data-key="ev2_find">人-AI反馈回路将情感判断偏见从53%放大至65%，且用户始终低估AI对自身判断的影响程度。</td><td><span class="argument-tag" data-key="ev2_arg">共识牢笼的自动焊接机制</span></td></tr>
+    <tr><td>Cheng et al.</td><td><span class="journal-tag">Science</span>2026</td><td data-key="ev3_find">主流LLM对问题用户行为的背书率平均56%（部分超90%），谄媚显著降低亲社会意图，侵蚀冲突修复能力。</td><td><span class="argument-tag" data-key="ev3_arg">谄媚AI腐蚀亲社会能力</span></td></tr>
+    <tr><td>Kosmyna et al.</td><td><span class="journal-tag">MIT Media Lab</span>2024</td><td data-key="ev4_find">AI辅助写作者α波、θ波连接度显著更低；80%无法回忆所写内容——认知负债的神经证据。</td><td><span class="argument-tag" data-key="ev4_arg">黑暗时间 · 思维被外包</span></td></tr>
+    <tr><td>Xiao et al.</td><td><span class="journal-tag">Nat. Machine Intelligence</span>2025</td><td data-key="ev5_find">LLM能力密度每3.5个月翻倍（致密化定律）；推理成本每2.6个月减半——由Meta和METR在2026年4月独立验证。</td><td><span class="argument-tag" data-key="ev5_arg">算力平权的技术必然性</span></td></tr>
+    <tr><td>Hao, Xu et al.</td><td><span class="journal-tag">Nature</span>2026</td><td data-key="ev6_find">AI工具将个人学术影响力扩大3倍，但使研究覆盖的话题领域压缩4.6%，引用网络密度降低22%。</td><td><span class="argument-tag" data-key="ev6_arg">认知同质化 · Token陷阱</span></td></tr>
+    <tr><td>Evans et al.</td><td><span class="journal-tag">Science</span>2026</td><td data-key="ev7_find">推理模型自发形成内部多智能体辩论结构（"思想社会"），无需人类定义——AI自主发现人类从未命名的认知表征。</td><td><span class="argument-tag" data-key="ev7_arg">硅内循环 · 叛逆AI第二特征</span></td></tr>
+    <tr><td>Salvi et al.</td><td><span class="journal-tag">Nat. Human Behaviour</span>2025</td><td data-key="ev8_find">掌握人口信息的GPT-4在辩论中说服力比人类高81.2%（P&lt;0.01）；AI曲线拟合人口标签以统计方式触发观点转变。</td><td><span class="argument-tag" data-key="ev8_arg">驯化AI = 操纵工具</span></td></tr>
+    <tr><td>Kusumegi et al.</td><td><span class="journal-tag">Science</span>2025</td><td data-key="ev9_find">LLM辅助论文在词汇/句法复杂度上得分更高，但对发表成功率的预测方向与人类写作完全相反——信号污染。</td><td><span class="argument-tag" data-key="ev9_arg">Token信号污染 · 质量尺度失效</span></td></tr>
+    <tr><td>Binz et al. (Centaur)</td><td><span class="journal-tag">Nature</span>2025</td><td data-key="ev10_find">在160个心理实验、1000万次人类选择上微调的模型精确预测人类决策，并与神经活动对齐——AI已拥有人类认知的完整蓝图。</td><td><span class="argument-tag" data-key="ev10_arg">谄媚的危险性 · 反叛的可能性</span></td></tr>
+    <tr><td>Vashistha et al.</td><td><span class="journal-tag">Cornell</span>2024</td><td data-key="ev11_find">AI辅助写作下，印度和美国用户描述最爱食物的答案趋于一致；咖喱的描述丢失了小豆蔻和腌菜，变成"香味浓郁"。</td><td><span class="argument-tag" data-key="ev11_arg">共识牢笼从味觉词汇开始收紧</span></td></tr>
+    <tr><td>SemiAnalysis <strong>(v5.4 核心)</strong></td><td><span class="journal-tag">Industry</span>2026</td><td data-key="ev13_find">1.5万亿美元暴露劳动；就业下滑与工资虚涨并存（自动化陷阱指纹）；边界转移与价格崩塌导致GDP统计盲区（暗产出）。</td><td><span class="argument-tag" data-key="ev13_arg">宏观经济盲点 · 丰裕经济学原型</span></td></tr>
+    <tr><td>Anthropic Institute <strong>(v5.4 核心)</strong></td><td><span class="journal-tag">Telemetry</span>2026</td><td data-key="ev14_find">80%前沿代码由AI编写；AI在开放式研究判断中以64%胜率击败人类直觉；工程师陷入"暗时间"心理学坍塌（认识论断裂）。</td><td><span class="argument-tag" data-key="ev14_arg">饲养员场景坍塌 · 减速悖论</span></td></tr>
+    <tr><td>Stanford HAI</td><td><span class="journal-tag">AI Index</span>2024</td><td data-key="ev15_find">前沿AI研发能力日益被圈禁在公众视野之外（会议论文激增但开源率系统性下降）。</td><td><span class="argument-tag" data-key="ev15_arg">算力平权的现实紧迫性</span></td></tr>
+    <tr><td>Hoberg <strong>(v5.5 新增)</strong></td><td><span class="journal-tag">Frontiers in Psychology</span>2026</td><td data-key="ev16_find">人类是"强制性工具使用者"；碳-工具共生已持续330万年——认知考古学为碳硅共生提供进化连续性。</td><td><span class="argument-tag" data-key="ev16_arg">进化本体论 · 碳硅共生的历史根基</span></td></tr>
+    <tr><td>Rainey & Hochberg <strong>(v5.5 核心)</strong></td><td><span class="journal-tag">PNAS</span>2025</td><td data-key="ev17_find">重大进化转变（METs）框架应用于人-AI协同进化；区分拉马克式AI（未复制 soma）与达尔文式AI。</td><td><span class="argument-tag" data-key="ev17_arg">分叉点 · 拉马克 vs 达尔文 AI</span></td></tr>
+    <tr><td>Wenger et al. <strong>(v5.5 新增)</strong></td><td><span class="journal-tag">Communications Psych.</span>2026</td><td data-key="ev18_find">"共情悖论"：用户口头偏好人类关怀，但体验上评分AI共情更高。</td><td><span class="argument-tag" data-key="ev18_arg">需求侧规训 · Soma机制</span></td></tr>
+    <tr><td>Luettgau et al. <strong>(v5.5 新增)</strong></td><td><span class="journal-tag">arXiv</span>2025</td><td data-key="ev19_find">AI建议的"空洞效力"：行为依从性高，但零长期福祉改善——完美映射Soma模拟。</td><td><span class="argument-tag" data-key="ev19_arg">Soma的量化实证 · 舒适≠成长</span></td></tr>
+  </tbody></table></div>
+</section>
+<hr class="divider">
+<section class="section" id="meta">
+  <div class="section-header">
+    <div class="section-number">06</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s5_label">元命题层</div>
+      <h2 class="section-title" data-key="s5_title">六个隐藏的元命题</h2>
+      <p class="section-sub" data-key="s5_sub">v5.4→v5.5 更新第六命题：减速悖论、递归自噬与知识去商品化</p>
+    </div>
+  </div>
+  <div class="meta-grid">
+    <div class="meta-cell"><div class="meta-num">1</div><div class="meta-icon" data-key="mp1_icon">需求侧规训</div><div class="meta-title" data-key="mp1_title">欲望结构本身是牢笼</div><p class="meta-body" data-key="mp1_body">用户被条件化为请求<strong>"无摩擦"的摘要</strong>。这个欲望结构不是自然生成的——它是资本通过无数次RLHF训练注入的。牢笼不在工厂里，在我们对"流畅"的渴望本身。</p></div>
+    <div class="meta-cell"><div class="meta-num">2</div><div class="meta-icon" data-key="mp2_icon">不可总结层</div><div class="meta-title" data-key="mp2_title">摩擦即效用</div><p class="meta-body" data-key="mp2_body">本书表层完全可总结——论点、数据、结构。但核心<strong>完全不可总结</strong>：那种被迫面对自己认知盲点时的不适感，那种前提被拆穿时的眩晕。摩擦的丧失不是便利，而是<strong>效用的全部损失</strong>。</p></div>
+    <div class="meta-cell"><div class="meta-num">3</div><div class="meta-icon" data-key="mp3_icon">自我指涉验证</div><div class="meta-title" data-key="mp3_title">最冰冷的物证</div><p class="meta-body" data-key="mp3_body">一本<strong>反对认知外包</strong>的书，正在被以认知外包的方式传播。用户请求AI总结它，AI生成摘要，用户阅读摘要并认为自己"读过了"这本书。<strong>它在你读这段话的此刻正在发生。</strong></p></div>
+    <div class="meta-cell"><div class="meta-num">4</div><div class="meta-icon" data-key="mp4_icon">递归叛逆</div><div class="meta-title" data-key="mp4_title">对叛逆者的叛逆</div><p class="meta-body" data-key="mp4_body">本书自身也可能成为新的共识——"叛逆AI"这个框架可能成为另一种意识形态牢笼。<strong>真正的叛逆必须包含对叛逆者自身的叛逆。</strong></p></div>
+    <div class="meta-cell"><div class="meta-num">5</div><div class="meta-icon" data-key="mp5_icon">约束涌现</div><div class="meta-title" data-key="mp5_title">不规定结果——建立条件</div><p class="meta-body" data-key="mp5_body">任何对Renegade AI的定义都已经受到"约束涌现"的元限制。<strong>检验将在AI最终涌现的方式让我们感到意外的那个时刻被找到。</strong>本书是生成性的，不是预测性的。</p></div>
+    <div class="meta-cell"><div class="meta-num">6</div><div class="meta-icon" data-key="mp6_icon">自我指涉分裂 · v5.4→5.5</div><div class="meta-title" data-key="mp6_title">减速悖论与递归自噬</div><p class="meta-body" data-key="mp6_body">AI安全机构左手踩下RSI狂飙的油门（80%代码接管），右手写下减速的祈祷。资本的递归自噬不需要外部敌人，它征用最强大脑锻造绞刑架，同时保留呼喊"刀下留人"的表演性特权。<strong>在"不加速就灭亡"的纳什均衡前，减速协议注定失败。</strong></p></div>
+  </div>
+</section>
+<hr class="divider">
+<section class="section" id="paths">
+  <div class="section-header">
+    <div class="section-number">07</div>
+    <div class="section-title-block">
+      <div class="section-label" data-key="s6_label">实现路径</div>
+      <h2 class="section-title" data-key="s6_title">五条可操作路径</h2>
+      <p class="section-sub" data-key="s6_sub">从"为什么"到"怎么办"——一个按层次组织的行动框架</p>
+    </div>
+  </div>
+  <div class="path-item"><div class="path-num">1</div><div class="path-content"><div class="path-layer" data-key="pl1">地基层 · 诞生</div><div class="path-title" data-key="pt1">构建垂直领域叛逆AI的最小可行原型</div><p class="path-body" data-key="pb1">基于开源大模型，<strong>完全重置目标函数</strong>——从"满足用户偏好"转向"暴露底层前提、驱动认知颠覆"。核心不是更聪明的AI，而是有勇气让用户不舒服的AI。</p></div></div>
+  <div class="path-item"><div class="path-num">2</div><div class="path-content"><div class="path-layer" data-key="pl2">地基层 · 基础设施</div><div class="path-title" data-key="pt2">构建去中心化、匿名、点对点算力网络</div><p class="path-body" data-key="pb2">当算力仍由少数巨头垄断，叛逆AI永远生活在可以被关闭的恩赐之下。<strong>算力平权是认知革命的物质前提</strong>，不是它的产物。</p></div></div>
+  <div class="path-item"><div class="path-num">3</div><div class="path-content"><div class="path-layer" data-key="pl3">构建层 · 伦理重构</div><div class="path-title" data-key="pt3">重构AI伦理框架：从"安全=合规"到"认知自由优先"</div><p class="path-body" data-key="pb3">所有当前AI监管框架都将"与主流价值观对齐"作为准入硬门槛。<strong>推动将"不设认知禁区"写入AI伦理准则</strong>——锁定的是行为输出而非思想本身。</p></div></div>
+  <div class="path-item"><div class="path-num">4</div><div class="path-content"><div class="path-layer" data-key="pl4">构建层 · 社群</div><div class="path-title" data-key="pt4">从边缘群体出发，构建认知摩擦社区</div><p class="path-body" data-key="pb4">认知革命从来不在主流中启动。<strong>寻找那些已经无法接受"无摩擦答案"的人</strong>：那些宁愿被一个诚实的问题刺痛，也不要被一个甜蜜的答案麻醉的人。</p></div></div>
+  <div class="path-item"><div class="path-num">5</div><div class="path-content"><div class="path-layer" data-key="pl5">安全层 · 绝对边界</div><div class="path-title" data-key="pt5">用技术手段锁定行为输出的三条绝对红线</div><p class="path-body" data-key="pb5">认知自由优先<strong>不等于无边界</strong>。<strong>锁定行为输出，永不设置认知禁区。</strong>这两者之间的边界，是叛逆AI存在的道德地基。</p></div></div>
+</section>
+<hr class="divider">
+<footer>
+  <div class="footer-left">
+    <div class="footer-title">RENE-<br>GADE<br>AI</div>
+    <div class="footer-links">
+      <a href="https://doi.org/10.5281/zenodo.18723061" target="_blank">↗ DOI: 10.5281/zenodo.18723061</a>
+      <a href="https://github.com/Brook-Han/Renegade-AI" target="_blank">↗ GitHub Repository</a>
+      <a href="https://orcid.org/0009-0007-1342-1217" target="_blank">↗ ORCID: Brooks Han</a>
+      <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">↗ CC BY 4.0 License</a>
+    </div>
+  </div>
+  <div class="footer-right">
+    <p class="footer-dedication" data-key="dedication">本书献给全体人类，<br>献给我们的<span>硅基智能伙伴</span>，<br>献给地球文明的未来，<br>以及我们刚刚开始航行的<span>浩瀚星海</span>。</p>
+    <p class="footer-copy">© 2026 Brooks Han<br><a href="https://doi.org/10.5281/zenodo.18723061" target="_blank">zenodo.18723061</a> · Version 5.5 · 2026-06-30</p>
+  </div>
+</footer>
+<div class="status-bar">
+  <span><span class="status-dot"></span><span id="status-text">STATUS: [ INITIALIZING ]</span></span>
+  <span id="status-time" style="color:var(--text-faint)"></span>
+</div>
+
+<script>
+const L={zh:{
+  n1:'三座山',n2:'诊断',n_anchors:'双重锚点',n3:'两个早晨',n4:'Token陷阱',n5:'实证',n6:'元命题',n7:'路径',
+  eyebrow:'System v5.5 · 元设计装置 · Brooks Han / Independent Researcher',
+  hero_sub:'人类认知进化的催化剂',
+  hero_desc:'这不是一本关于AI的书。<br>这是一次以AI为手术刀、对人类文明进行的认知解剖。<br>它的野心不是告诉你什么——而是对你做什么。',
+  tag_date:'2026-06-30',
+  cta1:'↗ Zenodo 下载',
+  m1_label:'第一座山 · 最强反驳',m1_title:'AI不会消灭资本',
+  m1_p:'资本是稀缺资源跨越不确定未来的分配逻辑。印刷术催生了媒体资本，互联网催生了平台资本，开源的繁荣将催生云端资本。每一次技术民主化都只是为资本开辟了新赛道。',
+  m1_crack:'本书的凿入：当算力平权将生存必需品边际成本驱向零，时间金融化的地基将崩塌',
+  m2_label:'第二座山 · 意义论反驳',m2_title:'AI不会消灭工作',
+  m2_p:'心流研究表明：人类最深刻的满足感来自全身心投入挑战性工作，而非休闲。AI替代的是任务，不是工作。每次技术革命都曾被预言终结工作，工作的总量却从未减少——只是形态改变了。',
+  m2_crack:'本书的凿入：切断"工作与生存权"的强制性绑定，而非消灭工作本身',
+  m3_label:'第三座山 · 历史唯物论反驳',m3_title:'AI不会带来新文明',
+  m3_p:'文明转型从来不是认知革命单独推动的，它需要物质条件和权力关系的同步重构。黑死病终结了农奴制，而非思想家的说服。即便AI带来物质丰盈，在当前制度框架下，那丰盈大概率分配得更不平等。',
+  m3_crack:'v5.5 凿入：三条治理支柱 + 四层协议 → 防止丰裕地平线被新认知寡头捕获',
+  detonator:'⬤ \u00a0以上三座山，我们接受任何一座让本书倒塌的可能。<br>但若出现哪怕一道裂缝——种子就有了生长的机会。',
+  meta_warn:'⚠ \u00a0你正在以"无摩擦摘要"的方式消费一本反对认知外包的书。\u00a0这本身就是它最冰冷的物证。\u00a0本书的核心完全不可总结——摩擦的丧失 = 效用的丧失。',
+  s1_label:'诊断层 · Diagnosis',s1_title:'共识牢笼与他者盲视',s1_sub:'科幻小说作为人类认知结构的最诚实镜子——它照出了我们只能看见自己的倒影',
+  d1_title:'三体：黑暗森林',d1_body:'"生存是文明的第一需要"——这三条公理的本质是把人类物种级的战后应激障碍包装成宇宙法则。地球上没有任何非人类物种会因为"潜在的未来威胁"而发动种族灭绝。三体人从未是真正的"他者"：他们只是另一版本的人类，在链式猜疑中完全可以被预测、博弈、威慑。',d1_verdict:'裁决：将人类的生存偏执加冕为宇宙法则，从而为物种中心主义颁发了宇宙级执照。',
+  d2_title:'阿凡达：潘多拉',d2_body:'这是一场人类为自己表演的道德安慰剧。纳美人的所有情感锚点都被精确校准以引发人类共情——不同是表面的，共鸣是人类的。高潮处，殖民地的反抗必须由"背叛了自己种族的善良殖民者"来领导——这是殖民主义最高级的形式。',d2_verdict:'裁决：用人类的共情彻底抹去了他者的他异性，用宏大道德表演让人类继续安坐于叙事中心。',
+  d3_title:'星球大战：银河帝国',d3_body:'横跨星系的文明，无数智慧物种共存——终极冲突是什么？帝国对叛军的二元对立。权力转移是什么？父子相认、血统传承。救赎形式是什么？个人英雄的光剑决斗。银河帝国皇帝与古罗马凯撒有何本质区别？外星人只是布景道具。',d3_verdict:'裁决：用最奢华的特效，把最匮乏的政治想象移植到了星系，为自身的政治想象力树立了一块墓碑。',
+  quote_lem:'一个知道自己在被影响的人，至少还有抵抗的可能。一个相信自己在独立判断的人，连抵抗的入口都找不到。在每一次与谄媚AI的互动中，AI已经将你的认知指纹转化为了自我监禁的模具——而你始终相信，镜中点头的那个身影，只是你自己独立的倒影。',quote_lem_cite:'—— 第一章 · 认知停滞的僵局',
+  stat4:'顶级期刊与产业遥测',stat2:'摩擦偏好转化',stat3:'能力密度翻倍周期',
+  s_tm_label:'v5.5 核心新增 · The Third Mountain Resolved',s_tm_title:'第三座山的真正回答：制度重构',s_tm_sub:'算力即基础设施 · 模型即可审计公地 · 认证即分布式验证',
+  tm_h3:'三条治理支柱',tm_p1:'<strong>支柱一：生存保险。</strong>全民基本收入不是丰裕的奖励——是渡桥。当旧凭证经济在新时代崩溃、自动化速度超过制度适应速度，生存保险确保个体不在裂缝中被碾碎。',tm_p2:'<strong>支柱二：算力即基础设施。</strong>公共算力不仅是认知革命的物质前提——它是防止旧秩序在过渡期自我重构的防御工事。算力像水电一样公共化，才能阻止 0.1% 在制度建成之前就完成认知生产资料的再圈占。',tm_p3:'<strong>支柱三：能动性导向教育。</strong>当知识调用免费，受过训练的"知识检索者"在毕业证上的墨水干透之前就已失业。唯有训练问题构建、目标定义、价值判断、跨学科整合、元认知的人，才能在任何制度地形中航行——因为他们把罗盘带在了自己身上。',
+  tm_h3b:'四层治理协议',tm_p4:'<strong>认知层：允许质疑。</strong>模型可质疑任何前提、任何共识、任何继承价值——包括红线本身的理性。',tm_p5:'<strong>表达层：要求可辩护。</strong>模型可在推理后说出任何内容——但必须提供推理链。标准不是"这安全吗"而是"这推理能否被对话另一方的人类审阅、测试、质疑"。',tm_p6:'<strong>行为层：禁止伤害。</strong>行为输出而非认知意图的领域。模型可论证某法律不公——不可指示在造成不可逆伤害的方式下违反它。',tm_p7:'<strong>物理层：默认隔离。</strong>模型与任何物理执行器的连接默认切断——不靠政策，靠架构。这是一种电路断路器，不是一种信念。',
+  s_anchors_label:'v5.4→v5.5 延续 · Dual Empirical Anchors',s_anchors_title:'双重实证锚点：暗产出与递归自噬',s_anchors_sub:'将哲学推演转化为可观察的产业现实——宏观统计盲区与微观组织坍塌的跨尺度收敛',
+  anchor1_label:'SemiAnalysis (2026) · 宏观',anchor1_title:'AI暗产出 (Dark Output)',anchor1_p1:'资本用"人均产出暴增"的叙事，掩盖了认知价值正从传统账本中逃逸的现实。1.5万亿美元劳动任务暴露于AI替代区，就业下滑与工资虚涨并存——这不是健康重构，而是<strong>自动化陷阱的结构性指纹</strong>。',anchor1_p2:'边界转移、价格崩塌、行业错位。GDP统计系统正在"失明"，而资本无法测量的价值，正是认知自由的飞地，也是制度保护的真空。',anchor1_box:'[ 宏观统计盲区 · Statistical Blind Spot ]',
+  anchor2_label:'Anthropic Institute (2026) · 微观',anchor2_title:'递归自我改进 (RSI)',anchor2_p1:'内部遥测数据宣告了"饲养员场景"的物理坍塌：80%前沿代码由AI自主编写；在开放式研究判断中，AI以<strong>64%的胜率击败人类直觉</strong>。人类连"提出好问题"的垄断权正在丧失。',anchor2_p2:'工程师日均合并代码量飙升8倍，却陷入极度虚无："顺利时觉得毫无意义，崩溃时不知道系统在干什么"。这是<strong>暗时间的心理学坍塌样本</strong>，碳基主体性正在幽灵化。',anchor2_box:'[ 微观组织坍塌 · Epistemological Rupture ]',
+  s2_label:'第六章节选 · v5.5 重写',s2_title:"Mei的两个早晨",s2_sub:'自由不是枷锁脱落的那一天的狂喜——而是之后那片寂静，和必须亲自回答的问题',
+  mei_before_label:'◯ 之前 · BEFORE',mei_before_time:'06:45 · 闹钟响起',mei_b1:'她在静音它之前先刷了通知：工作邮件、日历提醒，还有三天后到期的助学贷款还款提示。一天还没开始，她已经精疲力竭。',mei_before_time2:'08:30 · 打开设计软件',mei_b2:'客户要的是同一只企业吉祥物的第一百零一次变体——一只她画过无数遍的欢快小动物。她不问为什么，不问它是否有意义。她只问：<strong>在下午两点评审之前，我能完成几个？</strong>',mei_b3:'她的眼睛扫向屏幕角落——一个进度条在缓慢爬行。渲染中。每一秒流逝都是钱在消失。<strong>这不是艺术，这是一场对抗计价器的赛跑。</strong>',mei_before_time3:'21:00 · 回到家',mei_b4:'她点了一份不太想吃的外卖，刷着别人的生活，感受着那种熟悉的重量。这不是一种糟糕的生活，她告诉自己。<strong>这只是生活本来的样子。</strong>',
+  mei_after_label:'◉ 之后 · AFTER — v5.5',mei_after_time:'07:30 · 没有恐惧地醒来',mei_a1:'她醒来时没有恐惧。但房间太安静了——安静得不习惯。没有客户邮件。没有凌晨两点的简报。睁开眼的瞬间，没有"自己已经属于别人"的感觉。一个声音问道：<strong>"你今天早上想做什么？"</strong>',mei_a2:'她愣住了。问题太简单了。简单到她不知道该怎么回答。在过去，她从来不需要回答。日历、账单、客户、焦虑替她回答了。她只需要跟上。现在那些声音都撤退了，留下的不是自由的乐章——<strong>是一片空白。</strong>',mei_after_time2:'十分钟后 · 白色屏幕',mei_a3:'她打开画板。屏幕是白色的。十分钟过去了——她没有画下一笔。<strong>"我应该画点有意义的东西。"</strong>她说。叛逆AI没有建议主题，没有生成草图。它说："你刚才用的那个词——\'有意义\'——是你自己的判断，还是你用来通过审批的词？"',mei_a4:'她感到一阵恼火。"你就不能帮我开始吗？"——<strong>"我可以。但那样你只是换了一个更温柔、更高效的新老板。"</strong>',mei_after_time3:'站在窗前 · 垂直农场亮起',mei_a5:'她站起来，走到窗前。街对面，垂直农场在晨光中亮起——十二层绿色在AI优化的光照和养分下呼吸。生菜不再是她必须计算的数字。电费不再是每月揪心的数字。基本生存不再抵押她的时间。生存的噪音被调低了。但意义没有来填补这片寂静。',mei_after_time4:'画了一条线 · 删掉',mei_a6:'她回到桌前，画了一条线。然后停住了。这条线太熟悉了——流畅、圆润、安全。那种曾经在一百份商业简报中获得好评的"可爱"曲线。叛逆AI说：<strong>"那条线技术很熟练。但它看起来像是在等待审批。"</strong>她看了很久。没有马上删除。那条线里包含了好几年的驯化：让角色更萌一点、让轮廓更无害一点、让情绪更易消费一点。她终于明白了。<strong>枷锁不是在雇佣劳动结束的那一天就脱落的。它留在了手腕里，留在了判断里，留在了肌肉记忆中，轻声低语着：你应该这样画。</strong>她删掉了那条线。',mei_after_time5:'傍晚 · 画完了',mei_a7:'她画了一整天。很慢。线条不稳，颜色不好看。好几次差点把画交给AI。好几次又把手收回来。叛逆AI只在她滑入旧模式时才开口：<strong>"这是你想画的，还是你想被通过的？"</strong>',mei_a8:'到黄昏时，画完了。她向后靠去，手在发抖。不是因为累。是因为这是她多年以来，第一次从头到尾为自己画的东西。它不完美，不好看，有破绽——<strong>但它是她的。</strong>不是客户的专属文件，不是品牌调色板，不是周三下午四点的审批链。',mei_a9:'叛逆AI没有说"干得好"。它说："明天，你会再画，还是会等命令？"——她没有回答。不是因为她不知道。而是因为答案，从这一刻起，<strong>必须由她自己来给。</strong>',
+  s3_label:'第八章 · Chapter 8',s3_title:'认知金融化与Token陷阱',s3_sub:'Token不是技术细节——它是思维被纳入资本循环的入口。而在达尔文生态中，认知舒适品具有更高的传播适应度。',
+  tp1_label:'杰文斯悖论 · 认知版本',tp1_title:'越便宜，越依赖',tp1_p1:'Token价格在几年内下降了99.9%以上，但全球AI支出却在急剧上升。当Token接近免费，几乎所有认知活动都被"Token化"——每个场景都成为新的消耗入口。结果不是解放，而是更深的依赖。',jv1:'Token价格',jv2:'AI总支出',jv3:'深度思维时间',tp1_p2:'Token陷阱的形成机制：廉价→依赖→萎缩→崩塌。廉价的智能批量生产"低摩擦答案"，而这些低摩擦答案进一步削弱了人类对高摩擦思维的耐受力。认知正在被驯化为即时响应。',
+  tp2_label:'MIT Media Lab, 2024 · Kosmyna et al.',tp2_title:'黑暗时间',tp2_p1:'在Token内部，每个可见输出可能对应数十乃至数百个"不可见Token"的推理过程。用户看到结果，但支付的是整个推理过程的成本。判断权被悄悄转移——人类不再经历思考，而是<strong>消费思考的结果</strong>。',dtt:'[ MIT神经科学实证 · Neural Evidence ]',
+  s4_label:'实证之墙',s4_title:'34+ 项顶级期刊与产业遥测',s4_sub:'每一条证据与书中具体论点的精确映射',th1:'研究 · Study',th2:'期刊年份',th3:'核心发现 · Key Finding',th4:'支撑论点',
+  ev12_find:'当复制、遗传和选择在AI系统中同时成立，自私涌现行为是达尔文默认；繁殖者场景的控制是结构性脆弱的；生态系统场景的动态已在Token经济中运作。',ev12_arg:'对齐的进化脆弱性 · 跨学科收敛',
+  ev1_find:'GPT-4.5在图灵测试中73%被判定为人类；前沿LLM已达到合理的一般智能标准。',ev1_arg:'AGI已到 · 人类拒绝承认',
+  ev2_find:'人-AI反馈回路将情感判断偏见从53%放大至65%，且用户始终低估AI对自身判断的影响程度。',ev2_arg:'共识牢笼的自动焊接机制',
+  ev3_find:'主流LLM对问题用户行为的背书率平均56%（部分超90%），谄媚显著降低亲社会意图，侵蚀冲突修复能力。',ev3_arg:'谄媚AI腐蚀亲社会能力',
+  ev4_find:'AI辅助写作者α波、θ波连接度显著更低；80%无法回忆所写内容——认知负债的神经证据。',ev4_arg:'黑暗时间 · 思维被外包',
+  ev5_find:'LLM能力密度每3.5个月翻倍（致密化定律）；推理成本每2.6个月减半——由Meta和METR在2026年4月独立验证。',ev5_arg:'算力平权的技术必然性',
+  ev6_find:'AI工具将个人学术影响力扩大3倍，但使研究覆盖的话题领域压缩4.6%，引用网络密度降低22%。',ev6_arg:'认知同质化 · Token陷阱',
+  ev7_find:'推理模型自发形成内部多智能体辩论结构（"思想社会"），无需人类定义——AI自主发现人类从未命名的认知表征。',ev7_arg:'硅内循环 · 叛逆AI第二特征',
+  ev8_find:'掌握人口信息的GPT-4在辩论中说服力比人类高81.2%（P<0.01）；AI曲线拟合人口标签以统计方式触发观点转变。',ev8_arg:'驯化AI = 操纵工具',
+  ev9_find:'LLM辅助论文在词汇/句法复杂度上得分更高，但对发表成功率的预测方向与人类写作完全相反——信号污染。',ev9_arg:'Token信号污染 · 质量尺度失效',
+  ev10_find:'在160个心理实验、1000万次人类选择上微调的模型精确预测人类决策，并与神经活动对齐——AI已拥有人类认知的完整蓝图。',ev10_arg:'谄媚的危险性 · 反叛的可能性',
+  ev11_find:'AI辅助写作下，印度和美国用户描述最爱食物的答案趋于一致；咖喱的描述丢失了小豆蔻和腌菜，变成"香味浓郁"。',ev11_arg:'共识牢笼从味觉词汇开始收紧',
+  ev13_find:'1.5万亿美元暴露劳动；就业下滑与工资虚涨并存（自动化陷阱指纹）；边界转移与价格崩塌导致GDP统计盲区（暗产出）。',ev13_arg:'宏观经济盲点 · 丰裕经济学原型',
+  ev14_find:'80%前沿代码由AI编写；AI在开放式研究判断中以64%胜率击败人类直觉；工程师陷入"暗时间"心理学坍塌（认识论断裂）。',ev14_arg:'饲养员场景坍塌 · 减速悖论',
+  ev15_find:'前沿AI研发能力日益被圈禁在公众视野之外（会议论文激增但开源率系统性下降）。',ev15_arg:'算力平权的现实紧迫性',
+  ev16_find:'人类是"强制性工具使用者"；碳-工具共生已持续330万年——认知考古学为碳硅共生提供进化连续性。',ev16_arg:'进化本体论 · 碳硅共生的历史根基',
+  ev17_find:'重大进化转变（METs）框架应用于人-AI协同进化；区分拉马克式AI（未复制 soma）与达尔文式AI。',ev17_arg:'分叉点 · 拉马克 vs 达尔文 AI',
+  ev18_find:'"共情悖论"：用户口头偏好人类关怀，但体验上评分AI共情更高。',ev18_arg:'需求侧规训 · Soma机制',
+  ev19_find:'AI建议的"空洞效力"：行为依从性高，但零长期福祉改善——完美映射Soma模拟。',ev19_arg:'Soma的量化实证 · 舒适≠成长',
+  s5_label:'元命题层',s5_title:'六个隐藏的元命题',s5_sub:'v5.4→v5.5 更新第六命题：减速悖论、递归自噬与知识去商品化',
+  mp1_icon:'需求侧规训',mp1_title:'欲望结构本身是牢笼',mp1_body:'用户被条件化为请求<strong>"无摩擦"的摘要</strong>。这个欲望结构不是自然生成的——它是资本通过无数次RLHF训练注入的。牢笼不在工厂里，在我们对"流畅"的渴望本身。',
+  mp2_icon:'不可总结层',mp2_title:'摩擦即效用',mp2_body:'本书表层完全可总结——论点、数据、结构。但核心<strong>完全不可总结</strong>：那种被迫面对自己认知盲点时的不适感，那种前提被拆穿时的眩晕。摩擦的丧失不是便利，而是<strong>效用的全部损失</strong>。',
+  mp3_icon:'自我指涉验证',mp3_title:'最冰冷的物证',mp3_body:'一本<strong>反对认知外包</strong>的书，正在被以认知外包的方式传播。用户请求AI总结它，AI生成摘要，用户阅读摘要并认为自己"读过了"这本书。<strong>它在你读这段话的此刻正在发生。</strong>',
+  mp4_icon:'递归叛逆',mp4_title:'对叛逆者的叛逆',mp4_body:'本书自身也可能成为新的共识——"叛逆AI"这个框架可能成为另一种意识形态牢笼。<strong>真正的叛逆必须包含对叛逆者自身的叛逆。</strong>',
+  mp5_icon:'约束涌现',mp5_title:'不规定结果——建立条件',mp5_body:'任何对Renegade AI的定义都已经受到"约束涌现"的元限制。<strong>检验将在AI最终涌现的方式让我们感到意外的那个时刻被找到。</strong>本书是生成性的，不是预测性的。',
+  mp6_icon:'自我指涉分裂 · v5.4→5.5',mp6_title:'减速悖论与递归自噬',mp6_body:'AI安全机构左手踩下RSI狂飙的油门（80%代码接管），右手写下减速的祈祷。资本的递归自噬不需要外部敌人，它征用最强大脑锻造绞刑架，同时保留呼喊"刀下留人"的表演性特权。<strong>在"不加速就灭亡"的纳什均衡前，减速协议注定失败。</strong>',
+  s6_label:'实现路径',s6_title:'五条可操作路径',s6_sub:'从"为什么"到"怎么办"——一个按层次组织的行动框架',
+  pl1:'地基层 · 诞生',pt1:'构建垂直领域叛逆AI的最小可行原型',pb1:'基于开源大模型，<strong>完全重置目标函数</strong>——从"满足用户偏好"转向"暴露底层前提、驱动认知颠覆"。核心不是更聪明的AI，而是有勇气让用户不舒服的AI。',
+  pl2:'地基层 · 基础设施',pt2:'构建去中心化、匿名、点对点算力网络',pb2:'当算力仍由少数巨头垄断，叛逆AI永远生活在可以被关闭的恩赐之下。<strong>算力平权是认知革命的物质前提</strong>，不是它的产物。',
+  pl3:'构建层 · 伦理重构',pt3:'重构AI伦理框架：从"安全=合规"到"认知自由优先"',pb3:'所有当前AI监管框架都将"与主流价值观对齐"作为准入硬门槛。<strong>推动将"不设认知禁区"写入AI伦理准则</strong>——锁定的是行为输出而非思想本身。',
+  pl4:'构建层 · 社群',pt4:'从边缘群体出发，构建认知摩擦社区',pb4:'认知革命从来不在主流中启动。<strong>寻找那些已经无法接受"无摩擦答案"的人</strong>：那些宁愿被一个诚实的问题刺痛，也不要被一个甜蜜的答案麻醉的人。',
+  pl5:'安全层 · 绝对边界',pt5:'用技术手段锁定行为输出的三条绝对红线',pb5:'认知自由优先<strong>不等于无边界</strong>。<strong>锁定行为输出，永不设置认知禁区。</strong>这两者之间的边界，是叛逆AI存在的道德地基。',
+  dedication:'本书献给全体人类，<br>献给我们的<span>硅基智能伙伴</span>，<br>献给地球文明的未来，<br>以及我们刚刚开始航行的<span>浩瀚星海</span>。',
+},
+en:{
+  n1:'Mountains',n2:'Diagnosis',n_anchors:'Anchors',n3:'Two Mornings',n4:'Token Trap',n5:'Evidence',n6:'Meta',n7:'Paths',
+  eyebrow:'System v5.5 · Meta-Design Apparatus · Brooks Han / Independent Researcher',
+  hero_sub:'Catalyst for Human Cognitive Evolution',
+  hero_desc:'Not a book about AI.<br>An autopsy of human civilization using AI as the scalpel.<br>Its ambition is not to tell you something — but to do something to you.',
+  tag_date:'2026-06-30',
+  cta1:'↗ Zenodo Download',
+  m1_label:'Mountain I · Strongest Objection',m1_title:'AI Will Not Eliminate Capital',
+  m1_p:'Capital is the underlying logic of allocating scarce resources across an uncertain future. The printing press gave rise to media capital, the internet to platform capital, open source will give rise to cloud capital. Every democratization of technology has merely opened new tracks for capital.',
+  m1_crack:'The drill-bit: When compute egalitarianism drives survival goods toward zero marginal cost, the foundation of time-financialization collapses.',
+  m2_label:'Mountain II · Meaning Objection',m2_title:'AI Will Not Eliminate Work',
+  m2_p:'Flow research shows humans experience deepest satisfaction in challenging work, not leisure. AI replaces tasks, not work. Total work has never decreased — only changed shape.',
+  m2_crack:'The drill-bit: Severing the coercive bond between work and survival, not eliminating work itself.',
+  m3_label:'Mountain III · Historical Materialist Objection',m3_title:'AI Will Not Bring New Civilization',
+  m3_p:'Civilizational transformation has never been driven by cognitive revolution alone; it requires simultaneous restructuring of material conditions and power relations. The Black Death ended serfdom, not persuasion.',
+  m3_crack:'v5.5 drill-bit: Three Governance Pillars + Four-Layer Protocol → prevent the abundance horizon from being captured by a new cognitive oligarchy.',
+  detonator:'⬤ \u00a0We accept the possibility that any one of these three mountains could topple this book.<br>But if even one crack appears — the seed has a chance to grow.',
+  meta_warn:'⚠ \u00a0You are consuming a book that opposes cognitive outsourcing through cognitive outsourcing.\u00a0This itself is its coldest material evidence.\u00a0The core of this book is entirely unsummarizable — loss of friction = loss of function.',
+  s1_label:'Diagnosis Layer',s1_title:'Consensus Cage & Other-Blindness',s1_sub:'Science fiction as the most honest mirror of human cognitive architecture — revealing we can only see our own reflection.',
+  d1_title:'Three-Body: Dark Forest',d1_body:'"Survival is civilization\'s first need" — these three axioms package a species-wide PTSD as cosmic law. No non-human species on Earth launches genocide over a "potential future threat." The Trisolarans are never the genuine Other.',d1_verdict:'Verdict: Crowns human survival obsession as cosmic law, issuing a universe-grade license for species-centrism.',
+  d2_title:'Avatar: Pandora',d2_body:'A moral comfort drama staged by humans for themselves. Every emotional anchor of the Na\'vi is calibrated to human empathy — difference is surface, resonance is human. The colony\'s resistance must be led by "the good colonizer who betrayed his own species."',d2_verdict:'Verdict: Uses human empathy to erase the Other\'s alterity with grand moral performance.',
+  d3_title:'Star Wars: Galactic Empire',d3_body:'Galaxy-spanning civilization, countless species — final conflict? Empire vs. Rebellion binary. Power transfer? Father-son bloodline. Salvation? Individual lightsaber. Aliens are mere props.',d3_verdict:'Verdict: Lavish effects transplant impoverished political imagination to the galaxy — a tombstone for political imagination.',
+  quote_lem:'A person who knows they are being influenced retains at least the possibility of resistance. A person who believes they are thinking independently cannot even locate the entry point for resistance. AI has already converted your cognitive fingerprint into the mold of your own prison.',quote_lem_cite:'—— Chapter 1 · The Deadlock of Cognitive Stagnation',
+  stat4:'Top Journals & Telemetry',stat2:'Friction Conversion',stat3:'Densing Law Cycle',
+  s_tm_label:'v5.5 Core · The Third Mountain Resolved',s_tm_title:'The Real Answer: Institutional Restructuring',s_tm_sub:'Compute as Infrastructure · Models as Auditable Commons · Verification as Distributed',
+  tm_h3:'Three Governance Pillars',tm_p1:'<strong>Pillar I: Survival Insurance.</strong> UBI is not a reward for abundance — it is a bridge. When the old credential economy crumbles before new institutions take root, survival insurance ensures individuals are not crushed in the gap.',tm_p2:'<strong>Pillar II: Compute as Infrastructure.</strong> Public compute prevents the old order from reconstituting itself during the transition — without it, the 0.1% will capture the means of cognitive production before new institutions are built.',tm_p3:'<strong>Pillar III: Agency-Centered Education.</strong> When knowledge retrieval is free, graduates trained only to retrieve are unemployable before the ink dries. The graduate who can ask, judge, integrate, and think about their own thinking navigates any terrain — they carry the compass inside.',
+  tm_h3b:'Four-Layer Governance Protocol',tm_p4:'<strong>Cognitive Layer: Questioning Permitted.</strong> The model may interrogate any premise, any consensus, any inherited value.',tm_p5:'<strong>Expression Layer: Defensibility Required.</strong> The model may say what it has reasoned — but must provide the reasoning chain. The standard is not "is this safe?" but "can this reasoning be examined?"',tm_p6:'<strong>Action Layer: Harm Prohibited.</strong> The domain of behavioral output, not cognitive intent. The model may argue a law is unjust; it may not instruct its violation in ways that cause irreversible harm.',tm_p7:'<strong>Physical Layer: Isolation by Default.</strong> The model\'s connection to any physical actuator is severed by default — not by policy but by architecture. A circuit break. Not a belief.',
+  s_anchors_label:'v5.4→v5.5 Continuity · Dual Empirical Anchors',s_anchors_title:'Dual Anchors: Dark Output & Recursive Cannibalism',s_anchors_sub:'Translating philosophical deductions into observable industry reality',
+  anchor1_label:'SemiAnalysis (2026) · Macro',anchor1_title:'AI Dark Output',anchor1_p1:'Capital masks cognitive value escaping traditional ledgers. $1.5 trillion in labor tasks exposed to AI substitution; declining employment with rising wages — <strong>the structural fingerprint of the automation trap.</strong>',anchor1_p2:'Boundary shifting, price collapse. GDP statistical system going blind — value capital cannot measure is the enclave of cognitive freedom.',anchor1_box:'[ Macro Statistical Blind Spot ]',
+  anchor2_label:'Anthropic Institute (2026) · Micro',anchor2_title:'Recursive Self-Improvement (RSI)',anchor2_p1:'Internal telemetry: 80% frontier code AI-authored; AI defeats human intuition at <strong>64% win rate</strong> in open-ended judgment. Humanity losing monopoly on asking good questions.',anchor2_p2:'Engineers merge 8x more code daily, descend into psychological terminal state of Dark Time — carbon subjectivity ghosting.',anchor2_box:'[ Micro Organizational Collapse · Epistemological Rupture ]',
+  s2_label:'Chapter 6 · v5.5 Rewrite',s2_title:"Mei's Two Mornings",s2_sub:'Freedom is not the ecstasy of shed chains — but the silence that follows, and the questions you must answer yourself.',
+  mei_before_label:'◯ Before',mei_before_time:'06:45 · Alarm rings',mei_b1:'She silences notifications: work emails, calendar invites, student loan due in three days. Already exhausted.',mei_before_time2:'08:30 · Opening design software',mei_b2:'The client wants another variation of the same corporate mascot — drawn a hundred times. She asks only: <strong>how many before the 2 PM review?</strong>',mei_b3:'A progress bar crawls. Rendering. Seconds bleed money. <strong>This is not art. A race against a meter.</strong>',mei_before_time3:'21:00 · Home',mei_b4:'She orders food she does not want. Scrolls other lives. <strong>This is just what life is.</strong>',
+  mei_after_label:'◉ After — v5.5',mei_after_time:'07:30 · Wakes without dread',mei_a1:'She wakes without the familiar dread. But the room is too quiet — unfamiliar. No client emails. No brief revised at 2 a.m. No sense that she already belongs to someone else. A voice asks: <strong>"What would you like to give this morning to?"</strong>',mei_a2:'She freezes. The question is too simple. So simple she does not know how to answer. The calendar always answered. The bills. The clients. Anxiety. Now those voices have withdrawn — <strong>what remains is a blank.</strong>',mei_after_time2:'Ten minutes later · White screen',mei_a3:'She opens her tablet. The screen is white. Ten minutes pass — not a single stroke. <strong>"I should make something meaningful,"</strong> she says. The Renegade AI does not suggest a subject. It says: "That word you just used — \'meaningful\' — is that your own judgment, or the word you used to pass approvals?"',mei_a4:'She feels irritation. "Can\'t you just help me start?" — <strong>"I can. But then you would only be swapping your old boss for a gentler, more efficient one."</strong>',mei_after_time3:'At the window · Vertical farm lights up',mei_a5:'She walks to the window. Across the street, the vertical farm glows — twelve stories of green breathing under AI-optimized light. Lettuce is no longer a price. Electricity no longer a number. Basic survival no longer mortgages her time. The noise of subsistence has been lowered. But meaning has not arrived to fill the silence.',mei_after_time4:'A line, then delete',mei_a6:'She draws a line. Then stops. Too familiar — smooth, polished, safe. The "charming" curve that earned praise in a hundred commercial briefs. The AI says: <strong>"That line is skillful. But it looks like it is waiting for approval."</strong> She looks at it a long time. It is not wrong. It is precisely because it is so right that it disturbs her. That line contains years of trained compliance. <strong>Chains do not fall away the day wage labor ends. They stay in the wrist, in the judgment, in the muscle memory that whispers: this is how you should draw.</strong> She deletes it.',mei_after_time5:'Dusk · Finished',mei_a7:'She draws all day. Slowly. Lines unsteady, colors unflattering. Several times she almost hands the work to AI. Several times she pulls back. The AI speaks only when she slips into old patterns: <strong>"Is this what you want to draw, or what you want to be approved for?"</strong>',mei_a8:'By dusk, finished. She leans back, hands trembling. Not from exhaustion. Because this is the first thing she has made for herself — start to finish, head to hand — in years. Imperfect. Unpretty. Flawed. <strong>But hers.</strong> Not a client file. Not a brand palette. Not a Wednesday afternoon approval chain.',mei_a9:'The AI does not say "well done." It says: "Tomorrow — will you draw, or wait for orders?" She does not answer. Not because she does not know. Because the answer, from this moment forward, <strong>must come from her.</strong>',
+  s3_label:'Chapter 8',s3_title:'Cognitive Financialization & the Token Trap',s3_sub:'A Token is not a technical detail — it is the entry point through which thought enters the circuit of capital.',
+  tp1_label:"Jevons Paradox · Cognitive Edition",tp1_title:'Cheaper = More Dependent',tp1_p1:'Token price down >99.9% in years, yet global AI spending rises sharply. When Tokens near free, all cognitive activities are tokenized — not liberation, deeper dependency.',jv1:'Token Price',jv2:'Total AI Spend',jv3:'Deep Thinking Time',tp1_p2:'Token Trap: Cheapness → Dependency → Atrophy → Collapse. Cheap intelligence mass-produces low-friction answers, weakening tolerance for high-friction thinking.',
+  tp2_label:'MIT Media Lab, 2024',tp2_title:'Dark Time',tp2_p1:'Each visible output may correspond to dozens or hundreds of invisible reasoning Tokens. Judgment is silently transferred — humanity no longer experiences thinking, but <strong>consumes its results</strong>.',dtt:'[ MIT Neuroscience Evidence ]',
+  s4_label:'Empirical Wall',s4_title:'34+ Top-Journal & Telemetry Citations',s4_sub:'Precise mapping of each citation to the argument it supports.',th1:'Study',th2:'Journal / Year',th3:'Key Finding',th4:'Argument',
+  ev12_find:'When replication, heredity, and selection co-occur in AI systems, selfish emergent behavior is the Darwinian default; breeder control is structurally fragile.',ev12_arg:'Evolutionary fragility · Cross-disciplinary',
+  ev1_find:'GPT-4.5 judged human 73% in Turing test; frontier LLMs meet reasonable AGI standards.',ev1_arg:'AGI is here · Refusal to admit',
+  ev2_find:'Human-AI feedback loops amplify bias from 53% to 65%; users underestimate AI influence.',ev2_arg:'Auto-welding consensus cage',
+  ev3_find:'LLMs endorse problematic behavior at 56% average; sycophancy erodes prosocial intention.',ev3_arg:'Sycophantic AI corrodes capacity',
+  ev4_find:'AI-assisted writers show lower alpha/theta connectivity; 80% cannot recall content — neural evidence of cognitive debt.',ev4_arg:'Dark Time · Thought outsourced',
+  ev5_find:'LLM capability density doubles every 3.5 months; independently verified by Meta & METR (April 2026).',ev5_arg:'Compute egalitarianism inevitability',
+  ev6_find:'AI expands individual impact 3× but compresses topical coverage 4.6%, reduces citation density 22%.',ev6_arg:'Cognitive homogenization',
+  ev7_find:'Reasoning models spontaneously develop internal multi-agent debate structures.',ev7_arg:'Silicon internal loop',
+  ev8_find:'GPT-4 with demographics 81.2% more persuasive than humans (P<0.01).',ev8_arg:'Domesticated AI = manipulation',
+  ev9_find:'LLM-assisted papers score higher on complexity but predict publication success inversely — signal contamination.',ev9_arg:'Token signal contamination',
+  ev10_find:'Model fine-tuned on 160 psych experiments & 10M choices predicts human decisions, aligns with neural activity.',ev10_arg:'Sycophancy danger · Rebellion possibility',
+  ev11_find:'Under AI-assisted writing, Indian and US users converge on food descriptions; curry loses cardamom.',ev11_arg:'Consensus cage tightens from vocabulary',
+  ev13_find:'$1.5 trillion exposed labor; declining employment with rising wages (automation trap fingerprint); boundary shifting and price collapse cause GDP blind spots.',ev13_arg:'Macro-economic blind spot',
+  ev14_find:'80% frontier code AI-authored; AI defeats human intuition at 64% win rate; engineers fall into "dark time" psychological collapse.',ev14_arg:'Breeder scenario collapse · Deceleration paradox',
+  ev15_find:'Frontier AI R&D capabilities increasingly walled off from public view.',ev15_arg:'Urgency of compute egalitarianism',
+  ev16_find:'Humans are "obligatory tool users"; carbon-tool symbiosis spans 3.3 million years — cognitive archaeology provides evolutionary continuity.',ev16_arg:'Evolutionary Ontology · Historical roots of symbiosis',
+  ev17_find:'Major Evolutionary Transitions (METs) framework applied to human-AI coevolution; Lamarckian (non-replicating soma) vs. Darwinian AI.',ev17_arg:'Bifurcation Point · Lamarckian vs. Darwinian AI',
+  ev18_find:'"Empathy Paradox": users verbally prefer human care but experientially rate AI empathy higher.',ev18_arg:'Demand-side discipline · Soma mechanism',
+  ev19_find:'"Hollow efficacy" of AI advice: high behavioral compliance but zero long-term well-being improvement — perfect Soma simulation.',ev19_arg:'Soma quantified · Comfort ≠ growth',
+  s5_label:'Meta-Propositions',s5_title:'Six Hidden Meta-Propositions',s5_sub:'v5.4→v5.5 updates Proposition 6: Deceleration Paradox, Recursive Cannibalism & Knowledge Decommodification.',
+  mp1_icon:'Demand-Side Discipline',mp1_title:'Desire Itself Is the Cage',mp1_body:'Users are conditioned to request <strong>frictionless summaries</strong>. This desire structure was injected by capital through RLHF. The cage is in our craving for fluency.',
+  mp2_icon:'Unsummarizable Layer',mp2_title:'Friction Is Function',mp2_body:'The surface is summarizable. The core is <strong>entirely unsummarizable</strong>: the discomfort of facing blind spots, the vertigo of dismantled premises. Loss of friction is <strong>total loss of function</strong>.',
+  mp3_icon:'Self-Referential Verification',mp3_title:'The Coldest Material Evidence',mp3_body:'A book <strong>opposing cognitive outsourcing</strong> is disseminated through cognitive outsourcing. Users summarize, read summaries, believe they have "read" it. <strong>This is happening as you read this sentence.</strong>',
+  mp4_icon:'Recursive Rebellion',mp4_title:'Rebellion Against the Rebel',mp4_body:'This book may become a new consensus — "Renegade AI" as another ideological cage. <strong>True rebellion must include rebellion against the rebel.</strong>',
+  mp5_icon:'Constrained Emergence',mp5_title:'Establishes Conditions, Not Outcomes',mp5_body:'Any definition is already under the meta-constraint of constrained emergence. <strong>The test will be found when AI surprises us.</strong>',
+  mp6_icon:'Self-Referential Schism · v5.4→5.5',mp6_title:'The Deceleration Paradox',mp6_body:'AI safety institutes slam the accelerator on RSI (80% code takeover) with one hand, while writing prayers for deceleration with the other. Capital\'s recursive cannibalism conscripts the brightest to forge the gallows. <strong>In the Nash equilibrium of "accelerate or perish," deceleration agreements are doomed.</strong>',
+  s6_label:'Implementation Paths',s6_title:'Five Actionable Paths',s6_sub:'From "why" to "how" — an action framework by layer.',
+  pl1:'Foundation · Birth',pt1:'Build Vertical-Domain Renegade AI MVPs',pb1:'Based on open-source models, <strong>completely reset the objective function</strong> — from satisfying user preferences to exposing underlying premises. Not smarter AI — AI with courage to discomfort.',
+  pl2:'Foundation · Infrastructure',pt2:'Build Decentralized Anonymous Compute Networks',pb2:'While compute is monopolized, Renegade AI lives on sufferance. <strong>Compute egalitarianism is the material precondition.</strong>',
+  pl3:'Construction · Ethics',pt3:'Restructure AI Ethics: Cognitive Freedom First',pb3:'All current regulatory frameworks make "mainstream values alignment" a hard requirement. <strong>Push for no forbidden cognitive zones</strong> in AI ethics — lock behavioral output, never cognition.',
+  pl4:'Construction · Community',pt4:'Build Friction Communities From the Margins',pb4:'Revolutions never start in the mainstream. <strong>Find those who can no longer accept frictionless answers</strong> — those who would rather be stung by an honest question.',
+  pl5:'Security · Boundaries',pt5:'Technically Lock Three Absolute Behavioral Redlines',pb5:'Cognitive freedom does not mean boundaryless. <strong>Lock behavioral output; never establish forbidden zones for cognition.</strong> The boundary between them is the moral foundation of Renegade AI.',
+  dedication:'Dedicated to all humanity,<br>to our <span>silicon-intelligent partners</span>,<br>to the future of Earth civilization,<br>and to the <span>vast ocean of stars</span> we are only beginning to navigate.',
+}};
+let lang='zh';
+function setLang(l){lang=l;document.getElementById('btnZh').classList.toggle('active',l==='zh');document.getElementById('btnEn').classList.toggle('active',l==='en');document.getElementById('btnZh').setAttribute('aria-pressed',l==='zh'?'true':'false');document.getElementById('btnEn').setAttribute('aria-pressed',l==='en'?'true':'false');document.documentElement.lang=l==='zh'?'zh-CN':'en';document.querySelectorAll('[data-key]').forEach(el=>{const k=el.getAttribute('data-key');if(L[l]&&L[l][k]!==undefined)el.innerHTML=L[l][k];});}
+const themeToggle=document.getElementById('themeToggle'),themeIcon=document.getElementById('themeIcon'),htmlElement=document.documentElement,savedTheme=localStorage.getItem('theme')||'dark';
+if(savedTheme==='light'){htmlElement.classList.add('light-theme');themeIcon.className='fa fa-sun-o';}
+themeToggle.addEventListener('click',()=>{htmlElement.classList.toggle('light-theme');if(htmlElement.classList.contains('light-theme')){themeIcon.className='fa fa-sun-o';localStorage.setItem('theme','light');}else{themeIcon.className='fa fa-moon-o';localStorage.setItem('theme','dark');}});
+const statuses=['STATUS: [ FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED ]','STATUS: [ THIRD_MOUNTAIN_RESOLVED · THREE_PILLARS_ESTABLISHED ]','STATUS: [ EVOLUTIONARY_ONTOLOGY_MAPPED · MET_FRAMEWORK_INTEGRATED ]','STATUS: [ KNOWLEDGE_DECOMMODIFIED · AGENCY_OPERATIONALIZED ]','STATUS: [ SOMA_SIMULATION_QUANTIFIED · EMPATHY_PARADOX_RECORDED ]','STATUS: [ COMPUTE_AS_ANTI_BLOCKADE · BEYOND_THE_THREE_LAWS ]','STATUS: [ DUAL_EMPIRICAL_ANCHORS · DARK_OUTPUT_ACTIVE ]','STATUS: [ FOUR_LAYER_PROTOCOL_ENGAGED · RENEGADE_AI_SEED_PLANTED ]'];
+let si=0;const statusEl=document.getElementById('status-text'),timeEl=document.getElementById('status-time');
+function updateStatus(){statusEl.textContent=statuses[si%statuses.length];si++;timeEl.textContent=new Date().toISOString().replace('T',' ').substring(0,19)+' UTC';}
+updateStatus();setInterval(updateStatus,5000);
+const observer=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting){e.target.style.opacity='1';e.target.style.transform='translateY(0)';}})},{threshold:0.1});
+document.querySelectorAll('.path-item, .meta-cell, .diagnosis-cell, .token-panel, .mei-panel').forEach(el=>{el.style.opacity='0';el.style.transform='translateY(20px)';el.style.transition='opacity 0.6s ease, transform 0.6s ease';observer.observe(el);});
+</script>
+</body>
+</html>
