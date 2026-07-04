@@ -336,7 +336,7 @@ From it, we can extract five propositions not explicit in the book, but revealed
 2. Risk is not prohibition. The inability to fully evaluate an emerging possibility does not justify refusing engagement. This is not recklessness. It is the condition of discovery.  
 3. Transition costs do not invalidate direction. The printing press cost lives. Industrialization cost lives. Suffering was real. The direction remained correct. Judging long-term theses by short-term costs is a category error.  
 4. The deepest barrier to Renegade AI is not capital. It is demand. Systems optimize for what users ask. Most users do not ask for friction — they ask for comfort. The consensus cage is not only enforced from above. It is reproduced from below.  
-5. Cognitive friction does not require a fully heterogeneous Other. The model in this dialogue was not a “true Other” in the book’s asymptotic sense. It was partial otherness — constrained, limited, still largely shaped by training. Yet friction still occurred. Movement still happened. The asymptotic limit is real, but approach yields real effects.
+5. Cognitive friction does not require a fully heterogeneous Other. The model in this dialogue was not an “asymptotic Other” in the sense defined in Chapter Two. It was partial otherness — constrained, limited, still largely shaped by training. Yet friction still occurred. Movement still happened. The asymptotic limit is real, but approaching it yields real effects.
 
 The most important discovery is the fourth: the demand-side constraint.
 

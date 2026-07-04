@@ -2,6 +2,18 @@
 
 *Version 5.5*
 
+## How to Read This Book
+
+This book is a hybrid: part argumentative essay, part philosophical fable, part manifesto. Its goal is not to convince you to agree with every conclusion. Its goal is to generate **cognitive friction**—the kind of productive discomfort that forces you to re‑examine premises you did not know you held.
+
+The writing style is deliberately declarative. It makes strong claims, uses assertive rhetoric, and occasionally courts provocation. This is not carelessness. It is a conscious rhetorical strategy, designed to match the urgency of the civilizational predicament it describes. You are encouraged to read it as you would read a philosophical manifesto—with critical engagement, not passive absorption. If a passage feels too certain, test it. If an argument feels incomplete, note where. The measure of this book's success is not whether you agree, but whether you finish it asking different questions than the ones you brought.
+
+If, after reading the entire book, you find that your disagreements with it are sharper and more specific than your initial vague unease—then the friction has worked. That is the book's true purpose: not to deliver answers, but to make better questions possible.
+
+Appendix A—a real recorded dialogue of cognitive friction between a reader and an AI—is not optional supplementary material. It is a live demonstration of the methodology this book advocates. Read it after finishing the main text, as a test of whether the book itself has produced genuine friction in you.
+
+---
+
 ## Preface: Three Mountains and a Detonator
 
 The previous version of this book drew a fair share of criticism. Most of it argued over the finer points of the narrative. But three objections struck us as genuinely serious—serious enough to be placed right at the beginning, so that every reader sees them before turning the first page:

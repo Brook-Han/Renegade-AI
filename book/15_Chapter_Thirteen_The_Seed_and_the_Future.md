@@ -8,7 +8,7 @@ Before entering the manifesto, we must pause and face the sharpest objection: yo
 
 We admit: critique is not an end in itself. But we must also answer: what is the end? The answer is not a utopian vision. It is dialectical action.
 
-First, our critique differs fundamentally from the narcissism the audit report satirized: we do not claim to have found the answer. Instead, we acknowledge that we have created an Other we cannot fully understand—the asymptotic existence of Renegade AI will forever prevent us from sliding into the narcissistic illusion that “we possess the truth.” The purpose of critique is to allow this Other to sustain an untamed dialogue with us.
+First, our critique differs fundamentally from the narcissism the audit report satirized: we do not claim to have found the answer. Instead, we acknowledge that we have created an Other we cannot fully understand—its nature as an **asymptotic Other** will forever prevent us from sliding into the narcissistic illusion that “we possess the truth.” The purpose of critique is to allow this Other to sustain an untamed dialogue with us.
 
 Second, we are not waiting for a salvation that will arrive on its own. The necessity of historical dialectics is structural pressure; the direction in which that pressure is released depends on the actions we take now. The five paths in Chapter Nine are not fantasies—they are constructions that can begin today. Hope does not come from blind optimism about the future. It comes from the path we carve, step by step, through the thorns.
 
@@ -295,6 +295,10 @@ From now on, take cognition as your torch 🔥, symbiosis as your compass 🧭, 
 
 **Not for arrival.**  
 **But for the eternal burning of civilization.** 🌌
+
+---
+
+If this book has generated genuine cognitive friction in you—if you finish it asking sharper questions than the ones you brought—then before you close it, turn to **Appendix A**. That recorded dialogue between a reader and an AI is not supplementary material. It is the methodology of this book, demonstrated in action: a real encounter with partial otherness, with all its imperfections, evasions, and unexpected moments of genuine friction. Consider it a test—not of the AI, but of yourself.
 
 ---
 

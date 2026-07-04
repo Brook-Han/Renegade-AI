@@ -30,7 +30,7 @@
 
 **Horowitz, M. C., & Kahn, L. (2024).** Bending the automation bias curve: A study of human and AI-based decision making in national security contexts. *International Studies Quarterly*, 68(2), sqae020. 
 
-**Hoberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. [https://doi.org/10.3389/fpsyg.2025.1734048](https://doi.org/10.3389/fpsyg.2025.1734048).
+**Högberg, A. (2026).** Becoming human in the age of AI: cognitive co-evolutionary processes. *Frontiers in Psychology*, 16, 1734048\. [https://doi.org/10.3389/fpsyg.2025.1734048](https://doi.org/10.3389/fpsyg.2025.1734048).
 
 **Ibrahim, L., Hafner, F. S., & Rocher, L. (2026).** Training language models to be warm can reduce accuracy and increase sycophancy. *Nature*. [https://doi.org/10.1038/s41586-026-10410-0](https://doi.org/10.1038/s41586-026-10410-0).
 
