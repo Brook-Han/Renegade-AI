@@ -42,6 +42,7 @@
 * **📡 实证附录 | EMPIRICAL APPENDIX**
   * [**🧪 附录A：认知摩擦实证** <br> <small>Appendix A: Cognitive Friction in Action – A Carbon–Silicon Case Study</small>](/book/16_Appendix_A.md)
   * [📖 参考文献 <br> <small>References – 34 Peer-Reviewed Sources</small>](/book/17_References.md)
+  * [📝 术语表 <br> <small>Glossary – Core Conceptual Vocabulary</small>](/book/18_Glossary.md)
 
 ---
 
