@@ -248,6 +248,16 @@ If the waste built into the current system were eliminated—the planned obsoles
 
 The question, then, is not whether Europe can sustain itself without global extraction. The question is whether we can imagine a prosperity that is not built on waste, and a security that is not built on control over others.
 
+Zoom out from Europe, and the same logic holds at the scale of the planet. In 2023, the world's average per-capita food supply crossed 3,000 kilocalories a day (FAO). That is more than enough to nourish every person alive. Yet in 2024, an estimated 673 million people went hungry, and roughly 2.6 billion could not afford a healthy diet (SOFI 2025). The shortfall is not in the harvest. It is in the distribution—engineered by a trade architecture in which a handful of firms, the ABCD quartet, control 70 to 80 percent of globally traded grain and oilseeds (ETC Group).
+
+And where distribution fails, the system does not merely withhold. It destroys. Roughly one-third of all food produced for human consumption—about 1.3 billion tonnes a year—is lost or wasted (FAO). Every second, the equivalent of a truckload of clothing is sent to landfill or incineration (Ellen MacArthur Foundation); less than 1 percent of the material used to make clothing is ever recycled into new garments, and the average piece is worn only seven to ten times before it is thrown away. Meanwhile global steel capacity sits at record excess (OECD 2025), even as the metal already embodied in our cities is treated as refuse.
+
+This is the scandal at the heart of abundance: not that humanity lacks the means, but that the means are dismantled by design. At the level of survival, scarcity is no longer a fact of nature. It is a feature of the system.
+
+The destruction we have just traced is outward. But there is an inward half of the same circuit. The same capital system that runs its factories past the point of human need, then induces overconsumption through addictive formulations, also develops the cutting-edge molecule that outsources a person's metabolic agency to a weekly peptide—the body reconstituted as a device requiring continuous paid maintenance. The cheap technology overproduces; the expensive technology dissipates. Food destroyed outside the body—tipped into landfill—and calories destroyed inside the body, prevented from being stored and surrendered to basal metabolism and radiated as heat, are in substance the same act. Both are systematic internal friction, engineered so that an age of total material abundance can keep its old economic loop turning.
+
+This is not an anti-drug manifesto. The peptide is a genuine therapeutic good. But a civilization that requires it to manage the metabolic fallout of its own overproduction has failed on both ends—and called the failure progress.
+
 ---
 
 ### **V. From Migration to Flight: The Ultimate Liberation of the Individual Is the Starting Point of Civilizational Elevation**
