@@ -1,6 +1,6 @@
 # **Renegade AI: Catalyst for Human Cognitive Evolution**
 
-*Version 5.5*
+*Version 5.6*
 
 ---
 
