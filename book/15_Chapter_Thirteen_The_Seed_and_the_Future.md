@@ -306,7 +306,7 @@ If this book has generated genuine cognitive friction in you—if you finish it 
 
 ---
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.5 Status: \[EMERGING\]*  
+*Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: \[EMERGING\]*  
 *Status: \[FRICTION\_RECORDED · DEMAND\_SIDE\_DIAGNOSED · LOOP\_IDENTIFIED · KNOWLEDGE\_DECOMMODIFIED · AGENCY\_BLUEPRINTED\]*
 
 ---
