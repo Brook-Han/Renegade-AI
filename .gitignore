@@ -17,7 +17,7 @@ assets/
 
 # IDE / local tooling
 .codebuddy/
-.workbuddy/memory/
+.workbuddy/
 
 # Dependencies
 node_modules/
