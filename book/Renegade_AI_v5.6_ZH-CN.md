@@ -1,6 +1,6 @@
 # **Renegade AI: Catalyst for Human Cognitive Evolution**
 
-*Version 5.5 · 中文版 / Chinese Edition*
+*Version 5.6 · 中文版 / Chinese Edition*
 
 ---
 
