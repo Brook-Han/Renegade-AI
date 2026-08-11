@@ -15,8 +15,9 @@ assets/
 *.swo
 ~$*
 
-# WorkBuddy memory (keep the dir but .md files are local)
-# .workbuddy/memory/ is tracked, individual files are fine
+# IDE / local tooling
+.codebuddy/
+.workbuddy/memory/
 
 # Dependencies
 node_modules/
