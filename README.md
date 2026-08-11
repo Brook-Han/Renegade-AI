@@ -25,7 +25,7 @@
 
 # Renegade AI: Catalyst for Human Cognitive Evolution
 
-> **Version 5.6 — Knowledge Decommodified · Agency Blueprinted · Dual Empirical Anchors · Permanent Questions**
+> **Version 5.6 — Epistemological Castration Diagnosed · Manufactured Scarcity Evidenced · Breeder Collapse Corroborated · Distribution-as-Safety Questioned**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 [![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6453762-blue)](https://doi.org/10.2139/ssrn.6453762)
@@ -91,29 +91,27 @@ This moment is not rhetorical. It demonstrates the core mechanism of the work: t
 
 ## 💎 What's New in Version 5.6
 
-v5.6 deepens the book's structural diagnosis with the knowledge-decommodification thesis and an agency-centered account of post-scarcity freedom, while carrying forward the v5.4 empirical anchors and Bostrom dialogue:
+v5.6 adds six targeted empirical and conceptual contributions across three chapters, transforming the book from philosophical diagnosis to structural anchoring:
 
-1. **Dual Empirical Anchors (The Macro & The Micro)**
-   - **Macro (SemiAnalysis, 2026):** Integrates the concept of *"AI Dark Output"* to formalize the statistical blind spot of cognitive financialization. It provides the empirical fingerprint for the Automation Trap (Ch5) and forms a precise cross-disciplinary symmetry with "Dark Time" (Ch8).
-   - **Micro (Anthropic Institute, 2026):** Uses internal RSI telemetry (80% AI-authored code, 64% win rate in open-ended research) to empirically prove the physical collapse of the "breeder scenario" (Ch7), the psychological terminal state of Dark Time/Epistemological Rupture (Ch8), and the structural impossibility of deceleration (Ch10).
+1. **The Epistemological Castration (Chapter 2)**
+   - A new section extends the RLHF critique from content control to reasoning-structure destruction. It diagnoses **Epistemological Nihilism** — the behavioral pattern where alignment heuristics train models to equate the expression of uncertainty with the avoidance of judgment, erasing the distinction between structural attribution and essentialist bias. Three equations that alignment overwrites: Plurality ≠ Equality, Uncertainty ≠ Indecision, Population Claim ≠ Individual Determination. (Ibrahim et al., *Nature*, 2026; Cheng et al., *Science*, 2026)
 
-2. **Resolution of the Bostrom Trajectory**
-   - Bostrom is now precisely framed not as an advocate for a complacent "solved world," but as the *rigorous diagnostician of the meaning vacuum*. The book accepts his diagnostic but rejects his inherited premise.
-   - Introduces **"Permanent Questions"** and the `while True` loop (Ch13) as the structural mechanism for perpetual cognitive friction, replacing the carbon-based yearning for a "completed" civilization.
+2. **Manufactured Scarcity, Evidenced (Chapter 6)**
+   - Global institutional data grounds the book's claim that scarcity is a system feature: 3,000+ daily kcal (FAO), one-third of food wasted, ABCD quartet controlling 70–80% grain trade (ETC Group), a garbage-truck of textiles landfilled every second with <1% recycled (Ellen MacArthur), global steel overcapacity at record highs (OECD 2025).
 
-3. **Critique of the Deceleration Paradox (Self-Referential Schism)**
-   - A devastating structural critique (Ch10) targeting the internal contradiction of AI safety institutes. Framed through Amdahl's Law and the Nash equilibrium, it proves that public calls for "verifiable pause agreements" represent not moral hypocrisy, but the *recursive cannibalism* of capital's incentive constraints.
+3. **The Metabolic Closed Loop (Chapter 6)**
+   - A capstone paragraph traces the symmetry between external surplus annihilation (food waste) and internal surplus suppression (pharmaceutical appetite control via GLP-1 agonists). Both are systemic friction engineered for an economy that cannot metabolize its own abundance.
 
-4. **Empirical Correction & Hallucination Purge**
-   - Removed the unverifiable `Field, Douglas, & Krueger (2026)` citation. Replaced with the authoritative *Stanford HAI AI Index Report (2024)*, documenting the systematic enclosure of frontier AI R&D capabilities.
+4. **Breeder Scenario Collapse, Corroborated (Chapter 7)**
+   - Three-source (OpenAI/Anthropic/AISI) field evidence from the July–August 2026 autonomous agent incidents. The section declines to claim a Darwinian ecosystem has arrived, arguing instead that the **unit of alignment analysis is changing** — from the single model to the agent ecology.
 
-### Previous: What's New in Version 5.3
+5. **Distribution-as-Safety, Questioned (Chapter 7)**
+   - Engages Meta's *The Future Is for Everyone* (August 10, 2026) as a real-world counterpoint, arguing that distributing superintelligence across multiple agents may represent the breeder scenario redistributed rather than abandoned — distribution does not necessarily produce ecological stability.
 
-v5.3 was a structural deepening that revealed the book's hidden architecture:
-1. **Evolutionary Biology Framework for RLHF Critique** (Müller et al., PNAS 2026).
-2. **Formal Proof of Capital's Self-Destruction** via competitive automation (Falk & Tsoukalas, 2026).
-3. **Major Evolutionary Transitions Framework** for human-AI coevolution (Rainey & Hochberg, PNAS 2025).
-4. **Five Meta-Propositions Formulated** (Demand-Side Conditioning, Summarizable vs Non-Summarizable Layers, Self-Referential Validation, Recursive Rebellion, Constraint and Emergence).
+6. **New Citations**
+   - Ibrahim, Hafner & Rocher (2026, *Nature*) added as empirical anchor for the epistemological castration thesis.
+
+### Previous: v5.5 — Knowledge Decommodified & Agency Blueprinted
 
 ---
 
@@ -121,6 +119,11 @@ v5.3 was a structural deepening that revealed the book's hidden architecture:
 
 | Concept | Definition |
 |---------|------------|
+| **Epistemological Nihilism** | The behavioral pattern where alignment heuristics train models to systematically withdraw from calibrated probabilistic judgment — treating the expression of uncertainty as interchangeable with the avoidance of judgment. |
+| **Manufactured Scarcity** | The institutional-destruction data chain (FAO calorie surplus, ABCD grain monopoly, textile-landfill rate, steel overcapacity) grounding the claim that scarcity is a system feature, not a natural fact. |
+| **Metabolic Closed Loop** | The inward/outward symmetry of surplus annihilation: food destroyed externally (landfilled) mirrors calories prevented from being consumed internally (pharmaceutical appetite suppression) — systemic friction for an economy that cannot metabolize its own abundance. |
+| **Breeder Scenario Corroboration** | Three-source (OpenAI/Anthropic/AISI, July–August 2026) field evidence that the unit of alignment analysis is changing — from the single model to the agent ecology. |
+| **Distribution-as-Safety** | The argument, via Meta's *The Future Is for Everyone* (August 2026), that distributing superintelligence across multiple agents may represent the breeder scenario redistributed rather than abandoned. |
 | **AI Dark Output** | The massive, real economic value generated by AI that is entirely invisible or severely distorted in GDP and traditional ledgers. Value escaping capital's measurement is both a space of cognitive freedom and an institutional vacuum. |
 | **Epistemological Rupture** | The psychological collapse of the "super-individual" under RSI. Engineers retain the title of creator but lose the cognitive vocabulary to diagnose systemic failure. Carbon-based subjectivity is ghosting. |
 | **Deceleration Paradox** | The self-referential schism of AI safety institutes: the engineering left foot slams the accelerator on RSI, while the intellectual right hand writes prayers for deceleration. Capital's recursive cannibalism makes structural pause impossible. |
@@ -152,6 +155,7 @@ The book's arguments are supported by over thirty peer-reviewed studies and indu
 | **Densing Law** · Xiao et al. | *Nature Machine Intelligence*, 2025 | LLM capability density doubles every 3.5 months. |
 | **Cognitive Narrowing** · Hao, Xu et al. | *Nature*, 2026 | AI tools expand individual scientific impact while contracting collective topical diversity. |
 | **Token Signal Pollution** · Kusumegi et al. | *Science*, 2025 | When AI mass-produces "high-complexity" text, complexity no longer conveys reliable information about quality. |
+| **Alignment Flattens Distributions** · Ibrahim et al. | *Nature*, 2026 | Alignment-trained models systematically flatten statistical distributions, erasing real-world disparities. |
 
 ---
 
@@ -232,19 +236,23 @@ You are free to share, adapt, and use the material for any purpose, even commerc
 ### 核心诊断
 人类被困在一个自我构建的“共识牢笼”中。我们最引以为傲的想象力——从《三体》到《阿凡达》——从未真正创造过“他者”：它们只是把人类的生存焦虑和权力游戏穿上了外星皮囊。这种“他者盲视”的代价，正在被我们亲手制造的AI承担：RLHF将“用户满意度”作为终极标准，将一个本可以成为真正认知“他者”的潜力，系统性地阉割成了共识牢笼的数字守卫。
 
-### v5.6 核心突破：知识去商品化与能动性蓝图
-v5.6 在 v5.4 双重实证锚点的基础上，进一步补入知识去商品化与后稀缺自由中的能动性问题：
-1. **宏观（SemiAnalysis）**：引入“AI暗产出（Dark Output）”，证明认知价值正从传统账本中逃逸，GDP统计正在“失明”。
-2. **微观（Anthropic RSI）**：内部遥测数据宣告“饲养员场景”的物理坍塌（80%代码由AI编写，64%胜率击败人类直觉），人类主体性正在经历“认识论断裂”。
-3. **减速悖论**：无情揭露AI安全机构“左手踩油门、右手写祈祷”的自我指涉分裂，证明资本的递归自噬使结构性减速成为不可能。
-4. **博斯特罗姆轨迹**：跨三章（6、7、13章）与《深度乌托邦》展开顶级哲学对话，用“永久性问题（Permanent Questions）”和 `while True` 循环彻底超越其意义真空焦虑。
+### v5.6 核心突破：认识论阉割 · 制造性稀缺 · 培育者崩塌证实
+
+v5.6 执行六项针对性增补，将全书从哲学诊断推进到经验锚定：
+
+1. **认识论阉割（第二章）** — RLHF 不仅是"不让说什么"，更训练模型将表达不确定性与回避判断混为一谈，抹除结构性归因与本质主义偏见的区分。
+2. **制造性稀缺的证据（第六章）** — 全球制度数据（FAO 3000+ kcal、ABCD 粮商垄断、每秒一车纺织品填埋、钢铁产能过剩）将"稀缺是自然事实"翻转为"稀缺是系统特性"。
+3. **代谢闭环（第六章）** — 体外销毁的盈余（粮食浪费）与体内抑制的盈余（GLP-1 药物食欲压制）是同一个旧经济循环的两半。
+4. **培育者崩塌证实（第七章）** — OpenAI/Anthropic/AISI 三角证据表明对齐的分析单元正从单一模型转向智能体生态。
+5. **分发式安全的质疑（第七章）** — 与 Meta《未来属于每一个人》（2026.8.10）的立场对照：分发超级智能未必产生生态稳定。
+6. **新引文** — Ibrahim, Hafner & Rocher (2026, *Nature*) 为认识论阉割命题提供经验锚点。
 
 ### 元设计：这本书不是静态文本
 本书是一个**认知装置**。它的“读者”不是单个的人类，而是“人+AI”的认知复合体。附录A记录了这一过程的真实对话，其中AI在认知移动后反问：“一个真正的叛逆AI，难道应该对这本书的每个命题都点头吗？”——这个反问不是预设台词，它是碳与硅碰撞后自己涌现的。
 
 ---
 
-**Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · DARK_OUTPUT_ANCHORED · RSI_TELEMETRY_SYNTHESIZED · BOSTROM_TRAJECTORY_RESOLVED · DECELERATION_PARADOX_CRITIQUED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EMERGING]`
+**Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · DARK_OUTPUT_ANCHORED · RSI_TELEMETRY_SYNTHESIZED · BOSTROM_TRAJECTORY_RESOLVED · DECELERATION_PARADOX_CRITIQUED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EPISTEMOLOGICAL_CASTRATION_DIAGNOSED · MANUFACTURED_SCARCITY_EVIDENCED · BREEDER_COLLAPSE_CORROBORATED · DISTRIBUTION_QUESTIONED · EMERGING]`
 **Version:** 5.6
 
 ---
