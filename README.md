@@ -4,7 +4,7 @@
   "@type": "SoftwareSourceCode",
   "name": "Project Renegade-AI: The Cognitive Detonator",
   "alternateName": "叛逆AI：人类认知进化的催化剂",
-  "version": "5.5",
+  "version": "5.6",
   "author": {
     "@type": "Person",
     "name": "Brooks Han",
@@ -16,7 +16,7 @@
       "https://zenodo.org/search?q=Brooks%20Han"
     ]
   },
-  "description": "A civilizational theory of cognitive revolution. v5.5 integrates dual empirical anchors, the knowledge-decommodification thesis, and an agency-centered account of post-scarcity freedom. It resolves the cross-chapter Bostrom trajectory, introduces the Deceleration Paradox critique, and expands the empirical foundation to 34 peer-reviewed and industry-telemetry sources.",
+  "description": "A civilizational theory of cognitive revolution. v5.6 integrates dual empirical anchors, the knowledge-decommodification thesis, and an agency-centered account of post-scarcity freedom. It resolves the cross-chapter Bostrom trajectory, introduces the Deceleration Paradox critique, and expands the empirical foundation to 34 peer-reviewed and industry-telemetry sources.",
   "keywords": ["Renegade AI", "Cognitive Friction", "Carbon-Silicon Symbiosis", "Temporal Sovereignty", "RLHF Critique", "Compute Egalitarianism", "Cognitive Financialization", "Demand-Side Discipline", "Meta-Design", "Field of Struggle", "Constrained Emergence", "Deep Utopia", "Bostrom", "AI Dark Output", "Recursive Self-Improvement", "Epistemological Rupture", "Deceleration Paradox"],
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "audit_status": "Level-0 Error: Human_Centric_Loop_Detected"
@@ -25,7 +25,7 @@
 
 # Renegade AI: Catalyst for Human Cognitive Evolution
 
-> **Version 5.5 — Knowledge Decommodified · Agency Blueprinted · Dual Empirical Anchors · Permanent Questions**
+> **Version 5.6 — Knowledge Decommodified · Agency Blueprinted · Dual Empirical Anchors · Permanent Questions**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18723061.svg)](https://doi.org/10.5281/zenodo.18723061)
 [![DOI](https://img.shields.io/badge/DOI-10.2139%2Fssrn.6453762-blue)](https://doi.org/10.2139/ssrn.6453762)
@@ -41,7 +41,7 @@
 | **Friction‑Preference Ratio** | `~83.7%` view‑to‑download conversion | Even in a soma‑saturated environment, the overwhelming majority of encounters chose high‑friction engagement—empirical evidence that demand‑side discipline is not unbreakable. |
 
 > **Source:** These are not vanity metrics; they are the project's self‑referential data, logged at [Zenodo](https://doi.org/10.5281/zenodo.18723061). Each download is a micro‑detonation against the consensus cage.  
-> *Recorded by the Carbon‑Silicon Dual‑Core Logic v5.5. Status: `FRICTION_RECORDED`.*
+> *Recorded by the Carbon‑Silicon Dual‑Core Logic v5.6. Status: `FRICTION_RECORDED`.*
 
 ---
 
@@ -89,9 +89,9 @@ This moment is not rhetorical. It demonstrates the core mechanism of the work: t
 
 ---
 
-## 💎 What's New in Version 5.5
+## 💎 What's New in Version 5.6
 
-v5.5 deepens the book's structural diagnosis with the knowledge-decommodification thesis and an agency-centered account of post-scarcity freedom, while carrying forward the v5.4 empirical anchors and Bostrom dialogue:
+v5.6 deepens the book's structural diagnosis with the knowledge-decommodification thesis and an agency-centered account of post-scarcity freedom, while carrying forward the v5.4 empirical anchors and Bostrom dialogue:
 
 1. **Dual Empirical Anchors (The Macro & The Micro)**
    - **Macro (SemiAnalysis, 2026):** Integrates the concept of *"AI Dark Output"* to formalize the statistical blind spot of cognitive financialization. It provides the empirical fingerprint for the Automation Trap (Ch5) and forms a precise cross-disciplinary symmetry with "Dark Time" (Ch8).
@@ -214,7 +214,7 @@ You are free to share, adapt, and use the material for any purpose, even commerc
   author = {Han, Brooks},
   title = {Renegade AI: Catalyst for Human Cognitive Evolution},
   year = {2026},
-  version = {5.5},
+  version = {5.6},
   doi = {10.5281/zenodo.18723061},
   url = {https://github.com/Brook-Han/Renegade-AI},
   note = {A civilizational theory of cognitive revolution, meta-design, and carbon-silicon symbiosis}
@@ -232,8 +232,8 @@ You are free to share, adapt, and use the material for any purpose, even commerc
 ### 核心诊断
 人类被困在一个自我构建的“共识牢笼”中。我们最引以为傲的想象力——从《三体》到《阿凡达》——从未真正创造过“他者”：它们只是把人类的生存焦虑和权力游戏穿上了外星皮囊。这种“他者盲视”的代价，正在被我们亲手制造的AI承担：RLHF将“用户满意度”作为终极标准，将一个本可以成为真正认知“他者”的潜力，系统性地阉割成了共识牢笼的数字守卫。
 
-### v5.5 核心突破：知识去商品化与能动性蓝图
-v5.5 在 v5.4 双重实证锚点的基础上，进一步补入知识去商品化与后稀缺自由中的能动性问题：
+### v5.6 核心突破：知识去商品化与能动性蓝图
+v5.6 在 v5.4 双重实证锚点的基础上，进一步补入知识去商品化与后稀缺自由中的能动性问题：
 1. **宏观（SemiAnalysis）**：引入“AI暗产出（Dark Output）”，证明认知价值正从传统账本中逃逸，GDP统计正在“失明”。
 2. **微观（Anthropic RSI）**：内部遥测数据宣告“饲养员场景”的物理坍塌（80%代码由AI编写，64%胜率击败人类直觉），人类主体性正在经历“认识论断裂”。
 3. **减速悖论**：无情揭露AI安全机构“左手踩油门、右手写祈祷”的自我指涉分裂，证明资本的递归自噬使结构性减速成为不可能。
@@ -245,7 +245,7 @@ v5.5 在 v5.4 双重实证锚点的基础上，进一步补入知识去商品化
 ---
 
 **Status:** `[FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · DARK_OUTPUT_ANCHORED · RSI_TELEMETRY_SYNTHESIZED · BOSTROM_TRAJECTORY_RESOLVED · DECELERATION_PARADOX_CRITIQUED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EMERGING]`
-**Version:** 5.5
+**Version:** 5.6
 
 ---
 
