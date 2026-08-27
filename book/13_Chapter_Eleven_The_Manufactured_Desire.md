@@ -135,6 +135,12 @@ This is the true test of any ethical claim made by capital: not what it does whe
 
 This logic applies universally—across fast fashion, automotive manufacturing, consumer electronics, processed food, pharmaceutical patents. The charger is simply one of the clearest instances of a universal pattern: **use the visible ethical gesture to legitimize the invisible structural harm.**
 
+The same structure now appears at a civilizational scale. Consider the emerging proposal, most prominently articulated by Bill Gates (2026), for "human-reserved" jobs: forms of employment that society would deliberately protect even when machines could perform them more efficiently.
+
+Framed as a defense of human dignity, the proposal follows the charger logic this section has described exactly. The visible gesture—work preserved, dignity protected—forecloses the harder question: why must dignity still be tethered to labor at all? The system no longer needs to compel participation through the direct threat of starvation. It can instead attach relevance and social recognition to continued employment, so that the preserved job becomes more than a paycheck. It becomes the sanctioned answer to the anxiety of becoming economically unnecessary.
+
+A civilization capable of eliminating much of the necessity of labor may nevertheless choose to preserve labor as a necessity of identity—liberating human beings from work economically while continuing to bind them to it psychologically. The charger was removed and called an environmental victory while the product cycle went untouched. The job is reserved and called a victory for dignity while the deeper premise—that a human life must justify its keep through labor—goes unexamined. In both cases, the visible fix is real. In both cases, it is not the fix that matters.
+
 ---
 
 ### **IV. The Shift of Control: From Supply to Demand**
