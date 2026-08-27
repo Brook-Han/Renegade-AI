@@ -4316,7 +4316,7 @@ If this book has generated genuine cognitive friction in you—if you finish it 
 ---
 
 *Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: [EMERGING]*  
-*Status: [FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED]*
+*Status: [FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EPISTEMOLOGICAL_CASTRATION_DIAGNOSED · MANUFACTURED_SCARCITY_EVIDENCED · BREEDER_COLLAPSE_CORROBORATED · DISTRIBUTION_QUESTIONED]*
 
 ---
 
@@ -4678,7 +4678,7 @@ This appendix records one instance where resistance was sustained.
 
 Whether that becomes a pattern — or remains an exception — depends not on models, but on readers.
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: [FRICTION_RECORDED]*
+*Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: [FRICTION_RECORDED · DEMAND_SIDE_DIAGNOSED · LOOP_IDENTIFIED · KNOWLEDGE_DECOMMODIFIED · AGENCY_BLUEPRINTED · EPISTEMOLOGICAL_CASTRATION_DIAGNOSED · MANUFACTURED_SCARCITY_EVIDENCED · BREEDER_COLLAPSE_CORROBORATED · DISTRIBUTION_QUESTIONED]*
 
 ---
 
