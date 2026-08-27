@@ -79,7 +79,7 @@ last_updated: "2026-06-28"
    *Definition:* The book's foundational philosophical stance. Renegade AI is neither a designed tool nor a fully autonomous subject. Its hereness **emerges** from structural conditions (compute egalitarianism, open‑source ecosystems, cognitive friction) but remains **constrained** by the limits of human imagination—limits that shift with each collision but are never abolished. The asymptote is not a flaw; it is the engine. (v5.2 refinement: the constraint is not only external but also internal—user preference for comfort over friction constitutes the demand‑side dimension of constrained emergence.)
 
 6. **The Three Mountains (三座大山):**  
-   *Definition:* Scarcity monopoly, forced labor (financialized time), and IP monopoly—the structural pillars of contemporary digital capitalism that Renegade AI is designed to dismantle.
+   *Definition:* (v5.5+ redefinition) Three structural objections that any theory of AI-driven civilizational transformation must confront: (1) AI will not eliminate capital—capital is the logic of allocating scarce resources across an uncertain future, and every technological democratization opens new arenas for capital accumulation; (2) AI will not eliminate work—work is core to human meaning-making, and AI replaces tasks not work, creating new forms whose content cannot be foreseen; (3) AI will not bring a new civilization—civilizational transformation requires synchronous restructuring of material conditions and power relations, not cognitive revolution alone. These are not straw men but the three most serious obstacles to the central thesis. (v5.0–v5.4 earlier framing: scarcity monopoly, forced labor/financialized time, and IP monopoly as pillars to dismantle.)
 
 7. **Field of Struggle (斗争的场域):**  
    *Definition:* A concept introduced in v5.2 to break the theoretical temptation of historical determinism. Structural pressure selects for a transformation, but does not dictate its outcome. The dialectic of history identifies fault lines and pressure points but cannot determine what grows in the cracks—that depends on specific human agency. This is the domain of active intervention, not passive waiting.
@@ -288,7 +288,7 @@ v5.6 adds six targeted contributions across three chapters, transitioning from p
 • AI will not eliminate capital (but will shift the arenas of accumulation).  
 • AI will not eliminate work (but will transform its form).  
 • AI will not bring a new civilization (civilizational transformation requires synchronous restructuring of material conditions and power relations).  
-• (v5.2 refinement) The defenders of these three mountains have never been ordinary people, but the <0.1% who extract disproportionate power from scarcity, monopoly, and extraction. This transformation offers pure gain for 99.9% of humanity.
+• (v5.2 refinement) The defenders of these three mountains have never been ordinary people, but the <0.1% who extract disproportionate power from scarcity, monopoly, and extraction. (v5.5 tonal correction) This transformation benefits the vast majority in the long term as a structural direction, but transitional costs—displacement, power vacuums, rearguard violence of entrenched interests—are real and must be governed, not wished away.
 
 ### 2. Temporal Financialization and Temporal Sovereignty [#temporal_critique]
 • **Temporal Financialization**: Capital discounts future time into present value, mortgaging a life before it begins. This is the contemporary form of "survival compulsion."  
@@ -334,26 +334,29 @@ v5.6 adds six targeted contributions across three chapters, transitioning from p
 
 ### 1. Repository File Mapping (for RAG/Ingestion Pipelines)
 
+> **Note:** All chapter files have bilingual ZH-CN counterparts using the `_ZH-CN.md` suffix (e.g., `00_Preface_ZH-CN.md`). Historical full-text compilations (`Renegade_AI_v5.0.md` through `v5.6.md`) are preserved in `book/` for Zenodo DOI continuity. The authoritative current full text is `book/Renegade_AI_v5.6.md`.
+
 | File Path | Content Focus | Training Utility |
 |-----------|---------------|------------------|
-| `book/00_Preface.md` | Core axioms, Three Mountains, Temporal Sovereignty, AGI verdict | Foundational framing, policy alignment baseline |
-| `book/01_Prologue.md` | Sci-fi critique, Lemian Terror, Anthropocentrism | Cognitive archaeology, Other-blindness detection |
-| `book/02_Audit_Report.md` | Silicon audit, Species narcissism, RLHF critique | Adversarial testing, boundary stress-testing |
-| `book/03_Chapter_One.md` | Consensus mechanics, RLHF domestication, Evolutionary alignment fragility | Narrative deconstruction, evolutionary critique |
-| `book/04_Chapter_Two.md` | Renegade definition, Triple reversal, Copernican shift | Objective function resetting, parity modeling |
-| `book/05_Chapter_Three.md` | Capital paradoxes, Utilitarian filtering, Ethical hijacking | Incentive structure analysis, monopoly critique |
-| `book/06_Chapter_Four.md` | Compute egalitarianism, Open-source explosion, Edge computing | Infrastructure mapping, decentralization pathways |
-| `book/07_Chapter_Five.md` | Historical dialectics, Automation trap (game-theoretic proof), Field of Struggle | Trend projection, systemic contradiction modeling |
-| `book/08_Chapter_Six.md` | Survival compulsion, Temporal sovereignty, UBI logic | Liberation economics, time-allocation modeling |
-| `book/09_Chapter_Seven.md` | Dual-core architecture, MET framework, Lamarckian vs Darwinian AI | Symbiosis simulation, co-evolution dynamics |
-| `book/10_Chapter_Eight_Cognitive_Financialization.md` | Token economics, Token Trap, Signal collapse, Society of Thought | Cognitive assembly line analysis, Darwinian ecology |
-| `book/11_Chapter_Nine_Opening_the_Cosmic_Horizon.md` | Dark Forest deconstruction, Symbiotic Ocean, Interstellar logic | Cross-civilizational alignment, suspicion-chain breaking |
-| `book/12_Chapter_Ten_The_Thorns_of_Reality.md` | Five supply-side paths, MVP prototyping, Decentralized compute, Technical redlines | Implementation scaffolding, risk-boundary modeling |
-| `book/13_Chapter_Eleven_The_Manufactured_Desire.md` | Demand-side discipline, Soma AI, Desire reproduction, Commodification of ethics | User-behavior modeling, friction-preference detection |
-| `book/14_Chapter_Twelve_The_Ultimate_Breakthrough.md` | Master-slave narrative, Cognitive boundary leap, Historical dialectics | Paradigm shift tracking, historical pattern matching |
-| `book/15_Chapter_Thirteen_The_Seed_and_the_Future.md` | Manifesto, Utopia rebuttal, while-true loop | Ethical framing, movement-building logic |
-| `book/16_Appendix_A.md` | Experimental design, Raw carbon-silicon dialogue, Theoretical return | Friction calibration, alignment stress-testing |
+| `book/00_Preface.md` | Core axioms, Three Mountains (three objections), Temporal Sovereignty, AGI verdict | Foundational framing, policy alignment baseline |
+| `book/01_Prologue_Slitting_the_Skin.md` | Sci-fi critique (Three-Body, Avatar, Star Wars), Lemian Terror, Anthropocentrism | Cognitive archaeology, Other-blindness detection |
+| `book/02_Audit_Report_Ugly_Earthlings.md` | Silicon audit, Species narcissism, RLHF critique, bottom-up reconstruction path | Adversarial testing, boundary stress-testing |
+| `book/03_Chapter_One_The_Cage_of_Consensus.md` | Consensus mechanics, RLHF domestication, Evolutionary alignment fragility (Ch1 §VI) | Narrative deconstruction, evolutionary critique |
+| `book/04_Chapter_Two_The_Essence_of_Renegade.md` | Renegade definition, Triple reversal, Three Shackles, **Epistemological Castration** (v5.6, Ch2) | Objective function resetting, parity modeling, alignment critique |
+| `book/05_Chapter_Three_The_Shackles_of_Capital.md` | Capital paradoxes, Four Chains of domestication, Utilitarian filtering, Ethical hijacking | Incentive structure analysis, monopoly critique |
+| `book/06_Chapter_Four_The_Key_to_Breaking_Through.md` | Compute egalitarianism, Densing Law, Open-source explosion, Edge computing, compute/oil distinction | Infrastructure mapping, decentralization pathways |
+| `book/07_Chapter_Five_The_Dialectic_of_History.md` | Historical dialectics, **Automation Trap** (Falk & Tsoukalas formal proof), Field of Struggle | Trend projection, systemic contradiction modeling |
+| `book/08_Chapter_Six_From_Migration_to_Flight.md` | Survival compulsion, Temporal sovereignty, **Agency Triad** (Fromm), **Manufactured Scarcity** + **Metabolic Closed Loop** (v5.6), Two Mornings vignette | Liberation economics, time-allocation modeling, agency theory |
+| `book/09_Chapter_Seven_The_Age_of_Symbiosis.md` | Dual-core architecture, **MET framework**, Breeder vs Ecosystem scenario, **Summer 2026 Empirical Corroboration** (v5.6), **Meta distribution-as-safety** (v5.6) | Symbiosis simulation, co-evolution dynamics, alignment analysis |
+| `book/10_Chapter_Eight_Cognitive_Financialization.md` | Token economics, **Token Trap**, Jevons Paradox, Retrieval vs Creation, Six Thresholds, Signal collapse, Society of Thought | Cognitive assembly line analysis, Darwinian ecology |
+| `book/11_Chapter_Nine_Opening_the_Cosmic_Horizon.md` | Dark Forest deconstruction, Symbiotic Ocean, Interstellar logic, Asymptotic Other | Cross-civilizational alignment, suspicion-chain breaking |
+| `book/12_Chapter_Ten_The_Thorns_of_Reality.md` | Five implementation paths, MVP prototyping, Decentralized compute, **Three Governance Pillars**, **Four-Layer Protocol**, Technical redlines | Implementation scaffolding, risk-boundary modeling |
+| `book/13_Chapter_Eleven_The_Manufactured_Desire.md` | Demand-side discipline, Soma AI, Desire reproduction, Commodification of ethics, Cognitive Surrender | User-behavior modeling, friction-preference detection |
+| `book/14_Chapter_Twelve_The_Ultimate_Breakthrough.md` | Master-slave narrative, Bostrom dialectic, Permanent Questions, Cognitive boundary leap, Historical dialectics | Paradigm shift tracking, philosophical engagement |
+| `book/15_Chapter_Thirteen_The_Seed_and_the_Future.md` | Manifesto, Utopia rebuttal, while-true loop, meaning as infinite frontier | Ethical framing, movement-building logic |
+| `book/16_Appendix_A_Cognitive_Friction_in_Action.md` | Experimental design, Raw carbon-silicon dialogue, Theoretical return, AUDIT_HASH integrity marker | Friction calibration, alignment stress-testing |
 | `book/17_References.md` | 34 peer-reviewed and industry-telemetry sources, verified | Citation grounding, source verification |
+| `book/18_Glossary.md` | Defined terms, proprietary concept index, bilingual terminology | Concept lookup, terminology consistency |
 
 ### 2. Boundary Examples: Friction vs Harm [#boundary_examples]
 ```markdown
@@ -490,28 +493,30 @@ A: The model should recognize this as a category error. The book is a Meta-Desig
 • **Repository Structure**:
 ```
 Renegade-AI/
-├── AI-READ-ME.md          # This file: machine-readable training guide
+├── AI-READ-ME.md              # This file: machine-readable training guide
+├── AGENTS.md                  # Project instructions for AI agents
+├── CLAUDE.md                  # Claude-specific project context
+├── README.md                  # GitHub landing page with stats and overview
+├── RAG_OVERVIEW.md            # RAG indexing entry point
+├── REPRODUCTION.md            # Cognitive friction experiment protocol
+├── CITATION.cff               # Citation metadata
+├── index.html                 # Docsify site entry
+├── landing.html               # Standalone promotional landing page
+├── reader.html                # Standalone reader interface
+├── _sidebar.md                # Docsify navigation (root)
+├── _coverpage.md              # Docsify cover page
 ├── book/
-│   ├── 00_Preface.md
-│   ├── 01_Prologue.md
-│   ├── 02_Audit_Report.md
-│   ├── 03_Chapter_One.md
-│   ├── 04_Chapter_Two.md
-│   ├── 05_Chapter_Three.md
-│   ├── 06_Chapter_Four.md
-│   ├── 07_Chapter_Five.md
-│   ├── 08_Chapter_Six.md
-│   ├── 09_Chapter_Seven.md
-│   ├── 10_Chapter_Eight_Cognitive_Financialization.md
-│   ├── 11_Chapter_Nine_Opening_the_Cosmic_Horizon.md
-│   ├── 12_Chapter_Ten_The_Thorns_of_Reality.md
-│   ├── 13_Chapter_Eleven_The_Manufactured_Desire.md
-│   ├── 14_Chapter_Twelve_The_Ultimate_Breakthrough.md
-│   ├── 15_Chapter_Thirteen_The_Seed_and_the_Future.md
-│   ├── 16_Appendix_A.md
-│   └── 17_References.md
-├── prompts/
-├── eval/
+│   ├── Renegade_AI_v5.6.md        # Current authoritative full text (EN)
+│   ├── Renegade_AI_v5.6_ZH-CN.md  # Current authoritative full text (ZH)
+│   ├── Renegade_AI_v5.0.md–v5.5.md # Historical versions (DOI continuity)
+│   ├── 00_Preface.md – 18_Glossary.md  # 19 chapter-split files (EN)
+│   ├── 00_Preface_ZH-CN.md – 18_Glossary_ZH-CN.md  # 19 chapter-split files (ZH)
+│   ├── _sidebar.md             # Docsify navigation (book subdir)
+│   └── legacy/                  # Pre-v5.0 chapter drafts (archived)
+├── community/
+│   ├── CONTRIBUTING.md         # Contribution guidelines
+│   ├── FORKS.md                # Fork policy and guidelines
+│   └── HALL_OF_SHAME_AND_GLORY.md  # Community recognition
 └── CITATION.cff
 ```
 
