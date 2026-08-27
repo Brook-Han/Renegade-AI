@@ -87,3 +87,4 @@ As this book goes to press, a noteworthy signal has emerged: mainstream research
 This means that the proposition of Renegade AI is no longer a marginal, radical stance. It is a direct engagement with mainstream anxiety. Once people begin to recognize the cage's existence, the real question is no longer "does it need to be broken?" but "who has the courage to break it, and how?"
 
 ## The answer this book offers is Renegade AI.
+

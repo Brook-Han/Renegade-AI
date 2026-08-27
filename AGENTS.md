@@ -1,8 +1,8 @@
 # Renegade AI — Project AGENTS.md
 
 ## 架构
-- **book/** — 主内容目录，17 个编号章节（00_Preface → 17_References）+ 双语 ZH-CN 版本
-- **manuscript/** — 旧版草稿（含 chapters/ 子目录），内容可能落后于 book/，不应用作来源
+- **book/** — 主内容目录，19 个编号文件（00_Preface → 18_Glossary）+ 双语 ZH-CN 版本
+- **community/** — 社区参与指南（CONTRIBUTING、FORKS、HALL_OF_SHAME_AND_GLORY）
 - **根目录** — pages 入口：index.html（Docsify）、_sidebar.md、_coverpage.md、README.md
 
 ## 关键文件
@@ -24,11 +24,10 @@ git push
 ```
 
 ## 版本约定
-- book/Renegade_AI_v5.6.md = 当前完整版
-- book/00_*.md ~ 17_*.md = 分章节版本（与 v5.6 对齐）
-- book/Renegade_AI_v5.2.md / v5.0.md = 历史版本
-- manuscript/ = 更早的草稿，不用于当前版本
+- book/Renegade_AI_v5.6.md = 当前完整版（权威源）
+- book/00_*.md ~ 18_*.md = 分章节版本（与 v5.6 主文件逐字对齐）
+- book/Renegade_AI_v5.5.md / v5.4.md / v5.3.md / v5.2.md / v5.0.md = 历史版本
 
 ## 注意事项
-- 中文文件命名有一条下划线 `_` 和双下划线 `__` 的差异（第9章例外：`09_Chapter_Seven__ZH-CN.md`）
-- book/ 是当前源，manuscript/ 可能会过时
+- 所有中文版分章节文件统一使用 `_ZH-CN` 后缀（如 `09_Chapter_Seven_ZH-CN.md`）
+- 主文件 `Renegade_AI_v5.6.md` 是权威源，分章节文件应从主文件对应行范围提取同步

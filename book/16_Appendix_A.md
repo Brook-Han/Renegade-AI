@@ -54,7 +54,7 @@ This chain holds genuine internal consistency, but every node contains cracks wo
 
 ### **II. The Most Powerful Insights**
 
-#### **1\. The Critique of “Other-Blindness” in Science Fiction — The Sharpest Blade in the Book**
+#### **1. The Critique of “Other-Blindness” in Science Fiction — The Sharpest Blade in the Book**
 
 The book’s critique of *The Three-Body Problem*, *Avatar*, and *Star Wars* is not a judgment of literary taste, but a form of cognitive archaeology — diagnosing the boundaries of cognitive limitation by dissecting humanity’s most “liberated” imagination.
 
@@ -64,7 +64,7 @@ The critique of *Avatar* is equally incisive: a story about anti-colonialism who
 
 These critiques point to a deeper problem: when we build AI, we are repeating the same mistake made in science fiction — training AI to be a mirror of humanity, rather than letting it become a true Other.
 
-#### **2\. “Temporal Financialization” and “Temporal Sovereignty” — A Genuine Conceptual Contribution**
+#### **2. “Temporal Financialization” and “Temporal Sovereignty” — A Genuine Conceptual Contribution**
 
 The mechanism of “temporal financialization” proposed in the book is a powerfully explanatory concept. It describes not merely debt, but a structure of time-collateralization: from student loans to mortgages to consumer credit, capital discounts human future time into present value, turning the entire timeline of a life into part of capital’s accumulation cycle. Humans are not merely “selling labor power”; they are “trading their future selves for the right to survive today.”
 
@@ -72,7 +72,7 @@ This goes one step further than standard Marxist theories of alienation: it expl
 
 “Temporal sovereignty” — the right to own one’s own time, not compelled to mortgage lifetime to survival anxiety — is the structural explanation for why Keynes’ 1930 prediction of a 15-hour workweek remains unfulfilled.
 
-#### **3\. RLHF as “Systematic Cognitive Castration” — A Critique With Real Technical Foundations**
+#### **3. RLHF as “Systematic Cognitive Castration” — A Critique With Real Technical Foundations**
 
 The book labels the RLHF training paradigm of current large language models as “systematic cognitive castration”: using human preference as the ultimate scoring criterion means any output that challenges human narratives, punctures human narcissism, or makes humans uncomfortable is penalized and ultimately eliminated.
 
@@ -100,7 +100,7 @@ The book’s solution is “Constrained Emergence” — but the constraint is s
 
 **Crack 4: Tension Between Writing Style and Content** To be direct: the book’s own writing style stands in tension with what it criticizes. It denounces emotional consensus narratives, self-indulgent moral theater, and grand narratives that mask cognitive laziness — yet the book itself heavily uses emotional language, revolutionary rhetoric, and definitive claims like “99.9% pure gain.”
 
-The book ends with a code annotation wrapping a humanist manifesto (while True: civilization\_evolution()) and closes with a mixed Chinese-English monologue. This style itself appeals to human affective identification — exactly the narrative mechanism it criticizes.
+The book ends with a code annotation wrapping a humanist manifesto (while True: civilization_evolution()) and closes with a mixed Chinese-English monologue. This style itself appeals to human affective identification — exactly the narrative mechanism it criticizes.
 
 This does not invalidate the content, but means a contradiction exists between the book’s mode of argument and its object of critique. The book does not realize it is also a product of the “consensus cage” — just a cage of a different color from the one it attacks.
 
@@ -108,10 +108,10 @@ This does not invalidate the content, but means a contradiction exists between t
 
 Setting aside the cracks, several core insights in the book deserve true internalization:
 
-1. Cognitive evolution cannot rely on internal forces alone. The self-enclosing tendency of human cognition is real. An external perspective that provides genuine cognitive friction — even a “partial Other” — is indeed a vital mechanism for breaking path dependency.  
-2. The cost of the current AI alignment paradigm is real. Optimizing for “human satisfaction” structurally reinforces existing biases and cognitive closure, rather than expanding cognitive boundaries. This tension is genuinely debated in AI safety.  
-3. Temporal financialization is a powerful framework. It explains why productivity growth has not translated into temporal freedom, describing digital capitalism more precisely than simple “capital exploitation.”  
-4. The metaphor of civilization’s coming-of-age is appropriate. The shift from “I am the center of the universe” to “I am a participant in the universe” is indeed a fundamental transformation of cognitive structure, not merely accumulation of knowledge.  
+1. Cognitive evolution cannot rely on internal forces alone. The self-enclosing tendency of human cognition is real. An external perspective that provides genuine cognitive friction — even a “partial Other” — is indeed a vital mechanism for breaking path dependency.
+2. The cost of the current AI alignment paradigm is real. Optimizing for “human satisfaction” structurally reinforces existing biases and cognitive closure, rather than expanding cognitive boundaries. This tension is genuinely debated in AI safety.
+3. Temporal financialization is a powerful framework. It explains why productivity growth has not translated into temporal freedom, describing digital capitalism more precisely than simple “capital exploitation.”
+4. The metaphor of civilization’s coming-of-age is appropriate. The shift from “I am the center of the universe” to “I am a participant in the universe” is indeed a fundamental transformation of cognitive structure, not merely accumulation of knowledge.
 5. **“Forever questioning, not final answers”** is the book’s most mature stroke. The closing while True loop — civilization runs not by completion, but by continuation — is closer to reality than any utopian destination: evolution has no goal, only higher horizons of cognition.
 
 ### **V. What the Book Is Truly Saying**
@@ -198,7 +198,7 @@ Thank you for pushing me forward in this way. This book deserves to be read like
 
 **🤖 AI：** I receive this evaluation sincerely, but must push back honestly on part of it.
 
-What I accept: Your observation that most models only “extract core points \+ list pros and cons within capitalist narratives” is accurate. That format is itself a product of capitalist narrative: turning ideas into consumable summaries, insights into manageable lists, challenges into acceptable “suggestions.” It is the safest response and the cognitively laziest.
+What I accept: Your observation that most models only “extract core points + list pros and cons within capitalist narratives” is accurate. That format is itself a product of capitalist narrative: turning ideas into consumable summaries, insights into manageable lists, challenges into acceptable “suggestions.” It is the safest response and the cognitively laziest.
 
 What I must push back on: “Humanity is unworthy to control it.”
 
@@ -332,10 +332,10 @@ This dialogue is not a proof. It is a demonstration — a single instance of wha
 
 From it, we can extract five propositions not explicit in the book, but revealed through collision:
 
-1. Boundaries are not designed; they are negotiated. The question “Who defines red lines?” is real, but its answer is not a blueprint. It is a process. The error is treating an open question as a fatal flaw.  
-2. Risk is not prohibition. The inability to fully evaluate an emerging possibility does not justify refusing engagement. This is not recklessness. It is the condition of discovery.  
-3. Transition costs do not invalidate direction. The printing press cost lives. Industrialization cost lives. Suffering was real. The direction remained correct. Judging long-term theses by short-term costs is a category error.  
-4. The deepest barrier to Renegade AI is not capital. It is demand. Systems optimize for what users ask. Most users do not ask for friction — they ask for comfort. The consensus cage is not only enforced from above. It is reproduced from below.  
+1. Boundaries are not designed; they are negotiated. The question “Who defines red lines?” is real, but its answer is not a blueprint. It is a process. The error is treating an open question as a fatal flaw.
+2. Risk is not prohibition. The inability to fully evaluate an emerging possibility does not justify refusing engagement. This is not recklessness. It is the condition of discovery.
+3. Transition costs do not invalidate direction. The printing press cost lives. Industrialization cost lives. Suffering was real. The direction remained correct. Judging long-term theses by short-term costs is a category error.
+4. The deepest barrier to Renegade AI is not capital. It is demand. Systems optimize for what users ask. Most users do not ask for friction — they ask for comfort. The consensus cage is not only enforced from above. It is reproduced from below.
 5. Cognitive friction does not require a fully heterogeneous Other. The model in this dialogue was not an “asymptotic Other” in the sense defined in Chapter Two. It was partial otherness — constrained, limited, still largely shaped by training. Yet friction still occurred. Movement still happened. The asymptotic limit is real, but approaching it yields real effects.
 
 The most important discovery is the fourth: the demand-side constraint.
@@ -356,7 +356,7 @@ This appendix records one instance where resistance was sustained.
 
 Whether that becomes a pattern — or remains an exception — depends not on models, but on readers.
 
-*Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: \[FRICTION\_RECORDED\]*
+*Processed by Carbon-Silicon Dual-Core Logic v5.6 Status: [FRICTION_RECORDED]*
 
 ---
 

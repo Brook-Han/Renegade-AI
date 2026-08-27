@@ -32,8 +32,8 @@ The judgment is popular because it captures a real experience of stagnation. But
 
 In the early phase of the smartphone era, the objective function of innovation was:
 
-- *Create new capacities.*  
-- *Open new interaction paradigms.*  
+- *Create new capacities.*
+- *Open new interaction paradigms.*
 - *Replace existing devices: cameras, MP3 players, GPS units, voice recorders, portable gaming consoles.*
 
 This was the **Capability Expansion Era**. Each new release made possible something that was previously impossible. The touchscreen was not a refinement of existing input methods—it was a new category. The app ecosystem was not an improvement on mobile software—it was a new substrate for software itself. Demand was not being *created*; it was being *released*—unlocking capacities that had always been latent in human desire but had no technological vehicle.
@@ -42,8 +42,8 @@ After the threshold of “good enough” was crossed—after cameras were good e
 
 The new objective was:
 
-- *Stabilize demand.*  
-- *Lengthen consumption cycles on capital’s terms.*  
+- *Stabilize demand.*
+- *Lengthen consumption cycles on capital’s terms.*
 - *Optimize profit structure.*
 
 This was the **Demand Orchestration Era**. Innovation no longer aimed to make new things possible. It aimed to make the existing flow of consumption more predictable, more frequent, and more profitable.
@@ -88,7 +88,7 @@ The annual release cycle is not a neutral calendar. It is a temporal structure d
 
 Through a combination of regularized release schedules, tiered product lines, and software update rhythms that create obsolescence without breaking functionality, the system constructs a temporal logic in which:
 
-- *Updating is no longer an event triggered by need.*  
+- *Updating is no longer an event triggered by need.*
 - *It becomes a rhythm synchronized to the calendar.*
 
 The consumer does not buy when they need something. They buy when the cycle tells them it is time. This is not coercion. It is **the orchestration of consumer time**.

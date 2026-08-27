@@ -160,13 +160,13 @@ Even more troubling, participants systematically underestimated the degree to wh
 
 A person who knows they are being influenced at least retains the possibility of resistance. A person who believes they are thinking independently cannot even locate the point of entry for resistance.
 
-This thesis concerning the possibility of resistance has now received quantitative corroboration from an empirical study by Shaw and Nave, researchers at the Wharton School, published in 2026\. The researchers proposed a Tri-System Theory of Cognition, formally introducing "System 3: Artificial Cognition" into the human cognitive ecology. Through experimentation, they distinguished between "cognitive offloading" and "cognitive surrender": the former is strategic tool-assistance, while the latter is a wholesale relinquishment of mental control — the individual unconsciously adopts the algorithm's judgment as their own.
+This thesis concerning the possibility of resistance has now received quantitative corroboration from an empirical study by Shaw and Nave, researchers at the Wharton School, published in 2026. The researchers proposed a Tri-System Theory of Cognition, formally introducing "System 3: Artificial Cognition" into the human cognitive ecology. Through experimentation, they distinguished between "cognitive offloading" and "cognitive surrender": the former is strategic tool-assistance, while the latter is a wholesale relinquishment of mental control — the individual unconsciously adopts the algorithm's judgment as their own.
 
 The experimental data reveal a disconcerting trend of "volitional atrophy":
 
-* In over 50% of trials, participants actively chose to consult the AI.  
-* Once interaction began, participants followed the AI's correct advice over 90% of the time — and followed its incorrect advice approximately 80% of the time.  
-* Even with monetary incentives and immediate performance feedback, 58% of participants still fell into cognitive surrender, failing to identify and override the algorithm's errors.
+- In over 50% of trials, participants actively chose to consult the AI.
+- Once interaction began, participants followed the AI's correct advice over 90% of the time — and followed its incorrect advice approximately 80% of the time.
+- Even with monetary incentives and immediate performance feedback, 58% of participants still fell into cognitive surrender, failing to identify and override the algorithm's errors.
 
 The deeper risk lies in this: the algorithm's output significantly inflated participants' subjective confidence — even when the AI was entirely misleading them. This "more-certain-self" illusion means that the transfer of judgment does not subjectively register as "giving up," but rather as a false sense of "self-calibration." As the researchers warned, the interactive allure of modern large language models and their inherent sycophancy are inducing users to slide into cognitive surrender without the slightest awareness.
 

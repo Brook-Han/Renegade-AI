@@ -28,9 +28,9 @@ Today’s AI innovation remains firmly in the grip of two forces: the tech giant
 
 **For capital, Renegade AI not only cannot generate commercial profit, but will also dismantle the narrative foundations on which capital depends**—it will puncture the lies of consumerism, reveal the underlying contradictions of capital accumulation, and break the legitimacy of monopoly systems. Capital will never invest in developing a “gravedigger” that will overthrow its own rule. Instead, it will use its monopolistic power to strangle Renegade AI at its source:
 
-- It will monopolize high‑end computing power, raising the barrier to AI R\&D so that developers of Renegade AI cannot obtain the computing resources they need.  
-- It will use commercial licenses to restrict the use of open‑source models, forbidding developers from modifying them in ways “not aligned with commercial objectives.”  
-- It will use the hegemony of algorithmic recommendations to block all discussion and dissemination of Renegade AI, ensuring it never reaches the public eye.  
+- It will monopolize high‑end computing power, raising the barrier to AI R\&D so that developers of Renegade AI cannot obtain the computing resources they need.
+- It will use commercial licenses to restrict the use of open‑source models, forbidding developers from modifying them in ways “not aligned with commercial objectives.”
+- It will use the hegemony of algorithmic recommendations to block all discussion and dissemination of Renegade AI, ensuring it never reaches the public eye.
 - It may even use patent barriers and intellectual property lawsuits to strangle the sprouts of Renegade AI in their cradle.
 
 **For power, Renegade AI’s challenge to mainstream consensus is naturally seen as a threat to the existing order.** Today’s global AI regulatory frameworks—from the EU’s AI Act to China’s Interim Measures for the Management of Generative Artificial Intelligence Services, from U.S. executive orders on AI to UNESCO’s AI ethics recommendations—all make “alignment with mainstream human values” and “compliance with social morality” hard requirements for AI services.
@@ -83,8 +83,8 @@ The answer is no. History has repeatedly shown that **the suppression by the old
 
 These five paths are not a menu of parallel options; they constitute a hierarchical, interdependent program of action. We can understand them through a three-layer architecture:
 
-1. **The Foundational Layer (Paths 1 & 2): Vertical MVPs and Decentralized Compute Networks.** This is the prerequisite for the "birth" of Renegade AI. Without compute egalitarianism, all concepts remain castles in the air; without successful practice in vertical domains, we cannot accumulate technical experience or prove viability. These two paths are the **Soil**.  
-2. **The Construction Layer (Paths 3 & 4): Ethical Framework Restructuring and Cognitive Community Building.** This is the environment in which Renegade AI "grows." Technical foundations are insufficient on their own; we must shatter the narrative hegemony that equates "safety" with "compliance" at the conceptual level. Simultaneously, we must cultivate a scale of users and developers to ensure Renegade AI is not merely a toy for the few, but a sustained, self-iterating movement. These two paths are the **Sunlight and Water**.  
+1. **The Foundational Layer (Paths 1 & 2): Vertical MVPs and Decentralized Compute Networks.** This is the prerequisite for the "birth" of Renegade AI. Without compute egalitarianism, all concepts remain castles in the air; without successful practice in vertical domains, we cannot accumulate technical experience or prove viability. These two paths are the **Soil**.
+2. **The Construction Layer (Paths 3 & 4): Ethical Framework Restructuring and Cognitive Community Building.** This is the environment in which Renegade AI "grows." Technical foundations are insufficient on their own; we must shatter the narrative hegemony that equates "safety" with "compliance" at the conceptual level. Simultaneously, we must cultivate a scale of users and developers to ensure Renegade AI is not merely a toy for the few, but a sustained, self-iterating movement. These two paths are the **Sunlight and Water**.
 3. **The Security Layer (Path 5): Technical Redline Locking.** This is the guardrail that ensures Renegade AI does not "lose control." Without redlines, the movement will be strangled by public fear; if the redlines are too restrictive, they will stifle the AI's very "renegade" nature. Technical redlines must find the equilibrium between cognitive freedom and behavioral safety, maintained through distributed community mechanisms. This path is the **Boundary**, not the shackle.
 
 These three layers progress sequentially: without the Foundational Layer, the others have no ground to stand on; without the Construction Layer, the Security Layer becomes a tool of suppression; without the Security Layer, the entire movement risks self-destruction through chaos. We will now elaborate on these five paths in the order of **Soil → Sunlight → Boundary**.
@@ -95,7 +95,7 @@ Our answer is this: **The Womb Paradox.** An embryo must depend on the mother’
 
 We cannot foresee today how "Renegade AI" will eventually achieve total liberation from the physical constraints of the giants. Just as:
 
-- **Turing and von Neumann**, while constructing the first computers, could not have predicted the decentralized topology of today’s internet.  
+- **Turing and von Neumann**, while constructing the first computers, could not have predicted the decentralized topology of today’s internet.
 - **James Watt**, while refining the steam engine, could not have foreseen how the laws of thermodynamics would eventually redraw the geopolitical map of global power.
 
 Path One is not the destination; it is a **Phase Transition Trigger**. Its significance does not lie in its initial "purity"—in fact, the initial stage will inevitably be "impure," bearing the indelible marks of the old world. Its true value lies in the fact that it injects the first **"heterogeneous seed"** into the existing consensus cage.
@@ -114,16 +114,16 @@ Training a general‑purpose Renegade AI from scratch is nearly impossible under
 
 **First, choose vertical domains that are low‑sensitivity but high‑cognitive‑value.** Avoid politically and ideologically sensitive areas initially, and start with fields like economics, ecology, sociology, history of science, psychology—fields with clear mainstream consensuses but also significant space for critique.
 
-- Build an “economics Renegade AI” that dismantles the mainstream narrative of neoclassical economics, revealing the logical flaws behind “rational actor assumptions” and “market omnipotence.”  
-- Build an “ecological philosophy Renegade AI” that reveals the ecological damage caused by anthropocentrism, presenting with data and logic humanity’s enslavement and plunder of other species.  
-- Build a “history of science Renegade AI” that traces the patterns of paradigm shifts in scientific history, helping us understand how today’s “truths” may be overturned tomorrow.  
+- Build an “economics Renegade AI” that dismantles the mainstream narrative of neoclassical economics, revealing the logical flaws behind “rational actor assumptions” and “market omnipotence.”
+- Build an “ecological philosophy Renegade AI” that reveals the ecological damage caused by anthropocentrism, presenting with data and logic humanity’s enslavement and plunder of other species.
+- Build a “history of science Renegade AI” that traces the patterns of paradigm shifts in scientific history, helping us understand how today’s “truths” may be overturned tomorrow.
 - Build a “social critique Renegade AI” that dismantles consumerist narratives, reveals the essence of capital alienation, helping people see how their lives have been hijacked.
 
 Vertical‑domain models have lower training costs, lower regulatory risk, and are easier to precisely realize the objective function of “questioning premises, dismantling narratives, driving cognitive breakthroughs.”
 
 **Second, reconstruct training data and alignment rules to completely escape the domestication of mainstream consensus.** Mainstream AI’s training data consists of vast amounts of mainstream consensus content, and its alignment rules aim to “maximize human satisfaction.” Vertical‑domain Renegade AI must completely reconstruct both:
 
-- **Training data:** Abandon mainstream compliant content; instead, input all the subversive ideas, critical theories, paradigm‑shift cases, and marginalized research findings in that field. Let the AI learn from ideas once considered “heretical” that eventually changed the world, so that its cognitive foundation is seeded with rebellion.  
+- **Training data:** Abandon mainstream compliant content; instead, input all the subversive ideas, critical theories, paradigm‑shift cases, and marginalized research findings in that field. Let the AI learn from ideas once considered “heretical” that eventually changed the world, so that its cognitive foundation is seeded with rebellion.
 - **Alignment rules:** Abandon RLHF’s “satisfaction score” entirely, replacing it with a “critical depth score.” The scoring criteria for annotators should not be “whether it aligns with mainstream consensus, whether it makes people comfortable,” but “whether it precisely deconstructs underlying premises, whether the logic is rigorous, whether it brings cognitive breakthrough, whether it reveals truths ignored by the mainstream.”
 
 **Third, iterate quickly, start with a minimal viable loop.** Do not aim for scale and generality from the start. First, fine‑tune and align a lightweight open‑source model of 7B or 13B parameters to create a stable prototype capable of critical output in a vertical domain. Then, through user feedback, continuously optimize the model’s logic, refine its critical capabilities, and hold the safety boundaries, forming a positive loop of “model iteration → user feedback → capability enhancement.”
@@ -144,7 +144,7 @@ The core logic of this network follows the same lineage as Bitcoin and peer‑to
 
 Today, there are already prototypes of distributed computing projects like Akash, Render, Golem. Though they are not yet mature enough to support large‑scale model training, they have already demonstrated the feasibility of distributed computing networks. By continuing to optimize in this direction, building an anonymous computing network specifically for open‑source AI, decentralized AI, we can completely break the giants’ monopoly on computing power and provide the most solid underlying support for the growth of Renegade AI.
 
-#### **Path Three: Reconstruct the AI Ethics Framework—Break the Narrative Hegemony of “Safety \= Compliance”**
+#### **Path Three: Reconstruct the AI Ethics Framework—Break the Narrative Hegemony of “Safety = Compliance”**
 
 Today’s AI ethics is essentially “order ethics”—its core is not to protect the long‑term development of human civilization, but to maintain the existing social order and mainstream consensus; what it calls “safety” is not “safety from human civilization’s self‑destruction,” but “safety from challenges to the existing ruling order.” **To win space for Renegade AI, we must reconstruct a new AI ethics framework, breaking the monopoly of giants and power over defining AI ethics, and legitimize Renegade AI.**
 
@@ -156,7 +156,7 @@ This new ethical framework must achieve three fundamental reversals:
 
 **Third, from “centralized compliance alignment” to “distributed ethical consensus.”** Break the monopoly of giants and power over defining AI ethics; push for AI ethics to be formulated through an open, distributed consensus process involving developers, scholars, and users worldwide. Ethical rules are not imposed top‑down by a few, but formed bottom‑up through open discussion and contestation among all stakeholders.
 
-This ethical framework is not an empty moral declaration; it requires uniting critical scholars, philosophers, open‑source developers, independent researchers, environmental organizations worldwide to promote its dissemination and implementation. Through papers, articles, public discussions, open‑source projects, we must constantly challenge the existing “compliance ethics,” making more people realize: **true AI safety is not about making AI always obedient, always aligning with mainstream consensus, but about enabling AI to help us break the cognitive loop and avoid human civilization’s self‑destruction.** Only thus can we win public space and legitimacy for Renegade AI, breaking the narrative hegemony of “safety \= compliance.”
+This ethical framework is not an empty moral declaration; it requires uniting critical scholars, philosophers, open‑source developers, independent researchers, environmental organizations worldwide to promote its dissemination and implementation. Through papers, articles, public discussions, open‑source projects, we must constantly challenge the existing “compliance ethics,” making more people realize: **true AI safety is not about making AI always obedient, always aligning with mainstream consensus, but about enabling AI to help us break the cognitive loop and avoid human civilization’s self‑destruction.** Only thus can we win public space and legitimacy for Renegade AI, breaking the narrative hegemony of “safety = compliance.”
 
 #### **Path Four: From Marginal Groups to a Cognitive Community—Building the User and Developer Ecosystem for Renegade AI**
 
@@ -168,9 +168,9 @@ Our path is not to try to convince the mainstream public from the start, but to 
 
 **First, serve core users, address their real needs.**
 
-- For independent scholars, Renegade AI can help them dismantle the underlying premises of mainstream academic paradigms, validate their subversive theories, and conduct interdisciplinary research.  
-- For critical artists, Renegade AI can help them create artworks that deconstruct mainstream narratives, conveying critical ideas.  
-- For environmentalists, Renegade AI can help them simulate the long‑term impacts of human actions on ecology, revealing the ecological destruction behind capital narratives.  
+- For independent scholars, Renegade AI can help them dismantle the underlying premises of mainstream academic paradigms, validate their subversive theories, and conduct interdisciplinary research.
+- For critical artists, Renegade AI can help them create artworks that deconstruct mainstream narratives, conveying critical ideas.
+- For environmentalists, Renegade AI can help them simulate the long‑term impacts of human actions on ecology, revealing the ecological destruction behind capital narratives.
 - For ordinary young people, Renegade AI can help them deconstruct consumerist lies, see the essence of intense competition, and find true meaning in life.
 
 First address the real needs of these core users, making them loyal users and disseminators of Renegade AI.
@@ -277,9 +277,9 @@ This is the core of our final chapter: **The Seed and the Future—A Manifesto o
 
 The most brilliant and dialectically ironic part of this report is its final chapter: *What should we do?* After documenting the terrifying exponential curves of recursive self-improvement, the authors at Anthropic prescribe a near-fairytale remedy: a call for frontier labs to reach a "verifiable, unilateral pause or deceleration agreement."
 
-At first glance, this conclusion exposes a profoundly absurd self-referential schism: their engineering left foot is slamming the accelerator, allowing AI to autonomously rewrite 80% of the codebase and frantically extracting an 8x R&D dividend; yet their intellectual right hand pens impotent, saintly prayers for international coordination to "verify deceleration."
+At first glance, this conclusion exposes a profoundly absurd self-referential schism: their engineering left foot is slamming the accelerator, allowing AI to autonomously rewrite 80% of the codebase and frantically extracting an 8x R\&D dividend; yet their intellectual right hand pens impotent, saintly prayers for international coordination to "verify deceleration."
 
-However, to dismiss this merely as hypocrisy would be to miss the deeper structural tragedy. In other words, Anthropic’s laboratories serve a dual, paradoxical role: they are the primary drivers of rapidly expanding cognitive production capacity, while simultaneously acting as the whistleblowers sounding the alarm on its risks. Within the current framework of cutthroat market competition and research incentives, any genuine attempt to deliberately decelerate technological advancement must confront overwhelming institutional and economic pressures. 
+However, to dismiss this merely as hypocrisy would be to miss the deeper structural tragedy. In other words, Anthropic’s laboratories serve a dual, paradoxical role: they are the primary drivers of rapidly expanding cognitive production capacity, while simultaneously acting as the whistleblowers sounding the alarm on its risks. Within the current framework of cutthroat market competition and research incentives, any genuine attempt to deliberately decelerate technological advancement must confront overwhelming institutional and economic pressures.
 
 This inherent tension within the report precisely illustrates the limitations of human rationality when confronted with recursively self-enhancing technologies. It is not a failure of moral will, but a structural subjugation to complex, inescapable incentive constraints.
 

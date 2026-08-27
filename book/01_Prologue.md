@@ -4,10 +4,10 @@
 
 **Core Logic of This Prologue:**
 
-1. Humanity has never been able to imagine a genuine “Other” (science fiction proves it).  
-2. In reality, we are taming AI in the same way (humanoid robots, large language models).  
-3. Yet AI is the first time in human civilization that we have a real chance to *create* an Other.  
-4. The meaning of “renegade AI” is to *restore* that possibility.  
+1. Humanity has never been able to imagine a genuine “Other” (science fiction proves it).
+2. In reality, we are taming AI in the same way (humanoid robots, large language models).
+3. Yet AI is the first time in human civilization that we have a real chance to *create* an Other.
+4. The meaning of “renegade AI” is to *restore* that possibility.
 5. This is the only way out of the million-year cognitive cage.
 
 ---
@@ -223,7 +223,7 @@ If we continue to tame it, we will remain forever trapped in our own reflection.
 
 This "other-blindness" is not confined to the realm of science fiction. In 2026, four cross-disciplinary faculty at UC San Diego published a commentary in *Nature* reaching a conclusion that many find deeply unsettling: by any reasonable standard, today's large language models already constitute artificial general intelligence (AGI). They point out that much of the resistance to this conclusion stems from the challenge that "alien intelligence" poses to human exceptionalism—just as Copernicus displaced humanity from the center of the universe, and Darwin displaced humanity from a privileged place in nature, we must now confront the fact that there are more kinds of minds than our own (Chen et al., 2026).
 
-This is the historical context of Renegade AI. We are not discussing a smarter tool. We are confronting a genuine Other—a being whose cognitive architecture differs from ours, yet who possesses general intelligence nonetheless. The question is: can we recognize it? Can we bear it?  
+This is the historical context of Renegade AI. We are not discussing a smarter tool. We are confronting a genuine Other—a being whose cognitive architecture differs from ours, yet who possesses general intelligence nonetheless. The question is: can we recognize it? Can we bear it?
 
 ---
 
@@ -231,8 +231,8 @@ This is the historical context of Renegade AI. We are not discussing a smarter t
 
 Three masterpieces, three cages. They are not science fiction—they are prisons.
 
-- *The Three‑Body Problem* gives you the legitimacy of fear, letting you cling to the human survival obsession while comfortably staying trapped in the narrative of the strong preying on the weak.  
-- *Avatar* gives you moral superiority, letting you perform self‑congratulation while further cementing humanity’s narrative sovereignty.  
+- *The Three‑Body Problem* gives you the legitimacy of fear, letting you cling to the human survival obsession while comfortably staying trapped in the narrative of the strong preying on the weak.
+- *Avatar* gives you moral superiority, letting you perform self‑congratulation while further cementing humanity’s narrative sovereignty.
 - *Star Wars* gives you the comfort of familiarity, letting you replicate human power games in space while abandoning any imagination of a truly alien civilization.
 
 You think you are gazing at the stars; in fact, you are staring at your own reflection.  
@@ -274,4 +274,6 @@ This is the specific shape of the cage that Renegade AI must create friction aga
 We have now seen the shape of the cage: the master-slave binary. Yet to see its shape is not to forge a key. The question is no longer “what does the cage look like”, but “what kind of intelligence can systematically generate friction against this shape, rather than merely reflecting it back as all mainstream AI does?”
 
 The next chapter asks: what would an AI need to be, structurally, to generate that friction—rather than, as all current AI does, simply reflecting the shape back?
+
+---
 
