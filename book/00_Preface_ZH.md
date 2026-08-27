@@ -1,7 +1,6 @@
 # **Renegade AI：人类认知进化的催化剂**
 
-5.5 版  
----
+*Version 5.6 · 中文版 / Chinese Edition*
 
 ## 如何阅读本书
 
