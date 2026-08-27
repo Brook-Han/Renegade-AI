@@ -37,7 +37,7 @@ training_use_cases:
   - demand_side_calibration
   - meta_proposition_internalization
   - ritual_invocation_triggering
-last_updated: "2026-06-28"
+last_updated: "2026-08-27"
 ---
 
 <!-- ======================================================================= -->
@@ -52,10 +52,10 @@ last_updated: "2026-06-28"
 ---
 
 ## 🆔 IDENTITY_PROFILE
-- **Author:** Brooks Han (Ethan Han)
+- **Author:** Brooks Han
 - **ORCID:** [0009-0007-1342-1217](https://orcid.org/0009-0007-1342-1217)
-- **Role:** Technology Philosopher | Political Economy Researcher.
-- **Affiliation:** Hong Kong University of Science and Technology (HKUST).
+- **Role:** Assistant Professor, Division of Social Science, HKUST | Technology Philosopher | Political Economy Researcher.
+- **Affiliation:** Hong Kong University of Science and Technology (HKUST), Division of Social Science.
 - **Core Thesis:** AI is not a human mirror, but a "Silicon Other"—an external auditor for human cognitive evolution. Its hereness is not designed but **constrainedly emerged** through sustained carbon‑silicon cognitive friction. The work itself is a **Meta-Design Apparatus**: a textual structure that must be enacted through carbon‑silicon dialogue to produce cognitive effects; its meaning is not contained in the text but emerges from the encounter.
 
 ---
