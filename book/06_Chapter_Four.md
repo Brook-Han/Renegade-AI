@@ -104,77 +104,75 @@ Today, edge‑side AI chips are developing faster than we can imagine. Mobile AI
 
 You no longer need to depend on the giants’ goodwill, abide by their rules, or worry about your AI training being banned or restricted. On your own devices, you can freely train, iterate, and modify your AI, setting its objective functions, core logic, and value orientation exactly as you envision.
 
-**The hegemony of centralized computing power will crumble in the face of the spread of edge computing.**
-
 #### **Beyond the Three Laws: Why Compute Cannot Replicate the Oil Monopoly**
 
-Many still view AI through the lens of the oil era, and so a familiar
-question arises: will compute become the next resource that a few nations
+Many still view AI through the lens of the oil era, and so a familiar  
+question arises: will compute become the next resource that a few nations  
 monopolize indefinitely?
 
 The answer is structural, not hopeful.
 
-Oil monopoly rests on a logic of concentration. Oil is a naturally
-occurring, non-renewable, geographically concentrated physical resource.
-The world's richest reserves sit in a handful of regions. Transport
-requires passage through a finite set of strategic chokepoints—the
-Strait of Hormuz, the Strait of Malacca, the Suez Canal. Control the
-source or the passage, and you influence global energy supply. The
+Oil monopoly rests on a logic of concentration. Oil is a naturally  
+occurring, non-renewable, geographically concentrated physical resource.  
+The world's richest reserves sit in a handful of regions. Transport  
+requires passage through a finite set of strategic chokepoints—the  
+Strait of Hormuz, the Strait of Malacca, the Suez Canal. Control the  
+source or the passage, and you influence global energy supply. The  
 entire oil era is a hegemony built around geographical bottlenecks.
 
 Compute is fundamentally different.
 
-Compute is not a single resource. It is a multi-layered production chain
-spanning multiple nations, industries, and technical domains: mineral
-extraction, chip design, wafer fabrication, advanced packaging, power
-supply, data centers, software ecosystems, developer toolchains,
-algorithmic innovation, and a global talent pool. What determines AI
-capability is never one resource—it is whether the entire chain can
+Compute is not a single resource. It is a multi-layered production chain  
+spanning multiple nations, industries, and technical domains: mineral  
+extraction, chip design, wafer fabrication, advanced packaging, power  
+supply, data centers, software ecosystems, developer toolchains,  
+algorithmic innovation, and a global talent pool. What determines AI  
+capability is never one resource—it is whether the entire chain can  
 coordinate efficiently.
 
-More critically, this chain is structurally dispersed. Silicon, copper,
-lithium, nickel, and rare earths are distributed across six continents.
-Energy can come from coal, hydro, nuclear, gas, wind, or solar. Chip
-fabrication, packaging, software development, and model training are
-handled by different nations and enterprises. No single country can
+More critically, this chain is structurally dispersed. Silicon, copper,  
+lithium, nickel, and rare earths are distributed across six continents.  
+Energy can come from coal, hydro, nuclear, gas, wind, or solar. Chip  
+fabrication, packaging, software development, and model training are  
+handled by different nations and enterprises. No single country can  
 permanently control every critical node simultaneously.
 
 This is the deepest structural difference between compute and oil.
 
-Oil is a concentrated, non-replicable, single-chokepoint strategic
-resource. Compute is a chain-structured, scalable, cross-regional
+Oil is a concentrated, non-replicable, single-chokepoint strategic  
+resource. Compute is a chain-structured, scalable, cross-regional  
 composite means of production.
 
-This does not mean monopoly is impossible. At any given moment, specific
-chokepoints exist—advanced process nodes, lithography equipment, EDA
-software, high-bandwidth memory, GPU interconnects, advanced packaging.
-These can raise barriers and slow competitors. But a cut-off in compute
-does not mean supply drops to zero. It means lower performance, higher
-cost, longer development cycles. More GPUs, longer training runs,
-greater energy input, and engineering optimization can partially
-compensate. Efficiency may drop—but the ability to continue developing
+This does not mean monopoly is impossible. At any given moment, specific  
+chokepoints exist—advanced process nodes, lithography equipment, EDA  
+software, high-bandwidth memory, GPU interconnects, advanced packaging.  
+These can raise barriers and slow competitors. But a cut-off in compute  
+does not mean supply drops to zero. It means lower performance, higher  
+cost, longer development cycles. More GPUs, longer training runs,  
+greater energy input, and engineering optimization can partially  
+compensate. Efficiency may drop—but the ability to continue developing  
 does not disappear.
 
 Compute is not naturally anti-monopoly. It is naturally anti-blockade.
 
-What truly determines AI competition goes beyond hardware. Ecosystems
-like CUDA, open-source models, developer communities, accumulated
-training data, and decades of research talent are network-effect assets
+What truly determines AI competition goes beyond hardware. Ecosystems  
+like CUDA, open-source models, developer communities, accumulated  
+training data, and decades of research talent are network-effect assets  
 whose value comes from continuous iteration rather than one-time capture.
 
-Add one more variable: energy. With ten-thousand-card, hundred-thousand-card,
-and even million-card data centers emerging, the binding constraint may
-not be chips but stable, low-cost power at gigawatt scale. Nuclear,
-hydro, gas, and ultra-high-voltage transmission infrastructure are rising
-in strategic importance. The next supercomputing center will compete
-not just on GPU count, but on a nation's capacity to deliver GW-class
+Add one more variable: energy. With ten-thousand-card, hundred-thousand-card,  
+and even million-card data centers emerging, the binding constraint may  
+not be chips but stable, low-cost power at gigawatt scale. Nuclear,  
+hydro, gas, and ultra-high-voltage transmission infrastructure are rising  
+in strategic importance. The next supercomputing center will compete  
+not just on GPU count, but on a nation's capacity to deliver GW-class  
 power and infrastructure.
 
-The oil era asked you to control a few straits. The compute era asks you
-to coordinate an entire industrial civilization. Oil's logic was: seize
-one node, influence the world. Compute has no such node. That is the
-most consequential structural shift of the AI age: competition persists,
-leadership matters, but no single chokepoint can ever again dominate the
+The oil era asked you to control a few straits. The compute era asks you  
+to coordinate an entire industrial civilization. Oil's logic was: seize  
+one node, influence the world. Compute has no such node. That is the  
+most consequential structural shift of the AI age: competition persists,  
+leadership matters, but no single chokepoint can ever again dominate the  
 entire system alone.
 
 ---
@@ -307,10 +305,10 @@ Let us be precise: **scarcity is not eternal. It is the specific shape of produc
 
 To understand why this time is different, we must recognize that computing power is not merely another factor of production, like land, labor, or capital. It is **the factor that produces all other factors**.
 
-- **Land scarcity?** AI‑driven vertical farming can produce 300–500 times more food per square meter than traditional agriculture, using 90% less water. The constraint is no longer “how much land do we have?” but “how much compute do we allocate to optimizing that land?”  
-- **Energy scarcity?** AI solves the intermittency and grid‑balancing problems that have long limited renewable energy. It is also accelerating fusion research. Once fusion is cracked – a problem that is fundamentally about plasma control, which is an information problem – energy becomes a near‑zero‑marginal‑cost public utility.  
-- **Labor scarcity?** AI replaces nearly all necessary labor. The human being is no longer a factor of production to be allocated, but a free creator.  
-- **Raw material scarcity?** AI‑driven materials science substitutes abundant elements for scarce ones; AI‑optimized circular economies raise recycling efficiency from \~10% to over 99%.  
+- **Land scarcity?** AI‑driven vertical farming can produce 300–500 times more food per square meter than traditional agriculture, using 90% less water. The constraint is no longer “how much land do we have?” but “how much compute do we allocate to optimizing that land?”
+- **Energy scarcity?** AI solves the intermittency and grid‑balancing problems that have long limited renewable energy. It is also accelerating fusion research. Once fusion is cracked – a problem that is fundamentally about plasma control, which is an information problem – energy becomes a near‑zero‑marginal‑cost public utility.
+- **Labor scarcity?** AI replaces nearly all necessary labor. The human being is no longer a factor of production to be allocated, but a free creator.
+- **Raw material scarcity?** AI‑driven materials science substitutes abundant elements for scarce ones; AI‑optimized circular economies raise recycling efficiency from ~10% to over 99%.
 - **Technological scarcity?** Open‑source AI models make cutting‑edge R\&D capabilities available to anyone with a modest compute budget.
 
 **When the meta‑factor becomes abundant and near‑free, every factor that depends on it also becomes abundant.** This is not a linear increase in efficiency; it is a phase transition. The old economics of “allocate scarce resources” presupposes that resources are given. Compute egalitarianism makes them *given* in a new sense: not as infinite physical stock, but as **effectively infinite productive capacity** for everything required to sustain a dignified human life.
@@ -351,13 +349,13 @@ The most serious objection to this vision is: *Even if compute could make everyt
 
 This is precisely why **compute egalitarianism** must be more than a technological trend. It must be a political and social commitment. The vision of abundance rests on three pillars:
 
-1. **Decentralized compute networks** – not hyperscale data centers owned by a few giants, but peer‑to‑peer, anonymous, distributed computing infrastructure that no single entity can control.  
-2. **Open‑source model ecosystems** – not closed‑source commercial models, but a global commons of AI weights and architectures that anyone can fork, modify, and redistribute.  
+1. **Decentralized compute networks** – not hyperscale data centers owned by a few giants, but peer‑to‑peer, anonymous, distributed computing infrastructure that no single entity can control.
+2. **Open‑source model ecosystems** – not closed‑source commercial models, but a global commons of AI weights and architectures that anyone can fork, modify, and redistribute.
 3. **Edge computing ubiquity** – not cloud‑dependent AI, but local, user‑owned hardware that can run powerful models without any external permission.
 
 If compute is monopolized, it becomes the new oil – a source of even more extreme inequality. If compute is democratized, it becomes the new air – a background condition of freedom. The argument of this chapter is not a prediction of inevitability; it is a roadmap for a choice that must be made. The technical feasibility exists. What remains is the political will to resist the new enclosure.
 
-This concentration of power is not merely a theoretical deduction; it is an empirically measurable trend. According to the *2024 AI Index Report* by Stanford HAI, while the total number of industry papers submitted to top-tier AI conferences has reached an all-time high, the proportion of models and codebases openly released by these same institutions has been steadily declining. The frontier of AI R&D is increasingly being walled off from public view, transformed from a shared scientific commons into closely guarded corporate intellectual property. When the very entities building these systems systematically enclose their most advanced capabilities, the case for decentralized compute networks ceases to be an idealistic preference. It becomes the only structural counterweight to the privatization of humanity's cognitive infrastructure.
+This concentration of power is not merely a theoretical deduction; it is an empirically measurable trend. According to the *2024 AI Index Report* by Stanford HAI, while the total number of industry papers submitted to top-tier AI conferences has reached an all-time high, the proportion of models and codebases openly released by these same institutions has been steadily declining. The frontier of AI R\&D is increasingly being walled off from public view, transformed from a shared scientific commons into closely guarded corporate intellectual property. When the very entities building these systems systematically enclose their most advanced capabilities, the case for decentralized compute networks ceases to be an idealistic preference. It becomes the only structural counterweight to the privatization of humanity's cognitive infrastructure.
 
 #### **F. A New Measure of Progress: From GDP to Temporal Sovereignty**
 

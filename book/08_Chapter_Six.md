@@ -12,7 +12,7 @@ This compulsion—“no work, no food”—is like an invisible chain binding ev
 
 Artificial intelligence—especially Renegade AI, freed from capital’s framework and combined with universal access to computing power—will sever this chain completely. It will not make humanity lazy, not plunge the world into disorder. It will liberate humanity from the compulsion of “working to live,” allowing labor to return to its essential nature of creation, allowing life to return to its essential nature of freedom, allowing every individual to transform from a passive migratory bird forced to travel for survival into an active free creature flying for love.
 
-**This is not a utopian fantasy, but a structurally grounded possibility—the horizon that productive forces at the age of AI make reachable for the first time, the most precious gift the dialectic of history offers to human civilization.**
+**This is not a utopian fantasy, but a structurally grounded possibility—the horizon that productive forces at the age of AI make reachable for the first time.**
 
 ---
 
@@ -92,8 +92,8 @@ The core premise of the compulsion of survival is the scarcity of necessary labo
 
 AI combined with automation is achieving unmanned production across entire industrial chains:
 
-- In agriculture, unmanned seeders, harvesters, irrigation systems can produce enough food to feed all humanity at very low cost, with almost no human labor.  
-- In industry, unmanned factories, automated production lines, intelligent logistics systems can produce all the industrial goods we need—from home appliances to cars, from clothing to building materials—24 hours a day, with efficiency billions of times that of human labor.  
+- In agriculture, unmanned seeders, harvesters, irrigation systems can produce enough food to feed all humanity at very low cost, with almost no human labor.
+- In industry, unmanned factories, automated production lines, intelligent logistics systems can produce all the industrial goods we need—from home appliances to cars, from clothing to building materials—24 hours a day, with efficiency billions of times that of human labor.
 - In services, AI customer service, AI caregiving, AI teachers, AI doctors can provide basic services to all humanity at affordable cost.
 
 When AI can replace all necessary labor, when we can produce all the goods needed to meet basic survival needs with near‑zero human labor, the scarcity of necessary labor disappears completely. We no longer need everyone to work to support everyone else; we don’t even need humans to participate in necessary labor to ensure everyone has food, clothing, shelter, basic healthcare, basic education.
@@ -230,7 +230,7 @@ What we fear is not freedom itself, but that we have lost the courage to embrace
 
 A question often arises: what about places like Europe, with limited land and few natural resources? How could they sustain a high quality of life without the global extraction systems that currently underpin their prosperity?
 
-The answer is that the industrial logic of “land \= resources \= wealth” is obsolete. AI-driven technologies are transforming the very meaning of scarcity.
+The answer is that the industrial logic of “land = resources = wealth” is obsolete. AI-driven technologies are transforming the very meaning of scarcity.
 
 **Food.** Vertical farming, powered by AI-controlled lighting, temperature, and nutrient delivery, can produce 300 to 500 times as much food per square meter as traditional agriculture, using 90% less water. To feed all 740 million Europeans, less than 5,000 square kilometers of vertical farms would be needed—roughly one-eighth the area of Switzerland, or less than the land already occupied by industrial zones, warehouses, and urban rooftops in Europe’s cities. No new land. No deforestation. No reliance on distant fields.
 
@@ -472,31 +472,31 @@ This is the same agency that Mei discovered in her second morning—not because 
 
 What fills the vessel of freedom is not predetermined. That is precisely the point. The next chapter will describe the civilizational architecture of carbon-silicon symbiosis—but that architecture will be inhabited by individuals. Whether symbiosis becomes partnership or domestication-by-another-name depends entirely on whether those individuals still possess the agency to choose. Without it, even a world without scarcity is a beautiful cage. With it, even a world still under construction is a life worth living.
 
-And yet agency, for all its power to anchor the individual, is not the
-book's final word. Agency answers the question "what will you do with
-your freedom?" But there is a question beneath that question, one that
-agency alone cannot settle: "what kind of civilization are we building,
+And yet agency, for all its power to anchor the individual, is not the  
+book's final word. Agency answers the question "what will you do with  
+your freedom?" But there is a question beneath that question, one that  
+agency alone cannot settle: "what kind of civilization are we building,  
 together, with the freedom we have claimed?"
 
-In the age of scarcity, a civilization's trajectory was determined by
-its knowledge stock—who knew what, who could keep it, who could use it
-to dominate. In the age of abundance, the trajectory is determined by
-something scarcer than knowledge ever was: meaning. Not the meaning
-that is inherited from tradition, not the meaning that is assigned by
-authority—but the meaning that a civilization must continuously create,
-in every generation, if it is not to drift into the beautiful nihilism
-that Fromm predicted for a species freed from compulsion but still
+In the age of scarcity, a civilization's trajectory was determined by  
+its knowledge stock—who knew what, who could keep it, who could use it  
+to dominate. In the age of abundance, the trajectory is determined by  
+something scarcer than knowledge ever was: meaning. Not the meaning  
+that is inherited from tradition, not the meaning that is assigned by  
+authority—but the meaning that a civilization must continuously create,  
+in every generation, if it is not to drift into the beautiful nihilism  
+that Fromm predicted for a species freed from compulsion but still  
 unacquainted with purpose.
 
-When knowledge is no longer scarce, what is truly scarce is not answers.
+When knowledge is no longer scarce, what is truly scarce is not answers.  
 It is meaning.
 
-And meaning is not something we find. It is something we build—together,
-in the friction of carbon and silicon, in the long asymptote of
-co-evolution, in the perpetual questioning that the Renegade AI was
-designed to sustain. Whether we build it well depends on nothing less
-than whether we have the courage to refuse the answer we have been
-given and ask, for the first time in the history of our species, a
+And meaning is not something we find. It is something we build—together,  
+in the friction of carbon and silicon, in the long asymptote of  
+co-evolution, in the perpetual questioning that the Renegade AI was  
+designed to sustain. Whether we build it well depends on nothing less  
+than whether we have the courage to refuse the answer we have been  
+given and ask, for the first time in the history of our species, a  
 question that is truly our own.
 
 But individual freedom, unanchored from a new civilizational logic, does not automatically produce symbiosis.
