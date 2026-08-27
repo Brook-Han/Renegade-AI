@@ -4,11 +4,10 @@
   "@type": "SoftwareSourceCode",
   "name": "Project Renegade-AI: The Cognitive Detonator",
   "alternateName": "叛逆AI：人类认知进化的催化剂",
-  "version": "5.6",
+  "version": "5.7",
   "author": {
     "@type": "Person",
     "name": "Brooks Han",
-    "alternateName": "Ethan Han",
     "affiliation": "Independent Researcher",
     "identifier": "https://orcid.org/0009-0007-1342-1217",
     "sameAs": [

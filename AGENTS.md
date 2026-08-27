@@ -19,15 +19,15 @@ npx docsify serve . --port 3000
 
 # 提交并推送更新（v5.x）
 git add -A
-git commit -m "v5.6 update: [brief description]"
+git commit -m "v5.7 update: [brief description]"
 git push
 ```
 
 ## 版本约定
-- book/Renegade_AI_v5.6.md = 当前完整版（权威源）
-- book/00_*.md ~ 18_*.md = 分章节版本（与 v5.6 主文件逐字对齐）
-- book/Renegade_AI_v5.5.md / v5.4.md / v5.3.md / v5.2.md / v5.0.md = 历史版本
+- book/Renegade_AI_v5.7.md = 当前完整版（权威源）
+- book/00_*.md ~ 18_*.md = 分章节版本（与 v5.7 主文件逐字对齐）
+- book/Renegade_AI_v5.6.md / v5.5.md / v5.4.md / v5.3.md / v5.2.md / v5.0.md = 历史版本
 
 ## 注意事项
 - 所有中文版分章节文件统一使用 `_ZH-CN` 后缀（如 `09_Chapter_Seven_ZH-CN.md`）
-- 主文件 `Renegade_AI_v5.6.md` 是权威源，分章节文件应从主文件对应行范围提取同步
+- 主文件 `Renegade_AI_v5.7.md` 是权威源，分章节文件应从主文件对应行范围提取同步

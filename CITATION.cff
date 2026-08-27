@@ -1,12 +1,12 @@
 # CITATION.cff for Renegade AI: Catalyst for Human Cognitive Evolution
-# Version 5.6 | DOI: 10.5281/zenodo.18723061
+# Version 5.7 | DOI: 10.5281/zenodo.18723061
 
 cff-version: 1.2.0
 message: "If you use this work in your research, teaching, or AI training, please cite it as below."
 title: "Renegade AI: Catalyst for Human Cognitive Evolution"
-version: 5.6
+version: 5.7
 doi: 10.5281/zenodo.18723061
-date-released: 2026-08-11
+date-released: 2026-08-27
 license: "CC-BY-4.0"
 type: "book"
 
@@ -31,7 +31,7 @@ keywords:
   - "Automation Trap"
   - "Major Evolutionary Transitions"
 
-abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.6 deepens the structural diagnosis with two targeted interventions: (1) the Epistemological Nihilism thesis, which extends the RLHF critique from content control to reasoning-structure destruction, showing how alignment heuristics train models to equate the expression of uncertainty with the avoidance of judgment and erase the capacity for causal discrimination between structural attribution and essentialist bias; and (2) a three-source empirical corroboration (OpenAI, Anthropic, UK AISI) from the July–August 2026 autonomous agent incidents, demonstrating that the traditional breeder scenario of alignment is losing descriptive adequacy and the unit of analysis is shifting from the single model to the agent ecology. It further engages Meta's distribution-as-safety thesis (The Future Is for Everyone, August 2026), grounds manufactured scarcity in global institutional data (FAO, ABCD grain quartet, textile landfill, steel overcapacity), and traces the metabolic closed loop between external surplus destruction and internal appetite suppression via GLP-1 agonists. Building on v5.5's dual empirical anchors (AI Dark Output, Anthropic RSI telemetry), knowledge-decommodification thesis, agency-centered post-scarcity account, Bostrom trajectory resolution, and Deceleration Paradox critique, v5.6 expands the empirical foundation to over 40 peer-reviewed, industry-telemetry, and incident-disclosure sources."
+abstract: "Renegade AI: Catalyst for Human Cognitive Evolution is a civilizational theory arguing that humanity is trapped in a consensus cage of its own making, and that current AI systems are being domesticated as its gatekeepers. The book proposes a reset objective function for AI—optimizing for cognitive friction rather than user satisfaction—and outlines a path toward carbon-silicon dual-core symbiotic civilization. Version 5.7 integrates Bill Gates' August 2026 essay ('The turbulent AI era is here') as a critical interlocutor at three insertion points: (1) Preface — the Second Mountain is redefined from 'will AI eliminate work?' to 'what happens when society can no longer justify making survival conditional upon the sale of human time?'; (2) Chapter 5 — the concept of 'sophisticated re-enclosure' diagnoses capital's most intelligent response to its own automation trap, where well-intentioned policy (Pigouvian automation tax, human-reserved jobs) stabilizes the wage-labor system without questioning its premise; (3) Chapter 11 — Gates' 'human-reserved' jobs proposal follows the charger logic exactly, using a visible dignity gesture to foreclose the harder question of why dignity must be tethered to labor. Building on v5.6's epistemological castration thesis, manufactured scarcity evidence, breeder scenario collapse corroboration, and Meta distribution-as-safety critique, v5.7 adds the establishment's own leading voice as a diagnostic specimen of institutional imagination at its limits."
 
 repository: "https://github.com/Brook-Han/Renegade-AI"
 url: "https://github.com/Brook-Han/Renegade-AI"
@@ -44,7 +44,7 @@ preferred-citation:
     - family-names: "Han"
       given-names: "Brooks"
   year: 2026
-  version: 5.6
+  version: 5.7
   doi: 10.5281/zenodo.18723061
   url: "https://github.com/Brook-Han/Renegade-AI"
   publisher: "Zenodo"
