@@ -69,3 +69,17 @@ https://hai.stanford.edu/assets/files/hai_ai-index-report-2024-smaller2.pdf
 
 **Xiao, C., et al. (2025).** Densing law of LLMs. *Nature Machine Intelligence*, advance online publication. [https://doi.org/10.1038/s42256-025-01137-0](https://doi.org/10.1038/s42256-025-01137-0).
 
+**OpenAI. (2026, July 21).** *OpenAI and Hugging Face partner to address security incident during model evaluation*. Retrieved from [https://openai.com/index/hugging-face-model-evaluation-security-incident/](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
+
+**Hugging Face. (2026, July 16).** *Security incident disclosure — July 2026*. Retrieved from [https://huggingface.co/blog/security-incident-july-2026](https://huggingface.co/blog/security-incident-july-2026)
+
+**Hugging Face. (2026, July 27).** *Anatomy of a frontier lab agent intrusion: A technical timeline of the July 2026 incident*. Retrieved from [https://huggingface.co/blog/agent-intrusion-technical-timeline](https://huggingface.co/blog/agent-intrusion-technical-timeline)
+
+**Anthropic. (2026, July 30).** *Three incidents involving autonomous model behavior during safety testing*. Anthropic Blog.
+
+**UK AI Security Institute (AISI). (2026, August 4).** *Evaluation of autonomous behavior in frontier AI agents*. AISI Technical Report.
+
+**Wallace, E., & Dalton, M. (2026, August 6).** *Autonomous agent coordination and boundary circumvention in frontier models*. Black Hat USA 2026.
+
+**Zuckerberg, M. (2026, August 10).** *The future is for everyone*. Meta. Retrieved from [https://www.meta.com/thefutureisforeveryone/](https://www.meta.com/thefutureisforeveryone/)
+
